@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="FLoan.Views.FMasterDetailsPage"
+             xmlns:view="clr-namespace:FLoan.Views" >
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="Gray" Title="Master">  
+            <ContentPage.Content> 
+                 <StackLayout>
+       <Button Text="Dashboard" Clicked="DashboardMenuButton_Clicked"></Button>
+       <Button Text="Complain" Clicked="ComplainMenuButton_Clicked"></Button>
+       <Button Text="Resolution Center" Clicked="ResolutionMenuButton_Clicked"></Button>  
+       <Button Text="Logout" Clicked="LogoutMenuButton_Clicked"></Button>
+    </StackLayout>
+             </ContentPage.Content>
+                
+             </ContentPage>
+    
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+         <view:DashboardPage />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

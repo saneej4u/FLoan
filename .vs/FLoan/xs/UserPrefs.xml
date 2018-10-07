@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{8010AA38-70A5-45FF-AE21-CD868D4ECFA8}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="FLoan/Views/AboutPage.xaml" Line="68" Column="15" />
+      <File FileName="FLoan/Views/HomePage.xaml" Line="49" Column="16" />
+      <File FileName="FLoan/Views/ApplicationStepsPage.xaml" Line="10" Column="16" />
+      <File FileName="FLoan/Views/ApplicationStartPage.xaml" Line="25" Column="1" />
+      <File FileName="FLoan/Views/HomePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="FLoan/Views/ApplicationStepsPage.xaml.cs" Line="8" Column="61" />
+      <File FileName="FLoan/Views/ApplicationStartPage.xaml.cs" Line="22" Column="48" />
+      <File FileName="FLoan.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="FLoan/Views/LoginPage.xaml.cs" Line="17" Column="14" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml" Line="21" Column="15" />
+      <File FileName="FLoan/Views/HowItWorksPage.xaml" Line="19" Column="1" />
+      <File FileName="FLoan/Views/AddressDetailsPage.xaml" Line="21" Column="1" />
+      <File FileName="FLoan/Views/BankDetailsPage.xaml" Line="20" Column="15" />
+      <File FileName="FLoan/Views/IncomeDetailsPage.xaml" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/saneej/Projects/FLoan/FLoan/Views/HomePage.xaml" relfile="FLoan/Views/HomePage.xaml" line="23" column="124" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FLoan.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B371FBE1-8056-4789-A8B9-209264EFE83D" />
+  <MonoDevelop.Ide.ItemProperties.FLoan.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MultiItemStartupConfigurations />
+</Properties>
