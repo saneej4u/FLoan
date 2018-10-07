@@ -343,28 +343,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/saneej/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\csane\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj",
+      "projectUniqueName": "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj",
       "projectName": "FLoan",
-      "projectPath": "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj",
-      "packagesPath": "/Users/saneej/.nuget/packages/",
-      "outputPath": "/Users/saneej/Projects/FLoan/FLoan/obj",
+      "projectPath": "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj",
+      "packagesPath": "C:\\Users\\csane\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\FLoan\\FLoan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/saneej/.config/NuGet/NuGet.Config"
+        "C:\\Users\\csane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -381,15 +383,15 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.2.0.871581"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.3",
+            "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.2.0.871581, )"
           }
         },
         "imports": [

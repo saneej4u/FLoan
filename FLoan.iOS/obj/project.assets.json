@@ -717,31 +717,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/saneej/.nuget/packages/": {}
+    "C:\\Users\\csane\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saneej/Projects/FLoan/FLoan.iOS/FLoan.iOS.csproj",
+      "projectUniqueName": "C:\\Projects\\FLoan\\FLoan.iOS\\FLoan.iOS.csproj",
       "projectName": "FLoan.iOS",
-      "projectPath": "/Users/saneej/Projects/FLoan/FLoan.iOS/FLoan.iOS.csproj",
-      "packagesPath": "/Users/saneej/.nuget/packages/",
-      "outputPath": "/Users/saneej/Projects/FLoan/FLoan.iOS/obj",
+      "projectPath": "C:\\Projects\\FLoan\\FLoan.iOS\\FLoan.iOS.csproj",
+      "packagesPath": "C:\\Users\\csane\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\FLoan\\FLoan.iOS\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/saneej/.config/NuGet/NuGet.Config"
+        "C:\\Users\\csane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj": {
-              "projectPath": "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj"
+            "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj": {
+              "projectPath": "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj"
             }
           }
         }
@@ -752,7 +755,7 @@
         "dependencies": {
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "3.2.0.871581"
+            "version": "[3.2.0.871581, )"
           }
         }
       }

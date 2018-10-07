@@ -1,0 +1,8 @@
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\optimized\
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\FLoan.iOS.csprojAssemblyReference.cache
+C:\Projects\FLoan\FLoan.iOS\obj\iPhone\Debug\FLoan.iOS.csproj.CoreCompileInputs.cache

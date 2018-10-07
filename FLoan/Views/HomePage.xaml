@@ -5,41 +5,47 @@
     <ContentPage BackgroundColor="{StaticResource Accent}">
         <ContentPage.Padding>
             <OnPlatform x:TypeArguments="Thickness">
-                <On Platform="iOS, Android" Value="0,40,0,0" />
+                <On Platform="iOS, Android" Value="0,0,0,0" />
             </OnPlatform>
         </ContentPage.Padding>
         <ContentPage.Content>
-           
-                <Grid>
-                    <Grid.RowDefinitions>
-                            
-                        
-                        
-                        <RowDefinition Height="*"/>
-                      
-                        <RowDefinition Height="auto" />
-                        <RowDefinition Height="60"/>
-                        
-                    </Grid.RowDefinitions>
-                    
-              
-                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Grid.Row="0" >
-                        
-                        <Label Text="Welcome to home page" />
-                    </StackLayout>
-                    
-                    <StackLayout VerticalOptions="EndAndExpand" Grid.Row="1" >
-                        
-                          <Button Margin="20, 5,20,5" Text="My Account" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
-                    <Button Margin="20,5,20,5" Text="Apply Now" Clicked="ApplyNowButton_Clicked" BackgroundColor="{StaticResource Primary}" TextColor="White" />
+            <AbsoluteLayout>
+                <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="home_main.png"></Image>
+                <StackLayout HorizontalOptions="CenterAndExpand" AbsoluteLayout.LayoutBounds="0, 0.5,1, 200" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional">
+                    <Label FontSize="50" HorizontalTextAlignment="Center" TextColor="White">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans >
+                                    <Span Text="A helping " FontSize="50" />
+                                    <Span Text=" " />
+                                    <Span Text="hand" FontSize="50" ForegroundColor="#ea3362" />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label TextColor="White" HorizontalTextAlignment="Center" Margin="20">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Borrow up to £7,500 with a Guarantor" />
+                                    <Span Text=" or " />
+                                    <Span Text="without a Guarantor" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+                <StackLayout AbsoluteLayout.LayoutBounds="0, 0.72,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
+                    <Button Margin="20,5,20,5" Text="Apply Now" Clicked="ApplyNowButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" />
+                </StackLayout>
+
+                <StackLayout AbsoluteLayout.LayoutBounds="0, 0.82,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
+
+                    <Button Margin="20, 5,20,5" Text="My Account" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource MonzaColor}" TextColor="White" />
                     <Button Text="Find out more" Clicked="FindOutMoreButton_Clicked" TextColor="White" />
-                    </StackLayout>
-                    
-                    <StackLayout Grid.Row="2"/>
-                    
-              
-                </Grid>
-           
+                </StackLayout>
+            </AbsoluteLayout>
         </ContentPage.Content>
     </ContentPage>
     <view:HowItWorksPage>
