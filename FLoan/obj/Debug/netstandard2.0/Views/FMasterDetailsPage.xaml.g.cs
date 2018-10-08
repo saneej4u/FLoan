@@ -13,7 +13,7 @@
 namespace FLoan.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\FMasterDetailsPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/FMasterDetailsPage.xaml")]
     public partial class FMasterDetailsPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

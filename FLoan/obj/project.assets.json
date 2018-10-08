@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -46,6 +58,30 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "sha512": "BQJUg3Hrbbz8oagavkX7pIsMQpT59aLXZznExh5eovZR6DgWGp5yDtZ2RVqTJEduvY1qoZaYr6Izjr8MLXnQEA==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "lib/monoandroid81/Lottie.Forms.dll",
+        "lib/monoandroid81/Lottie.Forms.pdb",
+        "lib/monoandroid81/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/uap10.0.16299/Lottie.Forms.dll",
+        "lib/uap10.0.16299/Lottie.Forms.pdb",
+        "lib/uap10.0.16299/Lottie.Forms.pri",
+        "lib/uap10.0.16299/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -338,35 +374,34 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Com.Airbnb.Xamarin.Forms.Lottie >= 2.6.3",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Forms >= 3.2.0.871581"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\csane\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/saneej/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj",
+      "projectUniqueName": "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj",
       "projectName": "FLoan",
-      "projectPath": "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj",
-      "packagesPath": "C:\\Users\\csane\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\FLoan\\FLoan\\obj\\",
+      "projectPath": "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj",
+      "packagesPath": "/Users/saneej/.nuget/packages/",
+      "outputPath": "/Users/saneej/Projects/FLoan/FLoan/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\csane\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/saneej/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -383,15 +418,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "3.2.0.871581"
+          },
+          "Com.Airbnb.Xamarin.Forms.Lottie": {
+            "target": "Package",
+            "version": "2.6.3"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.3, )",
+            "version": "2.0.3",
             "autoReferenced": true
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[3.2.0.871581, )"
           }
         },
         "imports": [

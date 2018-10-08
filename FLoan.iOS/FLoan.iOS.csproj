@@ -124,6 +124,8 @@
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\home_bg.png" />
+    <BundleResource Include="Resources\motorcycle.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -140,9 +142,6 @@
       <Project>{FE63FA7F-2157-4D88-AFC0-E60E049B11E2}</Project>
       <Name>FLoan</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\home_main.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\account-tab-29x29%401x.png" />
@@ -206,9 +205,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\home-29x29%403x.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\home_page.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Icon-20x20%401x.png" />
@@ -317,5 +313,9 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\sign-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\home_main.png" />
+    <EmbeddedResource Include="Resources\home_page.png" />
   </ItemGroup>
 </Project>

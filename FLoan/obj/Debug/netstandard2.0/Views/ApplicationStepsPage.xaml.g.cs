@@ -13,7 +13,7 @@
 namespace FLoan.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ApplicationStepsPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/ApplicationStepsPage.xaml")]
     public partial class ApplicationStepsPage : global::Xamarin.Forms.CarouselPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -13,12 +13,16 @@
 namespace FLoan.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HowItWorksPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/HowItWorksPage.xaml")]
     public partial class HowItWorksPage : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Lottie.Forms.AnimationView AnimationView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HowItWorksPage));
+            AnimationView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Lottie.Forms.AnimationView>(this, "AnimationView");
         }
     }
 }

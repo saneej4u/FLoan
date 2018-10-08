@@ -25,3 +25,5 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Lottie.Android
+Lottie.Forms

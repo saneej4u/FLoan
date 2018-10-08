@@ -2,6 +2,42 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Com.Airbnb.Android.Lottie/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v7.AppCompat": "27.0.2"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/Lottie.Android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Lottie.Android.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Com.Airbnb.Android.Lottie": "2.6.0",
+          "Xamarin.Android.Support.Design": "27.0.2",
+          "Xamarin.Android.Support.v4": "27.0.2",
+          "Xamarin.Android.Support.v7.AppCompat": "27.0.2",
+          "Xamarin.Android.Support.v7.CardView": "27.0.2",
+          "Xamarin.Android.Support.v7.MediaRouter": "27.0.2",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid81/Lottie.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid81/Lottie.Forms.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -345,6 +381,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "Xamarin.Forms": "3.2.0.871581"
         },
         "compile": {
@@ -357,6 +394,44 @@
     }
   },
   "libraries": {
+    "Com.Airbnb.Android.Lottie/2.6.0": {
+      "sha512": "97lLQupFDE+lFEedvdLSKQby63TFLGGY7sc6IZoCG2HHgJWmtaPq0e70Hhl7g19/Hp2lDWuNMHjZ6PafcAzvhg==",
+      "type": "package",
+      "path": "com.airbnb.android.lottie/2.6.0",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.android.lottie.2.6.0.nupkg.sha512",
+        "com.airbnb.android.lottie.nuspec",
+        "lib/monoandroid81/Lottie.Android.dll",
+        "lib/monoandroid81/Lottie.Android.pdb",
+        "lib/monoandroid81/Lottie.Android.xml",
+        "readme.txt"
+      ]
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "sha512": "BQJUg3Hrbbz8oagavkX7pIsMQpT59aLXZznExh5eovZR6DgWGp5yDtZ2RVqTJEduvY1qoZaYr6Izjr8MLXnQEA==",
+      "type": "package",
+      "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
+      "files": [
+        ".signature.p7s",
+        "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512",
+        "com.airbnb.xamarin.forms.lottie.nuspec",
+        "lib/monoandroid81/Lottie.Forms.dll",
+        "lib/monoandroid81/Lottie.Forms.pdb",
+        "lib/monoandroid81/Lottie.Forms.xml",
+        "lib/netstandard2.0/Lottie.Forms.dll",
+        "lib/netstandard2.0/Lottie.Forms.pdb",
+        "lib/netstandard2.0/Lottie.Forms.xml",
+        "lib/uap10.0.16299/Lottie.Forms.dll",
+        "lib/uap10.0.16299/Lottie.Forms.pdb",
+        "lib/uap10.0.16299/Lottie.Forms.pri",
+        "lib/uap10.0.16299/Lottie.Forms.xml",
+        "lib/xamarinios10/Lottie.Forms.dll",
+        "lib/xamarinios10/Lottie.Forms.pdb",
+        "lib/xamarinios10/Lottie.Forms.xml",
+        "readme.txt"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
       "sha512": "GIz8xfnOLJH5yWC0ocIR80hJlYQ2Lz2HQKjW2/vi0rxYXR6nF/D4aOFlTx1PIA6A9FLgFRrajSJyCfx460qycw==",
       "type": "package",

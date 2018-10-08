@@ -109,6 +109,8 @@ class MonoPackageManager_Resources {
 		"FLoan.Android.dll",
 		"FLoan.dll",
 		"FormsViewGroup.dll",
+		"Lottie.Android.dll",
+		"Lottie.Forms.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

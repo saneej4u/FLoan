@@ -14,6 +14,7 @@
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/19/jl/bin/classes.jar</Jar>
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/20/jl/bin/classes.jar</Jar>
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/21/jl/bin/classes.jar</Jar>
+    <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/27/jl/bin/classes.jar</Jar>
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/3/jl/arch-core-common.jar</Jar>
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/4/jl/arch-lifecycle-common.jar</Jar>
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/5/jl/bin/classes.jar</Jar>
@@ -23,6 +24,7 @@
     <Jar>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/9/jl/bin/classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/27/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/8/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/11/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/13/jl/res</ResolvedResourceDirectory>
@@ -38,6 +40,7 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/27.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/8.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/11.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/lp/13.stamp</ResolvedResourceDirectoryStamp>

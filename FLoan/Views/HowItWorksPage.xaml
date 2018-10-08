@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FLoan.Views.HowItWorksPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             x:Class="FLoan.Views.HowItWorksPage">
       <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
                     <On Platform="iOS, Android" Value="0,40,0,0" />
@@ -10,9 +13,15 @@
         
         
         
-        <StackLayout>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MonzaColor}">
             
-            <Label Text="Welcome to How it works"></Label>
+            
+            <forms:AnimationView x:Name="AnimationView"
+                         Animation="motorcycle.json"
+                         Loop="True"
+                         AutoPlay="True"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

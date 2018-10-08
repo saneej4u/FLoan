@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "e0956bf0c07f994ff73842b72c1eb0e2e0b4ac7e"
+    "signature": "a37901354f1d7cdb7fc4b89218c82c3813ef8867"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,11 +9,23 @@
     ".NETStandard,Version=v2.0/": {
       "FLoan/1.0.0": {
         "dependencies": {
+          "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Forms": "3.2.0.871581"
         },
         "runtime": {
           "FLoan.dll": {}
+        }
+      },
+      "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+        "dependencies": {
+          "Xamarin.Forms": "3.2.0.871581"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Lottie.Forms.dll": {
+            "assemblyVersion": "2.6.3.0",
+            "fileVersion": "2.6.3.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -45,6 +57,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Com.Airbnb.Xamarin.Forms.Lottie/2.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BQJUg3Hrbbz8oagavkX7pIsMQpT59aLXZznExh5eovZR6DgWGp5yDtZ2RVqTJEduvY1qoZaYr6Izjr8MLXnQEA==",
+      "path": "com.airbnb.xamarin.forms.lottie/2.6.3",
+      "hashPath": "com.airbnb.xamarin.forms.lottie.2.6.3.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
