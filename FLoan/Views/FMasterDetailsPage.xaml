@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="FLoan.Views.FMasterDetailsPage"
-             xmlns:view="clr-namespace:FLoan.Views" >
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FLoan.Views.FMasterDetailsPage" xmlns:view="clr-namespace:FLoan.Views">
     <MasterDetailPage.Master>
-        <ContentPage Padding="10" BackgroundColor="Gray" Title="Master">  
-            <ContentPage.Content> 
-                 <StackLayout>
-       <Button Text="Dashboard" Clicked="DashboardMenuButton_Clicked"></Button>
-       <Button Text="Complain" Clicked="ComplainMenuButton_Clicked"></Button>
-       <Button Text="Resolution Center" Clicked="ResolutionMenuButton_Clicked"></Button>  
-       <Button Text="Logout" Clicked="LogoutMenuButton_Clicked"></Button>
-    </StackLayout>
-             </ContentPage.Content>
-                
-             </ContentPage>
-    
+        <ContentPage Padding="10" BackgroundColor="{StaticResource PinkColor}" Title="Master" Icon="menu-29x29@2x.png">
+            <ContentPage.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="70"/>
+                    </Grid.RowDefinitions>
+                   
+                        <StackLayout Grid.Row="1">
+                           <Image Source="sign-in-icon.png" Aspect="AspectFit"></Image>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
+                             <Button TextColor="White" Text="Dashboard" Clicked="DashboardMenuButton_Clicked">
+                        </Button>
+                        <Button TextColor="White" Text="Complain" Clicked="ComplainMenuButton_Clicked">
+                        </Button>
+                        <Button TextColor="White" Text="Resolution Center" Clicked="ResolutionMenuButton_Clicked">
+                        </Button>
+                            
+                        </StackLayout>
+                       
+                        <StackLayout Grid.Row="3" >
+                           <Button TextColor="White" Text="Logout" Clicked="LogoutMenuButton_Clicked">  </Button>
+                        </StackLayout>
+                        
+                     
+                </Grid>
+               
+            </ContentPage.Content>
+        </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-         <view:DashboardPage />
+        <view:DashboardPage />
     </MasterDetailPage.Detail>
 </MasterDetailPage>

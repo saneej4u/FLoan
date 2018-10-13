@@ -24,7 +24,7 @@
 
 
 
-            <StackLayout HeightRequest="200" BackgroundColor="Accent">
+            <StackLayout HeightRequest="300" BackgroundColor="{StaticResource MonzaColor}">
                 <Label Text="9" FontAttributes="Bold" FontSize="40" VerticalOptions="EndAndExpand" HorizontalOptions="Center" TextColor="White"></Label>
                 <Label   Text="monthly repayment of" FontSize="Small" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
                 <Label   Text="£500" FontAttributes="Bold" FontSize="40" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" />
@@ -100,8 +100,8 @@
 
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="65" />
-                        <RowDefinition Height="65" />
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="70" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -135,9 +135,9 @@
             </StackLayout>
 
             <StackLayout Grid.Row="4" HorizontalOptions="FillAndExpand" VerticalOptions="End" Padding="5">
-                <Button Margin="0,10,0,0" HeightRequest="60" Text="Apply Now" Clicked="ApplyNowButton_Clicked"  BackgroundColor="#ea3362" TextColor="White" ></Button>
-                <Button Text="Next" Clicked="ApplicationStartNextButton_Clicked"/>
-                <Button Text="Back" Clicked="ApplicationStartBackButton_Clicked"/>
+                <Button Margin="10" HeightRequest="50" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" ></Button>
+         
+                 <Button Margin="10" HeightRequest="50" Text="Back" Clicked="ApplicationStartBackButton_Clicked"  BackgroundColor="{StaticResource MonzaColor}" TextColor="White" ></Button>
             </StackLayout>
 
 

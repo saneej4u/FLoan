@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="FLoan.Views.MenuPage">
-    <StackLayout>
-       <Button Text="Dashboard" ></Button>
-       <Button Text="Complain" ></Button>
-       <Button Text="Resolution Center" ></Button>    
-    </StackLayout>
-    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FLoan.Views.MenuPage">
+   
+    <ContentPage.Content>
+            <Grid BackgroundColor="Fuchsia">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70">
+            </RowDefinition>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <StackLayout Grid.Row="0" BackgroundColor="Red">
+            <Label Text="Profile pic">
+            </Label>
+        </StackLayout>
+        <StackLayout Grid.Row="1" BackgroundColor="Green">
+            <Button Text="Dashboard">
+            </Button>
+            <Button Text="Complain">
+            </Button>
+            <Button Text="Resolution Center">
+            </Button>
+        </StackLayout>
+        <StackLayout Grid.Row="2" BackgroundColor="White">
+            <Button Text="Logout">
+            </Button>
+        </StackLayout>
+    </Grid>
+    </ContentPage.Content>
+
 </ContentPage>
