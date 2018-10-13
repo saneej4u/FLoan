@@ -101,7 +101,7 @@
             </StackLayout>
 
  
-            <StackLayout  Grid.Row="2" Padding="10" Orientation="Vertical" VerticalOptions="End">
+            <StackLayout  Grid.Row="2" Padding="10" Orientation="Vertical" VerticalOptions="StartAndExpand">
 
                 <Grid>
                     <Grid.RowDefinitions>
@@ -139,13 +139,9 @@
                 </Grid>
             </StackLayout>
 
-            <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="End" Padding="5">
-                <Button Margin="10" HeightRequest="45" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" ></Button>
-         
-                 <!--<Button Margin="10" HeightRequest="45" Text="Back" Clicked=""  BackgroundColor="{StaticResource MonzaColor}" TextColor="White" ></Button>-->
+            <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Padding="5">
+                <Button Margin="10,10,10,40" HeightRequest="55" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" ></Button>
             </StackLayout>
-
-
 
         </Grid>
 
