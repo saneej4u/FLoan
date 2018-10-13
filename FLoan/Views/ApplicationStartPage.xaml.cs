@@ -13,14 +13,18 @@ namespace FLoan.Views
             InitializeComponent();
         }
 
-        void  ApplicationStartNextButton_Clicked(object sender, System.EventArgs e)
+        void ApplicationStartNextButton_Clicked(object sender, System.EventArgs e)
         {
-            Application.Current.MainPage = new ApplicationStepsPage(); // new NavigationPage(new AboutPage()) ;
+            //  Application.Current.MainPage = new ApplicationStepsPage(); 
 
-            Navigation.PopModalAsync();
+            // 
+           // Navigation.PopModalAsync();
+            var appSteps = new NavigationPage(new PersonalDetailsPage());
+            Application.Current.MainPage = appSteps;
+            
         }
 
-        void ApplicationStartBackButton_Clicked(object sender, System.EventArgs e)
+        void CloseStartBackButton_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PopModalAsync();
         }
@@ -49,7 +53,7 @@ namespace FLoan.Views
             termDisplayLabel.Text = String.Format("{0} months", value);
         }
 
-        
+
 
 
         private void ApplyNowButton_Clicked(object sender, EventArgs e)
@@ -60,7 +64,11 @@ namespace FLoan.Views
             model.LoanAmount = Convert.ToDecimal(laonAmountSlider.Value);
             model.LoanTerm = 12;
 
-           // Navigation.PushAsync(new LoanStartPage(model));
+            var appSteps = new NavigationPage(new PersonalDetailsPage());
+
+            Application.Current.MainPage = appSteps;
+
+            //Navigation.PushAsync(new PersonalDetailsPage());
         }
     }
 }

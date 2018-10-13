@@ -4,7 +4,7 @@
                 xmlns:view="clr-namespace:FLoan.Views" 
               x:Class="FLoan.Views.ApplicationStepsPage">
     <view:PersonalDetailsPage/>
-  <view:AddressDetailsPage/>
+   <view:AddressDetailsPage/>
     <view:BankDetailsPage/>
     <view:IncomeDetailsPage/>
 </CarouselPage>

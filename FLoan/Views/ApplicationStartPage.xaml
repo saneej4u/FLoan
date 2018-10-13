@@ -28,7 +28,7 @@
                 <Image Source="icons8-multiply-filled-50.png" Margin="0,40,0,0" HorizontalOptions="End" VerticalOptions="Start" >
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer
-                            Tapped="ApplicationStartBackButton_Clicked"
+                            Tapped="CloseStartBackButton_Clicked"
                             NumberOfTapsRequired="1" />
                     </Image.GestureRecognizers>
                 </Image>

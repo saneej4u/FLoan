@@ -16,5 +16,10 @@ namespace FLoan.Views
         {
             Application.Current.MainPage = new FMasterDetailsPage();
         }
+
+        private void CloseSignBtnRecognizer_Tapped(object sender, EventArgs e)
+        {
+
+        }
     }
 }
