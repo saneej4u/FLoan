@@ -10,7 +10,8 @@ namespace FLoan.Views
         public FMasterDetailsPage()
         {
             InitializeComponent();
-            Detail = new NavigationPage(new DashboardPage());
+            var dashb = new NavigationPage(new DashboardPage());
+            Detail = dashb;
             IsPresented = false;
         }
 

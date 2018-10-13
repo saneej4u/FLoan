@@ -4,10 +4,10 @@
         <ResourceDictionary>
             <!--Global Styles-->
             <Color x:Key="NavigationPrimary">#2196F3</Color>
-            <Style TargetType="NavigationPage">
+            <!--<Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />
-            </Style>
+            </Style>-->
             <!--Page Level Resources: Compatibile with Xamarin Live Player -->
             <Color x:Key="Primary">#2196F3</Color>
             <Color x:Key="PinkColor">#ea3362</Color>
@@ -15,6 +15,13 @@
             <Color x:Key="LightTextColor">#999999</Color>
             <Color x:Key="BlackColor">#31393f</Color>
             <Color x:Key="MonzaColor">#14233C</Color>
+            <Color x:Key="LightGreyColor">LightGray</Color>
+            
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#14233C"> </Setter>
+                <Setter Property="BarTextColor" Value="White"></Setter>
+            </Style>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -37,6 +37,21 @@ namespace FLoan.Views
             displayLabel.Text = String.Format("£{0}", value);
         }
 
+        void OnLoanPeriodSliderValueChanged(object sender, ValueChangedEventArgs args)
+        {
+            //var sliderX = sender as Slider;
+
+            var newStep = Math.Round(args.NewValue / 12);
+
+            LoanPeriodSlider.Value = newStep * 12;
+
+            double value = args.NewValue;
+            termDisplayLabel.Text = String.Format("{0} months", value);
+        }
+
+        
+
+
         private void ApplyNowButton_Clicked(object sender, EventArgs e)
         {
             // (sender as Button).Text = "You pressed me!";

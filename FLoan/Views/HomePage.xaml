@@ -2,7 +2,7 @@
 <CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
               xmlns:view="clr-namespace:FLoan.Views" 
               x:Class="FLoan.Views.HomePage">
-    <ContentPage BackgroundColor="{StaticResource Accent}">
+    <ContentPage BackgroundColor="{StaticResource PinkColor}">
         <ContentPage.Padding>
             <OnPlatform x:TypeArguments="Thickness">
                 <On Platform="iOS, Android" Value="0,0,0,0" />
@@ -10,7 +10,7 @@
         </ContentPage.Padding>
         <ContentPage.Content>
             <AbsoluteLayout>
-                <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Source="home_main.png"></Image>
+                <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"  Source="home_bg.png"></Image>
                 <StackLayout HorizontalOptions="CenterAndExpand" AbsoluteLayout.LayoutBounds="0, 0.5,1, 200" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional">
                     <Label FontSize="50" HorizontalTextAlignment="Center" TextColor="White">
                         <Label.FormattedText>
@@ -43,6 +43,10 @@
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.82,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
 
                     <Button Margin="20, 5,20,5" Text="My Account" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource MonzaColor}" TextColor="White" />
+                    
+                </StackLayout>
+                <StackLayout AbsoluteLayout.LayoutBounds="0, 0.90,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
+
                     <Button Text="Find out more" Clicked="FindOutMoreButton_Clicked" TextColor="White" />
                 </StackLayout>
             </AbsoluteLayout>

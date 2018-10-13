@@ -9,14 +9,14 @@
                     <On Platform="iOS, Android" Value="0,0,0,0" />
                   </OnPlatform>
                 </ContentPage.Padding>
-    
+
     <ContentPage.Content>
  
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO" />
                 <RowDefinition Height="AUTO" />
-                <RowDefinition Height="AUTO" />
+    
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="Auto" />
 
@@ -24,7 +24,14 @@
 
 
 
-            <StackLayout HeightRequest="200" BackgroundColor="Accent">
+            <StackLayout HeightRequest="300" BackgroundColor="{StaticResource MonzaColor}">
+                <Image Source="icons8-multiply-filled-50.png" Margin="0,40,0,0" HorizontalOptions="End" VerticalOptions="Start" >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="ApplicationStartBackButton_Clicked"
+                            NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
                 <Label Text="9" FontAttributes="Bold" FontSize="40" VerticalOptions="EndAndExpand" HorizontalOptions="Center" TextColor="White"></Label>
                 <Label   Text="monthly repayment of" FontSize="Small" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
                 <Label   Text="£500" FontAttributes="Bold" FontSize="40" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" />
@@ -62,7 +69,7 @@
                                    FontSize="Small"
                                    TextColor="#ea3362" />
 
-                                <Label x:Name="displayLabel" Grid.Row="0" Grid.Column="1" FontAttributes="Bold"   Text="£500" FontSize="Large" TextColor="#ea3362" HorizontalOptions="End" />
+                                <Label x:Name="displayLabel" Grid.Row="0" Grid.Column="1" Text="£500" FontAttributes="Bold"  FontSize="Large" TextColor="#ea3362" HorizontalOptions="End" />
                             </Grid>
 
 
@@ -80,28 +87,26 @@
                     <Label 
                    Text="Loan Period"
                    FontSize="Small"
-                   HorizontalOptions="Center"
-                   VerticalOptions="CenterAndExpand" TextColor="#ea3362" />
-                    <Slider Maximum="7500" Minimum="500"  ValueChanged="OnSliderValueChanged" />
+                   HorizontalOptions="Start"
+                   VerticalOptions="StartAndExpand" TextColor="#ea3362" />
+
+                    <Label x:Name="termDisplayLabel"
+               Text="12 months"
+               HorizontalOptions="End"
+               VerticalOptions="StartAndExpand" FontAttributes="Bold"  FontSize="Large" TextColor="#ea3362"  />
+                    
+                    <Slider x:Name="LoanPeriodSlider" Maximum="60" Minimum="12"  ValueChanged="OnLoanPeriodSliderValueChanged"  />
 
                 </StackLayout>
             </StackLayout>
 
-            <!-- Social Stats Section -->
-            <StackLayout Grid.Row="2" >
-
-
-                <Label x:Name="termDisplayLabel"
-               Text="(uninitialized)"
-               HorizontalOptions="Center"
-               VerticalOptions="CenterAndExpand" TextColor="#ea3362" />
-            </StackLayout>
-            <StackLayout  Grid.Row="3" Padding="10" Orientation="Vertical" VerticalOptions="End">
+ 
+            <StackLayout  Grid.Row="2" Padding="10" Orientation="Vertical" VerticalOptions="End">
 
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="65" />
-                        <RowDefinition Height="65" />
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="70" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -134,10 +139,10 @@
                 </Grid>
             </StackLayout>
 
-            <StackLayout Grid.Row="4" HorizontalOptions="FillAndExpand" VerticalOptions="End" Padding="5">
-                <Button Margin="0,10,0,0" HeightRequest="60" Text="Apply Now" Clicked="ApplyNowButton_Clicked"  BackgroundColor="#ea3362" TextColor="White" ></Button>
-                <Button Text="Next" Clicked="ApplicationStartNextButton_Clicked"/>
-                <Button Text="Back" Clicked="ApplicationStartBackButton_Clicked"/>
+            <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="End" Padding="5">
+                <Button Margin="10" HeightRequest="45" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" ></Button>
+         
+                 <!--<Button Margin="10" HeightRequest="45" Text="Back" Clicked=""  BackgroundColor="{StaticResource MonzaColor}" TextColor="White" ></Button>-->
             </StackLayout>
 
 
