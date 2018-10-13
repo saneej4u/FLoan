@@ -45,7 +45,7 @@ namespace FLoan.Views
             model.LoanAmount = Convert.ToDecimal(laonAmountSlider.Value);
             model.LoanTerm = 12;
 
-            Navigation.PushAsync(new LoanStartPage(model));
+           // Navigation.PushAsync(new LoanStartPage(model));
         }
     }
 }

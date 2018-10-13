@@ -779,31 +779,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/saneej/.nuget/packages/": {}
+    "C:\\Users\\csane\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saneej/Projects/FLoan/FLoan.Android/FLoan.Android.csproj",
+      "projectUniqueName": "C:\\Projects\\FLoan\\FLoan.Android\\FLoan.Android.csproj",
       "projectName": "FLoan.Android",
-      "projectPath": "/Users/saneej/Projects/FLoan/FLoan.Android/FLoan.Android.csproj",
-      "packagesPath": "/Users/saneej/.nuget/packages/",
-      "outputPath": "/Users/saneej/Projects/FLoan/FLoan.Android/obj",
+      "projectPath": "C:\\Projects\\FLoan\\FLoan.Android\\FLoan.Android.csproj",
+      "packagesPath": "C:\\Users\\csane\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\FLoan\\FLoan.Android\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/saneej/.config/NuGet/NuGet.Config"
+        "C:\\Users\\csane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj": {
-              "projectPath": "/Users/saneej/Projects/FLoan/FLoan/FLoan.csproj"
+            "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj": {
+              "projectPath": "C:\\Projects\\FLoan\\FLoan\\FLoan.csproj"
             }
           }
         }
@@ -812,29 +815,29 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "3.2.0.871581"
-          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
-            "version": "27.0.2.1"
-          },
-          "Xamarin.Android.Support.v7.AppCompat": {
-            "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v4": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.CardView": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
           },
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
-            "version": "27.0.2.1"
+            "version": "[27.0.2.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.2.0.871581, )"
           }
         }
       }
