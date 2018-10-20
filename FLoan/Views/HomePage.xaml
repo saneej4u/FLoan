@@ -137,7 +137,8 @@
        
             <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
                 <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
-                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+               
+                    <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
                 
             </StackLayout>
         </Grid>

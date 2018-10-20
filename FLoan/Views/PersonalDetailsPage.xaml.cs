@@ -11,5 +11,10 @@ namespace FLoan.Views
         {
             InitializeComponent();
         }
+
+        void GoToAddressDetailsButton_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new AddressDetailsPage());
+        }
     }
 }

@@ -1,16 +1,13 @@
 ﻿<Properties StartupConfiguration="{8010AA38-70A5-45FF-AE21-CD868D4ECFA8}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="FLoan Status">
     <Files>
-      <File FileName="FLoan/Views/HowItWorksPage.xaml" Line="51" Column="1" />
-      <File FileName="FLoan/Views/HomePage.xaml" Line="150" Column="16" />
-      <File FileName="FLoan/Views/HowItWorksPage.xaml.cs" Line="17" Column="11" />
-      <File FileName="FLoan/Views/HomePage.xaml.cs" Line="17" Column="14" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml" Line="10" Column="24" />
+      <File FileName="FLoan/Views/HomePage.xaml" Line="139" Column="271" />
+      <File FileName="FLoan/Views/ApplicationStartPage.xaml" Line="160" Column="1" />
       <File FileName="FLoan.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="FLoan/Views/FMasterDetailsPage.xaml" Line="44" Column="20" />
-      <File FileName="FLoan/Views/DashboardPage.xaml" Line="56" Column="1" />
-      <File FileName="FLoan/Views/FMasterDetailsPage.xaml.cs" Line="20" Column="69" />
-      <File FileName="FLoan.iOS/AppDelegate.cs" Line="34" Column="6" />
-      <File FileName="FLoan/ViewModels/HIWCarouselViewModel.cs" Line="25" Column="1" />
+      <File FileName="FLoan/Views/AddressDetailsPage.xaml" Line="42" Column="26" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="15" Column="46" />
+      <File FileName="FLoan/Views/AgreementDetailsPage.xaml" Line="138" Column="1" />
       <File FileName="FLoan Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>

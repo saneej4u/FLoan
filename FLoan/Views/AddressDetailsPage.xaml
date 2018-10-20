@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="FLoan.Views.AddressDetailsPage"
-             xmlns:view="clr-namespace:FLoan.Views" >
+             xmlns:view="clr-namespace:FLoan.Views" Title="Address" BackgroundColor="{StaticResource MonzaColor}">
     <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                    <On Platform="iOS, Android" Value="0,30,0,0" />
                   </OnPlatform>
-                </ContentPage.Padding>
-    
+                </ContentPage.Padding> 
     <ContentPage.Content>
         
         
-        
-        <StackLayout>
+       <ScrollView>
             
-            <Label Text="Welcome to Address details"></Label>
-        </StackLayout>
+             <Grid Padding="5,0,5,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>    
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>    
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            
+                <RowDefinition Height="*"/>               
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+       
+            
+            <Entry HeightRequest="45" Margin="10" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="House/Flat Number"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Address line 1"/>
+      
+            <Entry HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Address line 2"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Street"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Town/City"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="County"/>
+               <Entry HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="Postcode"/>
+                 <Entry HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Country"/>
+              
+            <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+          
+        </Grid>
+        </ScrollView> 
+      
     </ContentPage.Content>
 </ContentPage>
