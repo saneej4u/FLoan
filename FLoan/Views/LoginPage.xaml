@@ -5,43 +5,7 @@
                     <On Platform="iOS, Android" Value="0,0,0,0" />
                   </OnPlatform>
                 </ContentPage.Padding>
-    
- <!--   <ContentPage.Content>
-
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="100"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-                <ColumnDefinition Width="100"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <StackLayout Grid.Row="0" Grid.ColumnSpan="3">
-                <Image Source="icons8-multiply-filled-50.png" Margin="0,40,0,0" HorizontalOptions="End" VerticalOptions="Start" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
-                            Tapped="CloseSignBtnRecognizer_Tapped"
-                            NumberOfTapsRequired="1" />
-                    </Image.GestureRecognizers>
-                </Image>
-            </StackLayout>
-            <StackLayout Grid.Row="1" Grid.ColumnSpan="3" VerticalOptions="FillAndExpand">
-                <StackLayout>
-                    <Image Source="background5.png" Aspect="AspectFit"></Image>
-                </StackLayout>
-                <StackLayout Margin="20" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
-
-                    <Entry Placeholder="Email Address" Keyboard="Email" HeightRequest="50"></Entry>
-                    <Entry IsPassword="True" Placeholder="Password" HeightRequest="50"></Entry>
-                    <Button Text="Sign In"  BackgroundColor="#ea3362" TextColor="White" Clicked="LogInButton_Clicked" HeightRequest="55" BorderRadius="25" ></Button>
-                </StackLayout>
-            </StackLayout>
-        </Grid>
-
-    </ContentPage.Content>-->
+   
     
     
      <ContentPage.Content>
@@ -65,8 +29,11 @@
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.5,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
                       <Entry Margin="20,0" IsPassword="True" Placeholder="Password" HeightRequest="50"></Entry>
                 </StackLayout>
-                <StackLayout AbsoluteLayout.LayoutBounds="0, 0.57,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
-                  <Button Margin="20" Text="Sign In"  BackgroundColor="#ea3362" TextColor="White" Clicked="LogInButton_Clicked" HeightRequest="55" BorderRadius="25" ></Button>
+
+                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.57,1, 55" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
+
+                    <Button BorderRadius="25" Margin="20, 5,20,5" HeightRequest="55" Text="Sign In" Clicked="LogInButton_Clicked" BackgroundColor="{StaticResource PinkColor}" FontSize="Medium" TextColor="White" />
+                    
                 </StackLayout>
             </AbsoluteLayout>
         </ContentPage.Content>

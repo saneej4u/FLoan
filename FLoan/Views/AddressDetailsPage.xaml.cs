@@ -11,5 +11,10 @@ namespace FLoan.Views
         {
             InitializeComponent();
         }
+
+        void GotBankDetailsPage_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new BankDetailsPage());
+        }
     }
 }
