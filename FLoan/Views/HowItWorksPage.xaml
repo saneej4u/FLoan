@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
-             x:Class="FLoan.Views.HowItWorksPage">
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:view="clr-namespace:FLoan.Views" 
+             x:Class="FLoan.Views.HowItWorksPage" BackgroundColor="{StaticResource MonzaColor}" >
       <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
                     <On Platform="iOS, Android" Value="0,40,0,0" />
@@ -10,18 +12,39 @@
                 </ContentPage.Padding>
     
     <ContentPage.Content>
-        
-        
-        
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MonzaColor}">
+       
+        <Grid>
             
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="600"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
             
-            <forms:AnimationView x:Name="AnimationView"
-                         Animation="motorcycle.json"
-                         Loop="True"
-                         AutoPlay="True"
-                         VerticalOptions="FillAndExpand"
-                         HorizontalOptions="FillAndExpand" />
-        </StackLayout>
+             
+    
+        
+        
+            <controls:CarouselViewControl Margin="20" Grid.Row="0"  x:Name="carousel"
+        ItemsSource="{Binding MyItemsSource}"
+        ShowArrows="true"
+        ShowIndicators="true"
+        PositionSelectedCommand="{Binding MyCommand}"
+        PositionSelected="Handle_PositionSelected"
+        Scrolled="Handle_Scrolled"
+        Orientation="Horizontal">
+
+       
+    </controls:CarouselViewControl>
+                
+       
+            <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
+                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                
+            </StackLayout>
+        </Grid>
+        
+    
     </ContentPage.Content>
 </ContentPage>

@@ -2,12 +2,54 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FLoan.Views.DashboardPage" >
-    <ContentPage.Content>
-         
-        <StackLayout>
-            
-            <Label Text="Welcome to Dashboard page"></Label>
-              
+    
+      <!-- <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="10" HeightRequest="100">
+            <Image Source="hloan.png">
+               
+            </Image>
+            <Label Text=" My Account " FontSize="16" TextColor="White" VerticalTextAlignment="Center" />
+        </StackLayout>
+    </NavigationPage.TitleView>-->
+    
+<ContentPage.Content>
+        <StackLayout Padding="5">
+            <ListView ItemsSource="{Binding Agreements}" SeparatorColor="{StaticResource MonzaColor}" RowHeight="150" SeparatorVisibility="Default"  VerticalOptions="FillAndExpand" ItemSelected="OnAgreementItemSelected" HasUnevenRows="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="10"></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="{StaticResource MonzaColor}">
+                                    
+                                </StackLayout>
+                                <StackLayout BackgroundColor="{StaticResource MonzaColor}" Grid.Row="0" Grid.Column="1" Orientation="Vertical" WidthRequest="98" VerticalOptions="CenterAndExpand" Padding="5" >
+                                    <!--<Image Source="Icon-76x76@2x.png" WidthRequest="75" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Beige"></Image>-->
+                                    <Label Text="{Binding Status}"  FontSize="Large" TextColor="White" Margin="10"></Label>
+                                </StackLayout>
+                                <StackLayout Grid.Row="0" Grid.Column="2" Orientation="Vertical" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand">
+                                    <Label Text="Personal Loan"></Label>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="£" FontSize="Small" VerticalOptions="End"></Label>
+                                        <Label Text="{Binding LoanAmount}"  FontSize="36" VerticalOptions="EndAndExpand"></Label>
+                                    </StackLayout>
+                                    <Label Text="Ready to activate" FontSize="Micro"></Label>
+
+                                </StackLayout>
+                            </Grid>
+                           
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,26 +1,23 @@
 ﻿<Properties StartupConfiguration="{8010AA38-70A5-45FF-AE21-CD868D4ECFA8}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan Status">
     <Files>
-      <File FileName="FLoan/Views/AboutPage.xaml" Line="68" Column="15" />
-      <File FileName="FLoan/Views/HomePage.xaml" Line="49" Column="16" />
-      <File FileName="FLoan/Views/ApplicationStepsPage.xaml" Line="10" Column="16" />
-      <File FileName="FLoan/Views/ApplicationStartPage.xaml" Line="25" Column="1" />
-      <File FileName="FLoan/Views/HomePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="FLoan/Views/ApplicationStepsPage.xaml.cs" Line="8" Column="61" />
-      <File FileName="FLoan/Views/ApplicationStartPage.xaml.cs" Line="22" Column="48" />
+      <File FileName="FLoan/Views/HowItWorksPage.xaml" Line="51" Column="1" />
+      <File FileName="FLoan/Views/HomePage.xaml" Line="150" Column="16" />
+      <File FileName="FLoan/Views/HowItWorksPage.xaml.cs" Line="17" Column="11" />
+      <File FileName="FLoan/Views/HomePage.xaml.cs" Line="17" Column="14" />
       <File FileName="FLoan.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="FLoan/Views/LoginPage.xaml.cs" Line="17" Column="14" />
-      <File FileName="FLoan/Views/PersonalDetailsPage.xaml" Line="21" Column="15" />
-      <File FileName="FLoan/Views/HowItWorksPage.xaml" Line="19" Column="1" />
-      <File FileName="FLoan/Views/AddressDetailsPage.xaml" Line="21" Column="1" />
-      <File FileName="FLoan/Views/BankDetailsPage.xaml" Line="20" Column="15" />
-      <File FileName="FLoan/Views/IncomeDetailsPage.xaml" Line="21" Column="1" />
+      <File FileName="FLoan/Views/FMasterDetailsPage.xaml" Line="44" Column="20" />
+      <File FileName="FLoan/Views/DashboardPage.xaml" Line="56" Column="1" />
+      <File FileName="FLoan/Views/FMasterDetailsPage.xaml.cs" Line="20" Column="69" />
+      <File FileName="FLoan.iOS/AppDelegate.cs" Line="34" Column="6" />
+      <File FileName="FLoan/ViewModels/HIWCarouselViewModel.cs" Line="25" Column="1" />
+      <File FileName="FLoan Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint enabled="false" file="/Users/saneej/Projects/FLoan/FLoan/Views/HomePage.xaml" relfile="FLoan/Views/HomePage.xaml" line="23" column="124" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Views/HomePage.xaml" relfile="FLoan/Views/HomePage.xaml" line="103" column="22" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

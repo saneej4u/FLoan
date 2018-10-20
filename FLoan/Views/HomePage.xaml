@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
               xmlns:view="clr-namespace:FLoan.Views" 
-              x:Class="FLoan.Views.HomePage">
+               xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+              x:Class="FLoan.Views.HomePage" >
     <ContentPage BackgroundColor="{StaticResource PinkColor}">
         <ContentPage.Padding>
             <OnPlatform x:TypeArguments="Thickness">
@@ -11,7 +12,7 @@
         <ContentPage.Content>
             <AbsoluteLayout>
                 <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" Aspect="AspectFill"  Source="home_bg.png"></Image>
-                <StackLayout HorizontalOptions="CenterAndExpand" AbsoluteLayout.LayoutBounds="0, 0.5,1, 200" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional">
+                <StackLayout HorizontalOptions="CenterAndExpand" AbsoluteLayout.LayoutBounds="0, 0.47,1, 200" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional">
                     <Label FontSize="50" HorizontalTextAlignment="Center" TextColor="White">
                         <Label.FormattedText>
                             <FormattedString>
@@ -37,23 +38,113 @@
                     </Label>
                 </StackLayout>
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.72,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
-                    <Button Margin="20,5,20,5" Text="Apply Now" Clicked="ApplyNowButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" />
+                    <Button BorderRadius="25"  Margin="20,5,20,5" HeightRequest="55" Text="Apply Now" Clicked="ApplyNowButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                
                 </StackLayout>
 
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.82,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
 
-                    <Button Margin="20, 5,20,5" Text="My Account" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource MonzaColor}" TextColor="White" />
+                    <Button BorderRadius="25" Margin="20, 5,20,5" HeightRequest="55" Text="My Account" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource MonzaColor}" FontSize="Medium" TextColor="White" />
                     
                 </StackLayout>
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.90,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
 
-                    <Button Text="Find out more" Clicked="FindOutMoreButton_Clicked" TextColor="White" />
+                    <Button Text="Get Started" Clicked="FindOutMoreButton_Clicked" HeightRequest="40" TextColor="White" />
                 </StackLayout>
             </AbsoluteLayout>
         </ContentPage.Content>
     </ContentPage>
-    <view:HowItWorksPage>
-    </view:HowItWorksPage>
-    <view:LoginPage>
-    </view:LoginPage>
+   <!-- <view:HowItWorksPage>
+    </view:HowItWorksPage>-->
+    <ContentPage BackgroundColor="{StaticResource MonzaColor}" >
+      <ContentPage.Padding>
+                  <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                  </OnPlatform>
+                </ContentPage.Padding>
+    
+    <ContentPage.Content>
+       
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="600"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+             
+    
+        
+        
+            <controls:CarouselViewControl Margin="20" Grid.Row="0"  x:Name="carouselPl"
+        ItemsSource="{Binding MyItemsSource}"
+        ShowArrows="true"
+        ShowIndicators="true"
+        PositionSelectedCommand="{Binding MyCommand}"
+        PositionSelected="Handle_PositionSelected"
+        Scrolled="Handle_Scrolled"
+        Orientation="Horizontal">
+
+       
+    </controls:CarouselViewControl>
+               
+       
+            <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
+                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                
+            </StackLayout>
+        </Grid>
+        
+    
+    </ContentPage.Content>
+</ContentPage>
+    
+    <ContentPage BackgroundColor="{StaticResource MonzaColor}" >
+      <ContentPage.Padding>
+                  <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                  </OnPlatform>
+                </ContentPage.Padding>
+    
+    <ContentPage.Content>
+       
+        <Grid>
+            
+            <Grid.RowDefinitions>
+                
+                <RowDefinition Height="600"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+             
+    
+        <!--
+        
+            <controls:CarouselViewControl Margin="20" Grid.Row="0"  x:Name="carousel"
+        ItemsSource="{Binding MyItemsSource}"
+        ShowArrows="true"
+        ShowIndicators="true"
+        PositionSelectedCommand="{Binding MyCommand}"
+        PositionSelected="Handle_PositionSelected"
+        Scrolled="Handle_Scrolled"
+        Orientation="Horizontal">
+
+       
+    </controls:CarouselViewControl>-->
+                
+       
+            <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
+                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                
+            </StackLayout>
+        </Grid>
+        
+    
+    </ContentPage.Content>
+</ContentPage>
+   <!-- <view:AboutPage>
+    </view:AboutPage>-->
 </CarouselPage>

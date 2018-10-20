@@ -19,7 +19,7 @@ namespace FLoan.Views
 
         private void CloseSignBtnRecognizer_Tapped(object sender, EventArgs e)
         {
-
+            Navigation.PopModalAsync();
         }
     }
 }

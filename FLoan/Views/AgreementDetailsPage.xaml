@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="FLoan.Views.AgreementDetailsPage">
+    <ContentPage.Content>
+         <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="*" />
+    
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto" />
+
+            </Grid.RowDefinitions>
+
+
+
+            <StackLayout HeightRequest="300" BackgroundColor="{StaticResource MonzaColor}">
+
+                <Label Text="£1000 borrowed in February 2018" FontAttributes="Bold" FontSize="Medium" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                <Label   Text="You've paid" FontSize="Large" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
+                <Label   Text="£500" FontAttributes="Bold" FontSize="40" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" />
+            </StackLayout>
+            <Image Source="CurvedMask.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,0"/>
+
+
+
+            <!-- Profile Name -->
+
+            <StackLayout Grid.Row="1"  Margin="20" HorizontalOptions="FillAndExpand">
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" >
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                       <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="0" Grid.Column="0"  x:Name="rotatingLabel"
+                                   Text="Nex payment amount"
+                                   FontSize="Small"
+                                   TextColor="#ea3362" />
+
+                                <Label x:Name="displayLabel" Grid.Row="0" Grid.Column="1" Text="£45.65" 
+                                       FontAttributes="Bold"  FontSize="Medium" 
+                                       TextColor="#ea3362" HorizontalOptions="End" />
+                                
+                              
+                                <Label Grid.Row="1" Grid.Column="0"
+                                   Text="Nex payment date"
+                                   FontSize="Small"
+                                   TextColor="#ea3362" />
+
+                                <Label Grid.Row="1" 
+                                       Grid.Column="1" 
+                                       Text="12-Jul-2018" FontAttributes="Bold"  FontSize="Medium" TextColor="#ea3362" HorizontalOptions="End" />
+                                
+                                   
+                                <Label Grid.Row="2" Grid.Column="0"
+                                   Text="Left to pay"
+                                   FontSize="Small"
+                                   TextColor="#ea3362" />
+
+                                <Label Grid.Row="2" 
+                                       Grid.Column="1" 
+                                       Text="£2345.54" FontAttributes="Bold"  FontSize="Medium" TextColor="#ea3362" HorizontalOptions="End" />
+
+                            </Grid>
+
+
+                        </StackLayout>
+                        
+
+                    </Grid>
+
+                </StackLayout>
+
+             
+            </StackLayout>
+            
+             <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Padding="5">
+                <Button Margin="40,10,40,40" BorderRadius="20" Text="View statment" BackgroundColor="{StaticResource MonzaColor}" TextColor="White" ></Button>
+            </StackLayout>
+ 
+            <StackLayout  Grid.Row="3" Padding="10" Orientation="Vertical" VerticalOptions="EndAndExpand" Margin="0,0,0,10">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70" />
+                        <RowDefinition Height="70" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Row="0" Grid.Column="0" >
+                        
+                        <Button Text="SECCI" FontSize="Large" HeightRequest="50" TextColor="White" BackgroundColor="#ea3362" BorderRadius="25" ></Button>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="0" Grid.Column="1" >
+                      
+                        <Button Text="FSLA" FontSize="Large" HeightRequest="50" TextColor="White" BackgroundColor="#ea3362" BorderRadius="25" ></Button>
+                    </StackLayout>
+
+
+                    <StackLayout Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" >
+                       
+                        <Button BorderRadius="25" HeightRequest="50" Text="Make a payment" FontSize="Large" TextColor="White" BackgroundColor="#ea3362"></Button>
+                    </StackLayout>
+                    
+
+
+                </Grid>
+            </StackLayout>
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

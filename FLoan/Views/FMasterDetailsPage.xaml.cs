@@ -17,7 +17,9 @@ namespace FLoan.Views
 
         void DashboardMenuButton_Clicked(object sender, System.EventArgs e)
         {
-            Detail = new NavigationPage(new DashboardPage());
+            var dashboard = new NavigationPage(new DashboardPage());
+            Detail = dashboard;
+
             IsPresented = false;
         }
 

@@ -6,26 +6,30 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="50"/>
-                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="70"/>
                     </Grid.RowDefinitions>
                    
-                        <StackLayout Grid.Row="1">
-                           <Image Source="sign-in-icon.png" Aspect="AspectFit"></Image>
+                        <StackLayout Grid.Row="1" Margin="40">
+                           <Image Source="icons8-male-user-filled-100.png" Aspect="AspectFit"></Image>
                         </StackLayout>
+                    
                         <StackLayout Grid.Row="2" HorizontalOptions="FillAndExpand">
-                             <Button TextColor="White" Text="Dashboard" Clicked="DashboardMenuButton_Clicked">
-                        </Button>
-                        <Button TextColor="White" Text="Complain" Clicked="ComplainMenuButton_Clicked">
-                        </Button>
-                        <Button TextColor="White" Text="Resolution Center" Clicked="ResolutionMenuButton_Clicked">
-                        </Button>
-                            
+                             <Button TextColor="White" Text="Dashboard" Clicked="DashboardMenuButton_Clicked"  FontSize="Large"/>
+                     
+                        <Button TextColor="White" Text="Your Details" FontSize="Large" />
+                        <Button TextColor="White" Text="Complain" Clicked="ComplainMenuButton_Clicked" FontSize="Large"/>
+                        
+                        <Button TextColor="White" Text="Resolution Center" Clicked="ResolutionMenuButton_Clicked" FontSize="Large"/>
+                      
+                        <Button TextColor="White" Text="Settings" FontSize="Large" />
+                        <Button TextColor="White" Text="Call us" FontSize="Large" />
+                         <Button TextColor="White"  Text="Logout" Clicked="LogoutMenuButton_Clicked" FontSize="Large">  </Button>
                         </StackLayout>
                        
-                        <StackLayout Grid.Row="3" >
-                           <Button TextColor="White" Text="Logout" Clicked="LogoutMenuButton_Clicked">  </Button>
+                        <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" >
+                          
                         </StackLayout>
                         
                      

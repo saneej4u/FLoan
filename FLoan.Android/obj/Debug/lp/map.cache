@@ -1,5 +1,19 @@
+CarouselView.FormsPlugin.Abstractions
+CarouselView.FormsPlugin.Android
+Com.Android.DeskClock
+Com.ViewPagerIndicator
+FFImageLoading
+FFImageLoading.Forms
+FFImageLoading.Forms.Platform
+FFImageLoading.Platform
+FFImageLoading.Svg.Forms
+FFImageLoading.Svg.Platform
+FFImageLoading.Transformations
 FLoan
 FormsViewGroup
+Lottie.Android
+Lottie.Forms
+SkiaSharp
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -25,3 +39,5 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Resources.ResourceManager
+System.Reflection.Extensions

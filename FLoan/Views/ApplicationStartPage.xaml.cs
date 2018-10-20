@@ -19,14 +19,18 @@ namespace FLoan.Views
 
             // 
            // Navigation.PopModalAsync();
-            var appSteps = new NavigationPage(new PersonalDetailsPage());
-            Application.Current.MainPage = appSteps;
+            //var appSteps = new NavigationPage(new PersonalDetailsPage());
+            //Application.Current.MainPage = appSteps;
+
+            Navigation.PushAsync(new PersonalDetailsPage());
+
             
         }
 
         void CloseStartBackButton_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PopModalAsync();
+            Application.Current.MainPage = new HomePage();
+
         }
 
         void OnSliderValueChanged(object sender, ValueChangedEventArgs args)

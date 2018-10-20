@@ -16,6 +16,7 @@
             <Color x:Key="BlackColor">#31393f</Color>
             <Color x:Key="MonzaColor">#14233C</Color>
             <Color x:Key="LightGreyColor">LightGray</Color>
+            <Color x:Key="LightMonza">#1f3760</Color>
             
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="#14233C"> </Setter>

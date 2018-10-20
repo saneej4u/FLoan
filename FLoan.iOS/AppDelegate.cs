@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using Lottie.Forms.iOS.Renderers;
 using UIKit;
@@ -25,6 +25,8 @@ namespace FLoan.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             AnimationViewRenderer.Init();
+            CarouselViewRenderer.Init();
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

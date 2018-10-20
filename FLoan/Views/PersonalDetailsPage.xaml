@@ -2,20 +2,56 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="FLoan.Views.PersonalDetailsPage"
-             xmlns:view="clr-namespace:FLoan.Views" >
+             xmlns:view="clr-namespace:FLoan.Views" BackgroundColor="{StaticResource MonzaColor}" Title="Personal Details" >
     <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                    <On Platform="iOS, Android" Value="0,10,0,0" />
                   </OnPlatform>
-                </ContentPage.Padding>
-    
+                </ContentPage.Padding> 
     <ContentPage.Content>
         
         
-        
-        <StackLayout>
+       <ScrollView>
             
-            <Label Text="Welcome to Personal details page"></Label>
-        </StackLayout>
+             <Grid Padding="5,0,5,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>    
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>    
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                    
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Picker HeightRequest="45" Margin="10" Grid.Row="0" Grid.Column="1"/>
+            
+            <Entry HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="First name"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Surname"/>
+            <DatePicker HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" />
+            <Entry HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Email Address"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Confirm Email Address"/>
+            
+            <Entry HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Telephone"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Mobile"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Password"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Confirm Password"/>
+            <Entry HeightRequest="45" Margin="10" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Security Answers"/>
+            
+            <Button HeightRequest="45" Margin="10,10,10,30" Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand"/>
+                
+        </Grid>
+        </ScrollView> 
+      
     </ContentPage.Content>
 </ContentPage>
