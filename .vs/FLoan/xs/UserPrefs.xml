@@ -1,30 +1,30 @@
 ﻿<Properties StartupConfiguration="{8010AA38-70A5-45FF-AE21-CD868D4ECFA8}|Default">
   <MonoDevelop.Ide.ItemProperties.FLoan.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.ItemProperties.FLoan.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F6F9C05E-811C-409D-9633-4444D9A4BCA9" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan.iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan/ViewModels/BaseViewModel.cs">
     <Files>
       <File FileName="FLoan/Views/HomePage.xaml.cs" Line="152" Column="29" />
       <File FileName="FLoan/Views/FMasterDetailsPage.xaml" />
-      <File FileName="FLoan/Views/FMasterDetailsPage.xaml.cs" Line="45" Column="31" />
+      <File FileName="FLoan/Views/FMasterDetailsPage.xaml.cs" Line="50" Column="1" />
       <File FileName="FLoan/Views/PersonalDetailsPage.xaml" />
-      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="34" Column="43" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="31" Column="18" />
       <File FileName="FLoan.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="FLoan/Services/IDataStore.cs" Line="7" Column="29" />
+      <File FileName="FLoan/Services/MockDataStore.cs" Line="13" Column="16" />
+      <File FileName="FLoan/ViewModels/BaseViewModel.cs" Line="15" Column="68" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FLoan" expanded="True">
             <Node name="FLoan" expanded="True">
-              <Node name="Okta" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="BaseViewModel.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="FMasterDetailsPage.xaml" expanded="True" />
-                <Node name="HomePage.xaml" expanded="True" />
                 <Node name="PersonalDetailsPage.xaml" expanded="True" />
               </Node>
-            </Node>
-            <Node name="FLoan.iOS" expanded="True">
-              <Node name="Main.cs" selected="True" />
             </Node>
           </Node>
         </State>
