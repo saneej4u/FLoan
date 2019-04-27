@@ -1,24 +1,47 @@
 ﻿<Properties StartupConfiguration="{8010AA38-70A5-45FF-AE21-CD868D4ECFA8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan Status">
+  <MonoDevelop.Ide.ItemProperties.FLoan.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.FLoan.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F6F9C05E-811C-409D-9633-4444D9A4BCA9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan.iOS/Main.cs">
     <Files>
-      <File FileName="FLoan/Views/PersonalDetailsPage.xaml" Line="10" Column="24" />
-      <File FileName="FLoan/Views/HomePage.xaml" Line="139" Column="271" />
-      <File FileName="FLoan/Views/ApplicationStartPage.xaml" Line="160" Column="1" />
+      <File FileName="FLoan/Views/HomePage.xaml.cs" Line="152" Column="29" />
+      <File FileName="FLoan/Views/FMasterDetailsPage.xaml" />
+      <File FileName="FLoan/Views/FMasterDetailsPage.xaml.cs" Line="45" Column="31" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="34" Column="43" />
       <File FileName="FLoan.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="FLoan/Views/AddressDetailsPage.xaml" Line="42" Column="26" />
-      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="15" Column="46" />
-      <File FileName="FLoan/Views/AgreementDetailsPage.xaml" Line="138" Column="1" />
-      <File FileName="FLoan Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FLoan" expanded="True">
+            <Node name="FLoan" expanded="True">
+              <Node name="Okta" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="FMasterDetailsPage.xaml" expanded="True" />
+                <Node name="HomePage.xaml" expanded="True" />
+                <Node name="PersonalDetailsPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="FLoan.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Views/HomePage.xaml" relfile="FLoan/Views/HomePage.xaml" line="103" column="22" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan.iOS/AppDelegate.cs" relfile="FLoan.iOS/AppDelegate.cs" line="43" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Models/OAuth2AuthenticatorEx.cs" relfile="FLoan/Models/OAuth2AuthenticatorEx.cs" line="48" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Models/OAuth2AuthenticatorEx.cs" relfile="FLoan/Models/OAuth2AuthenticatorEx.cs" line="24" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Models/OAuth2AuthenticatorEx.cs" relfile="FLoan/Models/OAuth2AuthenticatorEx.cs" line="34" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Models/OAuth2AuthenticatorEx.cs" relfile="FLoan/Models/OAuth2AuthenticatorEx.cs" line="39" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Views/HomePage.xaml.cs" relfile="FLoan/Views/HomePage.xaml.cs" line="96" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FLoan.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B371FBE1-8056-4789-A8B9-209264EFE83D" />
-  <MonoDevelop.Ide.ItemProperties.FLoan.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MultiItemStartupConfigurations />
 </Properties>

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="FLoan.Views.PersonalDetailsPage"
-             xmlns:view="clr-namespace:FLoan.Views" BackgroundColor="{StaticResource MonzaColor}" Title="Personal Details" NavigationPage.BackButtonTitle="Back" >
+             xmlns:view="clr-namespace:FLoan.Views"  Title="Personal Details" BackgroundColor="{StaticResource MonzaColor}"  NavigationPage.BackButtonTitle="Back" >
     <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
                     <On Platform="iOS, Android" Value="0,30,0,0" />
@@ -31,16 +31,28 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             
-            <Picker HeightRequest="45" Margin="10" Grid.Row="0" Grid.Column="1"/>
             
-            <Entry HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="First name"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Surname"/>
-            <DatePicker HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" />
-            <Entry HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Email Address"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Mobile"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Password"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Confirm Password"/>
-              <Label Grid.Row="8" Margin="10" Grid.Column="1" Grid.ColumnSpan="2"  TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
+                
+                <Picker x:Name="picker" Title="Title" HeightRequest="45" Margin="10" Grid.Row="0" Grid.Column="1">
+                  <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                      <x:String>Mr</x:String>
+                      <x:String>Mrs</x:String>
+                      <x:String>Miss</x:String>
+                      <x:String>Doctor</x:String>
+                    </x:Array>
+                  </Picker.ItemsSource>
+                </Picker>
+                
+            
+            <Entry x:Name="FirstNameEntry" HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="First name"/>
+            <Entry x:Name="SurnameEntry" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Surname"/>
+            <DatePicker x:Name="DateOfBirthDatePicker" HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" />
+            <Entry x:Name="EmailEntry" HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Email Address"/>
+            <Entry x:Name="MobileEntry" HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Mobile"/>
+            <Entry x:Name="PasswordEntry" HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Password"/>
+            <Entry x:Name="ConfirmPasswordEntry" HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Confirm Password"/>
+            <Label Grid.Row="8" Margin="10" Grid.Column="1" Grid.ColumnSpan="2"  TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
                    
             <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GoToAddressDetailsButton_Clicked" />
           

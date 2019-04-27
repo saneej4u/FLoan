@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLoan.iOS", "FLoan.iOS\FLoa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLoan", "FLoan\FLoan.csproj", "{FE63FA7F-2157-4D88-AFC0-E60E049B11E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLoan.Helper", "FLoan.Helper\FLoan.Helper.csproj", "{167FB2F9-047F-4204-A0C3-85DF48F19CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,5 +55,17 @@ Global
 		{FE63FA7F-2157-4D88-AFC0-E60E049B11E2}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{FE63FA7F-2157-4D88-AFC0-E60E049B11E2}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{FE63FA7F-2157-4D88-AFC0-E60E049B11E2}.Release|iPhone.Build.0 = Release|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{167FB2F9-047F-4204-A0C3-85DF48F19CC4}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

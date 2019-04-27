@@ -30,7 +30,7 @@
                       <Entry Margin="20,0" IsPassword="True" Placeholder="Password" HeightRequest="50"></Entry>
                 </StackLayout>
 
-                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.57,1, 55" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
+                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.59,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
 
                     <Button BorderRadius="25" Margin="20, 5,20,5" HeightRequest="55" Text="Sign In" Clicked="LogInButton_Clicked" BackgroundColor="{StaticResource PinkColor}" FontSize="Medium" TextColor="White" />
                     

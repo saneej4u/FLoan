@@ -11,5 +11,10 @@ namespace FLoan.Views
         {
             InitializeComponent();
         }
+
+        void GotToIncomeDetails(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new IncomeDetailsPage());
+        }
     }
 }

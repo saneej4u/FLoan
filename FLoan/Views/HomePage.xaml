@@ -59,7 +59,7 @@
     <ContentPage BackgroundColor="{StaticResource MonzaColor}" >
       <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                    <On Platform="iOS, Android" Value="0,20,0,0" />
                   </OnPlatform>
                 </ContentPage.Padding>
     
@@ -77,21 +77,20 @@
     
         
         
-            <controls:CarouselViewControl Margin="20" Grid.Row="0"  x:Name="carouselPl"
+            <controls:CarouselViewControl Grid.Row="0"  x:Name="carouselPl"
         ItemsSource="{Binding MyItemsSource}"
-        ShowArrows="true"
         ShowIndicators="true"
         PositionSelectedCommand="{Binding MyCommand}"
         PositionSelected="Handle_PositionSelected"
         Scrolled="Handle_Scrolled"
-        Orientation="Horizontal">
+        Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
 
        
     </controls:CarouselViewControl>
                
        
-            <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
-                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
+            <StackLayout Grid.Row="1"  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet,  tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
                 <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
                 
             </StackLayout>
@@ -104,7 +103,7 @@
     <ContentPage BackgroundColor="{StaticResource MonzaColor}" >
       <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                    <On Platform="iOS, Android" Value="0,20,0,0" />
                   </OnPlatform>
                 </ContentPage.Padding>
     
@@ -114,33 +113,23 @@
             
             <Grid.RowDefinitions>
                 
-                <RowDefinition Height="600"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             
              
-    
-        <!--
-        
-            <controls:CarouselViewControl Margin="20" Grid.Row="0"  x:Name="carousel"
-        ItemsSource="{Binding MyItemsSource}"
-        ShowArrows="true"
-        ShowIndicators="true"
-        PositionSelectedCommand="{Binding MyCommand}"
-        PositionSelected="Handle_PositionSelected"
-        Scrolled="Handle_Scrolled"
-        Orientation="Horizontal">
 
-       
-    </controls:CarouselViewControl>-->
                 
        
-            <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
-                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
-               
-                    <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
-                
+            <StackLayout Grid.Row="0"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. "/>
+   
             </StackLayout>
+                <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                     <Button BorderRadius="25"  Margin="20,10,20,50" HeightRequest="50" Text="Ok" Clicked="HowItWorkedButtonLast_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                
+                </StackLayout>
+                
         </Grid>
         
     

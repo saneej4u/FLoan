@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Net.Http;
+using Okta.Sdk;
+using Okta.Sdk.Configuration;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace FLoan.Views
@@ -35,9 +38,21 @@ namespace FLoan.Views
             IsPresented = false;
         }
 
-        void LogoutMenuButton_Clicked(object sender, System.EventArgs e)
+        async void LogoutMenuButton_Clicked(object sender, System.EventArgs e)
         {
-            Application.Current.MainPage = new HomePage();
+            HttpClient httpClient = new HttpClient();
+
+            var idToken = await SecureStorage.GetAsync("idToken");
+
+            string baseUrl = "https://dev-655815.okta.com/oauth2/default/v1/logout?id_token_hint=";
+
+            string token = idToken;
+
+            var uri = new Uri(string.Format("{0}{1}", baseUrl, token));
+
+            var response = await httpClient.GetAsync(uri);
+
+            Xamarin.Forms.Application.Current.MainPage = new HomePage();
         }
     }
 }

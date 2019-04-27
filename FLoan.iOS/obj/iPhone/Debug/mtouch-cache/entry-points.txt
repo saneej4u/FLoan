@@ -1,0 +1,71 @@
+Function=xamarin_timezone_get_data
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationView
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimatedControl
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimatedSwitch
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationCache
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTAnimationTransitionController
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTCacheProvider
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTColorBlockCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTColorValueCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTComposition
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTFloatInterpolatorCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTKeypath
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTNumberBlockCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTNumberValueCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPathBlockCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPathValueCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointBlockCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointInterpolatorCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTPointValueCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeBlockCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeInterpolatorCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_LOTSizeValueCallback
+	/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhone/Debug/mtouch-cache/1-Link/Lottie.iOS.dll
+Function=mono_pmip

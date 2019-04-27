@@ -32,14 +32,7 @@
 
 
 
-            <StackLayout HeightRequest="250" BackgroundColor="{StaticResource MonzaColor}">
-               <!-- <Image Source="icons8-multiply-filled-50.png" Margin="0,40,0,0" HorizontalOptions="End" VerticalOptions="Start" >
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer
-                            Tapped="CloseStartBackButton_Clicked"
-                            NumberOfTapsRequired="1" />
-                    </Image.GestureRecognizers>
-                </Image>-->
+            <StackLayout HeightRequest="200" BackgroundColor="{StaticResource MonzaColor}">
                 <Label Text="9" FontAttributes="Bold" FontSize="40" VerticalOptions="EndAndExpand" HorizontalOptions="Center" TextColor="White"></Label>
                 <Label   Text="monthly repayment of" FontSize="Small" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
                 <Label   Text="£500" FontAttributes="Bold" FontSize="40" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" />
@@ -115,6 +108,7 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="75" />
                         <RowDefinition Height="75" />
+                          <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"></ColumnDefinition>
@@ -142,14 +136,14 @@
                         <Label Text="39.9%" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
                     </StackLayout>
 
-
+                    
+                    <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" Padding="5">
+                        <Button BorderRadius="25" Margin="0,10,0,40" HeightRequest="55" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Large" ></Button>
+                    </StackLayout>
 
                 </Grid>
             </StackLayout>
-
-            <StackLayout Grid.Row="3" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Padding="5">
-                <Button BorderRadius="25" Margin="10,10,10,40" HeightRequest="55" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Large" ></Button>
-            </StackLayout>
+            
 
         </Grid>
 

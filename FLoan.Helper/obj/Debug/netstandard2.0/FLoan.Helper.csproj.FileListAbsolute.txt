@@ -1,0 +1,9 @@
+/Users/saneej/Projects/FLoan/FLoan.Helper/bin/Debug/netstandard2.0/FLoan.Helper.deps.json
+/Users/saneej/Projects/FLoan/FLoan.Helper/bin/Debug/netstandard2.0/FLoan.Helper.dll
+/Users/saneej/Projects/FLoan/FLoan.Helper/bin/Debug/netstandard2.0/FLoan.Helper.pdb
+/Users/saneej/Projects/FLoan/FLoan.Helper/obj/Debug/netstandard2.0/FLoan.Helper.csprojAssemblyReference.cache
+/Users/saneej/Projects/FLoan/FLoan.Helper/obj/Debug/netstandard2.0/FLoan.Helper.csproj.CoreCompileInputs.cache
+/Users/saneej/Projects/FLoan/FLoan.Helper/obj/Debug/netstandard2.0/FLoan.Helper.AssemblyInfoInputs.cache
+/Users/saneej/Projects/FLoan/FLoan.Helper/obj/Debug/netstandard2.0/FLoan.Helper.AssemblyInfo.cs
+/Users/saneej/Projects/FLoan/FLoan.Helper/obj/Debug/netstandard2.0/FLoan.Helper.dll
+/Users/saneej/Projects/FLoan/FLoan.Helper/obj/Debug/netstandard2.0/FLoan.Helper.pdb

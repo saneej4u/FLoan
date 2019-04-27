@@ -7,7 +7,7 @@
              x:Class="FLoan.Views.HowItWorksPage" BackgroundColor="{StaticResource MonzaColor}" >
       <ContentPage.Padding>
                   <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,40,0,0" />
+                    <On Platform="iOS, Android" Value="0,20,0,0" />
                   </OnPlatform>
                 </ContentPage.Padding>
     
@@ -17,15 +17,15 @@
             
             <Grid.RowDefinitions>
                 
-                <RowDefinition Height="600"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             
              
     
         
         
-            <controls:CarouselViewControl Margin="20" Grid.Row="0"  x:Name="carousel"
+            <controls:CarouselViewControl Grid.Row="0"  x:Name="carousel"
         ItemsSource="{Binding MyItemsSource}"
         ShowArrows="true"
         ShowIndicators="true"
@@ -38,9 +38,9 @@
     </controls:CarouselViewControl>
                 
        
-            <StackLayout Grid.Row="1" Margin="20"  HorizontalOptions="CenterAndExpand">
+            <StackLayout BackgroundColor="Red" Grid.Row="1"  HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
                 <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
-                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                <Button BorderRadius="25"  Margin="10,10,10,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
                 
             </StackLayout>
         </Grid>

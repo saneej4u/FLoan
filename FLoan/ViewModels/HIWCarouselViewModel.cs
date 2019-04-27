@@ -28,9 +28,9 @@ namespace FLoan.ViewModels
         {
             MyItemsSource = new ObservableCollection<View>()
             {
-                new CachedImage() { Source = "https://loremflickr.com/cache/resized/4740_26572102378_d2d848d903_b_600_600_nofilter.jpg", DownsampleToViewSize = true, Aspect = Aspect.AspectFill },
-                new CachedImage() { Source = "https://loremflickr.com/cache/resized/1925_30973026338_f80b150c0b_320_240_nofilter.jpg", DownsampleToViewSize = true, Aspect = Aspect.AspectFill },
-                new CachedImage() { Source = "https://loremflickr.com/cache/resized/4740_26572102378_d2d848d903_b_600_600_nofilter.jpg", DownsampleToViewSize = true, Aspect = Aspect.AspectFill }
+                new CachedImage() { Source = "xamarin_logo.png", DownsampleToViewSize = true, Aspect = Aspect.AspectFit},
+                new CachedImage() { Source = "img-c1t.png", DownsampleToViewSize = true, Aspect = Aspect.AspectFit },
+                new CachedImage() { Source = "img-c2t.png", DownsampleToViewSize = true, Aspect = Aspect.AspectFit }
            
             };
         }
