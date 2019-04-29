@@ -33,7 +33,7 @@
             
             
                 
-                <Picker x:Name="picker" Title="Title" HeightRequest="45" Margin="10" Grid.Row="0" Grid.Column="1">
+                <Picker x:Name="TitlePicker" Title="Title" HeightRequest="45" Margin="10" Grid.Row="0" Grid.Column="1">
                   <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                       <x:String>Mr</x:String>

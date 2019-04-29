@@ -1,20 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="FLoan.Views.IncomeDetailsPage"
-            xmlns:view="clr-namespace:FLoan.Views" >
+             x:Class="FLoan.Views.IncomeDetailsPage" 
+             xmlns:view="clr-namespace:FLoan.Views"
+             Title="Income and Expenditure" 
+             BackgroundColor="{StaticResource MonzaColor}" 
+             NavigationPage.BackButtonTitle="Back">
     <ContentPage.Padding>
-                  <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,40,0,0" />
-                  </OnPlatform>
-                </ContentPage.Padding>
-    
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS, Android" Value="0,40,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
     <ContentPage.Content>
-        
-        
-        
-        <StackLayout>
+        <ScrollView>
+            <Grid Padding="5,0,5,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                       <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Margin="10" Grid.Column="1" Grid.ColumnSpan="2" TextColor="White" Text="Please enter your income details. " />
+                <Entry x:Name="MonthlyEntry" HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Monthly income" />
+                <Entry x:Name="OtherIncomeEntry" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Other income" />
+                
+                <Entry x:Name="MortgageEntry" HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Mortgage or rent" />
             
-            <Label Text="Welcome to Income details"></Label>
-        </StackLayout>
+                <Entry x:Name="CreditBillsEntry" HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Credit card bills" />
+                <Entry x:Name="HouseholdExpenseEntry" HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Household expense" />
+               <!-- <Switch x:Name="GiveMeLoanEntry" HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Do you know saneej?" />
+               -->     
+                <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Text="Apply" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand" Clicked="GotToReviewLoanOffer" />
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

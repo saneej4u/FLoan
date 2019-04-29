@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="FLoan.Views.BankDetailsPage"
-             xmlns:view="clr-namespace:FLoan.Views" Title="Bank Details" BackgroundColor="{StaticResource MonzaColor}" NavigationPage.BackButtonTitle="Back" >
-     <ContentPage.Padding>
-                  <OnPlatform x:TypeArguments="Thickness">
-                    <On Platform="iOS, Android" Value="0,30,0,0" />
-                  </OnPlatform>
-                </ContentPage.Padding> 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="FLoan.Views.BankDetailsPage" 
+             xmlns:view="clr-namespace:FLoan.Views" 
+             Title="Bank Details" 
+             BackgroundColor="{StaticResource MonzaColor}" 
+             NavigationPage.BackButtonTitle="Back">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS, Android" Value="0,30,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
     <ContentPage.Content>
-        
-        
-       <ScrollView>
-            
-             <Grid Padding="5,0,5,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>    
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-               
-            
-                <RowDefinition Height="*"/>               
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-       
-            <Label Grid.Row="0" Margin="10" Grid.Column="1" Grid.ColumnSpan="2"  TextColor="White" Text="Please enter your bank details. "/>
-             
-            <Entry HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Card holder name"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Sort code"/>
-      
-            <Entry HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Account number"/>
-
-              
-            <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GotToIncomeDetails"/>
-          
-        </Grid>
-        </ScrollView> 
-      
+        <ScrollView>
+            <Grid Padding="5,0,5,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Margin="10" Grid.Column="1" Grid.ColumnSpan="2" TextColor="White" Text="Please enter your bank details. " />
+                <Entry x:Name="AccountHolderNameEntry" HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Card holder name" />
+                <Entry x:Name="SortcodeEntry" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Sort code" />
+                <Entry x:Name="AccountNumberEntry" HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Account number" />
+                <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand" Clicked="GotToIncomeDetails" />
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

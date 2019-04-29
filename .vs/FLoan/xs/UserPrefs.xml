@@ -1,30 +1,30 @@
 ﻿<Properties StartupConfiguration="{8010AA38-70A5-45FF-AE21-CD868D4ECFA8}|Default">
   <MonoDevelop.Ide.ItemProperties.FLoan.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
   <MonoDevelop.Ide.ItemProperties.FLoan.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F6F9C05E-811C-409D-9633-4444D9A4BCA9" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan/ViewModels/BaseViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FLoan.iOS/Main.cs">
     <Files>
-      <File FileName="FLoan/Views/HomePage.xaml.cs" Line="152" Column="29" />
-      <File FileName="FLoan/Views/FMasterDetailsPage.xaml" />
-      <File FileName="FLoan/Views/FMasterDetailsPage.xaml.cs" Line="50" Column="1" />
-      <File FileName="FLoan/Views/PersonalDetailsPage.xaml" />
-      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="31" Column="18" />
+      <File FileName="FLoan/Views/IncomeDetailsPage.xaml" />
+      <File FileName="FLoan/Views/BankDetailsPage.xaml" />
+      <File FileName="FLoan/Views/PersonalDetailsPage.xaml.cs" Line="86" Column="1" />
+      <File FileName="FLoan/Views/AddressDetailsPage.xaml.cs" Line="35" Column="47" />
+      <File FileName="../FLoan.System/FLoan.System.Web.API/Controllers/AgreementController.cs" Line="79" Column="26" />
+      <File FileName="FLoan/Views/ReviewLoanOfferPage.xaml" />
+      <File FileName="FLoan/Views/IncomeDetailsPage.xaml.cs" Line="68" Column="1" />
       <File FileName="FLoan.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="FLoan/Services/IDataStore.cs" Line="7" Column="29" />
-      <File FileName="FLoan/Services/MockDataStore.cs" Line="13" Column="16" />
-      <File FileName="FLoan/ViewModels/BaseViewModel.cs" Line="15" Column="68" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FLoan" expanded="True">
             <Node name="FLoan" expanded="True">
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="BaseViewModel.cs" selected="True" />
-              </Node>
               <Node name="Views" expanded="True">
+                <Node name="AddressDetailsPage.xaml" expanded="True" />
+                <Node name="IncomeDetailsPage.xaml" expanded="True" />
                 <Node name="PersonalDetailsPage.xaml" expanded="True" />
               </Node>
+            </Node>
+            <Node name="FLoan.iOS" expanded="True">
+              <Node name="Main.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -41,6 +41,8 @@
       <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Models/OAuth2AuthenticatorEx.cs" relfile="FLoan/Models/OAuth2AuthenticatorEx.cs" line="34" column="1" />
       <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Models/OAuth2AuthenticatorEx.cs" relfile="FLoan/Models/OAuth2AuthenticatorEx.cs" line="39" column="1" />
       <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Views/HomePage.xaml.cs" relfile="FLoan/Views/HomePage.xaml.cs" line="96" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Views/PersonalDetailsPage.xaml.cs" relfile="FLoan/Views/PersonalDetailsPage.xaml.cs" line="86" column="1" />
+      <Breakpoint file="/Users/saneej/Projects/FLoan/FLoan/Views/AddressDetailsPage.xaml.cs" relfile="FLoan/Views/AddressDetailsPage.xaml.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

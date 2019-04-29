@@ -33,15 +33,14 @@
        
             <Label Grid.Row="0" Margin="10" Grid.Column="1" Grid.ColumnSpan="2"  TextColor="White" Text="Please enter your current address. "/>
              
-            <Entry HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="House/Flat Number"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Address line 1"/>
+            <Entry x:Name="HouseNumberEntry" HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="House/Flat Number"/>
+            <Entry x:Name="AddressLine1Entry" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Address line 1"/>
       
-            <Entry HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Address line 2"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Street"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Town/City"/>
-            <Entry HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="County"/>
-               <Entry HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="Postcode"/>
-                 <Entry HeightRequest="45" Margin="10" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Country"/>
+            <Entry x:Name="AddressLine2Entry"  HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Address line 2"/>
+            <Entry x:Name="StreetEntry" HeightRequest="45" Margin="10" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Street"/>
+            <Entry x:Name="TownEntry" HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Town/City"/>
+            <Entry x:Name="PostCodeEntry" HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="Postcode"/>
+
               
             <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GotBankDetailsPage_Clicked"/>
           

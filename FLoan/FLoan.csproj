@@ -91,5 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Okta\" />
+    <Folder Include="Dto\" />
   </ItemGroup>
 </Project>

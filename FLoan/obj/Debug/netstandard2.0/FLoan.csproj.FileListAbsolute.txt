@@ -52,9 +52,11 @@ C:/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.csprojAssemblyReference.c
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/Views/NewItemPage.xaml.g.cs
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/Views/PersonalDetailsPage.xaml.g.cs
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/Views/ResolutionPage.xaml.g.cs
+/Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/Views/ReviewLoanOfferPage.xaml.g.cs
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.csproj.CoreCompileInputs.cache
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.AssemblyInfoInputs.cache
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.AssemblyInfo.cs
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.dll
 /Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.pdb
+/Users/saneej/Projects/FLoan/FLoan/obj/Debug/netstandard2.0/FLoan.csprojAssemblyReference.cache
