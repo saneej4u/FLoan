@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "Xamarin.Forms.Xaml.dll"
 	.asciz ""
 
@@ -765,7 +765,7 @@ ldr x0, [x16, #288]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #296]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -1086,7 +1086,7 @@ ldr x0, [x16, #288]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #296]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -1222,7 +1222,7 @@ bl _p_12
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -1773,7 +1773,7 @@ ldr x0, [x16, #288]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #296]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -2669,7 +2669,7 @@ ldr x0, [x16, #288]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #296]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -3128,7 +3128,7 @@ bl _p_23
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #296]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -3833,13 +3833,13 @@ bl _p_41
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -4951,7 +4951,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -5162,7 +5162,7 @@ ldr x15, [x16, #840]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #848]
-.word 0x92800df0
+.word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -5226,7 +5226,7 @@ ldr x1, [x16, #856]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #848]
-.word 0x92800df0
+.word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -5282,10 +5282,10 @@ ldr x1, [x16, #408]
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -5840,7 +5840,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -6095,7 +6095,7 @@ bl _p_78
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -6815,7 +6815,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d57bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -7666,7 +7666,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -8926,13 +8926,13 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -9635,13 +9635,13 @@ bl _p_36
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -10709,13 +10709,13 @@ bl _p_36
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -11036,7 +11036,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -11190,7 +11190,7 @@ ldr x15, [x16, #1520]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -11646,10 +11646,10 @@ bl _p_36
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -11830,7 +11830,7 @@ bl _p_125
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -13248,7 +13248,7 @@ bl _p_115
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -14116,7 +14116,7 @@ bl _p_6
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -16764,13 +16764,13 @@ bl _p_182
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -16975,7 +16975,7 @@ bl _p_182
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -17566,13 +17566,13 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -17768,7 +17768,7 @@ bl _p_190
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -18499,9 +18499,9 @@ bl _p_162
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94093a1
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
-.word 0xd28020c0
+.word 0xd2802100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -18535,13 +18535,13 @@ bl _p_36
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -18958,7 +18958,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -19684,13 +19684,13 @@ bl _p_96
 .word 0x910003bf
 .word 0xa8d87bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -21118,7 +21118,7 @@ bl _p_215
 .word 0x910003bf
 .word 0xa8d47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -21448,7 +21448,7 @@ bl _p_217
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -21597,7 +21597,7 @@ bl _p_218
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -21904,7 +21904,7 @@ bl _p_217
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -22053,7 +22053,7 @@ bl _p_218
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -22360,7 +22360,7 @@ bl _p_217
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -22509,7 +22509,7 @@ bl _p_218
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -23206,7 +23206,7 @@ bl _p_36
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -23826,7 +23826,7 @@ ldr x0, [x16, #3632]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #296]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -24084,7 +24084,7 @@ ldr x15, [x16, #1808]
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -24352,9 +24352,9 @@ ldr x0, [x16, #0]
 .word 0xd280f4e1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -24381,9 +24381,9 @@ bl _p_229
 .word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -24465,9 +24465,9 @@ ldr x0, [x16, #0]
 .word 0xd280fc21
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -24555,7 +24555,7 @@ bl _p_234
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -25480,9 +25480,9 @@ bl _p_66
 .word 0xf949da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -25729,7 +25729,7 @@ bl _p_240
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -26622,7 +26622,7 @@ bl _p_148
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -27417,7 +27417,7 @@ bl _p_148
 .word 0x910003bf
 .word 0xa8d47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -27980,7 +27980,7 @@ bl _p_27
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -28486,7 +28486,7 @@ bl _p_248
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -28516,7 +28516,7 @@ bl _p_249
 .word 0xf9003fa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -28553,7 +28553,7 @@ bl _p_250
 .word 0xf9401fa1
 .word 0xf94023a2
 .word 0xf9400323
-.word 0x92800ff0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -28779,9 +28779,9 @@ ldr x0, [x16, #0]
 .word 0xd280f4e1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -28896,9 +28896,9 @@ ldr x0, [x16, #0]
 .word 0xd280fc21
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -28985,7 +28985,7 @@ ldr x15, [x16, #48]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -29424,7 +29424,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -29857,7 +29857,7 @@ bl _p_240
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -30388,9 +30388,9 @@ ldr x0, [x16, #0]
 .word 0xd28118e1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -30447,9 +30447,9 @@ ldr x0, [x16, #0]
 .word 0xd2811fa1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -30799,7 +30799,7 @@ bl _p_258
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -32355,9 +32355,9 @@ ldr x0, [x16, #0]
 .word 0xd28144e1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -35639,9 +35639,9 @@ ldr x0, [x16, #0]
 .word 0xd28171c1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -35967,7 +35967,7 @@ bl _p_101
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -37707,9 +37707,9 @@ ldr x0, [x16, #0]
 .word 0xd28171c1
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -38035,7 +38035,7 @@ bl _p_101
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -39243,7 +39243,7 @@ ldr x15, [x16, #1296]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #1304]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -39270,7 +39270,7 @@ ldr x15, [x16, #1304]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #1312]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -40602,7 +40602,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d57bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -41369,7 +41369,7 @@ ldr x15, [x16, #1296]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #1304]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -41396,7 +41396,7 @@ ldr x15, [x16, #1304]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #1312]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -42495,7 +42495,7 @@ bl _p_36
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -44596,9 +44596,9 @@ ldr x0, [x16, #0]
 .word 0xd2821981
 bl _p_161
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -47549,7 +47549,7 @@ bl _p_179
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -48915,7 +48915,7 @@ bl _p_381
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -49276,7 +49276,7 @@ bl _p_382
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9406030
+.word 0xf9406430
 .word 0xd63f0200
 .word 0xf9006fa0
 .word 0xf94033b1
@@ -49447,7 +49447,7 @@ bl _p_41
 .word 0xaa1903e0
 .word 0xaa1603e1
 .word 0xf9400322
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0xf9006ba0
 .word 0xf94033b1
@@ -49734,7 +49734,7 @@ bl _p_382
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9406030
+.word 0xf9406430
 .word 0xd63f0200
 .word 0xf9005fa0
 .word 0xf9402fb1
@@ -49873,7 +49873,7 @@ bl _p_41
 .word 0xaa1903e0
 .word 0xaa1603e1
 .word 0xf9400322
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0xf9005ba0
 .word 0xf9402fb1
@@ -50864,7 +50864,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -52058,13 +52058,13 @@ ldr x15, [x16, #24]
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -52682,13 +52682,13 @@ ldr x15, [x16, #24]
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -53040,7 +53040,7 @@ bl _p_148
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -53225,7 +53225,7 @@ bl _p_416
 .word 0xaa1803e0
 .word 0xaa1703e1
 .word 0xf9400302
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0xf9005ba0
 .word 0xf9402bb1
@@ -53394,7 +53394,7 @@ bl _p_382
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf9406030
+.word 0xf9406430
 .word 0xd63f0200
 .word 0xf9005ba0
 .word 0xf9402bb1
@@ -53605,7 +53605,7 @@ bl _p_71
 .word 0xaa1903e0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9405830
+.word 0xf9405c30
 .word 0xd63f0200
 .word 0xf90057a0
 .word 0xf9402bb1
@@ -53932,7 +53932,7 @@ bl _p_418
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -53973,7 +53973,7 @@ ldr x16, [x16, #2592]
 .word 0xf94017a1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9405450
+.word 0xf9405850
 .word 0xd63f0200
 .word 0xf90047a0
 .word 0xf9401fb1
@@ -54210,7 +54210,7 @@ ldr x16, [x16, #2600]
 .word 0xf9401fa1
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf94027b1
@@ -61573,7 +61573,7 @@ bl _p_241
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -62984,10 +62984,10 @@ bl _p_41
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -63193,7 +63193,7 @@ bl _p_461
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3544]
-.word 0x92800ff0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -64170,7 +64170,7 @@ bl _p_464
 .word 0x910003bf
 .word 0xa8de7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -64240,7 +64240,7 @@ bl _p_366
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3624]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -64269,7 +64269,7 @@ ldr x15, [x16, #3624]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3632]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -65158,7 +65158,7 @@ bl _p_228
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -65349,7 +65349,7 @@ bl _p_470
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3712]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -65376,7 +65376,7 @@ ldr x15, [x16, #3712]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3720]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -65417,7 +65417,7 @@ ldr x0, [x16, #3696]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3736]
-.word 0x92800ff0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -65448,7 +65448,7 @@ bl _p_471
 .word 0xaa1803e0
 .word 0xaa1803e0
 .word 0xf9400301
-.word 0xf9409030
+.word 0xf9409430
 .word 0xd63f0200
 .word 0xf90053a0
 .word 0xf9402bb1
@@ -65554,10 +65554,10 @@ ldr x15, [x16, #24]
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -65802,7 +65802,7 @@ ldr x0, [x16, #3696]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3760]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -65829,7 +65829,7 @@ ldr x15, [x16, #3760]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+4096
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3768]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -66020,7 +66020,7 @@ bl _p_479
 .word 0xf9400c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9409030
+.word 0xf9409430
 .word 0xd63f0200
 .word 0xf900f3a0
 .word 0xf9403bb1
@@ -66960,7 +66960,7 @@ ldr x2, [x16, #16]
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2800e80
@@ -67715,7 +67715,7 @@ bl _p_115
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -69421,7 +69421,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -69682,7 +69682,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -70516,7 +70516,7 @@ ldr x1, [x16, #208]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -70647,7 +70647,7 @@ ldr x1, [x16, #3792]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -70778,7 +70778,7 @@ ldr x1, [x16, #1600]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -70909,7 +70909,7 @@ ldr x1, [x16, #3760]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -71040,7 +71040,7 @@ ldr x1, [x16, #288]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -71171,7 +71171,7 @@ ldr x1, [x16, #320]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -72249,9 +72249,9 @@ ldr x16, [x16, #448]
 .word 0xf9403231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -72679,7 +72679,7 @@ ldr x16, [x16, #504]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -72910,7 +72910,7 @@ ldr x15, [x16, #1288]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -73712,7 +73712,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -74332,9 +74332,9 @@ ldr x16, [x16, #648]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -74442,9 +74442,9 @@ ldr x16, [x16, #664]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -74653,7 +74653,7 @@ ldr x16, [x16, #696]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -74954,7 +74954,7 @@ bl _p_382
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9406030
+.word 0xf9406430
 .word 0xd63f0200
 .word 0xf9006fa0
 .word 0xf94037b1
@@ -75177,7 +75177,7 @@ bl _p_41
 .word 0xaa0203e0
 .word 0xaa1303e1
 .word 0xf9400042
-.word 0xf9407850
+.word 0xf9407c50
 .word 0xd63f0200
 .word 0xf9006ba0
 .word 0xf94037b1
@@ -75785,7 +75785,7 @@ ldr x16, [x16, #736]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -75814,7 +75814,7 @@ ldr x15, [x16, #744]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -75859,7 +75859,7 @@ ldr x15, [x16, #752]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #760]
-.word 0x92800ff0
+.word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -75944,7 +75944,7 @@ b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 36 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 36 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 36 232 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -76204,13 +76204,13 @@ ldr x16, [x16, #792]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -76232,13 +76232,13 @@ bl _p_41
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -76685,13 +76685,13 @@ ldr x16, [x16, #840]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d76a0
-.word 0xd28d76a0
+.word 0xd28d9ac0
+.word 0xd28d9ac0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -76733,13 +76733,13 @@ ldr x16, [x16, #848]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -76781,13 +76781,13 @@ ldr x16, [x16, #856]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -76855,8 +76855,8 @@ ldr x16, [x16, #864]
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90053a0
@@ -76865,9 +76865,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -77402,13 +77402,13 @@ ldr x16, [x16, #912]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -77430,13 +77430,13 @@ bl _p_41
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -77906,7 +77906,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -78059,7 +78059,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -78250,7 +78250,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -78398,13 +78398,13 @@ ldr x16, [x16, #1008]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -78446,13 +78446,13 @@ ldr x16, [x16, #1016]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -78517,8 +78517,8 @@ ldr x16, [x16, #1024]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90033a0
@@ -78527,9 +78527,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -78875,7 +78875,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -79005,7 +79005,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -79151,7 +79151,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -79420,13 +79420,13 @@ ldr x16, [x16, #1088]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -79448,13 +79448,13 @@ bl _p_41
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -79820,7 +79820,7 @@ b System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_F
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 37 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
+.file 37 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/KeyValuePair.cs"
 .loc 37 61 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -80137,7 +80137,7 @@ Lme_26b:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_Xamarin_Forms_Xaml_XmlName_get_Default
 System_Collections_Generic_EqualityComparer_1_Xamarin_Forms_Xaml_XmlName_get_Default:
-.file 38 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 38 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 38 34 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -80845,10 +80845,10 @@ bl _p_584
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -80993,7 +80993,7 @@ ldr x16, [x16, #1352]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -81139,7 +81139,7 @@ ldr x16, [x16, #1360]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -81270,7 +81270,7 @@ bl _p_585
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -81471,7 +81471,7 @@ bl _p_585
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_18
 
@@ -81512,7 +81512,7 @@ Lme_274:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_Dictionary_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Collections_Generic_Dictionary_2_KeyCollection_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_Dictionary_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 39 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
+.file 39 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/Dictionary.cs"
 .loc 39 1291 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -81970,7 +81970,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -83034,7 +83034,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -83536,7 +83536,7 @@ bl _p_585
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -84525,7 +84525,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -84757,7 +84757,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -84887,7 +84887,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -85227,7 +85227,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -86275,7 +86275,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -86309,13 +86309,13 @@ ldr x16, [x16, #1760]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -86357,13 +86357,13 @@ ldr x16, [x16, #1768]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -86431,8 +86431,8 @@ ldr x16, [x16, #1776]
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90053a0
@@ -86441,9 +86441,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -86745,13 +86745,13 @@ ldr x16, [x16, #1808]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -86792,13 +86792,13 @@ ldr x16, [x16, #1816]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -86868,8 +86868,8 @@ ldr x16, [x16, #1824]
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90073a0
@@ -86878,9 +86878,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -87608,7 +87608,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -87748,7 +87748,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -87878,7 +87878,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88008,7 +88008,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88145,7 +88145,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88282,7 +88282,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88422,7 +88422,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88559,7 +88559,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88696,7 +88696,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88826,7 +88826,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -88966,7 +88966,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89106,7 +89106,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89236,7 +89236,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89382,7 +89382,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89522,7 +89522,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89652,7 +89652,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89798,7 +89798,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -89831,13 +89831,13 @@ ldr x16, [x16, #1992]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -89878,13 +89878,13 @@ ldr x16, [x16, #2000]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -89952,8 +89952,8 @@ ldr x16, [x16, #2008]
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90073a0
@@ -89962,9 +89962,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -90503,7 +90503,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -90679,7 +90679,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -90916,7 +90916,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8db7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -90929,7 +90929,7 @@ b System_Collections_Generic_List_1_Enumerator_System_Collections_Generic_KeyVal
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_Enumerator_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_List_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Collections_Generic_List_1_Enumerator_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_List_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 40 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/List.cs"
+.file 40 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/List.cs"
 .loc 40 1136 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -91225,7 +91225,7 @@ bl _p_600
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -91770,7 +91770,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -91910,7 +91910,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -92040,7 +92040,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -92186,7 +92186,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -92476,7 +92476,7 @@ bl _p_601
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -93010,7 +93010,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -93045,13 +93045,13 @@ ldr x16, [x16, #2208]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -93117,8 +93117,8 @@ ldr x16, [x16, #2216]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90053a0
@@ -93127,9 +93127,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -93598,13 +93598,13 @@ ldr x16, [x16, #2240]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -93647,13 +93647,13 @@ ldr x16, [x16, #2248]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -93724,8 +93724,8 @@ ldr x16, [x16, #2256]
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90073a0
@@ -93734,9 +93734,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -94243,7 +94243,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -94396,7 +94396,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -94587,7 +94587,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -94727,7 +94727,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -94857,7 +94857,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -95003,7 +95003,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -95140,7 +95140,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -95176,13 +95176,13 @@ ldr x16, [x16, #2328]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -95253,8 +95253,8 @@ ldr x16, [x16, #2336]
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90093a0
@@ -95263,9 +95263,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94093a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -95991,13 +95991,13 @@ ldr x16, [x16, #2360]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_553
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -96067,8 +96067,8 @@ ldr x16, [x16, #2368]
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_553
 bl _p_563
 .word 0xf90093a0
@@ -96077,9 +96077,9 @@ bl _p_563
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94093a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -96985,7 +96985,7 @@ bl _p_41
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -97622,7 +97622,7 @@ bl _p_623
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -97928,7 +97928,7 @@ bl _p_625
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -98311,7 +98311,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -98406,7 +98406,7 @@ Lme_33e:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_First_System_Reflection_CustomAttributeTypedArgument_System_Collections_Generic_IEnumerable_1_System_Reflection_CustomAttributeTypedArgument
 System_Linq_Enumerable_First_System_Reflection_CustomAttributeTypedArgument_System_Collections_Generic_IEnumerable_1_System_Reflection_CustomAttributeTypedArgument:
-.file 41 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/First.cs"
+.file 41 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/First.cs"
 .loc 41 13 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -98766,13 +98766,13 @@ ldr x16, [x16, #2576]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -98794,13 +98794,13 @@ bl _p_41
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -99325,7 +99325,7 @@ bl _p_636
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #2656]
-.word 0x92800cf0
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -99516,7 +99516,7 @@ bl _p_637
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #2664]
-.word 0x928004f0
+.word 0x92800df0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -99758,10 +99758,10 @@ ldr x0, [x16, #2680]
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801140
@@ -99902,7 +99902,7 @@ Lme_34b:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_ToList_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_Enumerable_ToList_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 42 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/ToCollection.cs"
+.file 42 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/ToCollection.cs"
 .loc 42 25 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -100040,7 +100040,7 @@ Lme_34c:
 	.align 4
 	.no_dead_strip System_Activator_CreateInstance_T_REF
 System_Activator_CreateInstance_T_REF:
-.file 43 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/activator.cs"
+.file 43 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/activator.cs"
 .loc 43 212 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -100111,8 +100111,8 @@ bl _p_642
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28eb9c0
-.word 0xd28eb9c0
+.word 0xd28edde0
+.word 0xd28edde0
 bl _p_553
 bl _p_643
 .word 0xf90033a0
@@ -100121,9 +100121,9 @@ bl _p_643
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801720
+.word 0xd2801760
 .word 0xf2a04000
-.word 0xd2801720
+.word 0xd2801760
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -100479,7 +100479,7 @@ Lme_353:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Any_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Func_2_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_bool
 System_Linq_Enumerable_Any_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Func_2_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_bool:
-.file 44 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/AnyAll.cs"
+.file 44 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/AnyAll.cs"
 .loc 44 26 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
@@ -100590,7 +100590,7 @@ bl _p_41
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -100619,7 +100619,7 @@ ldr x15, [x16, #744]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -100960,7 +100960,7 @@ bl _p_651
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -101148,9 +101148,9 @@ ldr x0, [x16, #112]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb50000f8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -102003,7 +102003,7 @@ bl _p_498
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -102273,7 +102273,7 @@ bl _p_498
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -102729,7 +102729,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -103326,7 +103326,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -103882,7 +103882,7 @@ bl _p_657
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -103929,9 +103929,9 @@ ldr x0, [x16, #112]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb50000f8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -104012,9 +104012,9 @@ ldr x0, [x16, #112]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb50000f8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -104095,9 +104095,9 @@ ldr x0, [x16, #112]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb50000f8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -104178,9 +104178,9 @@ ldr x0, [x16, #112]
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xb50000f8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -104784,7 +104784,7 @@ bl _p_659
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #2656]
-.word 0x92800cf0
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -104915,7 +104915,7 @@ ldr x15, [x16, #2656]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #2664]
-.word 0x928004f0
+.word 0x92800df0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -105004,10 +105004,10 @@ bl _p_659
 .word 0x910003bf
 .word 0xa8d37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801140
@@ -105133,7 +105133,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -105333,7 +105333,7 @@ bl _p_661
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #2656]
-.word 0x92800cf0
+.word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -106041,7 +106041,7 @@ bl _p_659
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #2664]
-.word 0x928004f0
+.word 0x92800df0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -106557,10 +106557,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8dc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801140
@@ -106698,7 +106698,7 @@ ldr x1, [x16, #3144]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3152]
-.word 0x92800cf0
+.word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -106836,7 +106836,7 @@ ldr x15, [x16, #840]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+0
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #848]
-.word 0x92800df0
+.word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -106870,7 +106870,7 @@ ldr x15, [x16, #848]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3184]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -106936,7 +106936,7 @@ ldr x15, [x16, #16]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #3192]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -107122,7 +107122,7 @@ Lme_382:
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_Xamarin_Forms_Xaml_XmlName
 System_Runtime_CompilerServices_RuntimeHelpers_IsReferenceOrContainsReferences_Xamarin_Forms_Xaml_XmlName:
-.file 45 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs"
+.file 45 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System.Runtime.CompilerServices/RuntimeHelpers.cs"
 .loc 45 189 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -107856,7 +107856,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -107885,7 +107885,7 @@ ldr x15, [x16, #744]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -108184,7 +108184,7 @@ Lme_386:
 	.align 4
 	.no_dead_strip System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_SortedMap_System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_SortedMap_System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 46 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/OrderedEnumerable.cs"
+.file 46 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/OrderedEnumerable.cs"
 .loc 46 14 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -108605,7 +108605,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -108815,7 +108815,7 @@ bl _p_464
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -109502,7 +109502,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -109832,7 +109832,7 @@ bl _p_464
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -109978,7 +109978,7 @@ ldr x16, [x16, #3456]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf9400042
-.word 0xf9405c50
+.word 0xf9406050
 .word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -110027,7 +110027,7 @@ ldr x16, [x16, #3464]
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf9400042
-.word 0xf9405850
+.word 0xf9405c50
 .word 0xd63f0200
 .word 0xf9001ba0
 .word 0xf9400fb1
@@ -110595,7 +110595,7 @@ bl _p_685
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -110696,7 +110696,7 @@ bl _p_49
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -110762,7 +110762,7 @@ ldr x15, [x16, #752]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -111079,7 +111079,7 @@ bl _p_685
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -111180,7 +111180,7 @@ bl _p_49
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -111284,7 +111284,7 @@ ldr x15, [x16, #752]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -111614,7 +111614,7 @@ ldr x16, [x16, #3528]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -111730,7 +111730,7 @@ bl _p_685
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -111796,7 +111796,7 @@ ldr x15, [x16, #752]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -112656,7 +112656,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -112737,7 +112737,7 @@ bl _p_685
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -112838,7 +112838,7 @@ bl _p_49
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -112942,7 +112942,7 @@ ldr x15, [x16, #752]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -113382,7 +113382,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -113568,13 +113568,13 @@ ldr x16, [x16, #3608]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -113843,13 +113843,13 @@ ldr x16, [x16, #3656]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -113997,7 +113997,7 @@ Lme_3ad:
 	.align 4
 	.no_dead_strip System_Array_IndexOf_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_XmlName___Xamarin_Forms_Xaml_XmlName_int_int
 System_Array_IndexOf_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_XmlName___Xamarin_Forms_Xaml_XmlName_int_int:
-.file 47 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
+.file 47 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
 .loc 47 681 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -114034,8 +114034,8 @@ ldr x16, [x16, #3680]
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28aaaa0
-.word 0xd28aaaa0
+.word 0xd28acec0
+.word 0xd28acec0
 bl _p_553
 .word 0xaa0003e1
 .word 0xd2800ea0
@@ -114067,12 +114067,12 @@ bl _p_41
 .word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd288fd40
-.word 0xd288fd40
+.word 0xd2892160
+.word 0xd2892160
 bl _p_553
 .word 0xf90033a0
-.word 0xd284df40
-.word 0xd284df40
+.word 0xd2850360
+.word 0xd2850360
 bl _p_553
 .word 0xaa0003e2
 .word 0xf94033a1
@@ -114107,12 +114107,12 @@ bl _p_41
 .word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2890940
-.word 0xd2890940
+.word 0xd2892d60
+.word 0xd2892d60
 bl _p_553
 .word 0xf90033a0
-.word 0xd2895980
-.word 0xd2895980
+.word 0xd2897da0
+.word 0xd2897da0
 bl _p_553
 .word 0xaa0003e2
 .word 0xf94033a1
@@ -114601,13 +114601,13 @@ ldr x16, [x16, #3760]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_553
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_41
@@ -114795,7 +114795,7 @@ ldr x16, [x16, #3784]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -114825,7 +114825,7 @@ ldr x15, [x16, #744]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -115028,7 +115028,7 @@ ldr x15, [x16, #24]
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -115259,7 +115259,7 @@ bl _p_35
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -115479,7 +115479,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -115891,10 +115891,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -115999,9 +115999,9 @@ ldr x16, [x16, #3872]
 .word 0xf9403231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -116109,7 +116109,7 @@ b System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_X
 	.align 4
 	.no_dead_strip System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 48 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/Buffer.cs"
+.file 48 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/Buffer.cs"
 .loc 48 31 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
@@ -116417,7 +116417,7 @@ Lme_3cd:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Count_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_Enumerable_Count_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 49 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/Count.cs"
+.file 49 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/Count.cs"
 .loc 49 14 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
@@ -116736,7 +116736,7 @@ ldr x15, [x16, #256]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -116848,7 +116848,7 @@ ldr x15, [x16, #24]
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_18
 
@@ -117369,10 +117369,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_18
 
@@ -117477,9 +117477,9 @@ ldr x16, [x16, #3976]
 .word 0xf9403231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_41
@@ -117623,7 +117623,7 @@ Lme_3d5:
 	.align 4
 	.no_dead_strip System_Linq_OrderedPartition_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_int
 System_Linq_OrderedPartition_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_int:
-.file 50 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/Partition.cs"
+.file 50 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/Partition.cs"
 .loc 50 153 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -119365,10 +119365,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_18
 .word 0xd2801140
@@ -119380,7 +119380,7 @@ Lme_3e4:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumerableHelpers_ToArray_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_
 System_Collections_Generic_EnumerableHelpers_ToArray_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_:
-.file 51 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/System/Collections/Generic/EnumerableHelpers.cs"
+.file 51 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/System/Collections/Generic/EnumerableHelpers.cs"
 .loc 51 97 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
@@ -119570,7 +119570,7 @@ ldr x15, [x16, #3280]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #744]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -119643,7 +119643,7 @@ bl _p_35
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -119813,7 +119813,7 @@ bl _p_707
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x15, [x16, #752]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -120015,7 +120015,7 @@ bl _p_678
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_18
 
@@ -120024,7 +120024,7 @@ Lme_3e5:
 	.align 4
 	.no_dead_strip System_EmptyArray_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__cctor
 System_EmptyArray_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__cctor:
-.file 52 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
+.file 52 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
 .loc 52 33 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -120349,12 +120349,12 @@ ldr x16, [x16, #96]
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d2e40
-.word 0xd28d2e40
+.word 0xd28d5260
+.word 0xd28d5260
 bl _p_553
 .word 0xf9003ba0
-.word 0xd2891c80
-.word 0xd2891c80
+.word 0xd28940a0
+.word 0xd28940a0
 bl _p_553
 .word 0xaa0003e2
 .word 0xf9403ba1
@@ -128572,7 +128572,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 81,241,14,27,80,124,15,79,77,104,184,183,100,93,225,165
+	.byte 21,179,20,163,169,244,198,192,19,34,227,78,88,65,79,150
 	.globl _mono_aot_module_Xamarin_Forms_Xaml_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Xaml_info:

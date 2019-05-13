@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "PInvoke.BCrypt.dll"
 	.asciz ""
 
@@ -2052,7 +2052,7 @@ bl _p_23
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -2947,7 +2947,7 @@ bl _p_26
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -3772,7 +3772,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -4136,7 +4136,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -5378,7 +5378,7 @@ bl _p_35
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -5881,7 +5881,7 @@ bl _p_23
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -6141,7 +6141,7 @@ bl _p_23
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -6563,7 +6563,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -6823,7 +6823,7 @@ bl _p_26
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -7217,7 +7217,7 @@ bl _p_37
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -8865,7 +8865,7 @@ ldr x0, [x16, #816]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_24
 
@@ -8945,9 +8945,9 @@ ldr x16, [x16, #832]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_64
@@ -9905,7 +9905,7 @@ ldr x0, [x16, #936]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_24
 
@@ -9985,9 +9985,9 @@ ldr x16, [x16, #952]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_64
@@ -12219,7 +12219,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -12507,7 +12507,7 @@ bl _mono_gsharedvt_value_copy
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -12728,10 +12728,10 @@ bl _p_98
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_24
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -12744,7 +12744,7 @@ b System_ArraySegment_1_T_BYTE_get_Empty
 	.align 4
 	.no_dead_strip System_ArraySegment_1_T_BYTE_get_Empty
 System_ArraySegment_1_T_BYTE_get_Empty:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ArraySegment.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ArraySegment.cs"
 .loc 2 35 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -13564,7 +13564,7 @@ bl _p_114
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_24
 
@@ -13858,7 +13858,7 @@ bl _p_121
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -13971,7 +13971,7 @@ bl _p_121
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -14286,7 +14286,7 @@ bl _p_121
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -14916,7 +14916,7 @@ b System_Nullable_1_System_ArraySegment_1_byte__ctor_System_ArraySegment_1_byte
 	.align 4
 	.no_dead_strip System_Nullable_1_System_ArraySegment_1_byte__ctor_System_ArraySegment_1_byte
 System_Nullable_1_System_ArraySegment_1_byte__ctor_System_ArraySegment_1_byte:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
 .loc 3 27 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -15494,7 +15494,7 @@ b System_Nullable_1_System_ArraySegment_1_byte_Box_System_Nullable_1_System_Arra
 	.align 4
 	.no_dead_strip System_Nullable_1_System_ArraySegment_1_byte_Box_System_Nullable_1_System_ArraySegment_1_byte
 System_Nullable_1_System_ArraySegment_1_byte_Box_System_Nullable_1_System_ArraySegment_1_byte:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 4 52 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -15741,7 +15741,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_24
 
@@ -15860,9 +15860,9 @@ bl _p_149
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_64
@@ -15949,7 +15949,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_24
 
@@ -15962,7 +15962,7 @@ b System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INT__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INT__ctor_System_Array:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 5 232 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -16222,13 +16222,13 @@ ldr x16, [x16, #1640]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_150
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_64
@@ -16250,13 +16250,13 @@ bl _p_64
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_150
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_64
@@ -21575,7 +21575,7 @@ bl _p_171
 .word 0x910003bf
 .word 0xa8d57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -22267,7 +22267,7 @@ bl _p_171
 .word 0x910003bf
 .word 0xa8d57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -23068,7 +23068,7 @@ bl _p_171
 .word 0x910003bf
 .word 0xa8d57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -26481,7 +26481,7 @@ Lme_f9:
 	.align 4
 	.no_dead_strip System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int
 System_Array_IndexOf_T_BYTE_T_BYTE___T_BYTE_int_int:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
 .loc 6 681 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -26518,8 +26518,8 @@ ldr x16, [x16, #2192]
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28aaaa0
-.word 0xd28aaaa0
+.word 0xd28acec0
+.word 0xd28acec0
 bl _p_150
 .word 0xaa0003e1
 .word 0xd2800ea0
@@ -26551,12 +26551,12 @@ bl _p_64
 .word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd288fd40
-.word 0xd288fd40
+.word 0xd2892160
+.word 0xd2892160
 bl _p_150
 .word 0xf9002ba0
-.word 0xd284df40
-.word 0xd284df40
+.word 0xd2850360
+.word 0xd2850360
 bl _p_150
 .word 0xaa0003e2
 .word 0xf9402ba1
@@ -26591,12 +26591,12 @@ bl _p_64
 .word 0xf9419631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2890940
-.word 0xd2890940
+.word 0xd2892d60
+.word 0xd2892d60
 bl _p_150
 .word 0xf9002ba0
-.word 0xd2895980
-.word 0xd2895980
+.word 0xd2897da0
+.word 0xd2897da0
 bl _p_150
 .word 0xaa0003e2
 .word 0xf9402ba1
@@ -26807,7 +26807,7 @@ Lme_fc:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default
 System_Collections_Generic_EqualityComparer_1_T_BYTE_get_Default:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 7 34 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -27518,10 +27518,10 @@ bl _p_216
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_24
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_24
 
@@ -29937,7 +29937,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 227,88,106,125,176,130,101,123,250,23,158,75,48,156,220,97
+	.byte 104,200,140,131,176,213,217,159,250,192,193,143,145,19,64,227
 	.globl _mono_aot_module_PInvoke_BCrypt_info
 	.align 3
 _mono_aot_module_PInvoke_BCrypt_info:

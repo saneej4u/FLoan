@@ -2,6 +2,7 @@
 <CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
               xmlns:view="clr-namespace:FLoan.Views" 
                xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+                xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
               x:Class="FLoan.Views.HomePage" >
     <ContentPage BackgroundColor="{StaticResource PinkColor}">
         <ContentPage.Padding>
@@ -17,9 +18,9 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <FormattedString.Spans >
-                                    <Span Text="A helping " FontSize="50" />
+                                    <Span Text="A helping " FontSize="50" FontAttributes="Bold" />
                                     <Span Text=" " />
-                                    <Span Text="hand" FontSize="50" ForegroundColor="#ea3362" />
+                                    <Span Text="hand" FontSize="50" ForegroundColor="#ea3362" FontAttributes="Bold" />
                                 </FormattedString.Spans>
                             </FormattedString>
                         </Label.FormattedText>
@@ -28,8 +29,8 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <FormattedString.Spans>
-                                    <Span Text="Borrow up to £7,500 with a Guarantor" />
-                                    <Span Text=" or " />
+                                    <Span Text="Borrow up to £7,500 with a Guarantor" FontAttributes="Bold" />
+                                    <Span Text=" or " FontAttributes="Bold" />
                                     <Span Text="without a Guarantor" FontAttributes="Bold" />
                                     <Span Text="." />
                                 </FormattedString.Spans>
@@ -38,18 +39,18 @@
                     </Label>
                 </StackLayout>
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.72,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
-                    <Button BorderRadius="25"  Margin="20,5,20,5" HeightRequest="55" Text="Apply Now" Clicked="ApplyNowButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                    <Button BorderRadius="25"  Margin="20,5,20,5" HeightRequest="55" Text="APPLY NOW" Clicked="ApplyNowButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" FontAttributes="Bold" />
                 
                 </StackLayout>
 
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.82,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
 
-                    <Button BorderRadius="25" Margin="20, 5,20,5" HeightRequest="55" Text="My Account" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource MonzaColor}" FontSize="Medium" TextColor="White" />
+                    <Button BorderRadius="25" Margin="20, 5,20,5" HeightRequest="55" Text="MY ACCOUNT" Clicked="MyAccountButton_Clicked" BackgroundColor="{StaticResource MonzaColor}" FontSize="Medium" TextColor="White" FontAttributes="Bold" />
                     
                 </StackLayout>
                 <StackLayout AbsoluteLayout.LayoutBounds="0, 0.90,1, 50" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional"  >
 
-                    <Button Text="Get Started" Clicked="FindOutMoreButton_Clicked" HeightRequest="40" TextColor="White" />
+                    <Button Text="Get Started" Clicked="FindOutMoreButton_Clicked" HeightRequest="40" TextColor="White" FontSize="Medium" FontAttributes="Bold" />
                 </StackLayout>
             </AbsoluteLayout>
         </ContentPage.Content>
@@ -90,8 +91,8 @@
                
        
             <StackLayout Grid.Row="1"  HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet,  tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
-                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Use our calculator to select how much you need to borrow, and the number of weeks you would like to borrow it over."/>
+                <Button BorderRadius="25"  Margin="20,10,20,5" HeightRequest="50" Text="HOW IT WORKS" FontAttributes="Bold" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
                 
             </StackLayout>
         </Grid>
@@ -109,28 +110,47 @@
     
     <ContentPage.Content>
        
-        <Grid>
-            
-            <Grid.RowDefinitions>
+        
+           
+                     
+           
+             <StackLayout >
                 
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            
-             
-
+                <Label Margin="0, 105,0,0" FontSize="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" TextColor="White">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans >
+                                    <Span Text="A helping " FontSize="50" FontAttributes="Bold" />
+                                    <Span Text=" " />
+                                    <Span Text="hand" FontSize="50" ForegroundColor="#ea3362" FontAttributes="Bold" />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label TextColor="White" HorizontalTextAlignment="Center" Margin="20">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text="Borrow up to £7,500 with a Guarantor" FontAttributes="Bold" />
+                                    <Span Text=" or " FontAttributes="Bold" />
+                                    <Span Text="without a Guarantor" FontAttributes="Bold" />
+                                    <Span Text="." />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
                 
-       
-            <StackLayout Grid.Row="0"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. "/>
-   
-            </StackLayout>
-                <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
-                     <Button BorderRadius="25"  Margin="20,10,20,50" HeightRequest="50" Text="Ok" Clicked="HowItWorkedButtonLast_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
+                     <forms:AnimationView x:Name="AnimationView"
+                         Animation="1370-confetti.json"
+                         Loop="True"
+                         AutoPlay="True"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand" />
+                <Button BorderRadius="25"  Margin="20,10,20,50" HeightRequest="50" Text="HOME" FontAttributes="Bold" Clicked="HowItWorkedButtonLast_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
                 
-                </StackLayout>
+              </StackLayout>
                 
-        </Grid>
+      
         
     
     </ContentPage.Content>

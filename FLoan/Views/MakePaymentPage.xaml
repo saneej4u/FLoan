@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="FLoan.Views.MakePaymentPage" Title="Payment">
+        <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS, Android" Value="0,40,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        
+         <Grid Padding="5,0,5,0">
+                <Grid.RowDefinitions>
+                     <RowDefinition Height="Auto" />
+                     <RowDefinition Height="Auto" />
+                     <RowDefinition Height="Auto" />
+                     <RowDefinition Height="Auto" />
+                     <RowDefinition Height="Auto" />
+                     <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            <StackLayout Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2">
+                <Label Text="Please enter amount"></Label>
+            </StackLayout>
+            <Entry Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Margin="10" WidthRequest="150" HeightRequest="150" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" FontSize="35" Placeholder="Amount" Keyboard="Numeric" x:Name="AmountToPayEntry"></Entry>
+            <Entry Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="10" Placeholder="Name on card" HeightRequest="45" ></Entry>
+            <Entry Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="10" Placeholder="Card number" HeightRequest="45"></Entry>
+            <Entry Grid.Row="4" HorizontalOptions="FillAndExpand" Margin="10" Grid.Column="1" Placeholder=" CVV" HeightRequest="45"></Entry>
+            <Entry Grid.Row="4" HorizontalOptions="FillAndExpand" Margin="10" Grid.Column="2" Placeholder="Expiry date" HeightRequest="45" ></Entry>
+            <StackLayout Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2">
+                <Label Text="Some demo text some demo text"></Label>
+            </StackLayout>
+             <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,40" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Text="PAY" FontSize="Medium" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand" Clicked="Pay_Clicked" FontAttributes="Bold" />
+            </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

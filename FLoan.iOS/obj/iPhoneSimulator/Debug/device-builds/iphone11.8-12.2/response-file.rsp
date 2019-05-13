@@ -167,6 +167,9 @@
 -r=/Users/saneej/.nuget/packages/com.airbnb.ios.lottie/2.5.4/lib/xamarinios10/Lottie.iOS.dll
 -r=/Users/saneej/.nuget/packages/com.airbnb.xamarin.forms.lottie/2.6.3/lib/xamarinios10/Lottie.Forms.dll
 -r=/Users/saneej/.nuget/packages/flexibleconfiguration/1.2.1/lib/netstandard1.3/FlexibleConfiguration.dll
+-r=/Users/saneej/.nuget/packages/microcharts/0.7.1/lib/Xamarin.iOS10/Microcharts.dll
+-r=/Users/saneej/.nuget/packages/microcharts/0.7.1/lib/Xamarin.iOS10/Microcharts.iOS.dll
+-r=/Users/saneej/.nuget/packages/microcharts.forms/0.7.1/lib/netstandard1.4/Microcharts.Forms.dll
 -r=/Users/saneej/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/1.1.1/lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 -r=/Users/saneej/.nuget/packages/microsoft.extensions.logging/1.1.2/lib/netstandard1.1/Microsoft.Extensions.Logging.dll
 -r=/Users/saneej/.nuget/packages/microsoft.extensions.logging.abstractions/1.1.2/lib/netstandard1.1/Microsoft.Extensions.Logging.Abstractions.dll
@@ -189,6 +192,8 @@
 -r=/Users/saneej/.nuget/packages/pinvoke.ncrypt/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll
 -r=/Users/saneej/.nuget/packages/pinvoke.windows.core/0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll
 -r=/Users/saneej/.nuget/packages/skiasharp/1.60.0/lib/XamariniOS/SkiaSharp.dll
+-r=/Users/saneej/.nuget/packages/skiasharp.views/1.59.1.1/lib/XamariniOS/SkiaSharp.Views.iOS.dll
+-r=/Users/saneej/.nuget/packages/skiasharp.views.forms/1.59.1.1/lib/XamariniOS/SkiaSharp.Views.Forms.dll
 -r=/Users/saneej/.nuget/packages/system.collections.immutable/1.4.0/lib/netstandard2.0/System.Collections.Immutable.dll
 -r=/Users/saneej/.nuget/packages/system.diagnostics.tracesource/4.3.0/runtimes/win/lib/netstandard1.3/System.Diagnostics.TraceSource.dll
 -r=/Users/saneej/.nuget/packages/system.identitymodel.tokens.jwt/5.4.0/lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "Nito.Disposables.dll"
 	.asciz ""
 
@@ -372,7 +372,7 @@ bl _p_4
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2800e80
@@ -525,7 +525,7 @@ ldr x1, [x16, #288]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_5
 
@@ -903,7 +903,7 @@ ldr x15, [x16, #336]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 .word 0xd2800e80
@@ -2205,7 +2205,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 
@@ -2264,7 +2264,7 @@ bl _p_49
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 
@@ -2458,7 +2458,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 
@@ -3903,7 +3903,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 
@@ -3978,7 +3978,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 
@@ -4195,7 +4195,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_5
 
@@ -4695,7 +4695,7 @@ bl _p_106
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_5
 
@@ -4825,7 +4825,7 @@ bl _p_106
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_5
 
@@ -4962,7 +4962,7 @@ bl _p_106
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_5
 
@@ -5092,7 +5092,7 @@ bl _p_106
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_5
 
@@ -5101,7 +5101,7 @@ Lme_3e:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 7 85 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -6425,7 +6425,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 194,47,96,219,125,198,3,248,169,119,38,36,59,84,147,140
+	.byte 72,197,154,195,226,203,159,7,177,97,64,243,163,86,106,56
 	.globl _mono_aot_module_Nito_Disposables_info
 	.align 3
 _mono_aot_module_Nito_Disposables_info:

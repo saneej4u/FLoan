@@ -16,6 +16,9 @@
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Java.Interop.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Lottie.Android.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Lottie.Forms.dll
+/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Microcharts.dll
+/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Microcharts.Droid.dll
+/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Microcharts.Forms.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/Microsoft.Extensions.Logging.dll
@@ -32,6 +35,8 @@
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/PInvoke.NCrypt.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/PInvoke.Windows.Core.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/SkiaSharp.dll
+/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/SkiaSharp.Views.Android.dll
+/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/SkiaSharp.Views.Forms.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Core.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.IdentityModel.Tokens.Jwt.dll
@@ -99,11 +104,11 @@
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.ComponentModel.TypeConverter.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.IO.FileSystem.dll
+/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.ValueTuple.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.ComponentModel.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Linq.Expressions.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Collections.Concurrent.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Security.Cryptography.Cng.dll
-/Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.ValueTuple.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Runtime.InteropServices.RuntimeInformation.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Diagnostics.TraceSource.dll
 /Users/saneej/Projects/FLoan/FLoan.Android/obj/Debug/android/assets/System.Runtime.InteropServices.dll

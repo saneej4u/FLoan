@@ -28,12 +28,13 @@ namespace FLoan.Views
 
         void ComplainMenuButton_Clicked(object sender, System.EventArgs e)
         {
-            Detail = new NavigationPage(new ComplainPage());
+            Detail = new NavigationPage(new ApplicationSubmitted());
             IsPresented = false;
         }
 
         void ResolutionMenuButton_Clicked(object sender, System.EventArgs e)
         {
+            //Detail = new NavigationPage(new ResolutionPage());
             Detail = new NavigationPage(new ResolutionPage());
             IsPresented = false;
         }

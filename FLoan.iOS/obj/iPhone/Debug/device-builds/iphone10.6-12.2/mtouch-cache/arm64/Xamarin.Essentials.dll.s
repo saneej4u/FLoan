@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "Xamarin.Essentials.dll"
 	.asciz ""
 
@@ -1870,7 +1870,7 @@ bl _p_15
 .word 0x910003bf
 .word 0xa8dc7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -2888,7 +2888,7 @@ bl _p_24
 .word 0x910003bf
 .word 0xa8db7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -4430,7 +4430,7 @@ bl _p_43
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -6474,7 +6474,7 @@ bl _p_52
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -7679,9 +7679,9 @@ bl _p_97
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -7734,9 +7734,9 @@ bl _p_97
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -8309,9 +8309,9 @@ bl _p_97
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -10446,7 +10446,7 @@ bl _p_15
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -12374,7 +12374,7 @@ bl _mono_gsharedvt_value_copy
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -12387,7 +12387,7 @@ b System_ValueTuple_5_T1_DOUBLE_T2_DOUBLE_T3_DOUBLE_T4_INT_T5_INT__ctor_T1_DOUBL
 	.align 4
 	.no_dead_strip System_ValueTuple_5_T1_DOUBLE_T2_DOUBLE_T3_DOUBLE_T4_INT_T5_INT__ctor_T1_DOUBLE_T2_DOUBLE_T3_DOUBLE_T4_INT_T5_INT
 System_ValueTuple_5_T1_DOUBLE_T2_DOUBLE_T3_DOUBLE_T4_INT_T5_INT__ctor_T1_DOUBLE_T2_DOUBLE_T3_DOUBLE_T4_INT_T5_INT:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ValueTuple.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ValueTuple.cs"
 .loc 2 1164 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -12580,7 +12580,7 @@ bl _p_117
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -13106,7 +13106,7 @@ ldr x15, [x16, #1216]
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -13172,8 +13172,8 @@ bl _p_114
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd289a1e0
-.word 0xd289a1e0
+.word 0xd289c600
+.word 0xd289c600
 bl _p_136
 .word 0xf9005fa0
 .word 0xaa1903e0
@@ -13227,8 +13227,8 @@ bl _p_138
 .word 0xf9419e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd289a960
-.word 0xd289a960
+.word 0xd289cd80
+.word 0xd289cd80
 bl _p_136
 .word 0xaa0003e2
 .word 0xf9405ba1
@@ -13306,7 +13306,7 @@ bl _p_140
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -13654,8 +13654,8 @@ bl _p_114
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd289a1e0
-.word 0xd289a1e0
+.word 0xd289c600
+.word 0xd289c600
 bl _p_136
 .word 0xf90067a0
 .word 0xaa1803e0
@@ -13709,8 +13709,8 @@ bl _p_138
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd289a960
-.word 0xd289a960
+.word 0xd289cd80
+.word 0xd289cd80
 bl _p_136
 .word 0xaa0003e2
 .word 0xf94063a1
@@ -14068,7 +14068,7 @@ ldr x15, [x16, #1248]
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
 
@@ -15997,7 +15997,7 @@ Lme_50:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 3 85 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -16217,13 +16217,13 @@ ldr x16, [x16, #1368]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d76a0
-.word 0xd28d76a0
+.word 0xd28d9ac0
+.word 0xd28d9ac0
 bl _p_136
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -16265,13 +16265,13 @@ ldr x16, [x16, #1376]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_136
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -16313,13 +16313,13 @@ ldr x16, [x16, #1384]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_136
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -16384,8 +16384,8 @@ ldr x16, [x16, #1392]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_136
 bl _p_219
 .word 0xf90033a0
@@ -16394,9 +16394,9 @@ bl _p_219
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -16742,7 +16742,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -16872,7 +16872,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -17018,7 +17018,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -17290,13 +17290,13 @@ ldr x16, [x16, #1464]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_136
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -17318,13 +17318,13 @@ bl _p_31
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_136
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_31
@@ -17787,7 +17787,7 @@ bl _p_31
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -17911,7 +17911,7 @@ Lme_66:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INT_get_Default
 System_Collections_Generic_EqualityComparer_1_T_INT_get_Default:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 4 34 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -18112,7 +18112,7 @@ Lme_68:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_T_INT_get_Default
 System_Collections_Generic_Comparer_1_T_INT_get_Default:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/comparer.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/comparer.cs"
 .loc 5 28 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -19137,10 +19137,10 @@ bl _p_254
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -19759,10 +19759,10 @@ bl _p_259
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -20073,10 +20073,10 @@ bl _p_264
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -20387,10 +20387,10 @@ bl _p_269
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_19
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_19
 
@@ -23219,7 +23219,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 119,68,37,102,168,41,188,55,204,120,253,109,80,224,89,197
+	.byte 15,156,7,209,75,18,202,38,89,193,225,162,226,249,252,104
 	.globl _mono_aot_module_Xamarin_Essentials_info
 	.align 3
 _mono_aot_module_Xamarin_Essentials_info:

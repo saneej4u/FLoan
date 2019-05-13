@@ -7,6 +7,9 @@
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.pdb
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/FlexibleConfiguration.dll
+/Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Microcharts.dll
+/Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Microcharts.iOS.dll
+/Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Microcharts.Forms.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Logging.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/Microsoft.Extensions.Logging.Abstractions.dll
@@ -34,6 +37,8 @@
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/SkiaSharp.dll
+/Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/SkiaSharp.Views.iOS.dll
+/Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/SkiaSharp.Views.Forms.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/System.Collections.Immutable.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/System.Diagnostics.TraceSource.dll
 /Users/saneej/Projects/FLoan/FLoan.iOS/bin/iPhoneSimulator/Debug/System.IdentityModel.Tokens.Jwt.dll

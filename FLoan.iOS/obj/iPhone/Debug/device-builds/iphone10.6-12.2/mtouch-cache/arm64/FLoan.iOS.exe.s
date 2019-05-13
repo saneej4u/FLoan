@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "FLoan.iOS.exe"
 	.asciz ""
 
@@ -772,7 +772,7 @@ bl _p_16
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_17
 
@@ -2666,13 +2666,13 @@ bl _p_53
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_17
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_17
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_17
 
@@ -2830,7 +2830,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -2967,7 +2967,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3097,7 +3097,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3234,7 +3234,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3364,7 +3364,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3507,7 +3507,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3637,7 +3637,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3774,7 +3774,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -3904,7 +3904,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -4041,7 +4041,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -4061,7 +4061,7 @@ LDIFF_SYM3=ut_end - ut_29
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 4 232 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -4321,13 +4321,13 @@ ldr x16, [x16, #680]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_55
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_40
@@ -4349,13 +4349,13 @@ bl _p_40
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_55
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_40
@@ -4701,7 +4701,7 @@ b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_FLoan_Okta_AuthInfo_A
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_FLoan_Okta_AuthInfo_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_FLoan_iOS_Implementations_LoginProvider__LoginAsyncd__2_System_Runtime_CompilerServices_TaskAwaiter__FLoan_iOS_Implementations_LoginProvider__LoginAsyncd__2_
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_FLoan_Okta_AuthInfo_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_FLoan_iOS_Implementations_LoginProvider__LoginAsyncd__2_System_Runtime_CompilerServices_TaskAwaiter__FLoan_iOS_Implementations_LoginProvider__LoginAsyncd__2_:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 5 542 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -5389,7 +5389,7 @@ Lme_27:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_TResult_REF__ctor
 System_Threading_Tasks_Task_1_TResult_REF__ctor:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
 .loc 6 83 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6193,7 +6193,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "8BA702D1-D2F0-4180-AC58-E5292BACFD87"
+	.asciz "2DE94607-FCE1-4D14-81F1-B898377A381F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -6283,7 +6283,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 161,237,16,36,244,94,204,78,27,208,59,238,120,145,231,119
+	.byte 93,226,186,84,150,255,46,255,57,243,8,84,182,55,142,68
 	.globl _mono_aot_module_FLoan_iOS_info
 	.align 3
 _mono_aot_module_FLoan_iOS_info:

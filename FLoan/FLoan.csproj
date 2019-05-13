@@ -25,6 +25,8 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
     <PackageReference Include="Okta.Sdk" Version="1.2.1" />
+    <PackageReference Include="Microcharts.Forms" Version="0.7.1" />
+    <PackageReference Include="Microcharts" Version="0.7.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -92,5 +94,8 @@
   <ItemGroup>
     <Folder Include="Okta\" />
     <Folder Include="Dto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microcharts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </ItemGroup>
 </Project>

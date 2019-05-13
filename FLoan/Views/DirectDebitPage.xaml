@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FLoan.Views.DirectDebitPage" Title="Direct Debit">
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS, Android" Value="0,30,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Padding="5,0,5,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Margin="10" Grid.Column="1" Grid.ColumnSpan="2" TextColor="Gray" Text="Please enter your direct debit details. " />
+                <Entry x:Name="AccountHolderNameEntry" HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" IsEnabled="false" Grid.ColumnSpan="2" />
+                <Entry x:Name="SortcodeEntry" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="false"  />
+                <Entry x:Name="AccountNumberEntry" HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="false" />
+                <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="APPROVE" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand" Clicked="Approved_Clicked" FontSize="Medium" FontAttributes="Bold" />
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using FLoan.Dto;
+using FLoan.ViewModels;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 
@@ -11,12 +12,13 @@ namespace FLoan.Views
     public partial class AddressDetailsPage : ContentPage
     {
 
-        private int _customerId;
-        public AddressDetailsPage(int customerId)
+        LoanApplicationViewModel _loan = new LoanApplicationViewModel();
+
+        public AddressDetailsPage(LoanApplicationViewModel loan)
         {
 
             InitializeComponent();
-            _customerId = customerId;
+            _loan = loan;
         }
 
         async void GotBankDetailsPage_Clicked(object sender, System.EventArgs e)
@@ -34,7 +36,7 @@ namespace FLoan.Views
                 Town = TownEntry.Text,
                 Postcode = PostCodeEntry.Text,
                 Street = StreetEntry.Text,
-                CustomerId = _customerId
+                CustomerId = _loan.CustomerId
 
             };
 
@@ -52,7 +54,7 @@ namespace FLoan.Views
 
             response.EnsureSuccessStatusCode();
 
-            await Navigation.PushAsync(new BankDetailsPage(_customerId));
+            await Navigation.PushAsync(new BankDetailsPage(_loan));
         }
     }
 }

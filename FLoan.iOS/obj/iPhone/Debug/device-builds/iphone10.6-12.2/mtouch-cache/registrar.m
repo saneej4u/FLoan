@@ -10744,67 +10744,67 @@ exception_handling:;
 	-(NSUInteger) streamStatus
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_87 (self, _cmd, &managed_method, 0x5C16);
+		return native_to_managed_trampoline_87 (self, _cmd, &managed_method, 0x6016);
 	}
 
 	-(void) open
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x5D16);
+		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x6116);
 	}
 
 	-(void) close
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x5E16);
+		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x6216);
 	}
 
 	-(NSInteger) read:(void *)p0 maxLength:(NSUInteger)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_88 (self, _cmd, &managed_method, p0, p1, 0x5F16);
+		return native_to_managed_trampoline_88 (self, _cmd, &managed_method, p0, p1, 0x6316);
 	}
 
 	-(BOOL) hasBytesAvailable
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_89 (self, _cmd, &managed_method, 0x6016);
+		return native_to_managed_trampoline_89 (self, _cmd, &managed_method, 0x6416);
 	}
 
 	-(BOOL) getBuffer:(void **)p0 length:(NSUInteger*)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_90 (self, _cmd, &managed_method, p0, p1, 0x6116);
+		return native_to_managed_trampoline_90 (self, _cmd, &managed_method, p0, p1, 0x6516);
 	}
 
 	-(NSObject *) propertyForKey:(NSString *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_91 (self, _cmd, &managed_method, p0, 0x6216);
+		return native_to_managed_trampoline_91 (self, _cmd, &managed_method, p0, 0x6616);
 	}
 
 	-(BOOL) setProperty:(NSObject *)p0 forKey:(NSString *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_92 (self, _cmd, &managed_method, p0, p1, 0x6316);
+		return native_to_managed_trampoline_92 (self, _cmd, &managed_method, p0, p1, 0x6716);
 	}
 
 	-(BOOL) _setCFClientFlags:(NSUInteger)p0 callback:(void *)p1 context:(void *)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_93 (self, _cmd, &managed_method, p0, p1, p2, 0x6416);
+		return native_to_managed_trampoline_93 (self, _cmd, &managed_method, p0, p1, p2, 0x6816);
 	}
 
 	-(void) scheduleInRunLoop:(NSRunLoop *)p0 forMode:(NSString *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_94 (self, _cmd, &managed_method, p0, p1, 0x6516);
+		native_to_managed_trampoline_94 (self, _cmd, &managed_method, p0, p1, 0x6916);
 	}
 
 	-(void) removeFromRunLoop:(NSRunLoop *)p0 forMode:(NSString *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_94 (self, _cmd, &managed_method, p0, p1, 0x6616);
+		native_to_managed_trampoline_94 (self, _cmd, &managed_method, p0, p1, 0x6A16);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -10857,37 +10857,37 @@ exception_handling:;
 	-(void) URLSession:(NSURLSession *)p0 dataTask:(NSURLSessionDataTask *)p1 didReceiveResponse:(NSURLResponse *)p2 completionHandler:(id)p3
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_95 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x2516);
+		native_to_managed_trampoline_95 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x2916);
 	}
 
 	-(void) URLSession:(NSURLSession *)p0 dataTask:(NSURLSessionDataTask *)p1 didReceiveData:(NSData *)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_96 (self, _cmd, &managed_method, p0, p1, p2, 0x2616);
+		native_to_managed_trampoline_96 (self, _cmd, &managed_method, p0, p1, p2, 0x2A16);
 	}
 
 	-(void) URLSession:(NSURLSession *)p0 task:(NSURLSessionTask *)p1 didCompleteWithError:(NSError *)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_97 (self, _cmd, &managed_method, p0, p1, p2, 0x2716);
+		native_to_managed_trampoline_97 (self, _cmd, &managed_method, p0, p1, p2, 0x2B16);
 	}
 
 	-(void) URLSession:(NSURLSession *)p0 dataTask:(NSURLSessionDataTask *)p1 willCacheResponse:(NSCachedURLResponse *)p2 completionHandler:(id)p3
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_98 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x2916);
+		native_to_managed_trampoline_98 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x2D16);
 	}
 
 	-(void) URLSession:(NSURLSession *)p0 task:(NSURLSessionTask *)p1 willPerformHTTPRedirection:(NSHTTPURLResponse *)p2 newRequest:(NSURLRequest *)p3 completionHandler:(id)p4
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_99 (self, _cmd, &managed_method, p0, p1, p2, p3, p4, 0x2A16);
+		native_to_managed_trampoline_99 (self, _cmd, &managed_method, p0, p1, p2, p3, p4, 0x2E16);
 	}
 
 	-(void) URLSession:(NSURLSession *)p0 task:(NSURLSessionTask *)p1 didReceiveChallenge:(NSURLAuthenticationChallenge *)p2 completionHandler:(id)p3
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_100 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x2B16);
+		native_to_managed_trampoline_100 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x2F16);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14537,6 +14537,209 @@ exception_handling:;
 
 
 
+@implementation Lottie_Forms_iOS_Renderers_AnimationViewRenderer {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x352E);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [Xamarin_Forms_Platform_iOS_ViewRenderer_2 class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+
+
+
+
+
+
+
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTValueDelegate {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1A530);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTColorValueDelegate {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0xE430);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+
+
+
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTImageCache {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x10F30);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+
+
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTNumberValueDelegate {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x13B30);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+
+
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTPathValueDelegate {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x15430);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+
+
+
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTPointValueDelegate {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x17A30);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+
+
+
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wprotocol"
+#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
+#pragma clang diagnostic ignored "-Wobjc-property-implementation"
+@implementation LOTSizeValueDelegate {
+}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		bool call_super = false;
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1A030);
+		if (call_super && rv) {
+			struct objc_super super = {  rv, [NSObject class] };
+			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
+		}
+		return rv;
+	}
+@end
+#pragma clang diagnostic pop
+
+@implementation Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance {
+}
+@end
+
+
+@implementation Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance {
+}
+@end
+
+
+@implementation Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance {
+}
+@end
+
+
 @interface Xamarin_Controls_ProgressLabel : UIView {
 }
 	-(void) release;
@@ -14606,19 +14809,19 @@ exception_handling:;
 	-(void) safariViewController:(SFSafariViewController *)p0 didCompleteInitialLoad:(BOOL)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_144 (self, _cmd, &managed_method, p0, p1, 0xF52A);
+		native_to_managed_trampoline_144 (self, _cmd, &managed_method, p0, p1, 0xF532);
 	}
 
 	-(void) safariViewControllerDidFinish:(SFSafariViewController *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_145 (self, _cmd, &managed_method, p0, 0xF62A);
+		native_to_managed_trampoline_145 (self, _cmd, &managed_method, p0, 0xF632);
 	}
 
 	-(NSArray *) safariViewController:(SFSafariViewController *)p0 activityItemsForURL:(NSURL *)p1 title:(NSString *)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_146 (self, _cmd, &managed_method, p0, p1, p2, 0xF72A);
+		return native_to_managed_trampoline_146 (self, _cmd, &managed_method, p0, p1, p2, 0xF732);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14666,7 +14869,7 @@ exception_handling:;
 	-(void) tableView:(UITableView *)p0 didSelectRowAtIndexPath:(NSIndexPath *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_120 (self, _cmd, &managed_method, p0, p1, 0x1662A);
+		native_to_managed_trampoline_120 (self, _cmd, &managed_method, p0, p1, 0x16632);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14714,7 +14917,7 @@ exception_handling:;
 	-(void) viewDidAppear:(BOOL)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_105 (self, _cmd, &managed_method, p0, 0xE02A);
+		native_to_managed_trampoline_105 (self, _cmd, &managed_method, p0, 0xE032);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14765,25 +14968,25 @@ exception_handling:;
 	-(BOOL) webView:(UIWebView *)p0 shouldStartLoadWithRequest:(NSURLRequest *)p1 navigationType:(NSInteger)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_84 (self, _cmd, &managed_method, p0, p1, p2, 0x1742A);
+		return native_to_managed_trampoline_84 (self, _cmd, &managed_method, p0, p1, p2, 0x17432);
 	}
 
 	-(void) webViewDidStartLoad:(UIWebView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_83 (self, _cmd, &managed_method, p0, 0x1752A);
+		native_to_managed_trampoline_83 (self, _cmd, &managed_method, p0, 0x17532);
 	}
 
 	-(void) webView:(UIWebView *)p0 didFailLoadWithError:(NSError *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_82 (self, _cmd, &managed_method, p0, p1, 0x1762A);
+		native_to_managed_trampoline_82 (self, _cmd, &managed_method, p0, p1, 0x17632);
 	}
 
 	-(void) webViewDidFinishLoad:(UIWebView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_83 (self, _cmd, &managed_method, p0, 0x1772A);
+		native_to_managed_trampoline_83 (self, _cmd, &managed_method, p0, 0x17732);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14831,7 +15034,7 @@ exception_handling:;
 	-(void) webView:(WKWebView *)p0 runJavaScriptAlertPanelWithMessage:(NSString *)p1 initiatedByFrame:(WKFrameInfo *)p2 completionHandler:(id)p3
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_147 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x1792A);
+		native_to_managed_trampoline_147 (self, _cmd, &managed_method, p0, p1, p2, p3, 0x17932);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14884,37 +15087,37 @@ exception_handling:;
 	-(void) webView:(WKWebView *)p0 decidePolicyForNavigationAction:(WKNavigationAction *)p1 decisionHandler:(id)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_148 (self, _cmd, &managed_method, p0, p1, p2, 0x17B2A);
+		native_to_managed_trampoline_148 (self, _cmd, &managed_method, p0, p1, p2, 0x17B32);
 	}
 
 	-(void) webView:(WKWebView *)p0 didFailNavigation:(WKNavigation *)p1 withError:(NSError *)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_149 (self, _cmd, &managed_method, p0, p1, p2, 0x17C2A);
+		native_to_managed_trampoline_149 (self, _cmd, &managed_method, p0, p1, p2, 0x17C32);
 	}
 
 	-(void) webView:(WKWebView *)p0 didFailProvisionalNavigation:(WKNavigation *)p1 withError:(NSError *)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_149 (self, _cmd, &managed_method, p0, p1, p2, 0x17D2A);
+		native_to_managed_trampoline_149 (self, _cmd, &managed_method, p0, p1, p2, 0x17D32);
 	}
 
 	-(void) webView:(WKWebView *)p0 didStartProvisionalNavigation:(WKNavigation *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_150 (self, _cmd, &managed_method, p0, p1, 0x17E2A);
+		native_to_managed_trampoline_150 (self, _cmd, &managed_method, p0, p1, 0x17E32);
 	}
 
 	-(void) webView:(WKWebView *)p0 didFinishNavigation:(WKNavigation *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_150 (self, _cmd, &managed_method, p0, p1, 0x17F2A);
+		native_to_managed_trampoline_150 (self, _cmd, &managed_method, p0, p1, 0x17F32);
 	}
 
 	-(void) webView:(WKWebView *)p0 didCommitNavigation:(WKNavigation *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_150 (self, _cmd, &managed_method, p0, p1, 0x1802A);
+		native_to_managed_trampoline_150 (self, _cmd, &managed_method, p0, p1, 0x18032);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -14952,7 +15155,7 @@ exception_handling:;
 	-(void) userContentController:(WKUserContentController *)p0 didReceiveScriptMessage:(WKScriptMessage *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_151 (self, _cmd, &managed_method, p0, p1, 0x1822A);
+		native_to_managed_trampoline_151 (self, _cmd, &managed_method, p0, p1, 0x18232);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -15000,7 +15203,7 @@ exception_handling:;
 	-(void) viewDidAppear:(BOOL)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_105 (self, _cmd, &managed_method, p0, 0xEB2A);
+		native_to_managed_trampoline_105 (self, _cmd, &managed_method, p0, 0xEB32);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -15091,19 +15294,19 @@ exception_handling:;
 	-(NSInteger) numberOfSectionsInTableView:(UITableView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_119 (self, _cmd, &managed_method, p0, 0x16C2A);
+		return native_to_managed_trampoline_119 (self, _cmd, &managed_method, p0, 0x16C32);
 	}
 
 	-(NSInteger) tableView:(UITableView *)p0 numberOfRowsInSection:(NSInteger)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_121 (self, _cmd, &managed_method, p0, p1, 0x16D2A);
+		return native_to_managed_trampoline_121 (self, _cmd, &managed_method, p0, p1, 0x16D32);
 	}
 
 	-(UITableViewCell *) tableView:(UITableView *)p0 cellForRowAtIndexPath:(NSIndexPath *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_116 (self, _cmd, &managed_method, p0, p1, 0x1702A);
+		return native_to_managed_trampoline_116 (self, _cmd, &managed_method, p0, p1, 0x17032);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -15112,89 +15315,6 @@ exception_handling:;
 		return native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, 0x11BB14);
 	}
 @end
-
-@implementation FFImageLoading_Forms_Platform_CachedImageRenderer {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0xE48);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [Xamarin_Forms_Platform_iOS_ViewRenderer_2 class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-
-@implementation FFImageLoading_Forms_Touch_CachedImageRenderer {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1A48);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [FFImageLoading_Forms_Platform_CachedImageRenderer class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-
-@implementation MvxCachedImageView {
-	XamarinObject __monoObjectGCHandle;
-}
-	-(void) release
-	{
-		xamarin_release_trampoline (self, _cmd);
-	}
-
-	-(id) retain
-	{
-		return xamarin_retain_trampoline (self, _cmd);
-	}
-
-	-(int) xamarinGetGCHandle
-	{
-		return __monoObjectGCHandle.gc_handle;
-	}
-
-	-(void) xamarinSetGCHandle: (int) gc_handle
-	{
-		__monoObjectGCHandle.gc_handle = gc_handle;
-		__monoObjectGCHandle.native_object = self;
-	}
-
-
-	-(BOOL) conformsToProtocol:(void *)p0
-	{
-		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, 0x11BB14);
-	}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2D4A);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [UIImageView class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-
-@protocol WebPDecoder
-	@optional -(UIImage *) imageWithWebP:(NSString *)p0 error:(NSError **)p1;
-	@optional -(UIImage *) imageWithWebPData:(NSData *)p0 error:(NSError **)p1;
-	@optional -(int) getVersion;
-@end
-
 
 @interface Xamarin_Essentials_SingleLocationListener : NSObject<CLLocationManagerDelegate, CLLocationManagerDelegate> {
 }
@@ -15236,13 +15356,13 @@ exception_handling:;
 	-(void) locationManager:(CLLocationManager *)p0 didUpdateLocations:(NSArray *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_152 (self, _cmd, &managed_method, p0, p1, 0x324E);
+		native_to_managed_trampoline_152 (self, _cmd, &managed_method, p0, p1, 0x3256);
 	}
 
 	-(BOOL) locationManagerShouldDisplayHeadingCalibration:(CLLocationManager *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_153 (self, _cmd, &managed_method, p0, 0x334E);
+		return native_to_managed_trampoline_153 (self, _cmd, &managed_method, p0, 0x3356);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -15255,7 +15375,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x344E);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x3456);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [NSObject class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -15304,19 +15424,19 @@ exception_handling:;
 	-(NSObject *) activityViewController:(UIActivityViewController *)p0 itemForActivityType:(NSString *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_154 (self, _cmd, &managed_method, p0, p1, 0x3D4E);
+		return native_to_managed_trampoline_154 (self, _cmd, &managed_method, p0, p1, 0x3D56);
 	}
 
 	-(NSObject *) activityViewControllerPlaceholderItem:(UIActivityViewController *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_155 (self, _cmd, &managed_method, p0, 0x3E4E);
+		return native_to_managed_trampoline_155 (self, _cmd, &managed_method, p0, 0x3E56);
 	}
 
 	-(NSString *) activityViewController:(UIActivityViewController *)p0 subjectForActivityType:(NSString *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_156 (self, _cmd, &managed_method, p0, p1, 0x3F4E);
+		return native_to_managed_trampoline_156 (self, _cmd, &managed_method, p0, p1, 0x3F56);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -15326,14 +15446,14 @@ exception_handling:;
 	}
 @end
 
-@implementation Lottie_Forms_iOS_Renderers_AnimationViewRenderer {
+@implementation FFImageLoading_Forms_Platform_CachedImageRenderer {
 }
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x355A);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0xE5C);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [Xamarin_Forms_Platform_iOS_ViewRenderer_2 class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -15342,190 +15462,70 @@ exception_handling:;
 	}
 @end
 
-
-
-
-
-
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTValueDelegate {
+@implementation FFImageLoading_Forms_Touch_CachedImageRenderer {
 }
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1A55C);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1A5C);
 		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
+			struct objc_super super = {  rv, [FFImageLoading_Forms_Platform_CachedImageRenderer class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
 		}
 		return rv;
 	}
 @end
-#pragma clang diagnostic pop
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTColorValueDelegate {
+@implementation MvxCachedImageView {
+	XamarinObject __monoObjectGCHandle;
 }
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(int) xamarinGetGCHandle
+	{
+		return __monoObjectGCHandle.gc_handle;
+	}
+
+	-(void) xamarinSetGCHandle: (int) gc_handle
+	{
+		__monoObjectGCHandle.gc_handle = gc_handle;
+		__monoObjectGCHandle.native_object = self;
+	}
+
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_8 (self, _cmd, &managed_method, p0, 0x11BB14);
+	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0xE45C);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x2D5E);
 		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
+			struct objc_super super = {  rv, [UIImageView class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
 		}
 		return rv;
 	}
 @end
-#pragma clang diagnostic pop
 
-
-
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTImageCache {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x10F5C);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-#pragma clang diagnostic pop
-
-
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTNumberValueDelegate {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x13B5C);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-#pragma clang diagnostic pop
-
-
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTPathValueDelegate {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1545C);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-#pragma clang diagnostic pop
-
-
-
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTPointValueDelegate {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x17A5C);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-#pragma clang diagnostic pop
-
-
-
-
-
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wprotocol"
-#pragma clang diagnostic ignored "-Wobjc-protocol-property-synthesis"
-#pragma clang diagnostic ignored "-Wobjc-property-implementation"
-@implementation LOTSizeValueDelegate {
-}
-
-	-(id) init
-	{
-		static MonoMethod *managed_method = NULL;
-		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1A05C);
-		if (call_super && rv) {
-			struct objc_super super = {  rv, [NSObject class] };
-			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
-		}
-		return rv;
-	}
-@end
-#pragma clang diagnostic pop
-
-@implementation Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance {
-}
-@end
-
-
-@implementation Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance {
-}
-@end
-
-
-@implementation Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance {
-}
+@protocol WebPDecoder
+	@optional -(UIImage *) imageWithWebP:(NSString *)p0 error:(NSError **)p1;
+	@optional -(UIImage *) imageWithWebPData:(NSData *)p0 error:(NSError **)p1;
+	@optional -(int) getVersion;
 @end
 
 
@@ -15564,7 +15564,7 @@ exception_handling:;
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x395E);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x396C);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [UIViewController class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -15579,20 +15579,20 @@ exception_handling:;
 	-(void) didMoveToSuperview
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x55E);
+		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x56C);
 	}
 
 	-(void) didMoveToWindow
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x65E);
+		native_to_managed_trampoline_12 (self, _cmd, &managed_method, 0x66C);
 	}
 
 	-(id) init
 	{
 		static MonoMethod *managed_method = NULL;
 		bool call_super = false;
-		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1D5E);
+		id rv = native_to_managed_trampoline_1 (self, _cmd, &managed_method, &call_super, 0x1D6C);
 		if (call_super && rv) {
 			struct objc_super super = {  rv, [Xamarin_Forms_Platform_iOS_ViewRenderer_2 class] };
 			rv = ((id (*)(objc_super*, SEL)) objc_msgSendSuper) (&super, @selector (init));
@@ -15920,56 +15920,56 @@ exception_handling:;
 		{ NULL, 0x4224 /* #315 'OIDURLQueryComponent' => 'OpenId.AppAuth.UrlQueryComponent, OpenId.AppAuth.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
 		{ NULL, 0x4324 /* #316 'OIDURLSessionProvider' => 'OpenId.AppAuth.UrlSessionProvider, OpenId.AppAuth.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
 		{ NULL, 0x1F24 /* #317 'OIDAuthorizationService' => 'OpenId.AppAuth.AuthorizationService, OpenId.AppAuth.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x42A /* #318 'Xamarin_Controls_ProgressLabel' => 'Xamarin.Controls.ProgressLabel, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x212A /* #319 'Xamarin_Auth_NativeAuthSafariViewControllerDelegate' => 'Xamarin.Auth.NativeAuthSafariViewControllerDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x402A /* #320 'Xamarin_Auth_FormAuthenticatorController_FormDelegate' => 'Xamarin.Auth.FormAuthenticatorController+FormDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x1C2A /* #321 'Xamarin_Auth_FormAuthenticatorController' => 'Xamarin.Auth.FormAuthenticatorController, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x442A /* #322 'Xamarin_Auth_WebAuthenticatorController_UIWebViewDelegate' => 'Xamarin.Auth.WebAuthenticatorController+UIWebViewDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x452A /* #323 'Xamarin_Auth_WebAuthenticatorController_WKWebViewUIDelegate' => 'Xamarin.Auth.WebAuthenticatorController+WKWebViewUIDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x462A /* #324 'Xamarin_Auth_WebAuthenticatorController_WKWebViewNavigationDelegate' => 'Xamarin.Auth.WebAuthenticatorController+WKWebViewNavigationDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x472A /* #325 'Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler' => 'Xamarin.Auth.WebAuthenticatorController+WKWebViewJacascriptMessageHandler, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x1D2A /* #326 'Xamarin_Auth_WebAuthenticatorController' => 'Xamarin.Auth.WebAuthenticatorController, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x412A /* #327 'Xamarin_Auth_FormAuthenticatorController_FieldCell' => 'Xamarin.Auth.FormAuthenticatorController+FieldCell, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x422A /* #328 'Xamarin_Auth_FormAuthenticatorController_FormDataSource' => 'Xamarin.Auth.FormAuthenticatorController+FormDataSource, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x248 /* #329 'FFImageLoading_Forms_Platform_CachedImageRenderer' => 'FFImageLoading.Forms.Platform.CachedImageRenderer, FFImageLoading.Forms.Platform' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x448 /* #330 'FFImageLoading_Forms_Touch_CachedImageRenderer' => 'FFImageLoading.Forms.Touch.CachedImageRenderer, FFImageLoading.Forms.Platform' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x84A /* #331 'MvxCachedImageView' => 'FFImageLoading.Cross.MvxCachedImageView, FFImageLoading.Platform' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x94E /* #332 'Xamarin_Essentials_SingleLocationListener' => 'Xamarin.Essentials.SingleLocationListener, Xamarin.Essentials' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0xB4E /* #333 'Xamarin_Essentials_ShareActivityItemSource' => 'Xamarin.Essentials.ShareActivityItemSource, Xamarin.Essentials' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x35A /* #334 'Lottie_Forms_iOS_Renderers_AnimationViewRenderer' => 'Lottie.Forms.iOS.Renderers.AnimationViewRenderer, Lottie.Forms' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x215C /* #335 'LOTAnimationCache' => 'Airbnb.Lottie.LOTAnimationCache, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x225C /* #336 'LOTAnimationTransitionController' => 'Airbnb.Lottie.LOTAnimationTransitionController, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x235C /* #337 'LOTCacheProvider' => 'Airbnb.Lottie.LOTCacheProvider, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x245C /* #338 'LOTColorBlockCallback' => 'Airbnb.Lottie.LOTColorBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x255C /* #339 'LOTColorValueCallback' => 'Airbnb.Lottie.LOTColorValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x475C /* #340 'LOTValueDelegate' => 'Airbnb.Lottie.LOTValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x285C /* #341 'LOTColorValueDelegate' => 'Airbnb.Lottie.LOTColorValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x295C /* #342 'LOTComposition' => 'Airbnb.Lottie.LOTComposition, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x2A5C /* #343 'LOTFloatInterpolatorCallback' => 'Airbnb.Lottie.LOTFloatInterpolatorCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x2D5C /* #344 'LOTImageCache' => 'Airbnb.Lottie.LOTImageCache, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x2E5C /* #345 'LOTKeypath' => 'Airbnb.Lottie.LOTKeypath, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x2F5C /* #346 'LOTNumberBlockCallback' => 'Airbnb.Lottie.LOTNumberBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x305C /* #347 'LOTNumberValueCallback' => 'Airbnb.Lottie.LOTNumberValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x335C /* #348 'LOTNumberValueDelegate' => 'Airbnb.Lottie.LOTNumberValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x345C /* #349 'LOTPathBlockCallback' => 'Airbnb.Lottie.LOTPathBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x355C /* #350 'LOTPathValueCallback' => 'Airbnb.Lottie.LOTPathValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x385C /* #351 'LOTPathValueDelegate' => 'Airbnb.Lottie.LOTPathValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x395C /* #352 'LOTPointBlockCallback' => 'Airbnb.Lottie.LOTPointBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x3A5C /* #353 'LOTPointInterpolatorCallback' => 'Airbnb.Lottie.LOTPointInterpolatorCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x3B5C /* #354 'LOTPointValueCallback' => 'Airbnb.Lottie.LOTPointValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x3E5C /* #355 'LOTPointValueDelegate' => 'Airbnb.Lottie.LOTPointValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x3F5C /* #356 'LOTSizeBlockCallback' => 'Airbnb.Lottie.LOTSizeBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x405C /* #357 'LOTSizeInterpolatorCallback' => 'Airbnb.Lottie.LOTSizeInterpolatorCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x415C /* #358 'LOTSizeValueCallback' => 'Airbnb.Lottie.LOTSizeValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x445C /* #359 'LOTSizeValueDelegate' => 'Airbnb.Lottie.LOTSizeValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x165C /* #360 'Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance' => 'Airbnb.Lottie.LOTAnimationView+LOTAnimationViewAppearance, Lottie.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x155C /* #361 'LOTAnimationView' => 'Airbnb.Lottie.LOTAnimationView, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x1E5C /* #362 'Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance' => 'Airbnb.Lottie.LOTAnimatedControl+LOTAnimatedControlAppearance, Lottie.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x1D5C /* #363 'LOTAnimatedControl' => 'Airbnb.Lottie.LOTAnimatedControl, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0x205C /* #364 'Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance' => 'Airbnb.Lottie.LOTAnimatedSwitch+LOTAnimatedSwitchAppearance, Lottie.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x1F5C /* #365 'LOTAnimatedSwitch' => 'Airbnb.Lottie.LOTAnimatedSwitch, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
-		{ NULL, 0xB5E /* #366 'CarouselView_FormsPlugin_iOS_ViewContainer' => 'CarouselView.FormsPlugin.iOS.ViewContainer, CarouselView.FormsPlugin.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
-		{ NULL, 0x25E /* #367 'CarouselView_FormsPlugin_iOS_CarouselViewRenderer' => 'CarouselView.FormsPlugin.iOS.CarouselViewRenderer, CarouselView.FormsPlugin.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x32E /* #318 'Lottie_Forms_iOS_Renderers_AnimationViewRenderer' => 'Lottie.Forms.iOS.Renderers.AnimationViewRenderer, Lottie.Forms' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x2130 /* #319 'LOTAnimationCache' => 'Airbnb.Lottie.LOTAnimationCache, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2230 /* #320 'LOTAnimationTransitionController' => 'Airbnb.Lottie.LOTAnimationTransitionController, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2330 /* #321 'LOTCacheProvider' => 'Airbnb.Lottie.LOTCacheProvider, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2430 /* #322 'LOTColorBlockCallback' => 'Airbnb.Lottie.LOTColorBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2530 /* #323 'LOTColorValueCallback' => 'Airbnb.Lottie.LOTColorValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x4730 /* #324 'LOTValueDelegate' => 'Airbnb.Lottie.LOTValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2830 /* #325 'LOTColorValueDelegate' => 'Airbnb.Lottie.LOTColorValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2930 /* #326 'LOTComposition' => 'Airbnb.Lottie.LOTComposition, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2A30 /* #327 'LOTFloatInterpolatorCallback' => 'Airbnb.Lottie.LOTFloatInterpolatorCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2D30 /* #328 'LOTImageCache' => 'Airbnb.Lottie.LOTImageCache, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2E30 /* #329 'LOTKeypath' => 'Airbnb.Lottie.LOTKeypath, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2F30 /* #330 'LOTNumberBlockCallback' => 'Airbnb.Lottie.LOTNumberBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3030 /* #331 'LOTNumberValueCallback' => 'Airbnb.Lottie.LOTNumberValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3330 /* #332 'LOTNumberValueDelegate' => 'Airbnb.Lottie.LOTNumberValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3430 /* #333 'LOTPathBlockCallback' => 'Airbnb.Lottie.LOTPathBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3530 /* #334 'LOTPathValueCallback' => 'Airbnb.Lottie.LOTPathValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3830 /* #335 'LOTPathValueDelegate' => 'Airbnb.Lottie.LOTPathValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3930 /* #336 'LOTPointBlockCallback' => 'Airbnb.Lottie.LOTPointBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3A30 /* #337 'LOTPointInterpolatorCallback' => 'Airbnb.Lottie.LOTPointInterpolatorCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3B30 /* #338 'LOTPointValueCallback' => 'Airbnb.Lottie.LOTPointValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3E30 /* #339 'LOTPointValueDelegate' => 'Airbnb.Lottie.LOTPointValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x3F30 /* #340 'LOTSizeBlockCallback' => 'Airbnb.Lottie.LOTSizeBlockCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x4030 /* #341 'LOTSizeInterpolatorCallback' => 'Airbnb.Lottie.LOTSizeInterpolatorCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x4130 /* #342 'LOTSizeValueCallback' => 'Airbnb.Lottie.LOTSizeValueCallback, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x4430 /* #343 'LOTSizeValueDelegate' => 'Airbnb.Lottie.LOTSizeValueDelegate, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x1630 /* #344 'Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance' => 'Airbnb.Lottie.LOTAnimationView+LOTAnimationViewAppearance, Lottie.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x1530 /* #345 'LOTAnimationView' => 'Airbnb.Lottie.LOTAnimationView, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x1E30 /* #346 'Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance' => 'Airbnb.Lottie.LOTAnimatedControl+LOTAnimatedControlAppearance, Lottie.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x1D30 /* #347 'LOTAnimatedControl' => 'Airbnb.Lottie.LOTAnimatedControl, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x2030 /* #348 'Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance' => 'Airbnb.Lottie.LOTAnimatedSwitch+LOTAnimatedSwitchAppearance, Lottie.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x1F30 /* #349 'LOTAnimatedSwitch' => 'Airbnb.Lottie.LOTAnimatedSwitch, Lottie.iOS' */, (MTTypeFlags) (1) /* CustomType */ },
+		{ NULL, 0x432 /* #350 'Xamarin_Controls_ProgressLabel' => 'Xamarin.Controls.ProgressLabel, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x2132 /* #351 'Xamarin_Auth_NativeAuthSafariViewControllerDelegate' => 'Xamarin.Auth.NativeAuthSafariViewControllerDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4032 /* #352 'Xamarin_Auth_FormAuthenticatorController_FormDelegate' => 'Xamarin.Auth.FormAuthenticatorController+FormDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x1C32 /* #353 'Xamarin_Auth_FormAuthenticatorController' => 'Xamarin.Auth.FormAuthenticatorController, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4432 /* #354 'Xamarin_Auth_WebAuthenticatorController_UIWebViewDelegate' => 'Xamarin.Auth.WebAuthenticatorController+UIWebViewDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4532 /* #355 'Xamarin_Auth_WebAuthenticatorController_WKWebViewUIDelegate' => 'Xamarin.Auth.WebAuthenticatorController+WKWebViewUIDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4632 /* #356 'Xamarin_Auth_WebAuthenticatorController_WKWebViewNavigationDelegate' => 'Xamarin.Auth.WebAuthenticatorController+WKWebViewNavigationDelegate, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4732 /* #357 'Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler' => 'Xamarin.Auth.WebAuthenticatorController+WKWebViewJacascriptMessageHandler, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x1D32 /* #358 'Xamarin_Auth_WebAuthenticatorController' => 'Xamarin.Auth.WebAuthenticatorController, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4132 /* #359 'Xamarin_Auth_FormAuthenticatorController_FieldCell' => 'Xamarin.Auth.FormAuthenticatorController+FieldCell, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x4232 /* #360 'Xamarin_Auth_FormAuthenticatorController_FormDataSource' => 'Xamarin.Auth.FormAuthenticatorController+FormDataSource, Xamarin.Auth' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x956 /* #361 'Xamarin_Essentials_SingleLocationListener' => 'Xamarin.Essentials.SingleLocationListener, Xamarin.Essentials' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0xB56 /* #362 'Xamarin_Essentials_ShareActivityItemSource' => 'Xamarin.Essentials.ShareActivityItemSource, Xamarin.Essentials' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x25C /* #363 'FFImageLoading_Forms_Platform_CachedImageRenderer' => 'FFImageLoading.Forms.Platform.CachedImageRenderer, FFImageLoading.Forms.Platform' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x45C /* #364 'FFImageLoading_Forms_Touch_CachedImageRenderer' => 'FFImageLoading.Forms.Touch.CachedImageRenderer, FFImageLoading.Forms.Platform' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x85E /* #365 'MvxCachedImageView' => 'FFImageLoading.Cross.MvxCachedImageView, FFImageLoading.Platform' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0xB6C /* #366 'CarouselView_FormsPlugin_iOS_ViewContainer' => 'CarouselView.FormsPlugin.iOS.ViewContainer, CarouselView.FormsPlugin.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
+		{ NULL, 0x26C /* #367 'CarouselView_FormsPlugin_iOS_CarouselViewRenderer' => 'CarouselView.FormsPlugin.iOS.CarouselViewRenderer, CarouselView.FormsPlugin.iOS' */, (MTTypeFlags) (3) /* CustomType, UserType */ },
 		{ NULL, 0 },
 	};
 
@@ -15999,6 +15999,10 @@ exception_handling:;
 		"OpenId.AppAuth.iOS", 
 		"FLoan", 
 		"Xamarin.Forms.Xaml", 
+		"Microcharts", 
+		"SkiaSharp", 
+		"Lottie.Forms", 
+		"Lottie.iOS", 
 		"Xamarin.Auth", 
 		"System.Json", 
 		"CarouselView.FormsPlugin.Abstractions", 
@@ -16007,42 +16011,45 @@ exception_handling:;
 		"Newtonsoft.Json", 
 		"Microsoft.IdentityModel.Logging", 
 		"Microsoft.IdentityModel.JsonWebTokens", 
+		"Okta.Sdk", 
+		"System.Interactive.Async", 
+		"Microsoft.Extensions.Logging.Abstractions", 
+		"FlexibleConfiguration", 
+		"YamlDotNet", 
 		"PCLCrypto", 
 		"PInvoke.BCrypt", 
 		"PInvoke.Windows.Core", 
 		"PInvoke.Kernel32", 
 		"Validation", 
+		"Xamarin.Essentials", 
 		"FFImageLoading.Forms", 
 		"FFImageLoading", 
 		"FFImageLoading.Forms.Platform", 
 		"FFImageLoading.Platform", 
 		"WebP.Touch", 
-		"Xamarin.Essentials", 
 		"Nito.AsyncEx.Coordination", 
 		"Nito.AsyncEx.Tasks", 
 		"Nito.Disposables", 
 		"System.Collections.Immutable", 
 		"Nito.Collections.Deque", 
-		"Lottie.Forms", 
-		"Lottie.iOS", 
 		"CarouselView.FormsPlugin.iOS"
 	};
 
 	static const MTProtocolWrapperMap __xamarin_protocol_wrapper_map [] = {
-		{ 0x44C /* WebP.Touch.IWebPDecoder */, 0x54C /* WebPDecoderWrapper */ },
+		{ 0x460 /* WebP.Touch.IWebPDecoder */, 0x560 /* WebPDecoderWrapper */ },
 		{ 0x514 /* SafariServices.ISFSafariViewControllerDelegate */, 0x614 /* SFSafariViewControllerDelegateWrapper */ },
 		{ 0x2524 /* OpenId.AppAuth.IAuthorizationFlowSession */, 0x2624 /* AuthorizationFlowSessionWrapper */ },
-		{ 0x265C /* Airbnb.Lottie.ILOTColorValueDelegate */, 0x275C /* LOTColorValueDelegateWrapper */ },
+		{ 0x2630 /* Airbnb.Lottie.ILOTColorValueDelegate */, 0x2730 /* LOTColorValueDelegateWrapper */ },
 		{ 0x2A24 /* OpenId.AppAuth.IAuthorizationUICoordinator */, 0x2B24 /* AuthorizationUICoordinatorWrapper */ },
-		{ 0x2B5C /* Airbnb.Lottie.ILOTImageCache */, 0x2C5C /* LOTImageCacheWrapper */ },
+		{ 0x2B30 /* Airbnb.Lottie.ILOTImageCache */, 0x2C30 /* LOTImageCacheWrapper */ },
 		{ 0x2E24 /* OpenId.AppAuth.IAuthStateChangeDelegate */, 0x2F24 /* AuthStateChangeDelegateWrapper */ },
 		{ 0x3124 /* OpenId.AppAuth.IAuthStateErrorDelegate */, 0x3224 /* AuthStateErrorDelegateWrapper */ },
-		{ 0x315C /* Airbnb.Lottie.ILOTNumberValueDelegate */, 0x325C /* LOTNumberValueDelegateWrapper */ },
-		{ 0x365C /* Airbnb.Lottie.ILOTPathValueDelegate */, 0x375C /* LOTPathValueDelegateWrapper */ },
+		{ 0x3130 /* Airbnb.Lottie.ILOTNumberValueDelegate */, 0x3230 /* LOTNumberValueDelegateWrapper */ },
+		{ 0x3630 /* Airbnb.Lottie.ILOTPathValueDelegate */, 0x3730 /* LOTPathValueDelegateWrapper */ },
 		{ 0x3924 /* OpenId.AppAuth.ISafariViewControllerFactory */, 0x3A24 /* SafariViewControllerFactoryWrapper */ },
-		{ 0x3C5C /* Airbnb.Lottie.ILOTPointValueDelegate */, 0x3D5C /* LOTPointValueDelegateWrapper */ },
-		{ 0x425C /* Airbnb.Lottie.ILOTSizeValueDelegate */, 0x435C /* LOTSizeValueDelegateWrapper */ },
-		{ 0x455C /* Airbnb.Lottie.ILOTValueDelegate */, 0x465C /* LOTValueDelegateWrapper */ },
+		{ 0x3C30 /* Airbnb.Lottie.ILOTPointValueDelegate */, 0x3D30 /* LOTPointValueDelegateWrapper */ },
+		{ 0x4230 /* Airbnb.Lottie.ILOTSizeValueDelegate */, 0x4330 /* LOTSizeValueDelegateWrapper */ },
+		{ 0x4530 /* Airbnb.Lottie.ILOTValueDelegate */, 0x4630 /* LOTValueDelegateWrapper */ },
 		{ 0xC014 /* OpenGLES.IEAGLDrawable */, 0xC114 /* EAGLDrawableWrapper */ },
 		{ 0xCB14 /* GLKit.IGLKViewDelegate */, 0xCC14 /* GLKViewDelegateWrapper */ },
 		{ 0xF314 /* WebKit.IWKNavigationDelegate */, 0xF514 /* WKNavigationDelegateWrapper */ },
@@ -16097,7 +16104,7 @@ exception_handling:;
 		__xamarin_skipped_map,
 		__xamarin_protocol_wrapper_map,
 		{ NULL, NULL },
-		48,
+		55,
 		368,
 		0,
 		1,
@@ -16424,54 +16431,54 @@ void xamarin_create_classes () {
 	__xamarin_class_map [315].handle = [OIDURLQueryComponent class];
 	__xamarin_class_map [316].handle = [OIDURLSessionProvider class];
 	__xamarin_class_map [317].handle = [OIDAuthorizationService class];
-	__xamarin_class_map [318].handle = [Xamarin_Controls_ProgressLabel class];
-	__xamarin_class_map [319].handle = [Xamarin_Auth_NativeAuthSafariViewControllerDelegate class];
-	__xamarin_class_map [320].handle = [Xamarin_Auth_FormAuthenticatorController_FormDelegate class];
-	__xamarin_class_map [321].handle = [Xamarin_Auth_FormAuthenticatorController class];
-	__xamarin_class_map [322].handle = [Xamarin_Auth_WebAuthenticatorController_UIWebViewDelegate class];
-	__xamarin_class_map [323].handle = [Xamarin_Auth_WebAuthenticatorController_WKWebViewUIDelegate class];
-	__xamarin_class_map [324].handle = [Xamarin_Auth_WebAuthenticatorController_WKWebViewNavigationDelegate class];
-	__xamarin_class_map [325].handle = [Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler class];
-	__xamarin_class_map [326].handle = [Xamarin_Auth_WebAuthenticatorController class];
-	__xamarin_class_map [327].handle = [Xamarin_Auth_FormAuthenticatorController_FieldCell class];
-	__xamarin_class_map [328].handle = [Xamarin_Auth_FormAuthenticatorController_FormDataSource class];
-	__xamarin_class_map [329].handle = [FFImageLoading_Forms_Platform_CachedImageRenderer class];
-	__xamarin_class_map [330].handle = [FFImageLoading_Forms_Touch_CachedImageRenderer class];
-	__xamarin_class_map [331].handle = [MvxCachedImageView class];
-	__xamarin_class_map [332].handle = [Xamarin_Essentials_SingleLocationListener class];
-	__xamarin_class_map [333].handle = [Xamarin_Essentials_ShareActivityItemSource class];
-	__xamarin_class_map [334].handle = [Lottie_Forms_iOS_Renderers_AnimationViewRenderer class];
-	__xamarin_class_map [335].handle = [LOTAnimationCache class];
-	__xamarin_class_map [336].handle = [LOTAnimationTransitionController class];
-	__xamarin_class_map [337].handle = [LOTCacheProvider class];
-	__xamarin_class_map [338].handle = [LOTColorBlockCallback class];
-	__xamarin_class_map [339].handle = [LOTColorValueCallback class];
-	__xamarin_class_map [340].handle = [LOTValueDelegate class];
-	__xamarin_class_map [341].handle = [LOTColorValueDelegate class];
-	__xamarin_class_map [342].handle = [LOTComposition class];
-	__xamarin_class_map [343].handle = [LOTFloatInterpolatorCallback class];
-	__xamarin_class_map [344].handle = [LOTImageCache class];
-	__xamarin_class_map [345].handle = [LOTKeypath class];
-	__xamarin_class_map [346].handle = [LOTNumberBlockCallback class];
-	__xamarin_class_map [347].handle = [LOTNumberValueCallback class];
-	__xamarin_class_map [348].handle = [LOTNumberValueDelegate class];
-	__xamarin_class_map [349].handle = [LOTPathBlockCallback class];
-	__xamarin_class_map [350].handle = [LOTPathValueCallback class];
-	__xamarin_class_map [351].handle = [LOTPathValueDelegate class];
-	__xamarin_class_map [352].handle = [LOTPointBlockCallback class];
-	__xamarin_class_map [353].handle = [LOTPointInterpolatorCallback class];
-	__xamarin_class_map [354].handle = [LOTPointValueCallback class];
-	__xamarin_class_map [355].handle = [LOTPointValueDelegate class];
-	__xamarin_class_map [356].handle = [LOTSizeBlockCallback class];
-	__xamarin_class_map [357].handle = [LOTSizeInterpolatorCallback class];
-	__xamarin_class_map [358].handle = [LOTSizeValueCallback class];
-	__xamarin_class_map [359].handle = [LOTSizeValueDelegate class];
-	__xamarin_class_map [360].handle = [Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance class];
-	__xamarin_class_map [361].handle = [LOTAnimationView class];
-	__xamarin_class_map [362].handle = [Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance class];
-	__xamarin_class_map [363].handle = [LOTAnimatedControl class];
-	__xamarin_class_map [364].handle = [Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance class];
-	__xamarin_class_map [365].handle = [LOTAnimatedSwitch class];
+	__xamarin_class_map [318].handle = [Lottie_Forms_iOS_Renderers_AnimationViewRenderer class];
+	__xamarin_class_map [319].handle = [LOTAnimationCache class];
+	__xamarin_class_map [320].handle = [LOTAnimationTransitionController class];
+	__xamarin_class_map [321].handle = [LOTCacheProvider class];
+	__xamarin_class_map [322].handle = [LOTColorBlockCallback class];
+	__xamarin_class_map [323].handle = [LOTColorValueCallback class];
+	__xamarin_class_map [324].handle = [LOTValueDelegate class];
+	__xamarin_class_map [325].handle = [LOTColorValueDelegate class];
+	__xamarin_class_map [326].handle = [LOTComposition class];
+	__xamarin_class_map [327].handle = [LOTFloatInterpolatorCallback class];
+	__xamarin_class_map [328].handle = [LOTImageCache class];
+	__xamarin_class_map [329].handle = [LOTKeypath class];
+	__xamarin_class_map [330].handle = [LOTNumberBlockCallback class];
+	__xamarin_class_map [331].handle = [LOTNumberValueCallback class];
+	__xamarin_class_map [332].handle = [LOTNumberValueDelegate class];
+	__xamarin_class_map [333].handle = [LOTPathBlockCallback class];
+	__xamarin_class_map [334].handle = [LOTPathValueCallback class];
+	__xamarin_class_map [335].handle = [LOTPathValueDelegate class];
+	__xamarin_class_map [336].handle = [LOTPointBlockCallback class];
+	__xamarin_class_map [337].handle = [LOTPointInterpolatorCallback class];
+	__xamarin_class_map [338].handle = [LOTPointValueCallback class];
+	__xamarin_class_map [339].handle = [LOTPointValueDelegate class];
+	__xamarin_class_map [340].handle = [LOTSizeBlockCallback class];
+	__xamarin_class_map [341].handle = [LOTSizeInterpolatorCallback class];
+	__xamarin_class_map [342].handle = [LOTSizeValueCallback class];
+	__xamarin_class_map [343].handle = [LOTSizeValueDelegate class];
+	__xamarin_class_map [344].handle = [Airbnb_Lottie_LOTAnimationView_LOTAnimationViewAppearance class];
+	__xamarin_class_map [345].handle = [LOTAnimationView class];
+	__xamarin_class_map [346].handle = [Airbnb_Lottie_LOTAnimatedControl_LOTAnimatedControlAppearance class];
+	__xamarin_class_map [347].handle = [LOTAnimatedControl class];
+	__xamarin_class_map [348].handle = [Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance class];
+	__xamarin_class_map [349].handle = [LOTAnimatedSwitch class];
+	__xamarin_class_map [350].handle = [Xamarin_Controls_ProgressLabel class];
+	__xamarin_class_map [351].handle = [Xamarin_Auth_NativeAuthSafariViewControllerDelegate class];
+	__xamarin_class_map [352].handle = [Xamarin_Auth_FormAuthenticatorController_FormDelegate class];
+	__xamarin_class_map [353].handle = [Xamarin_Auth_FormAuthenticatorController class];
+	__xamarin_class_map [354].handle = [Xamarin_Auth_WebAuthenticatorController_UIWebViewDelegate class];
+	__xamarin_class_map [355].handle = [Xamarin_Auth_WebAuthenticatorController_WKWebViewUIDelegate class];
+	__xamarin_class_map [356].handle = [Xamarin_Auth_WebAuthenticatorController_WKWebViewNavigationDelegate class];
+	__xamarin_class_map [357].handle = [Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler class];
+	__xamarin_class_map [358].handle = [Xamarin_Auth_WebAuthenticatorController class];
+	__xamarin_class_map [359].handle = [Xamarin_Auth_FormAuthenticatorController_FieldCell class];
+	__xamarin_class_map [360].handle = [Xamarin_Auth_FormAuthenticatorController_FormDataSource class];
+	__xamarin_class_map [361].handle = [Xamarin_Essentials_SingleLocationListener class];
+	__xamarin_class_map [362].handle = [Xamarin_Essentials_ShareActivityItemSource class];
+	__xamarin_class_map [363].handle = [FFImageLoading_Forms_Platform_CachedImageRenderer class];
+	__xamarin_class_map [364].handle = [FFImageLoading_Forms_Touch_CachedImageRenderer class];
+	__xamarin_class_map [365].handle = [MvxCachedImageView class];
 	__xamarin_class_map [366].handle = [CarouselView_FormsPlugin_iOS_ViewContainer class];
 	__xamarin_class_map [367].handle = [CarouselView_FormsPlugin_iOS_CarouselViewRenderer class];
 	xamarin_add_registration_map (&__xamarin_registration_map, false);

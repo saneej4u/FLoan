@@ -27,10 +27,10 @@
                 </Grid.ColumnDefinitions>
                 <Label Grid.Row="0" Margin="10" Grid.Column="1" Grid.ColumnSpan="2" TextColor="White" Text="Please enter your bank details. " />
                 <Entry x:Name="AccountHolderNameEntry" HeightRequest="45" Margin="10" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Card holder name" />
-                <Entry x:Name="SortcodeEntry" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Sort code" />
-                <Entry x:Name="AccountNumberEntry" HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Account number" />
-                <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
-                    HorizontalOptions="FillAndExpand" Clicked="GotToIncomeDetails" />
+                <Entry x:Name="SortcodeEntry" Keyboard="Numeric" HeightRequest="45" Margin="10" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Sort code" />
+                <Entry x:Name="AccountNumberEntry" Keyboard="Numeric" HeightRequest="45" Margin="10" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Account number" />
+                <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Text="NEXT" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand" Clicked="GotToIncomeDetails" FontSize="Medium" FontAttributes="Bold" />
             </Grid>
         </ScrollView>
     </ContentPage.Content>

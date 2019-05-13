@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using FLoan.Dto;
+using FLoan.ViewModels;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 
@@ -10,11 +11,11 @@ namespace FLoan.Views
 {
     public partial class BankDetailsPage : ContentPage
     {
-        private int _customerId;
-        public BankDetailsPage(int customerId)
+        LoanApplicationViewModel _loan = new LoanApplicationViewModel();
+        public BankDetailsPage(LoanApplicationViewModel loan)
         {
             InitializeComponent();
-            _customerId = customerId;
+            _loan = loan;
         }
 
         async void GotToIncomeDetails(object sender, System.EventArgs e)
@@ -29,7 +30,7 @@ namespace FLoan.Views
                 AccountHolderName = AccountHolderNameEntry.Text,
                 AccountNumber = AccountNumberEntry.Text,
                 Sortcode = SortcodeEntry.Text,
-                CustomerId = _customerId
+                CustomerId = _loan.CustomerId
             };
 
             var serializeBankToCreate = JsonConvert.SerializeObject(bankForCreation);
@@ -46,7 +47,7 @@ namespace FLoan.Views
 
             response.EnsureSuccessStatusCode();
 
-            await Navigation.PushAsync(new IncomeDetailsPage(_customerId));
+            await Navigation.PushAsync(new IncomeDetailsPage(_loan));
         }
     }
 }

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "CarouselView.FormsPlugin.iOS.dll"
 	.asciz ""
 
@@ -832,13 +832,13 @@ ldr x15, [x16, #288]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -3254,13 +3254,13 @@ bl _p_41
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
@@ -3911,7 +3911,7 @@ bl _p_50
 .word 0x910003bf
 .word 0xa8df7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -4172,10 +4172,10 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -4968,7 +4968,7 @@ bl _p_35
 .word 0x910003bf
 .word 0xa8d37bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
@@ -5227,13 +5227,13 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -8106,7 +8106,7 @@ bl _p_81
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
@@ -10336,7 +10336,7 @@ bl _p_97
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -10660,13 +10660,13 @@ ldr x0, [x16, #1192]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -11317,7 +11317,7 @@ ldr x0, [x16, #1248]
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
@@ -12378,10 +12378,10 @@ bl _p_131
 .word 0x910003bf
 .word 0xa8dd7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -12960,7 +12960,7 @@ bl _p_117
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -13594,13 +13594,13 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_11
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -13862,7 +13862,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -14043,7 +14043,7 @@ bl _p_66
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -16365,7 +16365,7 @@ bl _p_158
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
@@ -18137,13 +18137,13 @@ bl _p_165
 .word 0x910003bf
 .word 0xa8d27bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -18722,7 +18722,7 @@ bl _p_173
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
@@ -18995,7 +18995,7 @@ bl _p_132
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -19128,7 +19128,7 @@ ldr x16, [x16, #1888]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -19141,7 +19141,7 @@ b System_Nullable_1_bool__ctor_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
 .loc 2 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -19601,7 +19601,7 @@ b System_Nullable_1_bool_Box_System_Nullable_1_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool_Box_System_Nullable_1_bool
 System_Nullable_1_bool_Box_System_Nullable_1_bool:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 3 52 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -19779,7 +19779,7 @@ bl _p_179
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -19876,9 +19876,9 @@ bl _p_180
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_136
@@ -19939,7 +19939,7 @@ bl _p_179
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -20076,7 +20076,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -20213,7 +20213,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -20222,7 +20222,7 @@ Lme_48:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 4 85 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -20442,13 +20442,13 @@ ldr x16, [x16, #2072]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d76a0
-.word 0xd28d76a0
+.word 0xd28d9ac0
+.word 0xd28d9ac0
 bl _p_187
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_136
@@ -20490,13 +20490,13 @@ ldr x16, [x16, #2080]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_187
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_136
@@ -20538,13 +20538,13 @@ ldr x16, [x16, #2088]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_187
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_136
@@ -20609,8 +20609,8 @@ ldr x16, [x16, #2096]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_187
 bl _p_188
 .word 0xf90033a0
@@ -20619,9 +20619,9 @@ bl _p_188
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_136
@@ -20967,7 +20967,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -21097,7 +21097,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -21243,7 +21243,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -21383,7 +21383,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -21513,7 +21513,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -21659,7 +21659,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -21796,7 +21796,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -22445,7 +22445,7 @@ bl _p_104
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -22542,9 +22542,9 @@ bl _p_180
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_136
@@ -22605,7 +22605,7 @@ bl _p_104
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
 
@@ -22745,7 +22745,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -22875,7 +22875,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -23021,7 +23021,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
@@ -23034,7 +23034,7 @@ b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSH
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 5 72 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
@@ -23144,9 +23144,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -23323,9 +23323,9 @@ ldr x16, [x16, #2312]
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -24145,7 +24145,7 @@ Lme_6b:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
 .loc 6 83 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -24739,9 +24739,9 @@ ldr x16, [x16, #2464]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -24763,9 +24763,9 @@ bl _p_136
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -24886,9 +24886,9 @@ ldr x16, [x16, #2480]
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -24910,9 +24910,9 @@ bl _p_136
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -25171,7 +25171,7 @@ bl _p_229
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 
@@ -26011,6 +26011,72 @@ bl _p_242
 Lme_7f:
 .text
 	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken:
+.loc 6 625 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
+add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
+ldr x16, [x16, #2632]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9002fa0
+.word 0xf9400fa0
+.word 0xf90033a0
+bl _p_241
+.word 0xf90037a0
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0x910083a3
+.word 0x910123a3
+.word 0xf94013a3
+.word 0xf90027a3
+.word 0xd2800003
+.word 0x910123a3
+.word 0xf94027a3
+.word 0xd2800004
+bl _p_242
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9401bb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_80:
+.text
+	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler:
 .loc 6 653 0 prologue_end
@@ -26022,7 +26088,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2640]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26068,7 +26134,7 @@ bl _p_242
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_80:
+Lme_81:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -26084,7 +26150,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2648]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -26125,7 +26191,7 @@ bl _p_242
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_81:
+Lme_82:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -26144,7 +26210,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2656]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -26170,9 +26236,9 @@ ldr x16, [x16, #2648]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28804e0
+.word 0xd2882b00
 .word 0xf2a00020
-.word 0xd28804e0
+.word 0xd2882b00
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -26194,9 +26260,9 @@ bl _p_136
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -26231,7 +26297,7 @@ bl _p_243
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2656]
+ldr x0, [x16, #2664]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_6
@@ -26285,12 +26351,12 @@ bl _p_245
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_82:
+Lme_83:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/FutureFactory.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/FutureFactory.cs"
 .loc 7 93 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -26298,7 +26364,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2672]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26345,7 +26411,7 @@ bl _p_246
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_83:
+Lme_84:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -26363,7 +26429,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2680]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -26473,7 +26539,7 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_84:
+Lme_85:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -26491,7 +26557,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_Start
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2688]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -26549,7 +26615,7 @@ bl _p_249
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_85:
+Lme_86:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -26566,7 +26632,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2696]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -26942,7 +27008,7 @@ bl _p_256
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_86:
+Lme_87:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
@@ -26957,7 +27023,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2704]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -26999,7 +27065,7 @@ bl _p_257
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_87:
+Lme_88:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
@@ -27017,7 +27083,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2712]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -27032,7 +27098,7 @@ ldr x16, [x16, #2704]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2712]
+ldr x0, [x16, #2720]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_6
@@ -27090,9 +27156,9 @@ ldr x2, [x16, #16]
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880ee0
+.word 0xd2883500
 .word 0xf2a00020
-.word 0xd2880ee0
+.word 0xd2883500
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -27126,9 +27192,9 @@ bl _p_136
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28811e0
+.word 0xd2883800
 .word 0xf2a00020
-.word 0xd28811e0
+.word 0xd2883800
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -27221,7 +27287,7 @@ bl _p_253
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2720]
+ldr x0, [x16, #2728]
 .word 0xaa1603e1
 .word 0xaa1603e1
 bl _p_130
@@ -27266,7 +27332,7 @@ bl _p_262
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2728]
+ldr x0, [x16, #2736]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_6
@@ -27291,17 +27357,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2736]
+ldr x0, [x16, #2744]
 .word 0xf9001420
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2752]
 .word 0xf9002020
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2752]
+ldr x0, [x16, #2760]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -27333,7 +27399,7 @@ ldr x0, [x16, #2752]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x15, [x16, #2760]
+ldr x15, [x16, #2768]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -27479,16 +27545,16 @@ bl _p_264
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_11
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_11
 
-Lme_88:
+Lme_89:
 .text
-ut_137:
+ut_138:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 .text
@@ -27502,7 +27568,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27589,9 +27655,9 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_89:
+Lme_8a:
 .text
-ut_138:
+ut_139:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 .text
@@ -27606,7 +27672,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27638,9 +27704,9 @@ bl _p_265
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_8a:
+Lme_8b:
 .text
-ut_139:
+ut_140:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 .text
@@ -27656,7 +27722,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2792]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27740,9 +27806,9 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_8b:
+Lme_8c:
 .text
-ut_140:
+ut_141:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -27758,7 +27824,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2800]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -27874,7 +27940,7 @@ bl _p_268
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2800]
+ldr x0, [x16, #2808]
 .word 0x39400000
 .word 0x34000220
 .loc 5 605 0
@@ -27926,9 +27992,9 @@ bl _p_230
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
 bl _p_187
 bl _p_270
@@ -27938,9 +28004,9 @@ bl _p_270
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_136
@@ -27958,9 +28024,9 @@ bl _p_136
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_8c:
+Lme_8d:
 .text
-ut_141:
+ut_142:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
@@ -27976,7 +28042,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2816]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28064,9 +28130,9 @@ bl _p_271
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_8d:
+Lme_8e:
 .text
-ut_142:
+ut_143:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 .text
@@ -28085,7 +28151,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2824]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -28109,9 +28175,9 @@ ldr x16, [x16, #2816]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd288a6a0
+.word 0xd288ccc0
 .word 0xf2a00020
-.word 0xd288a6a0
+.word 0xd288ccc0
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -28175,7 +28241,7 @@ bl _p_215
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2824]
+ldr x1, [x16, #2832]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800015
@@ -28237,9 +28303,9 @@ bl _p_251
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
 bl _p_187
 bl _p_270
@@ -28249,9 +28315,9 @@ bl _p_270
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_136
@@ -28272,9 +28338,9 @@ bl _p_136
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_8e:
+Lme_8f:
 .text
-ut_143:
+ut_144:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
 .text
@@ -28289,7 +28355,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28334,9 +28400,9 @@ bl _p_272
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_8f:
+Lme_90:
 .text
-ut_144:
+ut_145:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
 .text
@@ -28350,7 +28416,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28386,9 +28452,9 @@ bl _p_215
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_90:
+Lme_91:
 .text
-ut_145:
+ut_146:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -28403,7 +28469,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2856]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28437,11 +28503,11 @@ ldr x16, [x16, #2848]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2864]
+ldr x1, [x16, #2872]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28463,7 +28529,7 @@ ldr x1, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28498,14 +28564,14 @@ ldr x2, [x16, #1992]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2880]
+ldr x0, [x16, #2888]
 .word 0xf9400000
 .word 0xaa0003f9
 .word 0x14000006
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2896]
 .word 0xf9400000
 .word 0xaa0003f9
 .loc 5 759 0
@@ -28517,7 +28583,7 @@ ldr x0, [x16, #2888]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x15, [x16, #2896]
+ldr x15, [x16, #2904]
 .word 0xaa1903e0
 bl _p_273
 .word 0xf9006ba0
@@ -28535,11 +28601,11 @@ bl _p_273
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2904]
+ldr x1, [x16, #2912]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28561,7 +28627,7 @@ ldr x1, [x16, #2904]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28611,7 +28677,7 @@ ldr x2, [x16, #2248]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2912]
+ldr x0, [x16, #2920]
 .word 0xf9400000
 .word 0xaa1a03e1
 .word 0x9280001e
@@ -28636,7 +28702,7 @@ ldr x0, [x16, #2912]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x15, [x16, #2896]
+ldr x15, [x16, #2904]
 bl _p_273
 .word 0xf9006ba0
 .word 0xf9401bb1
@@ -28653,11 +28719,11 @@ bl _p_273
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2920]
+ldr x1, [x16, #2928]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28674,7 +28740,7 @@ ldr x1, [x16, #2920]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28692,7 +28758,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #2928]
+ldr x2, [x16, #2936]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003e61
@@ -28702,11 +28768,11 @@ ldr x2, [x16, #2928]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2936]
+ldr x1, [x16, #2944]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28723,7 +28789,7 @@ ldr x1, [x16, #2936]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28741,7 +28807,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #2944]
+ldr x2, [x16, #2952]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540038c1
@@ -28751,11 +28817,11 @@ ldr x2, [x16, #2944]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2952]
+ldr x1, [x16, #2960]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28772,7 +28838,7 @@ ldr x1, [x16, #2952]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28790,7 +28856,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #2960]
+ldr x2, [x16, #2968]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003321
@@ -28800,11 +28866,11 @@ ldr x2, [x16, #2960]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2968]
+ldr x1, [x16, #2976]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28821,7 +28887,7 @@ ldr x1, [x16, #2968]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28839,7 +28905,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #2976]
+ldr x2, [x16, #2984]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002d81
@@ -28849,11 +28915,11 @@ ldr x2, [x16, #2976]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #2984]
+ldr x1, [x16, #2992]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28870,7 +28936,7 @@ ldr x1, [x16, #2984]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28888,7 +28954,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #2992]
+ldr x2, [x16, #3000]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540027e1
@@ -28898,11 +28964,11 @@ ldr x2, [x16, #2992]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3000]
+ldr x1, [x16, #3008]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28919,7 +28985,7 @@ ldr x1, [x16, #3000]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28937,7 +29003,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #3008]
+ldr x2, [x16, #3016]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002241
@@ -28947,11 +29013,11 @@ ldr x2, [x16, #3008]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3016]
+ldr x1, [x16, #3024]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -28968,7 +29034,7 @@ ldr x1, [x16, #3016]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -28986,7 +29052,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #3024]
+ldr x2, [x16, #3032]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001ca1
@@ -28996,11 +29062,11 @@ ldr x2, [x16, #3024]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3032]
+ldr x1, [x16, #3040]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -29017,7 +29083,7 @@ ldr x1, [x16, #3032]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -29035,7 +29101,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #3040]
+ldr x2, [x16, #3048]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001701
@@ -29045,11 +29111,11 @@ ldr x2, [x16, #3040]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3048]
+ldr x1, [x16, #3056]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -29068,7 +29134,7 @@ ldr x1, [x16, #3048]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -29086,7 +29152,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #3056]
+ldr x2, [x16, #3064]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001121
@@ -29105,11 +29171,11 @@ bl _p_274
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2856]
+ldr x0, [x16, #2864]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3064]
+ldr x1, [x16, #3072]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -29129,7 +29195,7 @@ ldr x1, [x16, #3064]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2880]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_6
@@ -29149,7 +29215,7 @@ bl _p_6
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x3, [x16, #3072]
+ldr x3, [x16, #3080]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x540009c1
@@ -29176,7 +29242,7 @@ bl _p_275
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #3080]
+ldr x0, [x16, #3088]
 .word 0xf9400000
 .word 0x1400002e
 .loc 5 794 0
@@ -29197,7 +29263,7 @@ ldr x0, [x16, #3080]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #3080]
+ldr x0, [x16, #3088]
 .word 0xf9400000
 .word 0x1400001c
 .loc 5 800 0
@@ -29237,16 +29303,16 @@ bl _p_276
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_11
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_91:
+Lme_92:
 .text
-ut_146:
+ut_147:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 .text
@@ -29259,7 +29325,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3096]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -29286,7 +29352,7 @@ ldr x16, [x16, #3088]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x15, [x16, #3096]
+ldr x15, [x16, #3104]
 .word 0x9100a3a0
 .word 0xf94017a0
 bl _p_277
@@ -29299,7 +29365,7 @@ bl _p_277
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x0, [x16, #3080]
+ldr x0, [x16, #3088]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940be31
@@ -29309,7 +29375,7 @@ ldr x0, [x16, #3080]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_92:
+Lme_93:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
@@ -29324,7 +29390,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invo
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3112]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -29464,20 +29530,20 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_97:
+Lme_98:
 .text
-ut_152:
+ut_153:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs"
 .loc 8 270 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -29486,7 +29552,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29530,9 +29596,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_98:
+Lme_99:
 .text
-ut_153:
+ut_154:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -29546,7 +29612,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3128]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29582,9 +29648,9 @@ bl _p_226
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_99:
+Lme_9a:
 .text
-ut_154:
+ut_155:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
@@ -29599,7 +29665,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3136]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29636,9 +29702,9 @@ bl _p_278
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9a:
+Lme_9b:
 .text
-ut_155:
+ut_156:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -29653,7 +29719,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3144]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29690,9 +29756,9 @@ bl _p_278
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9b:
+Lme_9c:
 .text
-ut_156:
+ut_157:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -29707,7 +29773,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3152]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29758,9 +29824,9 @@ bl _p_280
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9c:
+Lme_9d:
 .text
-ut_157:
+ut_158:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -29776,7 +29842,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3160]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29804,7 +29870,7 @@ ldr x16, [x16, #3152]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x15, [x16, #3160]
+ldr x15, [x16, #3168]
 bl _p_281
 .word 0x910143a0
 .word 0x910103a0
@@ -29848,9 +29914,9 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_9d:
+Lme_9e:
 .text
-ut_158:
+ut_159:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 .text
@@ -29864,7 +29930,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3176]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29902,9 +29968,9 @@ ldr x16, [x16, #3168]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_9e:
+Lme_9f:
 .text
-ut_159:
+ut_160:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -29921,7 +29987,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3184]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29974,9 +30040,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_9f:
+Lme_a0:
 .text
-ut_160:
+ut_161:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -29990,7 +30056,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3192]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30026,9 +30092,9 @@ bl _p_226
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a0:
+Lme_a1:
 .text
-ut_161:
+ut_162:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
@@ -30044,7 +30110,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3200]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30082,9 +30148,9 @@ bl _p_278
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a1:
+Lme_a2:
 .text
-ut_162:
+ut_163:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -30100,7 +30166,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3208]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -30138,9 +30204,9 @@ bl _p_278
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_a2:
+Lme_a3:
 .text
-ut_163:
+ut_164:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -30155,7 +30221,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3216]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -30206,7 +30272,7 @@ bl _p_280
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_a3:
+Lme_a4:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -30222,7 +30288,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3224]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30332,16 +30398,16 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_a4:
+Lme_a5:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/TaskContinuation.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/TaskContinuation.cs"
 .loc 9 130 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
@@ -30356,7 +30422,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_V
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3232]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -30448,7 +30514,7 @@ bl _p_221
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_a5:
+Lme_a6:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -30462,7 +30528,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_V
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3240]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -30517,11 +30583,11 @@ bl _p_234
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3240]
+ldr x1, [x16, #3248]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #3248]
+ldr x2, [x16, #3256]
 bl _p_238
 .word 0xaa0003f8
 .loc 9 156 0
@@ -30559,11 +30625,11 @@ bl _p_238
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x1, [x16, #3256]
+ldr x1, [x16, #3264]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x2, [x16, #3264]
+ldr x2, [x16, #3272]
 bl _p_238
 .word 0xaa0003f7
 .loc 9 162 0
@@ -30607,7 +30673,7 @@ bl _p_238
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_a6:
+Lme_a7:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
@@ -30623,7 +30689,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResu
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3280]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -30768,11 +30834,11 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_ab:
+Lme_ac:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
@@ -30789,7 +30855,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3288]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30911,11 +30977,11 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_ac:
+Lme_ad:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
@@ -30931,7 +30997,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3296]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -31076,11 +31142,11 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_b1:
+Lme_b2:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
@@ -31096,7 +31162,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3304]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -31206,11 +31272,11 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_11
 
-Lme_b2:
+Lme_b3:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
@@ -31221,7 +31287,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31242,7 +31308,7 @@ ldr x16, [x16, #3304]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_b3:
+Lme_b4:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
@@ -31256,7 +31322,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3320]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31278,7 +31344,7 @@ ldr x16, [x16, #3312]
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x15, [x16, #2760]
+ldr x15, [x16, #2768]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -31329,7 +31395,7 @@ bl _p_263
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_b4:
+Lme_b5:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
@@ -31341,7 +31407,7 @@ System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Thread
 
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31399,7 +31465,7 @@ bl _p_282
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_b5:
+Lme_b6:
 .text
 	.align 3
 jit_code_end:
@@ -31537,6 +31603,7 @@ bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvo
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -31601,9 +31668,9 @@ unbox_trampolines:
 	.long 64,65,66,67,68,69,70,88
 	.long 89,90,91,92,93,94,95,96
 	.long 97,98,102,103,104,105,106,107
-	.long 137,138,139,140,141,142,143,144
-	.long 145,146,152,153,154,155,156,157
-	.long 158,159,160,161,162,163
+	.long 138,139,140,141,142,143,144,145
+	.long 146,147,153,154,155,156,157,158
+	.long 159,160,161,162,163,164
 unbox_trampolines_end:
 
 	.long 0
@@ -31642,7 +31709,6 @@ bl ut_104
 bl ut_105
 bl ut_106
 bl ut_107
-bl ut_137
 bl ut_138
 bl ut_139
 bl ut_140
@@ -31652,7 +31718,7 @@ bl ut_143
 bl ut_144
 bl ut_145
 bl ut_146
-bl ut_152
+bl ut_147
 bl ut_153
 bl ut_154
 bl ut_155
@@ -31664,6 +31730,7 @@ bl ut_160
 bl ut_161
 bl ut_162
 bl ut_163
+bl ut_164
 
 	.long 0
 .section __TEXT, __const
@@ -31730,2261 +31797,2261 @@ plt_System_Collections_Generic_List_1_object_get_Count:
 _p_1:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3344]
 br x16
-.word 5408
+.word 5432
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_OnElementChanged_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl:
 _p_2:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3344]
+ldr x16, [x16, #3352]
 br x16
-.word 5419
+.word 5443
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_get_Control
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_get_Control:
 _p_3:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3352]
+ldr x16, [x16, #3360]
 br x16
-.word 5430
+.word 5454
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_OldElement
 plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_OldElement:
 _p_4:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3360]
+ldr x16, [x16, #3368]
 br x16
-.word 5441
+.word 5465
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_VisualElementRenderer_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_Element
 plt_Xamarin_Forms_Platform_iOS_VisualElementRenderer_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_Element:
 _p_5:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3376]
 br x16
-.word 5452
+.word 5476
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_6:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3384]
 br x16
-.word 5463
+.word 5487
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_remove_SizeChanged_System_EventHandler
 plt_Xamarin_Forms_VisualElement_remove_SizeChanged_System_EventHandler:
 _p_7:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3392]
 br x16
-.word 5471
+.word 5495
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ItemsSource
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ItemsSource:
 _p_8:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3400]
 br x16
-.word 5476
+.word 5500
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_NewElement
 plt_Xamarin_Forms_Platform_iOS_ElementChangedEventArgs_1_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_NewElement:
 _p_9:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3408]
 br x16
-.word 5481
+.word 5505
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_add_SizeChanged_System_EventHandler
 plt_Xamarin_Forms_VisualElement_add_SizeChanged_System_EventHandler:
 _p_10:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3416]
 br x16
-.word 5492
+.word 5516
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_11:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3424]
 br x16
-.word 5497
+.word 5521
 	.no_dead_strip plt_string_memset_byte__int_int
 plt_string_memset_byte__int_int:
 _p_12:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3424]
+ldr x16, [x16, #3432]
 br x16
-.word 5532
+.word 5556
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
 _p_13:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3440]
 br x16
-.word 5537
+.word 5561
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_:
 _p_14:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3448]
 br x16
-.word 5542
+.word 5566
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Bounds
 plt_Xamarin_Forms_VisualElement_get_Bounds:
 _p_15:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3456]
 br x16
-.word 5554
+.word 5578
 	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Height
 plt_Xamarin_Forms_Rectangle_get_Height:
 _p_16:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3464]
 br x16
-.word 5559
+.word 5583
 	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Width
 plt_Xamarin_Forms_Rectangle_get_Width:
 _p_17:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3472]
 br x16
-.word 5564
+.word 5588
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetNativeView
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetNativeView:
 _p_18:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3480]
 br x16
-.word 5569
+.word 5593
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_SendPositionSelected
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_SendPositionSelected:
 _p_19:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3488]
 br x16
-.word 5571
+.word 5595
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_PositionSelectedCommand
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_PositionSelectedCommand:
 _p_20:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3496]
 br x16
-.word 5576
+.word 5600
 	.no_dead_strip plt_Xamarin_Forms_Command_Execute_object
 plt_Xamarin_Forms_Command_Execute_object:
 _p_21:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3504]
 br x16
-.word 5581
+.word 5605
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_Element_SizeChanged_object_System_EventArgs
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_Element_SizeChanged_object_System_EventArgs:
 _p_22:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3512]
 br x16
-.word 5586
+.word 5610
 	.no_dead_strip plt_UIKit_UIView_MovedToSuperview
 plt_UIKit_UIView_MovedToSuperview:
 _p_23:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3520]
 br x16
-.word 5588
+.word 5612
 	.no_dead_strip plt_UIKit_UIView_MovedToWindow
 plt_UIKit_UIView_MovedToWindow:
 _p_24:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3520]
+ldr x16, [x16, #3528]
 br x16
-.word 5593
+.word 5617
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_OnElementPropertyChanged_object_System_ComponentModel_PropertyChangedEventArgs:
 _p_25:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3536]
 br x16
-.word 5598
+.word 5622
 	.no_dead_strip plt_string_op_Equality_string_string
 plt_string_op_Equality_string_string:
 _p_26:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3544]
 br x16
-.word 5609
+.word 5633
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_Position
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_Position:
 _p_27:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3552]
 br x16
-.word 5614
+.word 5638
 	.no_dead_strip plt__PrivateImplementationDetails_ComputeStringHash_string
 plt__PrivateImplementationDetails_ComputeStringHash_string:
 _p_28:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3560]
 br x16
-.word 5619
+.word 5643
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_BackgroundColor
 plt_Xamarin_Forms_VisualElement_get_BackgroundColor:
 _p_29:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3568]
 br x16
-.word 5621
+.word 5645
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ColorExtensions_ToUIColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_Platform_iOS_ColorExtensions_ToUIColor_Xamarin_Forms_Color:
 _p_30:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3576]
 br x16
-.word 5626
+.word 5650
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIsSwipeEnabled
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIsSwipeEnabled:
 _p_31:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3584]
 br x16
-.word 5631
+.word 5655
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicatorsTintColor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicatorsTintColor:
 _p_32:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3592]
 br x16
-.word 5633
+.word 5657
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetCurrentPageIndicatorTintColor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetCurrentPageIndicatorTintColor:
 _p_33:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3600]
 br x16
-.word 5635
+.word 5659
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicatorsShape
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicatorsShape:
 _p_34:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3608]
 br x16
-.word 5637
+.word 5661
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicators
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicators:
 _p_35:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3616]
 br x16
-.word 5639
+.word 5663
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetPosition
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetPosition:
 _p_36:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3624]
 br x16
-.word 5641
+.word 5665
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetCurrentPage_int
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetCurrentPage_int:
 _p_37:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3632]
 br x16
-.word 5643
+.word 5667
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetArrows
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetArrows:
 _p_38:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3640]
 br x16
-.word 5645
+.word 5669
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ArrowsBackgroundColor
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ArrowsBackgroundColor:
 _p_39:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3648]
 br x16
-.word 5647
+.word 5671
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ArrowsTintColor
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ArrowsTintColor:
 _p_40:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3656]
 br x16
-.word 5652
+.word 5676
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ArrowsTransparency
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ArrowsTransparency:
 _p_41:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3664]
 br x16
-.word 5657
+.word 5681
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_Orientation
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_Orientation:
 _p_42:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3672]
 br x16
-.word 5662
+.word 5686
 	.no_dead_strip plt_CoreGraphics_CGPoint_get_X
 plt_CoreGraphics_CGPoint_get_X:
 _p_43:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3680]
 br x16
-.word 5667
+.word 5691
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Size
 plt_CoreGraphics_CGRect_get_Size:
 _p_44:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3688]
 br x16
-.word 5672
+.word 5696
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Width
 plt_CoreGraphics_CGSize_get_Width:
 _p_45:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3696]
 br x16
-.word 5677
+.word 5701
 	.no_dead_strip plt_System_Math_Abs_double
 plt_System_Math_Abs_double:
 _p_46:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3704]
 br x16
-.word 5682
+.word 5706
 	.no_dead_strip plt_System_Math_Floor_double
 plt_System_Math_Floor_double:
 _p_47:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3712]
 br x16
-.word 5687
+.word 5711
 	.no_dead_strip plt_CoreGraphics_CGPoint_get_Y
 plt_CoreGraphics_CGPoint_get_Y:
 _p_48:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3720]
 br x16
-.word 5692
+.word 5716
 	.no_dead_strip plt_CoreGraphics_CGSize_get_Height
 plt_CoreGraphics_CGSize_get_Height:
 _p_49:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3728]
 br x16
-.word 5697
+.word 5721
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_SendScrolled_double_CarouselView_FormsPlugin_Abstractions_ScrollDirection
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_SendScrolled_double_CarouselView_FormsPlugin_Abstractions_ScrollDirection:
 _p_50:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3736]
 br x16
-.word 5702
+.word 5726
 	.no_dead_strip plt_UIKit_UIPageViewFinishedAnimationEventArgs_get_Completed
 plt_UIKit_UIPageViewFinishedAnimationEventArgs_get_Completed:
 _p_51:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3736]
+ldr x16, [x16, #3744]
 br x16
-.word 5707
+.word 5731
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_ViewContainer_get_Tag
 plt_CarouselView_FormsPlugin_iOS_ViewContainer_get_Tag:
 _p_52:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3744]
+ldr x16, [x16, #3752]
 br x16
-.word 5712
+.word 5736
 	.no_dead_strip plt_System_Collections_Generic_List_1_object_IndexOf_object
 plt_System_Collections_Generic_List_1_object_IndexOf_object:
 _p_53:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3752]
+ldr x16, [x16, #3760]
 br x16
-.word 5714
+.word 5738
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_set_Position_int
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_set_Position_int:
 _p_54:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3760]
+ldr x16, [x16, #3768]
 br x16
-.word 5725
+.word 5749
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetArrowsVisibility
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetArrowsVisibility:
 _p_55:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3776]
 br x16
-.word 5730
+.word 5754
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicatorsCurrentPage
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_SetIndicatorsCurrentPage:
 _p_56:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #3784]
 br x16
-.word 5732
+.word 5756
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CleanUpPageController
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CleanUpPageController:
 _p_57:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3784]
+ldr x16, [x16, #3792]
 br x16
-.word 5734
+.word 5758
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_InterPageSpacing
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_InterPageSpacing:
 _p_58:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3792]
+ldr x16, [x16, #3800]
 br x16
-.word 5736
+.word 5760
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_59:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3800]
+ldr x16, [x16, #3808]
 br x16
-.word 5741
+.word 5765
 	.no_dead_strip plt_UIKit_UIPageViewController__ctor_UIKit_UIPageViewControllerTransitionStyle_UIKit_UIPageViewControllerNavigationOrientation_UIKit_UIPageViewControllerSpineLocation_single
 plt_UIKit_UIPageViewController__ctor_UIKit_UIPageViewControllerTransitionStyle_UIKit_UIPageViewControllerNavigationOrientation_UIKit_UIPageViewControllerSpineLocation_single:
 _p_60:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3808]
+ldr x16, [x16, #3816]
 br x16
-.word 5773
+.word 5797
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_IEnumerableExtensions_GetList_System_Collections_IEnumerable
 plt_CarouselView_FormsPlugin_Abstractions_IEnumerableExtensions_GetList_System_Collections_IEnumerable:
 _p_61:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3816]
+ldr x16, [x16, #3824]
 br x16
-.word 5778
+.word 5802
 	.no_dead_strip plt_System_Collections_Generic_List_1_object__ctor_System_Collections_Generic_IEnumerable_1_object
 plt_System_Collections_Generic_List_1_object__ctor_System_Collections_Generic_IEnumerable_1_object:
 _p_62:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3824]
+ldr x16, [x16, #3832]
 br x16
-.word 5783
+.word 5807
 	.no_dead_strip plt_UIKit_UIPageViewController_set_GetPreviousViewController_UIKit_UIPageViewGetViewController
 plt_UIKit_UIPageViewController_set_GetPreviousViewController_UIKit_UIPageViewGetViewController:
 _p_63:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3832]
+ldr x16, [x16, #3840]
 br x16
-.word 5794
+.word 5818
 	.no_dead_strip plt_UIKit_UIPageViewController_set_GetNextViewController_UIKit_UIPageViewGetViewController
 plt_UIKit_UIPageViewController_set_GetNextViewController_UIKit_UIPageViewGetViewController:
 _p_64:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3840]
+ldr x16, [x16, #3848]
 br x16
-.word 5799
+.word 5823
 	.no_dead_strip plt_UIKit_UIPageViewController_add_DidFinishAnimating_System_EventHandler_1_UIKit_UIPageViewFinishedAnimationEventArgs
 plt_UIKit_UIPageViewController_add_DidFinishAnimating_System_EventHandler_1_UIKit_UIPageViewFinishedAnimationEventArgs:
 _p_65:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3848]
+ldr x16, [x16, #3856]
 br x16
-.word 5804
+.word 5828
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CreateViewController_int
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CreateViewController_int:
 _p_66:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3856]
+ldr x16, [x16, #3864]
 br x16
-.word 5809
+.word 5833
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_67:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3864]
+ldr x16, [x16, #3872]
 br x16
-.word 5811
+.word 5835
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_SetNativeControl_UIKit_UIView
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_SetNativeControl_UIKit_UIView:
 _p_68:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3872]
+ldr x16, [x16, #3880]
 br x16
-.word 5819
+.word 5843
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_IsSwipeEnabled
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_IsSwipeEnabled:
 _p_69:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3880]
+ldr x16, [x16, #3888]
 br x16
-.word 5830
+.word 5854
 	.no_dead_strip plt_UIKit_UIScrollView_add_Scrolled_System_EventHandler
 plt_UIKit_UIScrollView_add_Scrolled_System_EventHandler:
 _p_70:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3888]
+ldr x16, [x16, #3896]
 br x16
-.word 5835
+.word 5859
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_IEnumerableExtensions_GetCount_System_Collections_IEnumerable
 plt_CarouselView_FormsPlugin_Abstractions_IEnumerableExtensions_GetCount_System_Collections_IEnumerable:
 _p_71:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3904]
 br x16
-.word 5840
+.word 5864
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CleanUpArrows
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CleanUpArrows:
 _p_72:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #3912]
 br x16
-.word 5845
+.word 5869
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ShowArrows
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ShowArrows:
 _p_73:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3920]
 br x16
-.word 5847
+.word 5871
 	.no_dead_strip plt_UIKit_UIButton__ctor
 plt_UIKit_UIButton__ctor:
 _p_74:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #3928]
 br x16
-.word 5852
+.word 5876
 	.no_dead_strip plt_UIKit_UIImageView__ctor
 plt_UIKit_UIImageView__ctor:
 _p_75:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #3936]
 br x16
-.word 5857
+.word 5881
 	.no_dead_strip plt_UIKit_UIImage__ctor_string
 plt_UIKit_UIImage__ctor_string:
 _p_76:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #3944]
 br x16
-.word 5862
+.word 5886
 	.no_dead_strip plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler
 plt_UIKit_UIControl_add_TouchUpInside_System_EventHandler:
 _p_77:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #3952]
 br x16
-.word 5867
+.word 5891
 	.no_dead_strip plt_Foundation_NSString__ctor_string
 plt_Foundation_NSString__ctor_string:
 _p_78:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3952]
+ldr x16, [x16, #3960]
 br x16
-.word 5872
+.word 5896
 	.no_dead_strip plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__
 plt_Foundation_NSDictionary_FromObjectsAndKeys_Foundation_NSObject___Foundation_NSObject__:
 _p_79:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3960]
+ldr x16, [x16, #3968]
 br x16
-.word 5877
+.word 5901
 	.no_dead_strip plt_Foundation_NSDictionary__ctor
 plt_Foundation_NSDictionary__ctor:
 _p_80:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3968]
+ldr x16, [x16, #3976]
 br x16
-.word 5882
+.word 5906
 	.no_dead_strip plt_UIKit_NSLayoutConstraint_FromVisualFormat_string_UIKit_NSLayoutFormatOptions_Foundation_NSDictionary_Foundation_NSDictionary
 plt_UIKit_NSLayoutConstraint_FromVisualFormat_string_UIKit_NSLayoutFormatOptions_Foundation_NSDictionary_Foundation_NSDictionary:
 _p_81:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3976]
+ldr x16, [x16, #3984]
 br x16
-.word 5887
+.word 5911
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_82:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #3992]
 br x16
-.word 5892
+.word 5916
 	.no_dead_strip plt_string_Concat_object_object_object
 plt_string_Concat_object_object_object:
 _p_83:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #3992]
+ldr x16, [x16, #4000]
 br x16
-.word 5897
+.word 5921
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ShowIndicators
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ShowIndicators:
 _p_84:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4000]
+ldr x16, [x16, #4008]
 br x16
-.word 5902
+.word 5926
 	.no_dead_strip plt_UIKit_UIPageControl__ctor
 plt_UIKit_UIPageControl__ctor:
 _p_85:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4008]
+ldr x16, [x16, #4016]
 br x16
-.word 5907
+.word 5931
 	.no_dead_strip plt_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat
 plt_CoreGraphics_CGAffineTransform_MakeRotation_System_nfloat:
 _p_86:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4016]
+ldr x16, [x16, #4024]
 br x16
-.word 5912
+.word 5936
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_get_Count
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_get_Count:
 _p_87:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #4032]
 br x16
-.word 5917
+.word 5941
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_IndicatorsTintColor
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_IndicatorsTintColor:
 _p_88:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4032]
+ldr x16, [x16, #4040]
 br x16
-.word 5919
+.word 5943
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_CurrentPageIndicatorTintColor
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_CurrentPageIndicatorTintColor:
 _p_89:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4040]
+ldr x16, [x16, #4048]
 br x16
-.word 5924
+.word 5948
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CleanUpPageControl
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_CleanUpPageControl:
 _p_90:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4048]
+ldr x16, [x16, #4056]
 br x16
-.word 5929
+.word 5953
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_IndicatorsShape
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_IndicatorsShape:
 _p_91:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #4064]
 br x16
-.word 5931
+.word 5955
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Width
 plt_CoreGraphics_CGRect_get_Width:
 _p_92:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4064]
+ldr x16, [x16, #4072]
 br x16
-.word 5936
+.word 5960
 	.no_dead_strip plt_System_nfloat_op_Implicit_int
 plt_System_nfloat_op_Implicit_int:
 _p_93:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4072]
+ldr x16, [x16, #4080]
 br x16
-.word 5941
+.word 5965
 	.no_dead_strip plt_CoreGraphics_CGRect_get_X
 plt_CoreGraphics_CGRect_get_X:
 _p_94:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4080]
+ldr x16, [x16, #4088]
 br x16
-.word 5946
+.word 5970
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Y
 plt_CoreGraphics_CGRect_get_Y:
 _p_95:
-adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+0
+adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #4088]
+ldr x16, [x16, #0]
 br x16
-.word 5951
+.word 5975
 	.no_dead_strip plt_CoreGraphics_CGRect_get_Height
 plt_CoreGraphics_CGRect_get_Height:
 _p_96:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #0]
+ldr x16, [x16, #8]
 br x16
-.word 5956
+.word 5980
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat
 plt_CoreGraphics_CGRect__ctor_System_nfloat_System_nfloat_System_nfloat_System_nfloat:
 _p_97:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #8]
+ldr x16, [x16, #16]
 br x16
-.word 5961
+.word 5985
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass33_0__ctor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass33_0__ctor:
 _p_98:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #16]
+ldr x16, [x16, #24]
 br x16
-.word 5966
+.word 5990
 	.no_dead_strip plt_System_Collections_Generic_List_1_object_Insert_int_object
 plt_System_Collections_Generic_List_1_object_Insert_int_object:
 _p_99:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #24]
+ldr x16, [x16, #32]
 br x16
-.word 5968
+.word 5992
 	.no_dead_strip plt_System_Linq_Enumerable_Count_UIKit_UIViewController_System_Collections_Generic_IEnumerable_1_UIKit_UIViewController
 plt_System_Linq_Enumerable_Count_UIKit_UIViewController_System_Collections_Generic_IEnumerable_1_UIKit_UIViewController:
 _p_100:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #32]
+ldr x16, [x16, #40]
 br x16
-.word 5979
+.word 6003
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create:
 _p_101:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #48]
 br x16
-.word 5991
+.word 6015
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_:
 _p_102:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #56]
 br x16
-.word 5996
+.word 6020
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_103:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #56]
+ldr x16, [x16, #64]
 br x16
-.word 6008
+.word 6032
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_104:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #64]
+ldr x16, [x16, #72]
 br x16
-.word 6013
+.word 6037
 	.no_dead_strip plt_System_Nullable_1_int_GetValueOrDefault
 plt_System_Nullable_1_int_GetValueOrDefault:
 _p_105:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #72]
+ldr x16, [x16, #80]
 br x16
-.word 6024
+.word 6048
 	.no_dead_strip plt_System_Nullable_1_int_get_HasValue
 plt_System_Nullable_1_int_get_HasValue:
 _p_106:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #80]
+ldr x16, [x16, #88]
 br x16
-.word 6035
+.word 6059
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_AnimateTransition
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_AnimateTransition:
 _p_107:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #88]
+ldr x16, [x16, #96]
 br x16
-.word 6046
+.word 6070
 	.no_dead_strip plt_System_Collections_Generic_List_1_object_get_Item_int
 plt_System_Collections_Generic_List_1_object_get_Item_int:
 _p_108:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #96]
+ldr x16, [x16, #104]
 br x16
-.word 6051
+.word 6075
 	.no_dead_strip plt_System_Linq_Enumerable_Cast_object_System_Collections_IEnumerable
 plt_System_Linq_Enumerable_Cast_object_System_Collections_IEnumerable:
 _p_109:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #104]
+ldr x16, [x16, #112]
 br x16
-.word 6062
+.word 6086
 	.no_dead_strip plt_System_Linq_Enumerable_ElementAt_object_System_Collections_Generic_IEnumerable_1_object_int
 plt_System_Linq_Enumerable_ElementAt_object_System_Collections_Generic_IEnumerable_1_object_int:
 _p_110:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #120]
 br x16
-.word 6074
+.word 6098
 	.no_dead_strip plt_Xamarin_Forms_ElementTemplate_CreateContent
 plt_Xamarin_Forms_ElementTemplate_CreateContent:
 _p_111:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #128]
 br x16
-.word 6086
+.word 6110
 	.no_dead_strip plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer__ctor
 plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer__ctor:
 _p_112:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #136]
 br x16
-.word 6091
+.word 6115
 	.no_dead_strip plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer_GetEnumerator
 plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer_GetEnumerator:
 _p_113:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #144]
 br x16
-.word 6102
+.word 6126
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CarouselView_FormsPlugin_iOS_ViewContainer_get_Current
 plt_System_Collections_Generic_List_1_Enumerator_CarouselView_FormsPlugin_iOS_ViewContainer_get_Current:
 _p_114:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #152]
 br x16
-.word 6113
+.word 6137
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_115:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #160]
 br x16
-.word 6124
+.word 6148
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CarouselView_FormsPlugin_iOS_ViewContainer_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_CarouselView_FormsPlugin_iOS_ViewContainer_MoveNext:
 _p_116:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #168]
 br x16
-.word 6162
+.word 6186
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_CarouselView_FormsPlugin_iOS_ViewContainer_Dispose
 plt_System_Collections_Generic_List_1_Enumerator_CarouselView_FormsPlugin_iOS_ViewContainer_Dispose:
 _p_117:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #176]
 br x16
-.word 6173
+.word 6197
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ItemTemplate
 plt_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_get_ItemTemplate:
 _p_118:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #184]
 br x16
-.word 6193
+.word 6217
 	.no_dead_strip plt_Xamarin_Forms_DataTemplateSelector_SelectTemplate_object_Xamarin_Forms_BindableObject
 plt_Xamarin_Forms_DataTemplateSelector_SelectTemplate_object_Xamarin_Forms_BindableObject:
 _p_119:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #192]
 br x16
-.word 6198
+.word 6222
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
 plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
 _p_120:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #200]
 br x16
-.word 6203
+.word 6227
 	.no_dead_strip plt_Xamarin_Forms_Element_set_Parent_Xamarin_Forms_Element
 plt_Xamarin_Forms_Element_set_Parent_Xamarin_Forms_Element:
 _p_121:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #208]
 br x16
-.word 6208
+.word 6232
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_X
 plt_Xamarin_Forms_VisualElement_get_X:
 _p_122:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #216]
 br x16
-.word 6213
+.word 6237
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Y
 plt_Xamarin_Forms_VisualElement_get_Y:
 _p_123:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #224]
 br x16
-.word 6218
+.word 6242
 	.no_dead_strip plt_CoreGraphics_CGRect__ctor_double_double_double_double
 plt_CoreGraphics_CGRect__ctor_double_double_double_double:
 _p_124:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #232]
 br x16
-.word 6223
+.word 6247
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_ViewExtensions_ToiOS_Xamarin_Forms_View_CoreGraphics_CGRect
 plt_CarouselView_FormsPlugin_iOS_ViewExtensions_ToiOS_Xamarin_Forms_View_CoreGraphics_CGRect:
 _p_125:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #240]
 br x16
-.word 6228
+.word 6252
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_ViewContainer__ctor
 plt_CarouselView_FormsPlugin_iOS_ViewContainer__ctor:
 _p_126:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #248]
 br x16
-.word 6230
+.word 6254
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_ViewContainer_set_Tag_object
 plt_CarouselView_FormsPlugin_iOS_ViewContainer_set_Tag_object:
 _p_127:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #256]
 br x16
-.word 6232
+.word 6256
 	.no_dead_strip plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer_Add_CarouselView_FormsPlugin_iOS_ViewContainer
 plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer_Add_CarouselView_FormsPlugin_iOS_ViewContainer:
 _p_128:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #264]
 br x16
-.word 6234
+.word 6258
 	.no_dead_strip plt_System_Linq_Enumerable_Count_CarouselView_FormsPlugin_iOS_ViewContainer_System_Collections_Generic_IEnumerable_1_CarouselView_FormsPlugin_iOS_ViewContainer
 plt_System_Linq_Enumerable_Count_CarouselView_FormsPlugin_iOS_ViewContainer_System_Collections_Generic_IEnumerable_1_CarouselView_FormsPlugin_iOS_ViewContainer:
 _p_129:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #272]
 br x16
-.word 6245
+.word 6269
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_130:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #280]
 br x16
-.word 6257
+.word 6281
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_131:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #288]
 br x16
-.word 6262
+.word 6286
 	.no_dead_strip plt_Foundation_NSObject_Dispose
 plt_Foundation_NSObject_Dispose:
 _p_132:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #296]
 br x16
-.word 6267
+.word 6291
 	.no_dead_strip plt_UIKit_UIPageViewController_remove_DidFinishAnimating_System_EventHandler_1_UIKit_UIPageViewFinishedAnimationEventArgs
 plt_UIKit_UIPageViewController_remove_DidFinishAnimating_System_EventHandler_1_UIKit_UIPageViewFinishedAnimationEventArgs:
 _p_133:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #304]
 br x16
-.word 6272
+.word 6296
 	.no_dead_strip plt_System_Console_Write_string
 plt_System_Console_Write_string:
 _p_134:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #312]
 br x16
-.word 6277
+.word 6301
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_135:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #320]
 br x16
-.word 6282
+.word 6306
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_136:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #328]
 br x16
-.word 6321
+.word 6345
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_Dispose_bool
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView_Dispose_bool:
 _p_137:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #336]
 br x16
-.word 6349
+.word 6373
 	.no_dead_strip plt_System_DateTime_get_Now
 plt_System_DateTime_get_Now:
 _p_138:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #344]
 br x16
-.word 6360
+.word 6384
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView__ctor
 plt_Xamarin_Forms_Platform_iOS_ViewRenderer_2_CarouselView_FormsPlugin_Abstractions_CarouselViewControl_UIKit_UIView__ctor:
 _p_139:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #352]
 br x16
-.word 6365
+.word 6389
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewStartingIndex
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewStartingIndex:
 _p_140:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #360]
 br x16
-.word 6376
+.word 6400
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldStartingIndex
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldStartingIndex:
 _p_141:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #368]
 br x16
-.word 6381
+.word 6405
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__ctor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__ctor:
 _p_142:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #376]
 br x16
-.word 6386
+.word 6410
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass14_0__ctor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass14_0__ctor:
 _p_143:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #384]
 br x16
-.word 6388
+.word 6412
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_Action
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_Action:
 _p_144:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #392]
 br x16
-.word 6390
+.word 6414
 	.no_dead_strip plt_CarouselView_FormsPlugin_Abstractions_IEnumerableExtensions_GetItem_System_Collections_IEnumerable_int
 plt_CarouselView_FormsPlugin_Abstractions_IEnumerableExtensions_GetItem_System_Collections_IEnumerable_int:
 _p_145:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #400]
 br x16
-.word 6395
+.word 6419
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_InsertPage_object_int
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_InsertPage_object_int:
 _p_146:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #408]
 br x16
-.word 6400
+.word 6424
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_RemovePage_int
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer_RemovePage_int:
 _p_147:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #416]
 br x16
-.word 6402
+.word 6426
 	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
 plt_System_Threading_Tasks_Task_GetAwaiter:
 _p_148:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #424]
 br x16
-.word 6404
+.word 6428
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
 _p_149:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #432]
 br x16
-.word 6409
+.word 6433
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_System_Runtime_CompilerServices_TaskAwaiter__CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_System_Runtime_CompilerServices_TaskAwaiter__CarouselView_FormsPlugin_iOS_CarouselViewRenderer__ItemsSource_CollectionChangedd__14_:
 _p_150:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #440]
 br x16
-.word 6414
+.word 6438
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
 _p_151:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #448]
 br x16
-.word 6426
+.word 6450
 	.no_dead_strip plt_System_Collections_Generic_List_1_object_RemoveAt_int
 plt_System_Collections_Generic_List_1_object_RemoveAt_int:
 _p_152:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #456]
 br x16
-.word 6431
+.word 6455
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldItems
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_OldItems:
 _p_153:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #464]
 br x16
-.word 6442
+.word 6466
 	.no_dead_strip plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer_RemoveAll_System_Predicate_1_CarouselView_FormsPlugin_iOS_ViewContainer
 plt_System_Collections_Generic_List_1_CarouselView_FormsPlugin_iOS_ViewContainer_RemoveAll_System_Predicate_1_CarouselView_FormsPlugin_iOS_ViewContainer:
 _p_154:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #472]
 br x16
-.word 6447
+.word 6471
 	.no_dead_strip plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems
 plt_System_Collections_Specialized_NotifyCollectionChangedEventArgs_get_NewItems:
 _p_155:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #480]
 br x16
-.word 6458
+.word 6482
 	.no_dead_strip plt_System_Collections_Generic_List_1_object_set_Item_int_object
 plt_System_Collections_Generic_List_1_object_set_Item_int_object:
 _p_156:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #488]
 br x16
-.word 6463
+.word 6487
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
 _p_157:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #496]
 br x16
-.word 6474
+.word 6498
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
 _p_158:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #504]
 br x16
-.word 6479
+.word 6503
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_159:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #512]
 br x16
-.word 6484
+.word 6508
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass34_0__ctor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass34_0__ctor:
 _p_160:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #520]
 br x16
-.word 6489
+.word 6513
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass34_1__ctor
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__c__DisplayClass34_1__ctor:
 _p_161:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #528]
 br x16
-.word 6491
+.word 6515
 	.no_dead_strip plt_System_Threading_Tasks_Task_Delay_int
 plt_System_Threading_Tasks_Task_Delay_int:
 _p_162:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #536]
 br x16
-.word 6493
+.word 6517
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_System_Runtime_CompilerServices_TaskAwaiter__CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_System_Runtime_CompilerServices_TaskAwaiter__CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_:
 _p_163:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #544]
 br x16
-.word 6498
+.word 6522
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_164:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #552]
 br x16
-.word 6510
+.word 6534
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_165:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #560]
 br x16
-.word 6515
+.word 6539
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_166:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #568]
 br x16
-.word 6520
+.word 6544
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_Platform_GetRenderer_Xamarin_Forms_VisualElement
 plt_Xamarin_Forms_Platform_iOS_Platform_GetRenderer_Xamarin_Forms_VisualElement:
 _p_167:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #576]
 br x16
-.word 6525
+.word 6549
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_Platform_CreateRenderer_Xamarin_Forms_VisualElement
 plt_Xamarin_Forms_Platform_iOS_Platform_CreateRenderer_Xamarin_Forms_VisualElement:
 _p_168:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #584]
 br x16
-.word 6530
+.word 6554
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_Platform_SetRenderer_Xamarin_Forms_VisualElement_Xamarin_Forms_Platform_iOS_IVisualElementRenderer
 plt_Xamarin_Forms_Platform_iOS_Platform_SetRenderer_Xamarin_Forms_VisualElement_Xamarin_Forms_Platform_iOS_IVisualElementRenderer:
 _p_169:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #592]
 br x16
-.word 6535
+.word 6559
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_RectangleExtensions_ToRectangle_CoreGraphics_CGRect
 plt_Xamarin_Forms_Platform_iOS_RectangleExtensions_ToRectangle_CoreGraphics_CGRect:
 _p_170:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #600]
 br x16
-.word 6540
+.word 6564
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_Layout_Xamarin_Forms_Rectangle
 plt_Xamarin_Forms_VisualElement_Layout_Xamarin_Forms_Rectangle:
 _p_171:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #608]
 br x16
-.word 6545
+.word 6569
 	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
 plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
 _p_172:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #616]
 br x16
-.word 6550
+.word 6574
 	.no_dead_strip plt_UIKit_UIViewController_Dispose_bool
 plt_UIKit_UIViewController_Dispose_bool:
 _p_173:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #624]
 br x16
-.word 6555
+.word 6579
 	.no_dead_strip plt_UIKit_UIViewController__ctor
 plt_UIKit_UIViewController__ctor:
 _p_174:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #632]
 br x16
-.word 6560
+.word 6584
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue:
 _p_175:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #640]
 br x16
-.word 6565
+.word 6589
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_176:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #648]
 br x16
-.word 6570
+.word 6594
 	.no_dead_strip plt_bool_GetHashCode
 plt_bool_GetHashCode:
 _p_177:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #656]
 br x16
-.word 6575
+.word 6599
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_178:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #664]
 br x16
-.word 6580
+.word 6604
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_179:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #672]
 br x16
-.word 6585
+.word 6609
 	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
 plt_System_Type_op_Inequality_System_Type_System_Type:
 _p_180:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #680]
 br x16
-.word 6605
+.word 6629
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_181:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #688]
 br x16
-.word 6610
+.word 6634
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_182:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #696]
 br x16
-.word 6676
+.word 6700
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_183:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #704]
 br x16
-.word 6684
+.word 6708
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_184:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #712]
 br x16
-.word 6710
+.word 6734
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_185:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #720]
 br x16
-.word 6727
+.word 6751
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_186:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #728]
 br x16
-.word 6735
+.word 6759
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_187:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #736]
 br x16
-.word 6754
+.word 6778
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_188:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #744]
 br x16
-.word 6783
+.word 6807
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_189:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #752]
 br x16
-.word 6807
+.word 6831
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_190:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #760]
 br x16
-.word 6831
+.word 6855
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_191:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #768]
 br x16
-.word 6836
+.word 6860
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_192:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #776]
 br x16
-.word 6841
+.word 6865
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_193:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #784]
 br x16
-.word 6846
+.word 6870
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_194:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #792]
 br x16
-.word 6870
+.word 6894
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_195:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #800]
 br x16
-.word 6917
+.word 6941
 	.no_dead_strip plt_wrapper_alloc_object_Alloc_intptr
 plt_wrapper_alloc_object_Alloc_intptr:
 _p_196:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #808]
 br x16
-.word 6925
+.word 6949
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_197:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #816]
 br x16
-.word 6933
+.word 6957
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_198:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #824]
 br x16
-.word 6941
+.word 6965
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_199:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #832]
 br x16
-.word 6946
+.word 6970
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_200:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #840]
 br x16
-.word 6951
+.word 6975
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_201:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #848]
 br x16
-.word 6985
+.word 7009
 	.no_dead_strip plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_MoveNext
 plt_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_MoveNext:
 _p_202:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #856]
 br x16
-.word 6990
+.word 7014
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_203:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #864]
 br x16
-.word 7014
+.word 7038
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_204:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #872]
 br x16
-.word 7064
+.word 7088
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_205:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #880]
 br x16
-.word 7069
+.word 7093
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_206:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #888]
 br x16
-.word 7074
+.word 7098
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_207:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #896]
 br x16
-.word 7079
+.word 7103
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_208:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #904]
 br x16
-.word 7084
+.word 7108
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_209:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #912]
 br x16
-.word 7092
+.word 7116
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_210:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #920]
 br x16
-.word 7097
+.word 7121
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_211:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #928]
 br x16
-.word 7105
+.word 7129
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_212:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #936]
 br x16
-.word 7110
+.word 7134
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_213:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #944]
 br x16
-.word 7118
+.word 7142
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_System_Runtime_CompilerServices_TaskAwaiter__CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_System_Runtime_CompilerServices_TaskAwaiter__CarouselView_FormsPlugin_iOS_CarouselViewRenderer__RemovePaged__34_:
 _p_214:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #952]
 br x16
-.word 7123
+.word 7147
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_215:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #960]
 br x16
-.word 7149
+.word 7173
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_TaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_216:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #968]
 br x16
-.word 7169
+.word 7193
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_217:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #976]
 br x16
-.word 7174
+.word 7198
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_218:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #984]
 br x16
-.word 7179
+.word 7203
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_219:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #992]
 br x16
-.word 7184
+.word 7208
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_220:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1000]
 br x16
-.word 7189
+.word 7213
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext:
 _p_221:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1008]
 br x16
-.word 7209
+.word 7233
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_222:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1016]
 br x16
-.word 7214
+.word 7238
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_223:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1024]
 br x16
-.word 7219
+.word 7243
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_224:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1032]
 br x16
-.word 7239
+.word 7263
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_225:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1040]
 br x16
-.word 7244
+.word 7268
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_226:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1048]
 br x16
-.word 7249
+.word 7273
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_227:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1056]
 br x16
-.word 7254
+.word 7278
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_228:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1064]
 br x16
-.word 7259
+.word 7283
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_229:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1072]
 br x16
-.word 7264
+.word 7288
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_230:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1080]
 br x16
-.word 7269
+.word 7293
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_231:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1088]
 br x16
-.word 7289
+.word 7313
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_232:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1096]
 br x16
-.word 7294
+.word 7318
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_233:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1104]
 br x16
-.word 7314
+.word 7338
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_234:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1112]
 br x16
-.word 7319
+.word 7343
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully
 plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully:
 _p_235:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1120]
 br x16
-.word 7324
+.word 7348
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_236:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1128]
 br x16
-.word 7329
+.word 7353
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_237:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1136]
 br x16
-.word 7334
+.word 7358
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_238:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1144]
 br x16
-.word 7354
+.word 7378
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_239:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1152]
 br x16
-.word 7362
+.word 7386
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_240:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1160]
 br x16
-.word 7382
+.word 7406
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_241:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1168]
 br x16
-.word 7402
+.word 7426
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_242:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1176]
 br x16
-.word 7407
+.word 7431
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_243:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1184]
 br x16
-.word 7427
+.word 7451
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
 _p_244:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1192]
 br x16
-.word 7432
+.word 7456
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_245:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1200]
 br x16
-.word 7452
+.word 7476
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_246:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1208]
 br x16
-.word 7457
+.word 7481
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_247:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1216]
 br x16
-.word 7477
+.word 7501
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_248:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1224]
 br x16
-.word 7482
+.word 7506
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_249:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1232]
 br x16
-.word 7487
+.word 7511
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_250:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1240]
 br x16
-.word 7507
+.word 7531
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_251:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1248]
 br x16
-.word 7512
+.word 7536
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_object
 plt_System_Threading_Tasks_Task_TrySetException_object:
 _p_252:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1256]
 br x16
-.word 7517
+.word 7541
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_get_LoggingOn
 plt_System_Threading_Tasks_DebuggerSupport_get_LoggingOn:
 _p_253:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1264]
 br x16
-.word 7522
+.word 7546
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_Internal_Runtime_Augments_AsyncStatus
 plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_Internal_Runtime_Augments_AsyncStatus:
 _p_254:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1272]
 br x16
-.word 7527
+.word 7551
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasks_System_Threading_Tasks_Task:
 _p_255:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1280]
 br x16
-.word 7532
+.word 7556
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_256:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1288]
 br x16
-.word 7537
+.word 7561
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_257:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1296]
 br x16
-.word 7557
+.word 7581
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_258:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1304]
 br x16
-.word 7577
+.word 7601
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_259:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1312]
 br x16
-.word 7597
+.word 7621
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_260:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1320]
 br x16
-.word 7602
+.word 7626
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_string_ulong
 plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_string_ulong:
 _p_261:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1328]
 br x16
-.word 7622
+.word 7646
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_262:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1336]
 br x16
-.word 7627
+.word 7651
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_263:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1344]
 br x16
-.word 7632
+.word 7656
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_264:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1352]
 br x16
-.word 7652
+.word 7676
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_265:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1360]
 br x16
-.word 7682
+.word 7706
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_266:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1368]
 br x16
-.word 7687
+.word 7711
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_267:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1376]
 br x16
-.word 7707
+.word 7731
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_268:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1384]
 br x16
-.word 7727
+.word 7751
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_269:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1392]
 br x16
-.word 7732
+.word 7756
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_270:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1400]
 br x16
-.word 7737
+.word 7761
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_271:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1408]
 br x16
-.word 7742
+.word 7766
 	.no_dead_strip plt_System_Threading_Tasks_Task_SetNotificationForWaitCompletion_bool
 plt_System_Threading_Tasks_Task_SetNotificationForWaitCompletion_bool:
 _p_272:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1416]
 br x16
-.word 7762
+.word 7786
 	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
 plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
 _p_273:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1424]
 br x16
-.word 7767
+.word 7791
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_274:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1432]
 br x16
-.word 7787
+.word 7811
 	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
 plt_uintptr_op_Equality_uintptr_uintptr:
 _p_275:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1440]
 br x16
-.word 7792
+.word 7816
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_276:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1448]
 br x16
-.word 7797
+.word 7821
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_277:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1456]
 br x16
-.word 7817
+.word 7841
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_278:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1464]
 br x16
-.word 7838
+.word 7862
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_279:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1472]
 br x16
-.word 7843
+.word 7867
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
 _p_280:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1480]
 br x16
-.word 7848
+.word 7872
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_281:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1488]
 br x16
-.word 7868
+.word 7892
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_282:
 adrp x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGE+4096
 add x16, x16, mono_aot_CarouselView_FormsPlugin_iOS_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1496]
 br x16
-.word 7888
+.word 7912
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_CarouselView_FormsPlugin_iOS_got, 5592
+.lcomm mono_aot_CarouselView_FormsPlugin_iOS_got, 5600
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -34098,14 +34165,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 416,5592,283,182,18,70,387000831,0
-	.long 49899,128,8,8,8,9,8388607,0
-	.long 24,56168,6256,5528,4456,0,5104,5488
-	.long 4544,0,3472,272,6248,0,0,0
+	.long 417,5600,283,183,18,70,387000831,0
+	.long 49999,128,8,8,8,9,8388607,0
+	.long 24,56272,6264,5536,4464,0,5112,5496
+	.long 4552,0,3472,272,6256,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 52,237,171,227,150,138,251,147,237,170,140,200,114,44,171,28
+	.byte 202,248,214,211,63,52,106,157,224,231,62,144,155,66,32,23
 	.globl _mono_aot_module_CarouselView_FormsPlugin_iOS_info
 	.align 3
 _mono_aot_module_CarouselView_FormsPlugin_iOS_info:
@@ -47612,10 +47679,10 @@ Lfde126_end:
 
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken"
 
-	.byte 5,141,5
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.byte 5,241,4
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
 	.quad Lme_80
 
 	.byte 2,118,16,3
@@ -47629,33 +47696,77 @@ LDIFF_SYM1989=LTDIE_212_REFERENCE - Ldebug_info_start
 LDIFF_SYM1990=LTDIE_217_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1990
 	.byte 2,141,24,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM1991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1991
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1992=Lfde127_end - Lfde127_start
+	.long LDIFF_SYM1992
+Lfde127_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+
+LDIFF_SYM1993=Lme_80 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+	.long LDIFF_SYM1993
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.align 3
+Lfde127_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
+
+	.byte 5,141,5
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.quad Lme_81
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1994=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1994
+	.byte 2,141,16,3
+	.asciz "continuationAction"
+
+LDIFF_SYM1995=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1995
+	.byte 2,141,24,3
 	.asciz "scheduler"
 
-LDIFF_SYM1991=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1991
+LDIFF_SYM1996=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1996
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1992=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1992
+LDIFF_SYM1997=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1997
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1993=Lfde127_end - Lfde127_start
-	.long LDIFF_SYM1993
-Lfde127_start:
+LDIFF_SYM1998=Lfde128_end - Lfde128_start
+	.long LDIFF_SYM1998
+Lfde128_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM1994=Lme_80 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM1994
+LDIFF_SYM1999=Lme_81 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM1999
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde127_end:
+Lfde128_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_218:
@@ -47664,8 +47775,8 @@ LTDIE_218:
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM1995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1995
+LDIFF_SYM2000=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2000
 	.byte 9
 	.asciz "None"
 
@@ -47714,69 +47825,69 @@ LDIFF_SYM1995=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM1996=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1996
+LDIFF_SYM2001=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2001
 LTDIE_218_POINTER:
 
 	.byte 13
-LDIFF_SYM1997=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1997
+LDIFF_SYM2002=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2002
 LTDIE_218_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1998=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1998
+LDIFF_SYM2003=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2003
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 5,218,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_81
+	.quad Lme_82
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1999=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1999
+LDIFF_SYM2004=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2004
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2000=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2000
+LDIFF_SYM2005=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2005
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2001=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2001
+LDIFF_SYM2006=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2006
 	.byte 2,141,32,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2002=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2002
+LDIFF_SYM2007=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2007
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM2003=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2003
+LDIFF_SYM2008=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2008
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2004=Lfde128_end - Lfde128_start
-	.long LDIFF_SYM2004
-Lfde128_start:
+LDIFF_SYM2009=Lfde129_end - Lfde129_start
+	.long LDIFF_SYM2009
+Lfde129_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2005=Lme_81 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2005
+LDIFF_SYM2010=Lme_82 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2010
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde128_end:
+Lfde129_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47786,66 +47897,66 @@ Lfde128_end:
 
 	.byte 5,225,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.quad Lme_82
+	.quad Lme_83
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2006=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2006
+LDIFF_SYM2011=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2011
 	.byte 1,103,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2007=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2007
+LDIFF_SYM2012=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2012
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM2008=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2008
+LDIFF_SYM2013=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2013
 	.byte 1,105,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2009=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2009
+LDIFF_SYM2014=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2014
 	.byte 2,141,56,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2010=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2010
+LDIFF_SYM2015=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2015
 	.byte 1,106,11
 	.asciz "creationOptions"
 
-LDIFF_SYM2011=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2011
+LDIFF_SYM2016=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2016
 	.byte 3,141,232,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM2012=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM2012
+LDIFF_SYM2017=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM2017
 	.byte 3,141,240,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM2013=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2013
+LDIFF_SYM2018=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2018
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2014=Lfde129_end - Lfde129_start
-	.long LDIFF_SYM2014
-Lfde129_start:
+LDIFF_SYM2019=Lfde130_end - Lfde130_start
+	.long LDIFF_SYM2019
+Lfde130_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 
-LDIFF_SYM2015=Lme_82 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.long LDIFF_SYM2015
+LDIFF_SYM2020=Lme_83 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM2020
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
-Lfde129_end:
+Lfde130_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_219:
@@ -47854,79 +47965,79 @@ LTDIE_219:
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
 	.byte 40,16
-LDIFF_SYM2016=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM2016
+LDIFF_SYM2021=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM2021
 	.byte 2,35,0,6
 	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM2017=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2017
+LDIFF_SYM2022=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2022
 	.byte 2,35,16,6
 	.asciz "m_defaultScheduler"
 
-LDIFF_SYM2018=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2018
+LDIFF_SYM2023=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2023
 	.byte 2,35,24,6
 	.asciz "m_defaultCreationOptions"
 
-LDIFF_SYM2019=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2019
+LDIFF_SYM2024=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2024
 	.byte 2,35,32,6
 	.asciz "m_defaultContinuationOptions"
 
-LDIFF_SYM2020=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2020
+LDIFF_SYM2025=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2025
 	.byte 2,35,36,0,7
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-LDIFF_SYM2021=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM2021
+LDIFF_SYM2026=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM2026
 LTDIE_219_POINTER:
 
 	.byte 13
-LDIFF_SYM2022=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM2022
+LDIFF_SYM2027=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM2027
 LTDIE_219_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2023=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM2023
+LDIFF_SYM2028=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM2028
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
 
 	.byte 6,93
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_83
+	.quad Lme_84
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2024=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2024
+LDIFF_SYM2029=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2029
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2025=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2025
+LDIFF_SYM2030=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2030
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2026=Lfde130_end - Lfde130_start
-	.long LDIFF_SYM2026
-Lfde130_start:
+LDIFF_SYM2031=Lfde131_end - Lfde131_start
+	.long LDIFF_SYM2031
+Lfde131_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2027=Lme_83 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2027
+LDIFF_SYM2032=Lme_84 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2032
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde130_end:
+Lfde131_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47936,51 +48047,51 @@ Lfde130_end:
 
 	.byte 6,208,1
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_84
+	.quad Lme_85
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2028=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2028
+LDIFF_SYM2033=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2033
 	.byte 1,103,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2029=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2029
+LDIFF_SYM2034=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2034
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2030=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2030
+LDIFF_SYM2035=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2035
 	.byte 1,104,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2031=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM2031
+LDIFF_SYM2036=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM2036
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2032=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2032
+LDIFF_SYM2037=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2037
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2033=Lfde131_end - Lfde131_start
-	.long LDIFF_SYM2033
-Lfde131_start:
+LDIFF_SYM2038=Lfde132_end - Lfde132_start
+	.long LDIFF_SYM2038
+Lfde132_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2034=Lme_84 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2034
+LDIFF_SYM2039=Lme_85 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2039
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8
 	.align 3
-Lfde131_end:
+Lfde132_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -47990,56 +48101,56 @@ Lfde131_end:
 
 	.byte 6,252,3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_85
+	.quad Lme_86
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2035=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2035
+LDIFF_SYM2040=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2040
 	.byte 2,141,24,3
 	.asciz "function"
 
-LDIFF_SYM2036=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2036
+LDIFF_SYM2041=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2041
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2037=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2037
+LDIFF_SYM2042=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2042
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2038=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2038
+LDIFF_SYM2043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2043
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2039=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2039
+LDIFF_SYM2044=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2044
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2040=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2040
+LDIFF_SYM2045=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2045
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2041=Lfde132_end - Lfde132_start
-	.long LDIFF_SYM2041
-Lfde132_start:
+LDIFF_SYM2046=Lfde133_end - Lfde133_start
+	.long LDIFF_SYM2046
+Lfde133_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2042=Lme_85 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2042
+LDIFF_SYM2047=Lme_86 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2047
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
-Lfde132_end:
+Lfde133_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_220:
@@ -48050,181 +48161,181 @@ LTDIE_220:
 	.byte 16,7
 	.asciz "System_IAsyncResult"
 
-LDIFF_SYM2043=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM2043
+LDIFF_SYM2048=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM2048
 LTDIE_220_POINTER:
 
 	.byte 13
-LDIFF_SYM2044=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM2044
+LDIFF_SYM2049=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM2049
 LTDIE_220_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2045=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM2045
+LDIFF_SYM2050=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM2050
 LTDIE_221:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2046=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2046
+LDIFF_SYM2051=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2051
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2047=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM2047
+LDIFF_SYM2052=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM2052
 LTDIE_221_POINTER:
 
 	.byte 13
-LDIFF_SYM2048=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM2048
+LDIFF_SYM2053=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM2053
 LTDIE_221_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2049=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM2049
+LDIFF_SYM2054=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM2054
 LTDIE_222:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 128,1,16
-LDIFF_SYM2050=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2050
+LDIFF_SYM2055=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2055
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM2051=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2051
+LDIFF_SYM2056=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM2056
 LTDIE_222_POINTER:
 
 	.byte 13
-LDIFF_SYM2052=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2052
+LDIFF_SYM2057=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM2057
 LTDIE_222_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2053=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM2053
+LDIFF_SYM2058=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM2058
 LTDIE_224:
 
 	.byte 5
 	.asciz "System_SystemException"
 
 	.byte 136,1,16
-LDIFF_SYM2054=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM2054
+LDIFF_SYM2059=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM2059
 	.byte 2,35,0,0,7
 	.asciz "System_SystemException"
 
-LDIFF_SYM2055=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM2055
+LDIFF_SYM2060=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM2060
 LTDIE_224_POINTER:
 
 	.byte 13
-LDIFF_SYM2056=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM2056
+LDIFF_SYM2061=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM2061
 LTDIE_224_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2057=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM2057
+LDIFF_SYM2062=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM2062
 LTDIE_223:
 
 	.byte 5
 	.asciz "System_OperationCanceledException"
 
 	.byte 144,1,16
-LDIFF_SYM2058=LTDIE_224 - Ldebug_info_start
-	.long LDIFF_SYM2058
+LDIFF_SYM2063=LTDIE_224 - Ldebug_info_start
+	.long LDIFF_SYM2063
 	.byte 2,35,0,6
 	.asciz "_cancellationToken"
 
-LDIFF_SYM2059=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2059
+LDIFF_SYM2064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2064
 	.byte 3,35,136,1,0,7
 	.asciz "System_OperationCanceledException"
 
-LDIFF_SYM2060=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM2060
+LDIFF_SYM2065=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM2065
 LTDIE_223_POINTER:
 
 	.byte 13
-LDIFF_SYM2061=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM2061
+LDIFF_SYM2066=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM2066
 LTDIE_223_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2062=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM2062
+LDIFF_SYM2067=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM2067
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 6,142,4
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_86
+	.quad Lme_87
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM2063=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2063
+LDIFF_SYM2068=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2068
 	.byte 1,104,3
 	.asciz "endFunction"
 
-LDIFF_SYM2064=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2064
+LDIFF_SYM2069=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2069
 	.byte 1,105,3
 	.asciz "endAction"
 
-LDIFF_SYM2065=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2065
+LDIFF_SYM2070=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2070
 	.byte 2,141,32,3
 	.asciz "promise"
 
-LDIFF_SYM2066=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2066
+LDIFF_SYM2071=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2071
 	.byte 2,141,40,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM2067=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2067
+LDIFF_SYM2072=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2072
 	.byte 2,141,48,11
 	.asciz "ex"
 
-LDIFF_SYM2068=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2068
+LDIFF_SYM2073=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2073
 	.byte 3,141,248,0,11
 	.asciz "oce"
 
-LDIFF_SYM2069=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2069
+LDIFF_SYM2074=LTDIE_223_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2074
 	.byte 3,141,128,1,11
 	.asciz "result"
 
-LDIFF_SYM2070=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2070
+LDIFF_SYM2075=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2075
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2071=Lfde133_end - Lfde133_start
-	.long LDIFF_SYM2071
-Lfde133_start:
+LDIFF_SYM2076=Lfde134_end - Lfde134_start
+	.long LDIFF_SYM2076
+Lfde134_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM2072=Lme_86 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM2072
+LDIFF_SYM2077=Lme_87 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2077
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29
 	.align 3
-Lfde133_end:
+Lfde134_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_225:
@@ -48233,69 +48344,69 @@ LTDIE_225:
 	.asciz "System_Func`3"
 
 	.byte 128,1,16
-LDIFF_SYM2073=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2073
+LDIFF_SYM2078=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2078
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM2074=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM2074
+LDIFF_SYM2079=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM2079
 LTDIE_225_POINTER:
 
 	.byte 13
-LDIFF_SYM2075=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM2075
+LDIFF_SYM2080=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM2080
 LTDIE_225_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2076=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM2076
+LDIFF_SYM2081=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM2081
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsync"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object"
 
 	.byte 6,220,5
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.quad Lme_87
+	.quad Lme_88
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2077=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2077
+LDIFF_SYM2082=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2082
 	.byte 2,141,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM2078=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2078
+LDIFF_SYM2083=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2083
 	.byte 2,141,24,3
 	.asciz "endMethod"
 
-LDIFF_SYM2079=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2079
+LDIFF_SYM2084=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2084
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2080=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2080
+LDIFF_SYM2085=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2085
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2081=Lfde134_end - Lfde134_start
-	.long LDIFF_SYM2081
-Lfde134_start:
+LDIFF_SYM2086=Lfde135_end - Lfde135_start
+	.long LDIFF_SYM2086
+Lfde135_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM2082=Lme_87 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM2082
+LDIFF_SYM2087=Lme_88 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM2087
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde134_end:
+Lfde135_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_226:
@@ -48304,104 +48415,104 @@ LTDIE_226:
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 40,16
-LDIFF_SYM2083=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM2083
+LDIFF_SYM2088=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM2088
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM2084=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2084
+LDIFF_SYM2089=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2089
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM2085=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2085
+LDIFF_SYM2090=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2090
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM2086=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2086
+LDIFF_SYM2091=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2091
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM2087=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM2087
+LDIFF_SYM2092=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM2092
 LTDIE_226_POINTER:
 
 	.byte 13
-LDIFF_SYM2088=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM2088
+LDIFF_SYM2093=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM2093
 LTDIE_226_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2089=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM2089
+LDIFF_SYM2094=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM2094
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 6,0
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_88
+	.quad Lme_89
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM2090=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2090
+LDIFF_SYM2095=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2095
 	.byte 1,102,3
 	.asciz "endFunction"
 
-LDIFF_SYM2091=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2091
+LDIFF_SYM2096=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2096
 	.byte 2,141,48,3
 	.asciz "endAction"
 
-LDIFF_SYM2092=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2092
+LDIFF_SYM2097=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2097
 	.byte 2,141,56,3
 	.asciz "state"
 
-LDIFF_SYM2093=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2093
+LDIFF_SYM2098=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2098
 	.byte 1,105,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2094=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2094
+LDIFF_SYM2099=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2099
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM2095=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2095
+LDIFF_SYM2100=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2100
 	.byte 3,141,224,0,11
 	.asciz "asyncResult"
 
-LDIFF_SYM2096=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2096
+LDIFF_SYM2101=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2101
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM2097=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2097
+LDIFF_SYM2102=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2102
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2098=Lfde135_end - Lfde135_start
-	.long LDIFF_SYM2098
-Lfde135_start:
+LDIFF_SYM2103=Lfde136_end - Lfde136_start
+	.long LDIFF_SYM2103
+Lfde136_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM2099=Lme_88 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM2099
+LDIFF_SYM2104=Lme_89 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM2104
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,149,20,150,19,68,153,18,154,17
 	.align 3
-Lfde135_end:
+Lfde136_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48411,31 +48522,31 @@ Lfde135_end:
 
 	.byte 4,188,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.quad Lme_89
+	.quad Lme_8a
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2100=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2100
+LDIFF_SYM2105=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2105
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2101=Lfde136_end - Lfde136_start
-	.long LDIFF_SYM2101
-Lfde136_start:
+LDIFF_SYM2106=Lfde137_end - Lfde137_start
+	.long LDIFF_SYM2106
+Lfde137_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 
-LDIFF_SYM2102=Lme_89 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long LDIFF_SYM2102
+LDIFF_SYM2107=Lme_8a - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
+	.long LDIFF_SYM2107
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde136_end:
+Lfde137_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48445,36 +48556,36 @@ Lfde136_end:
 
 	.byte 4,229,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_8a
+	.quad Lme_8b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2103=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2103
+LDIFF_SYM2108=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2108
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2104=LTDIE_151_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2104
+LDIFF_SYM2109=LTDIE_151_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2109
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2105=Lfde137_end - Lfde137_start
-	.long LDIFF_SYM2105
-Lfde137_start:
+LDIFF_SYM2110=Lfde138_end - Lfde138_start
+	.long LDIFF_SYM2110
+Lfde138_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM2106=Lme_8a - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM2106
+LDIFF_SYM2111=Lme_8b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM2111
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde137_end:
+Lfde138_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48484,58 +48595,14 @@ Lfde137_end:
 
 	.byte 4,190,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.quad Lme_8b
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM2107=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2107
-	.byte 1,106,11
-	.asciz "task"
-
-LDIFF_SYM2108=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2108
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2109=Lfde138_end - Lfde138_start
-	.long LDIFF_SYM2109
-Lfde138_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-
-LDIFF_SYM2110=Lme_8b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.long LDIFF_SYM2110
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
-	.align 3
-Lfde138_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 4,206,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_8c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2111=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2111
-	.byte 1,106,3
-	.asciz "result"
-
-LDIFF_SYM2112=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2112=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2112
-	.byte 2,141,32,11
+	.byte 1,106,11
 	.asciz "task"
 
 LDIFF_SYM2113=LTDIE_212_REFERENCE - Ldebug_info_start
@@ -48550,12 +48617,12 @@ Lfde139_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 
-LDIFF_SYM2115=Lme_8c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+LDIFF_SYM2115=Lme_8c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 	.long LDIFF_SYM2115
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
 Lfde139_end:
 
@@ -48563,10 +48630,10 @@ Lfde139_end:
 
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 4,244,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.byte 4,206,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_8d
 
 	.byte 2,118,16,3
@@ -48574,17 +48641,17 @@ Lfde139_end:
 
 LDIFF_SYM2116=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2116
-	.byte 1,105,3
-	.asciz "completedTask"
+	.byte 1,106,3
+	.asciz "result"
 
-LDIFF_SYM2117=LTDIE_212_REFERENCE - Ldebug_info_start
+LDIFF_SYM2117=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM2117
-	.byte 2,141,24,11
-	.asciz "V_0"
+	.byte 2,141,32,11
+	.asciz "task"
 
-LDIFF_SYM2118=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2118=LTDIE_212_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2118
-	.byte 3,141,192,0,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -48594,14 +48661,58 @@ Lfde140_start:
 
 	.long 0
 	.align 3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM2120=Lme_8d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2120
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.align 3
+Lfde140_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 4,244,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_8e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2121=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2121
+	.byte 1,105,3
+	.asciz "completedTask"
+
+LDIFF_SYM2122=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2122
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM2123=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2123
+	.byte 3,141,192,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2124=Lfde141_end - Lfde141_start
+	.long LDIFF_SYM2124
+Lfde141_start:
+
+	.long 0
+	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2120=Lme_8d - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2120
+LDIFF_SYM2125=Lme_8e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2125
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
-Lfde140_end:
+Lfde141_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48611,46 +48722,46 @@ Lfde140_end:
 
 	.byte 4,137,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.quad Lme_8e
+	.quad Lme_8f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2121=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2121
+LDIFF_SYM2126=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2126
 	.byte 1,105,3
 	.asciz "exception"
 
-LDIFF_SYM2122=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2122
+LDIFF_SYM2127=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2127
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM2123=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2123
+LDIFF_SYM2128=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2128
 	.byte 1,104,11
 	.asciz "oce"
 
-LDIFF_SYM2124=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2124
+LDIFF_SYM2129=LTDIE_223_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2129
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2125=Lfde141_end - Lfde141_start
-	.long LDIFF_SYM2125
-Lfde141_start:
+LDIFF_SYM2130=Lfde142_end - Lfde142_start
+	.long LDIFF_SYM2130
+Lfde142_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 
-LDIFF_SYM2126=Lme_8e - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long LDIFF_SYM2126
+LDIFF_SYM2131=Lme_8f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
+	.long LDIFF_SYM2131
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde141_end:
+Lfde142_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48660,36 +48771,36 @@ Lfde141_end:
 
 	.byte 4,181,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
-	.quad Lme_8f
+	.quad Lme_90
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2127=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2127
+LDIFF_SYM2132=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2132
 	.byte 2,141,16,3
 	.asciz "enabled"
 
-LDIFF_SYM2128=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2128
+LDIFF_SYM2133=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2133
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2129=Lfde142_end - Lfde142_start
-	.long LDIFF_SYM2129
-Lfde142_start:
+LDIFF_SYM2134=Lfde143_end - Lfde143_start
+	.long LDIFF_SYM2134
+Lfde143_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
 
-LDIFF_SYM2130=Lme_8f - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
-	.long LDIFF_SYM2130
+LDIFF_SYM2135=Lme_90 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
+	.long LDIFF_SYM2135
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde142_end:
+Lfde143_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48699,58 +48810,14 @@ Lfde142_end:
 
 	.byte 4,192,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
-	.quad Lme_90
+	.quad Lme_91
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2131=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2131
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM2132=Lfde143_end - Lfde143_start
-	.long LDIFF_SYM2132
-Lfde143_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
-
-LDIFF_SYM2133=Lme_90 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
-	.long LDIFF_SYM2133
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde143_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:GetTaskForResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 4,228,5
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_91
-
-	.byte 2,118,16,3
-	.asciz "result"
-
-LDIFF_SYM2134=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2134
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM2135=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2135
-	.byte 3,141,192,1,11
-	.asciz "value"
-
-LDIFF_SYM2136=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM2136=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM2136
-	.byte 1,106,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -48760,14 +48827,58 @@ Lfde144_start:
 
 	.long 0
 	.align 3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
+
+LDIFF_SYM2138=Lme_91 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
+	.long LDIFF_SYM2138
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde144_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:GetTaskForResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 4,228,5
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_92
+
+	.byte 2,118,16,3
+	.asciz "result"
+
+LDIFF_SYM2139=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2139
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM2140=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2140
+	.byte 3,141,192,1,11
+	.asciz "value"
+
+LDIFF_SYM2141=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2141
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2142=Lfde145_end - Lfde145_start
+	.long LDIFF_SYM2142
+Lfde145_start:
+
+	.long 0
+	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2138=Lme_91 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2138
+LDIFF_SYM2143=Lme_92 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2143
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,153,26,154,25
 	.align 3
-Lfde144_end:
+Lfde145_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48777,31 +48888,31 @@ Lfde144_end:
 
 	.byte 4,171,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_92
+	.quad Lme_93
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2139=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2139
+LDIFF_SYM2144=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2144
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2140=Lfde145_end - Lfde145_start
-	.long LDIFF_SYM2140
-Lfde145_start:
+LDIFF_SYM2145=Lfde146_end - Lfde146_start
+	.long LDIFF_SYM2145
+Lfde146_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM2141=Lme_92 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM2141
+LDIFF_SYM2146=Lme_93 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM2146
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde145_end:
+Lfde146_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48811,62 +48922,62 @@ Lfde145_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.quad Lme_97
+	.quad Lme_98
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2142=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2142
+LDIFF_SYM2147=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2147
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2143=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2143
+LDIFF_SYM2148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2148
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM2144=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2144
+LDIFF_SYM2149=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2149
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM2145=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2145
+LDIFF_SYM2150=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2150
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM2146=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2146
+LDIFF_SYM2151=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2151
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM2147=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2147
+LDIFF_SYM2152=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2152
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM2148=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2148
+LDIFF_SYM2153=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2153
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2149=Lfde146_end - Lfde146_start
-	.long LDIFF_SYM2149
-Lfde146_start:
+LDIFF_SYM2154=Lfde147_end - Lfde147_start
+	.long LDIFF_SYM2154
+Lfde147_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
 
-LDIFF_SYM2150=Lme_97 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long LDIFF_SYM2150
+LDIFF_SYM2155=Lme_98 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+	.long LDIFF_SYM2155
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde146_end:
+Lfde147_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_227:
@@ -48875,64 +48986,64 @@ LTDIE_227:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM2151=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM2151
+LDIFF_SYM2156=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM2156
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2152=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2152
+LDIFF_SYM2157=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2157
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM2153=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM2153
+LDIFF_SYM2158=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM2158
 LTDIE_227_POINTER:
 
 	.byte 13
-LDIFF_SYM2154=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM2154
+LDIFF_SYM2159=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM2159
 LTDIE_227_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2155=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM2155
+LDIFF_SYM2160=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM2160
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 7,142,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_98
+	.quad Lme_99
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2156=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2156
+LDIFF_SYM2161=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2161
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM2157=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2157
+LDIFF_SYM2162=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2162
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2158=Lfde147_end - Lfde147_start
-	.long LDIFF_SYM2158
-Lfde147_start:
+LDIFF_SYM2163=Lfde148_end - Lfde148_start
+	.long LDIFF_SYM2163
+Lfde148_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2159=Lme_98 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2159
+LDIFF_SYM2164=Lme_99 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2164
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde147_end:
+Lfde148_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48942,31 +49053,31 @@ Lfde147_end:
 
 	.byte 7,150,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_99
+	.quad Lme_9a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2160=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2160
+LDIFF_SYM2165=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2165
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2161=Lfde148_end - Lfde148_start
-	.long LDIFF_SYM2161
-Lfde148_start:
+LDIFF_SYM2166=Lfde149_end - Lfde149_start
+	.long LDIFF_SYM2166
+Lfde149_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM2162=Lme_99 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM2162
+LDIFF_SYM2167=Lme_9a - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM2167
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde148_end:
+Lfde149_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -48976,36 +49087,36 @@ Lfde148_end:
 
 	.byte 7,160,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.quad Lme_9a
+	.quad Lme_9b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2163=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2163
+LDIFF_SYM2168=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2168
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM2164=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2164
+LDIFF_SYM2169=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2169
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2165=Lfde149_end - Lfde149_start
-	.long LDIFF_SYM2165
-Lfde149_start:
+LDIFF_SYM2170=Lfde150_end - Lfde150_start
+	.long LDIFF_SYM2170
+Lfde150_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM2166=Lme_9a - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM2166
+LDIFF_SYM2171=Lme_9b - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM2171
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde149_end:
+Lfde150_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49015,36 +49126,36 @@ Lfde149_end:
 
 	.byte 7,170,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_9b
+	.quad Lme_9c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2167=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2167
+LDIFF_SYM2172=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2172
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM2168=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2168
+LDIFF_SYM2173=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2173
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2169=Lfde150_end - Lfde150_start
-	.long LDIFF_SYM2169
-Lfde150_start:
+LDIFF_SYM2174=Lfde151_end - Lfde151_start
+	.long LDIFF_SYM2174
+Lfde151_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM2170=Lme_9b - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM2170
+LDIFF_SYM2175=Lme_9c - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM2175
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde150_end:
+Lfde151_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49054,31 +49165,31 @@ Lfde150_end:
 
 	.byte 7,181,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_9c
+	.quad Lme_9d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2171=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2171
+LDIFF_SYM2176=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2176
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2172=Lfde151_end - Lfde151_start
-	.long LDIFF_SYM2172
-Lfde151_start:
+LDIFF_SYM2177=Lfde152_end - Lfde152_start
+	.long LDIFF_SYM2177
+Lfde152_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM2173=Lme_9c - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM2173
+LDIFF_SYM2178=Lme_9d - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM2178
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde151_end:
+Lfde152_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_228:
@@ -49087,69 +49198,69 @@ LTDIE_228:
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 32,16
-LDIFF_SYM2174=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM2174
+LDIFF_SYM2179=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM2179
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM2175=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2175
+LDIFF_SYM2180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2180
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM2176=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM2176
+LDIFF_SYM2181=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM2181
 LTDIE_228_POINTER:
 
 	.byte 13
-LDIFF_SYM2177=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM2177
+LDIFF_SYM2182=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM2182
 LTDIE_228_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2178=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM2178
+LDIFF_SYM2183=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM2183
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 7,160,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_9d
+	.quad Lme_9e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2179=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2179
+LDIFF_SYM2184=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2184
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM2180=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2180
+LDIFF_SYM2185=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2185
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM2181=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2181
+LDIFF_SYM2186=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2186
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2182=Lfde152_end - Lfde152_start
-	.long LDIFF_SYM2182
-Lfde152_start:
+LDIFF_SYM2187=Lfde153_end - Lfde153_start
+	.long LDIFF_SYM2187
+Lfde153_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM2183=Lme_9d - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM2183
+LDIFF_SYM2188=Lme_9e - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2188
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde152_end:
+Lfde153_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49159,31 +49270,31 @@ Lfde152_end:
 
 	.byte 7,167,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_9e
+	.quad Lme_9f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2184=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2184
+LDIFF_SYM2189=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2189
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2185=Lfde153_end - Lfde153_start
-	.long LDIFF_SYM2185
-Lfde153_start:
+LDIFF_SYM2190=Lfde154_end - Lfde154_start
+	.long LDIFF_SYM2190
+Lfde154_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM2186=Lme_9e - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM2186
+LDIFF_SYM2191=Lme_9f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM2191
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde153_end:
+Lfde154_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_229:
@@ -49192,74 +49303,74 @@ LTDIE_229:
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM2187=LTDIE_11 - Ldebug_info_start
-	.long LDIFF_SYM2187
+LDIFF_SYM2192=LTDIE_11 - Ldebug_info_start
+	.long LDIFF_SYM2192
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM2188=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2188
+LDIFF_SYM2193=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2193
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM2189=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2189
+LDIFF_SYM2194=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2194
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM2190=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM2190
+LDIFF_SYM2195=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM2195
 LTDIE_229_POINTER:
 
 	.byte 13
-LDIFF_SYM2191=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM2191
+LDIFF_SYM2196=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM2196
 LTDIE_229_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2192=LTDIE_229 - Ldebug_info_start
-	.long LDIFF_SYM2192
+LDIFF_SYM2197=LTDIE_229 - Ldebug_info_start
+	.long LDIFF_SYM2197
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 7,187,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_9f
+	.quad Lme_a0
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2193=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2193
+LDIFF_SYM2198=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2198
 	.byte 1,104,3
 	.asciz "task"
 
-LDIFF_SYM2194=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2194
+LDIFF_SYM2199=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2199
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM2195=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2195
+LDIFF_SYM2200=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2200
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2196=Lfde154_end - Lfde154_start
-	.long LDIFF_SYM2196
-Lfde154_start:
+LDIFF_SYM2201=Lfde155_end - Lfde155_start
+	.long LDIFF_SYM2201
+Lfde155_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM2197=Lme_9f - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM2197
+LDIFF_SYM2202=Lme_a0 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2202
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 	.align 3
-Lfde154_end:
+Lfde155_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49269,31 +49380,31 @@ Lfde154_end:
 
 	.byte 7,196,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_a0
+	.quad Lme_a1
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2198=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2198
+LDIFF_SYM2203=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2203
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2199=Lfde155_end - Lfde155_start
-	.long LDIFF_SYM2199
-Lfde155_start:
+LDIFF_SYM2204=Lfde156_end - Lfde156_start
+	.long LDIFF_SYM2204
+Lfde156_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM2200=Lme_a0 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM2200
+LDIFF_SYM2205=Lme_a1 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM2205
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde155_end:
+Lfde156_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49303,36 +49414,36 @@ Lfde155_end:
 
 	.byte 7,206,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.quad Lme_a1
+	.quad Lme_a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2201=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2201
+LDIFF_SYM2206=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2206
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM2202=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2202
+LDIFF_SYM2207=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2207
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2203=Lfde156_end - Lfde156_start
-	.long LDIFF_SYM2203
-Lfde156_start:
+LDIFF_SYM2208=Lfde157_end - Lfde157_start
+	.long LDIFF_SYM2208
+Lfde157_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM2204=Lme_a1 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM2204
+LDIFF_SYM2209=Lme_a2 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM2209
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde156_end:
+Lfde157_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49342,36 +49453,36 @@ Lfde156_end:
 
 	.byte 7,216,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_a2
+	.quad Lme_a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2205=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2205
+LDIFF_SYM2210=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2210
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM2206=LTDIE_208_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2206
+LDIFF_SYM2211=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2211
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2207=Lfde157_end - Lfde157_start
-	.long LDIFF_SYM2207
-Lfde157_start:
+LDIFF_SYM2212=Lfde158_end - Lfde158_start
+	.long LDIFF_SYM2212
+Lfde158_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM2208=Lme_a2 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM2208
+LDIFF_SYM2213=Lme_a3 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM2213
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde157_end:
+Lfde158_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49381,31 +49492,31 @@ Lfde157_end:
 
 	.byte 7,227,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_a3
+	.quad Lme_a4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2209=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM2209
+LDIFF_SYM2214=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM2214
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2210=Lfde158_end - Lfde158_start
-	.long LDIFF_SYM2210
-Lfde158_start:
+LDIFF_SYM2215=Lfde159_end - Lfde159_start
+	.long LDIFF_SYM2215
+Lfde159_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM2211=Lme_a3 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM2211
+LDIFF_SYM2216=Lme_a4 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM2216
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde158_end:
+Lfde159_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49415,62 +49526,62 @@ Lfde158_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_a4
+	.quad Lme_a5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2212=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2212
+LDIFF_SYM2217=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2217
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2213=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2213
+LDIFF_SYM2218=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2218
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2214=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2214
+LDIFF_SYM2219=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2219
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2215=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2215
+LDIFF_SYM2220=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2220
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2216=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2216
+LDIFF_SYM2221=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2221
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2217=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2217
+LDIFF_SYM2222=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2222
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2218=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2218
+LDIFF_SYM2223=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2223
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2219=Lfde159_end - Lfde159_start
-	.long LDIFF_SYM2219
-Lfde159_start:
+LDIFF_SYM2224=Lfde160_end - Lfde160_start
+	.long LDIFF_SYM2224
+Lfde160_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2220=Lme_a4 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2220
+LDIFF_SYM2225=Lme_a5 - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2225
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde159_end:
+Lfde160_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_230:
@@ -49479,89 +49590,89 @@ LTDIE_230:
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM2221=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM2221
+LDIFF_SYM2226=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM2226
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM2222=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2222
+LDIFF_SYM2227=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2227
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM2223=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM2223
+LDIFF_SYM2228=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM2228
 LTDIE_230_POINTER:
 
 	.byte 13
-LDIFF_SYM2224=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM2224
+LDIFF_SYM2229=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM2229
 LTDIE_230_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2225=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM2225
+LDIFF_SYM2230=LTDIE_230 - Ldebug_info_start
+	.long LDIFF_SYM2230
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 8,130,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.quad Lme_a5
+	.quad Lme_a6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2226=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2226
+LDIFF_SYM2231=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2231
 	.byte 1,101,3
 	.asciz "antecedent"
 
-LDIFF_SYM2227=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2227
+LDIFF_SYM2232=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2232
 	.byte 2,141,32,3
 	.asciz "action"
 
-LDIFF_SYM2228=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2228
+LDIFF_SYM2233=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2233
 	.byte 2,141,40,3
 	.asciz "state"
 
-LDIFF_SYM2229=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2229
+LDIFF_SYM2234=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2234
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2230=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM2230
+LDIFF_SYM2235=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM2235
 	.byte 1,105,3
 	.asciz "internalOptions"
 
-LDIFF_SYM2231=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM2231
+LDIFF_SYM2236=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM2236
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM2232=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2232
+LDIFF_SYM2237=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2237
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2233=Lfde160_end - Lfde160_start
-	.long LDIFF_SYM2233
-Lfde160_start:
+LDIFF_SYM2238=Lfde161_end - Lfde161_start
+	.long LDIFF_SYM2238
+Lfde161_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 
-LDIFF_SYM2234=Lme_a5 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.long LDIFF_SYM2234
+LDIFF_SYM2239=Lme_a6 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM2239
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,68,153,15
 	.align 3
-Lfde160_end:
+Lfde161_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_231:
@@ -49570,69 +49681,69 @@ LTDIE_231:
 	.asciz "System_Action`2"
 
 	.byte 128,1,16
-LDIFF_SYM2235=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2235
+LDIFF_SYM2240=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2240
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM2236=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM2236
+LDIFF_SYM2241=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM2241
 LTDIE_231_POINTER:
 
 	.byte 13
-LDIFF_SYM2237=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM2237
+LDIFF_SYM2242=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM2242
 LTDIE_231_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2238=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM2238
+LDIFF_SYM2243=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM2243
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
 
 	.byte 8,145,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_a6
+	.quad Lme_a7
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2239=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2239
+LDIFF_SYM2244=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2244
 	.byte 1,106,11
 	.asciz "antecedent"
 
-LDIFF_SYM2240=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2240
+LDIFF_SYM2245=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2245
 	.byte 1,105,11
 	.asciz "action"
 
-LDIFF_SYM2241=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2241
+LDIFF_SYM2246=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2246
 	.byte 1,104,11
 	.asciz "actionWithState"
 
-LDIFF_SYM2242=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2242
+LDIFF_SYM2247=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2247
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2243=Lfde161_end - Lfde161_start
-	.long LDIFF_SYM2243
-Lfde161_start:
+LDIFF_SYM2248=Lfde162_end - Lfde162_start
+	.long LDIFF_SYM2248
+Lfde162_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM2244=Lme_a6 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM2244
+LDIFF_SYM2249=Lme_a7 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM2249
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde161_end:
+Lfde162_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49642,67 +49753,67 @@ Lfde161_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.quad Lme_ab
+	.quad Lme_ac
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2245=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2245
+LDIFF_SYM2250=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2250
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2246=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2246
+LDIFF_SYM2251=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2251
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2247=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2247
+LDIFF_SYM2252=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2252
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2248=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2248
+LDIFF_SYM2253=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2253
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2249=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2249
+LDIFF_SYM2254=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2254
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2250=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2250
+LDIFF_SYM2255=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2255
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2251=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2251
+LDIFF_SYM2256=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2256
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2252=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2252
+LDIFF_SYM2257=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2257
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2253=Lfde162_end - Lfde162_start
-	.long LDIFF_SYM2253
-Lfde162_start:
+LDIFF_SYM2258=Lfde163_end - Lfde163_start
+	.long LDIFF_SYM2258
+Lfde163_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 
-LDIFF_SYM2254=Lme_ab - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long LDIFF_SYM2254
+LDIFF_SYM2259=Lme_ac - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
+	.long LDIFF_SYM2259
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde162_end:
+Lfde163_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_232:
@@ -49711,95 +49822,95 @@ LTDIE_232:
 	.asciz "System_AsyncCallback"
 
 	.byte 128,1,16
-LDIFF_SYM2255=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM2255
+LDIFF_SYM2260=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM2260
 	.byte 2,35,0,0,7
 	.asciz "System_AsyncCallback"
 
-LDIFF_SYM2256=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM2256
+LDIFF_SYM2261=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM2261
 LTDIE_232_POINTER:
 
 	.byte 13
-LDIFF_SYM2257=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM2257
+LDIFF_SYM2262=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM2262
 LTDIE_232_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2258=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM2258
+LDIFF_SYM2263=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM2263
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`3<System.AsyncCallback,_object,_System.IAsyncResult>:invoke_TResult_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.quad Lme_ac
+	.quad Lme_ad
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2259=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2259
+LDIFF_SYM2264=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2264
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM2260=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2260
+LDIFF_SYM2265=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2265
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM2261=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2261
+LDIFF_SYM2266=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2266
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2262=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2262
+LDIFF_SYM2267=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2267
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM2263=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2263
+LDIFF_SYM2268=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2268
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM2264=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2264
+LDIFF_SYM2269=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2269
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM2265=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2265
+LDIFF_SYM2270=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2270
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM2266=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2266
+LDIFF_SYM2271=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2271
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM2267=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2267
+LDIFF_SYM2272=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2272
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2268=Lfde163_end - Lfde163_start
-	.long LDIFF_SYM2268
-Lfde163_start:
+LDIFF_SYM2273=Lfde164_end - Lfde164_start
+	.long LDIFF_SYM2273
+Lfde164_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
 
-LDIFF_SYM2269=Lme_ac - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
-	.long LDIFF_SYM2269
+LDIFF_SYM2274=Lme_ad - wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_invoke_TResult_T1_T2_System_AsyncCallback_object
+	.long LDIFF_SYM2274
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde163_end:
+Lfde164_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49809,67 +49920,67 @@ Lfde163_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_b1
+	.quad Lme_b2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2270=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2270
+LDIFF_SYM2275=LTDIE_221_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2275
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2271=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2271
+LDIFF_SYM2276=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2276
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2272=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2272
+LDIFF_SYM2277=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2277
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2273=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2273
+LDIFF_SYM2278=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2278
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2274=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2274
+LDIFF_SYM2279=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2279
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2275=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2275
+LDIFF_SYM2280=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2280
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2276=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2276
+LDIFF_SYM2281=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2281
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM2277=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2277
+LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2282
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2278=Lfde164_end - Lfde164_start
-	.long LDIFF_SYM2278
-Lfde164_start:
+LDIFF_SYM2283=Lfde165_end - Lfde165_start
+	.long LDIFF_SYM2283
+Lfde165_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 
-LDIFF_SYM2279=Lme_b1 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM2279
+LDIFF_SYM2284=Lme_b2 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM2284
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde164_end:
+Lfde165_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49879,62 +49990,62 @@ Lfde164_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.quad Lme_b2
+	.quad Lme_b3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2280=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2280
+LDIFF_SYM2285=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2285
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM2281=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2281
+LDIFF_SYM2286=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2286
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM2282=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2282
+LDIFF_SYM2287=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2287
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM2283=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2283
+LDIFF_SYM2288=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2288
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM2284=LTDIE_159_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2284
+LDIFF_SYM2289=LTDIE_159_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2289
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM2285=LTDIE_13_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2285
+LDIFF_SYM2290=LTDIE_13_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2290
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM2286=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2286
+LDIFF_SYM2291=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2291
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2287=Lfde165_end - Lfde165_start
-	.long LDIFF_SYM2287
-Lfde165_start:
+LDIFF_SYM2292=Lfde166_end - Lfde166_start
+	.long LDIFF_SYM2292
+Lfde166_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
 
-LDIFF_SYM2288=Lme_b2 - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
-	.long LDIFF_SYM2288
+LDIFF_SYM2293=Lme_b3 - wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System_IAsyncResult
+	.long LDIFF_SYM2293
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde165_end:
+Lfde166_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49944,31 +50055,31 @@ Lfde165_end:
 
 	.byte 0,0
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_b3
+	.quad Lme_b4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2289=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2289
+LDIFF_SYM2294=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2294
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2290=Lfde166_end - Lfde166_start
-	.long LDIFF_SYM2290
-Lfde166_start:
+LDIFF_SYM2295=Lfde167_end - Lfde167_start
+	.long LDIFF_SYM2295
+Lfde167_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2291=Lme_b3 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2291
+LDIFF_SYM2296=Lme_b4 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2296
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde166_end:
+Lfde167_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -49978,36 +50089,36 @@ Lfde166_end:
 
 	.byte 6,150,6
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.quad Lme_b4
+	.quad Lme_b5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2292=LTDIE_226_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2292
+LDIFF_SYM2297=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2297
 	.byte 1,105,3
 	.asciz "iar"
 
-LDIFF_SYM2293=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2293
+LDIFF_SYM2298=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2298
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2294=Lfde167_end - Lfde167_start
-	.long LDIFF_SYM2294
-Lfde167_start:
+LDIFF_SYM2299=Lfde168_end - Lfde168_start
+	.long LDIFF_SYM2299
+Lfde168_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 
-LDIFF_SYM2295=Lme_b4 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.long LDIFF_SYM2295
+LDIFF_SYM2300=Lme_b5 - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.long LDIFF_SYM2300
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde167_end:
+Lfde168_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -50017,36 +50128,36 @@ Lfde167_end:
 
 	.byte 4,198,6
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_b5
+	.quad Lme_b6
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM2296=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2296
+LDIFF_SYM2301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2301
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2297
+LDIFF_SYM2302=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2302
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2298=Lfde168_end - Lfde168_start
-	.long LDIFF_SYM2298
-Lfde168_start:
+LDIFF_SYM2303=Lfde169_end - Lfde169_start
+	.long LDIFF_SYM2303
+Lfde169_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM2299=Lme_b5 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM2299
+LDIFF_SYM2304=Lme_b6 - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM2304
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde168_end:
+Lfde169_end:
 
 .section __DWARF, __debug_info,regular,debug
 

@@ -10,6 +10,8 @@ using Xamarin.Auth;
 using Xamarin.Forms;
 using System.IdentityModel.Tokens.Jwt;
 using Xamarin.Essentials;
+using System.Net.Http;
+using FLoan.Dto;
 
 namespace FLoan.Views
 {
@@ -26,14 +28,14 @@ namespace FLoan.Views
             // carouselPl.AnimateTransition = true;
 
             //hBCImage.Source = ImageSource.FromFile("home_page.png");
-           // store = AccountStore.Create();
+            // store = AccountStore.Create();
         }
 
         void FindOutMoreButton_Clicked(object sender, System.EventArgs e)
         {
             int index = Children.IndexOf(CurrentPage);
 
-            this.CurrentPage = this.Children[index+1];
+            this.CurrentPage = this.Children[index + 1];
         }
 
         void MyAccountButton_Clicked(object sender, System.EventArgs e)
@@ -111,10 +113,10 @@ namespace FLoan.Views
 
             if (string.IsNullOrWhiteSpace(authInfo.AccessToken) || !authInfo.IsAuthorized)
             {
-                Device.BeginInvokeOnMainThread(async () =>
-                {
-                    await DisplayAlert("Error", "The app can't authenticate you", "OK");
-                });
+                //Device.BeginInvokeOnMainThread(async () =>
+                //{
+                //     await DisplayAlert("Error", "The app can't authenticate you", "OK");
+                //});
             }
             else
             {
@@ -124,14 +126,35 @@ namespace FLoan.Views
                 var jsonToken = handler.ReadJwtToken(authInfo.IdToken);
                 var claims = jsonToken?.Payload?.Claims;
 
-                await SecureStorage.SetAsync("accessToken", authInfo.AccessToken);
-                await SecureStorage.SetAsync("idToken", authInfo.IdToken);
-
-
                 var name = claims?.FirstOrDefault(x => x.Type == "name")?.Value;
                 var email = claims?.FirstOrDefault(x => x.Type == "email")?.Value;
                 var preferredUsername = claims?
                     .FirstOrDefault(x => x.Type == "preferred_username")?.Value;
+
+
+                await SecureStorage.SetAsync("accessToken", authInfo.AccessToken);
+                await SecureStorage.SetAsync("idToken", authInfo.IdToken);
+                await SecureStorage.SetAsync("email", email);
+
+
+                HttpClient httpClient = new HttpClient();
+                httpClient.BaseAddress = new Uri("https://xloanapi.azurewebsites.net");
+                httpClient.Timeout = new TimeSpan(0, 0, 30);
+
+                var apiUrl = string.Format("/api/customers?email={0}", email);
+
+                var response = await httpClient.GetAsync(apiUrl);
+
+
+
+                response.EnsureSuccessStatusCode();
+
+                var cont = await response.Content.ReadAsStringAsync();
+                var cusr = JsonConvert.DeserializeObject<List<CustomerDto>>(cont);
+
+                CustomerDto customerDto = cusr.FirstOrDefault();
+
+                await SecureStorage.SetAsync("customerId", customerDto.Id.ToString());
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
@@ -237,7 +260,7 @@ namespace FLoan.Views
             Debug.WriteLine("Direction = " + e.Direction);
         }
 
-       
+
 
     }
 }

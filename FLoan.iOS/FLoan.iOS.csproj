@@ -151,6 +151,11 @@
     <BundleResource Include="Resources\img-c2.png" />
     <BundleResource Include="Resources\img-c1t.png" />
     <BundleResource Include="Resources\img-c2t.png" />
+    <BundleResource Include="Resources\433-checked-done.json" />
+    <BundleResource Include="Resources\1370-confetti.json" />
+    <BundleResource Include="Resources\animation-w720-h720.json" />
+    <BundleResource Include="Resources\animation-w1440-h1080.json" />
+    <BundleResource Include="Resources\animation-w250-h250.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -177,6 +182,9 @@
     </PackageReference>
     <PackageReference Include="Xamarin.OpenId.AppAuth.iOS">
       <Version>0.92.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microcharts.Forms">
+      <Version>0.7.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

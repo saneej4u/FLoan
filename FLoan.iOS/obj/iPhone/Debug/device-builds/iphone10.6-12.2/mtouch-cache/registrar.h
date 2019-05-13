@@ -175,23 +175,6 @@
 @class OIDURLQueryComponent;
 @class OIDURLSessionProvider;
 @class OIDAuthorizationService;
-@class Xamarin_Controls_ProgressLabel;
-@class Xamarin_Auth_NativeAuthSafariViewControllerDelegate;
-@class Xamarin_Auth_FormAuthenticatorController_FormDelegate;
-@class Xamarin_Auth_FormAuthenticatorController;
-@class Xamarin_Auth_WebAuthenticatorController_UIWebViewDelegate;
-@class Xamarin_Auth_WebAuthenticatorController_WKWebViewUIDelegate;
-@class Xamarin_Auth_WebAuthenticatorController_WKWebViewNavigationDelegate;
-@class Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler;
-@class Xamarin_Auth_WebAuthenticatorController;
-@class Xamarin_Auth_FormAuthenticatorController_FieldCell;
-@class Xamarin_Auth_FormAuthenticatorController_FormDataSource;
-@class FFImageLoading_Forms_Platform_CachedImageRenderer;
-@class FFImageLoading_Forms_Touch_CachedImageRenderer;
-@class MvxCachedImageView;
-@protocol WebPDecoder;
-@class Xamarin_Essentials_SingleLocationListener;
-@class Xamarin_Essentials_ShareActivityItemSource;
 @class Lottie_Forms_iOS_Renderers_AnimationViewRenderer;
 @class LOTAnimationCache;
 @class LOTAnimationTransitionController;
@@ -231,6 +214,23 @@
 @class LOTAnimatedControl;
 @class Airbnb_Lottie_LOTAnimatedSwitch_LOTAnimatedSwitchAppearance;
 @class LOTAnimatedSwitch;
+@class Xamarin_Controls_ProgressLabel;
+@class Xamarin_Auth_NativeAuthSafariViewControllerDelegate;
+@class Xamarin_Auth_FormAuthenticatorController_FormDelegate;
+@class Xamarin_Auth_FormAuthenticatorController;
+@class Xamarin_Auth_WebAuthenticatorController_UIWebViewDelegate;
+@class Xamarin_Auth_WebAuthenticatorController_WKWebViewUIDelegate;
+@class Xamarin_Auth_WebAuthenticatorController_WKWebViewNavigationDelegate;
+@class Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler;
+@class Xamarin_Auth_WebAuthenticatorController;
+@class Xamarin_Auth_FormAuthenticatorController_FieldCell;
+@class Xamarin_Auth_FormAuthenticatorController_FormDataSource;
+@class Xamarin_Essentials_SingleLocationListener;
+@class Xamarin_Essentials_ShareActivityItemSource;
+@class FFImageLoading_Forms_Platform_CachedImageRenderer;
+@class FFImageLoading_Forms_Touch_CachedImageRenderer;
+@class MvxCachedImageView;
+@protocol WebPDecoder;
 @class CarouselView_FormsPlugin_iOS_ViewContainer;
 @class CarouselView_FormsPlugin_iOS_CarouselViewRenderer;
 
@@ -1017,48 +1017,6 @@
 	-(id) configuration;
 @end
 
-@interface Xamarin_Auth_NativeAuthSafariViewControllerDelegate : NSObject<SFSafariViewControllerDelegate> {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) safariViewController:(SFSafariViewController *)p0 didCompleteInitialLoad:(BOOL)p1;
-	-(void) safariViewControllerDidFinish:(SFSafariViewController *)p0;
-	-(NSArray *) safariViewController:(SFSafariViewController *)p0 activityItemsForURL:(NSURL *)p1 title:(NSString *)p2;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
-@interface Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler : NSObject<WKScriptMessageHandler> {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(void) userContentController:(WKUserContentController *)p0 didReceiveScriptMessage:(WKScriptMessage *)p1;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
-@interface FFImageLoading_Forms_Platform_CachedImageRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
-}
-	-(id) init;
-@end
-
-@interface FFImageLoading_Forms_Touch_CachedImageRenderer : FFImageLoading_Forms_Platform_CachedImageRenderer {
-}
-	-(id) init;
-@end
-
-@interface MvxCachedImageView : UIImageView {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(BOOL) conformsToProtocol:(void *)p0;
-	-(id) init;
-@end
-
 @interface Lottie_Forms_iOS_Renderers_AnimationViewRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
 	-(id) init;
@@ -1379,6 +1337,48 @@
 	-(void) setOn:(BOOL)p0;
 	-(id) init;
 	-(id) initWithCoder:(NSCoder *)p0;
+@end
+
+@interface Xamarin_Auth_NativeAuthSafariViewControllerDelegate : NSObject<SFSafariViewControllerDelegate> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) safariViewController:(SFSafariViewController *)p0 didCompleteInitialLoad:(BOOL)p1;
+	-(void) safariViewControllerDidFinish:(SFSafariViewController *)p0;
+	-(NSArray *) safariViewController:(SFSafariViewController *)p0 activityItemsForURL:(NSURL *)p1 title:(NSString *)p2;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface Xamarin_Auth_WebAuthenticatorController_WKWebViewJacascriptMessageHandler : NSObject<WKScriptMessageHandler> {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) userContentController:(WKUserContentController *)p0 didReceiveScriptMessage:(WKScriptMessage *)p1;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface FFImageLoading_Forms_Platform_CachedImageRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
+}
+	-(id) init;
+@end
+
+@interface FFImageLoading_Forms_Touch_CachedImageRenderer : FFImageLoading_Forms_Platform_CachedImageRenderer {
+}
+	-(id) init;
+@end
+
+@interface MvxCachedImageView : UIImageView {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
 @end
 
 @interface CarouselView_FormsPlugin_iOS_ViewContainer : UIViewController {

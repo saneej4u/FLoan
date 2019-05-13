@@ -14,6 +14,9 @@ FLoan
 FormsViewGroup
 Lottie.Android
 Lottie.Forms
+Microcharts
+Microcharts.Droid
+Microcharts.Forms
 Microsoft.Extensions.DependencyInjection.Abstractions
 Microsoft.Extensions.Logging.Abstractions
 Microsoft.Extensions.Logging
@@ -28,6 +31,8 @@ PInvoke.Kernel32
 PInvoke.NCrypt
 PInvoke.Windows.Core
 SkiaSharp
+SkiaSharp.Views.Android
+SkiaSharp.Views.Forms
 System.IdentityModel.Tokens.Jwt
 System.Interactive.Async
 System.Runtime

@@ -19,7 +19,7 @@
                 </ContentPage.Padding>
 
     <ContentPage.Content>
- 
+  <ScrollView>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO" />
@@ -33,9 +33,9 @@
 
 
             <StackLayout HeightRequest="200" BackgroundColor="{StaticResource MonzaColor}">
-                <Label Text="9" FontAttributes="Bold" FontSize="40" VerticalOptions="EndAndExpand" HorizontalOptions="Center" TextColor="White"></Label>
-                <Label   Text="monthly repayment of" FontSize="Small" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
-                <Label   Text="£500" FontAttributes="Bold" FontSize="40" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" />
+                <Label x:Name="TermInfoLabel" Text="9" FontAttributes="Bold" FontSize="40" VerticalOptions="EndAndExpand" HorizontalOptions="Center" TextColor="White"></Label>
+                <Label   Text="monthly repayment of" FontSize="Medium" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
+                <Label x:Name="LoanAmountInfoLabel"  Text="£500" FontAttributes="Bold" FontSize="40" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White" />
             </StackLayout>
             <Image Source="CurvedMask.png" VerticalOptions="End" Aspect="AspectFill" Margin="0,0,0,0"/>
 
@@ -43,7 +43,7 @@
 
             <!-- Profile Name -->
 
-            <StackLayout Grid.Row="1"  Margin="20" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+            <StackLayout Grid.Row="1"  Margin="20,35" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <StackLayout>
                     <Grid>
                         <Grid.RowDefinitions>
@@ -67,7 +67,7 @@
                                 </Grid.ColumnDefinitions>
                                 <Label Grid.Row="0" Grid.Column="0"  x:Name="rotatingLabel"
                                    Text="Loan Amount"
-                                   FontSize="Small"
+                                   FontSize="Medium" FontAttributes="Bold"
                                    TextColor="#ea3362" />
 
                                 <Label x:Name="displayLabel" Grid.Row="0" Grid.Column="1" Text="£500" FontAttributes="Bold"  FontSize="Large" TextColor="#ea3362" HorizontalOptions="End" />
@@ -87,13 +87,13 @@
                 <StackLayout>
                     <Label 
                    Text="Loan Period"
-                   FontSize="Small"
+                   FontSize="Medium" FontAttributes="Bold"
                    HorizontalOptions="Start"
                    VerticalOptions="StartAndExpand" TextColor="#ea3362" />
 
                     <Label x:Name="termDisplayLabel"
                Text="12 months"
-               HorizontalOptions="End"
+               HorizontalOptions="EndAndExpand"
                VerticalOptions="StartAndExpand" FontAttributes="Bold"  FontSize="Large" TextColor="#ea3362"  />
                     
                     <Slider x:Name="LoanPeriodSlider" Maximum="60" Minimum="12"  ValueChanged="OnLoanPeriodSliderValueChanged"  />
@@ -116,29 +116,29 @@
                     </Grid.ColumnDefinitions>
 
                     <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="{StaticResource MonzaColor}">
-                        <Label Text="Total to Repay" FontSize="Micro" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
-                        <Label Text="£12345.65" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label Text="Total to Repay" FontSize="Small" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label x:Name="TotalToRepayLabel" Text="£12345.65" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
                     </StackLayout>
 
                     <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="{StaticResource MonzaColor}">
-                        <Label Text="Interest" FontSize="Micro" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
-                        <Label Text="£435.65" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label Text="Interest" FontSize="Small" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label x:Name="InterestAmountLabel" Text="£435.65" FontSize="Large" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
                     </StackLayout>
 
 
                     <StackLayout Grid.Row="1" Grid.Column="0" BackgroundColor="{StaticResource MonzaColor}">
-                        <Label Text="Interest Rate" FontSize="Micro" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
-                        <Label Text="123.45%" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label Text="Admin Fee" FontSize="Small" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label x:Name="AdminFeeEntry" Text="0" FontSize="Large" VerticalOptions="CenterAndExpand" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
                     </StackLayout>
 
                     <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="{StaticResource MonzaColor}">
-                        <Label Text="APR" FontSize="Micro" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
-                        <Label Text="39.9%" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label Text="APR" FontSize="Small" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                        <Label Text="39.9%" FontSize="Large" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" TextColor="White"></Label>
                     </StackLayout>
 
                     
                     <StackLayout Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" Padding="5">
-                        <Button BorderRadius="25" Margin="0,10,0,40" HeightRequest="55" Text="Next" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Large" ></Button>
+                        <Button BorderRadius="25" Margin="0,10,0,40" HeightRequest="55" Text="NEXT" FontAttributes="Bold" Clicked="ApplicationStartNextButton_Clicked"  BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" ></Button>
                     </StackLayout>
 
                 </Grid>
@@ -146,7 +146,7 @@
             
 
         </Grid>
-
+        </ScrollView>
     
     </ContentPage.Content>
     

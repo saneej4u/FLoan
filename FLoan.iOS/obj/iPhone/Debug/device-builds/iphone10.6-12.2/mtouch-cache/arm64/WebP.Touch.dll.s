@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "WebP.Touch.dll"
 	.asciz ""
 
@@ -2312,7 +2312,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 36,207,133,214,88,3,223,29,222,78,115,184,150,118,251,212
+	.byte 11,10,211,241,112,8,182,20,151,160,8,192,220,96,147,174
 	.globl _mono_aot_module_WebP_Touch_info
 	.align 3
 _mono_aot_module_WebP_Touch_info:

@@ -39,6 +39,8 @@
                 
        
             <StackLayout BackgroundColor="Red" Grid.Row="1"  HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+               
+                
                 <Label HorizontalTextAlignment="Center" TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
                 <Button BorderRadius="25"  Margin="10,10,10,5" HeightRequest="50" Text="How it works" Clicked="HowItWorkedButton_Clicked" BackgroundColor="{StaticResource PinkColor}" TextColor="White" FontSize="Medium" />
                 

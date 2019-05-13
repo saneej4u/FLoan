@@ -42,7 +42,7 @@
             <Entry x:Name="PostCodeEntry" HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Placeholder="Postcode"/>
 
               
-            <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GotBankDetailsPage_Clicked"/>
+            <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Text="NEXT" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GotBankDetailsPage_Clicked" FontSize="Medium" FontAttributes="Bold"/>
           
         </Grid>
         </ScrollView> 

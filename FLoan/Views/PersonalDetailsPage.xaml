@@ -52,9 +52,9 @@
             <Entry x:Name="MobileEntry" HeightRequest="45" Margin="10" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Mobile"/>
             <Entry x:Name="PasswordEntry" HeightRequest="45" Margin="10" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Password"/>
             <Entry x:Name="ConfirmPasswordEntry" HeightRequest="45" Margin="10" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Placeholder="Confirm Password"/>
-            <Label Grid.Row="8" Margin="10" Grid.Column="1" Grid.ColumnSpan="2"  TextColor="White" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et feugiat odio. Suspendisse volutpat tempus placerat. Pellentesque augue erat, accumsan non convallis eu, dapibus et ex. "/>
+            <Label Grid.Row="8" Margin="10" Grid.Column="1" Grid.ColumnSpan="2"  TextColor="White" Text="I confirm that I have read the full privacy policy and understand how my data will be used*"/>
                    
-            <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Text="Next" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GoToAddressDetailsButton_Clicked" />
+            <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,50" Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="2" Text="NEXT" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End" HorizontalOptions="FillAndExpand" Clicked="GoToAddressDetailsButton_Clicked" FontSize="Medium" FontAttributes="Bold" />
           
         </Grid>
         </ScrollView> 

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "System.Numerics.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SR_Format_string_object
 SR_Format_string_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/build/common/SR.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/build/common/SR.cs"
 .loc 1 36 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -165,7 +165,7 @@ LDIFF_SYM3=ut_end - ut_1
 	.align 4
 	.no_dead_strip System_Numerics_BigInteger__ctor_int
 System_Numerics_BigInteger__ctor_int:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigInteger.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigInteger.cs"
 .loc 2 38 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -278,7 +278,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -444,7 +444,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -558,7 +558,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -923,7 +923,7 @@ ldr x0, [x16, #0]
 .word 0xd28009a1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -935,12 +935,12 @@ ldr x0, [x16, #0]
 .word 0xd2800021
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
 .word 0x17ffffec
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -1166,7 +1166,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2031,7 +2031,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2255,7 +2255,7 @@ bl _p_8
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2379,7 +2379,7 @@ System_Numerics_BigInteger_get_IsPowerOfTwo:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2469,7 +2469,7 @@ System_Numerics_BigInteger_get_IsEven:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2614,7 +2614,7 @@ System_Numerics_BigInteger_GetHashCode:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2682,7 +2682,7 @@ bl _p_20
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_4
 
@@ -2774,7 +2774,7 @@ System_Numerics_BigInteger_Equals_long:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -2958,7 +2958,7 @@ System_Numerics_BigInteger_CompareTo_long:
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -3088,7 +3088,7 @@ bl _p_21
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -3178,7 +3178,7 @@ bl _p_8
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_9
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_4
 
@@ -3851,14 +3851,14 @@ ldr x0, [x16, #0]
 .word 0xd2801be1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -4049,10 +4049,10 @@ bl _p_16
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_4
 
@@ -4734,7 +4734,7 @@ bl _p_43
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -4769,7 +4769,7 @@ bl _p_43
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -4804,7 +4804,7 @@ bl _p_43
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -4835,7 +4835,7 @@ bl _p_43
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -4909,7 +4909,7 @@ ldr x0, [x16, #0]
 .word 0xd28029e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -4921,14 +4921,14 @@ ldr x0, [x16, #0]
 .word 0xd28029e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -4981,14 +4981,14 @@ ldr x0, [x16, #0]
 .word 0xd2803761
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -5083,7 +5083,7 @@ ldr x0, [x16, #0]
 .word 0xd28044e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -5099,11 +5099,11 @@ ldr x0, [x16, #0]
 .word 0xd28044e1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -5185,14 +5185,14 @@ ldr x0, [x16, #0]
 .word 0xd2805261
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -5350,7 +5350,7 @@ bl _p_46
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -5456,11 +5456,11 @@ ldr x0, [x16, #0]
 .word 0xd2805fe1
 bl _p_8
 .word 0xaa0003e1
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -5903,7 +5903,7 @@ bl _p_32
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 .word 0xd2801140
@@ -6057,7 +6057,7 @@ bl _p_32
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 .word 0xd2801140
@@ -6353,7 +6353,7 @@ System_Numerics_BigInteger_GetDiffLength_uint___uint___int:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -6567,7 +6567,7 @@ ldr x0, [x16, #280]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -6576,7 +6576,7 @@ Lme_4a:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Add_uint___uint
 System_Numerics_BigIntegerCalculator_Add_uint___uint:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.AddSub.cs"
 .loc 3 21 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -6664,7 +6664,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -6740,7 +6740,7 @@ bl _p_59
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -6978,7 +6978,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -7057,7 +7057,7 @@ bl _p_60
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -7229,7 +7229,7 @@ System_Numerics_BigIntegerCalculator_Compare_uint___uint__:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -7238,7 +7238,7 @@ Lme_52:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Divide_uint___uint
 System_Numerics_BigIntegerCalculator_Divide_uint___uint:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.DivRem.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.DivRem.cs"
 .loc 4 44 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -7310,7 +7310,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 .word 0xd2801140
@@ -7371,7 +7371,7 @@ System_Numerics_BigIntegerCalculator_Remainder_uint___uint:
 .word 0xd2801140
 .word 0xaa1103e1
 bl _p_4
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -7431,7 +7431,7 @@ bl _p_62
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -7474,7 +7474,7 @@ bl _p_62
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -8017,7 +8017,7 @@ Lme_5c:
 	.align 4
 	.no_dead_strip System_Numerics_BigIntegerCalculator_Square_uint__
 System_Numerics_BigIntegerCalculator_Square_uint__:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.SquMul.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigIntegerCalculator.SquMul.cs"
 .loc 5 19 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -8071,7 +8071,7 @@ bl _p_67
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -8408,7 +8408,7 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -8489,7 +8489,7 @@ bl _p_3
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -8568,7 +8568,7 @@ bl _p_71
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -8971,7 +8971,7 @@ bl _p_70
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -9128,7 +9128,7 @@ Lme_63:
 	.align 4
 	.no_dead_strip System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_
 System_Numerics_BigNumber_TryValidateParseStyleInteger_System_Globalization_NumberStyles_System_ArgumentException_:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigNumber.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/BigNumber.cs"
 .loc 6 308 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -9660,7 +9660,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -10099,7 +10099,7 @@ ldr x0, [x16, #392]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -10615,7 +10615,7 @@ bl _p_98
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -11484,13 +11484,13 @@ bl _p_111
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 .word 0xd2801140
 .word 0xaa1103e1
 bl _p_4
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 
@@ -11576,7 +11576,7 @@ Lme_6e:
 	.align 4
 	.no_dead_strip System_Numerics_NumericsHelpers_GetDoubleParts_double_int__int__ulong__bool_
 System_Numerics_NumericsHelpers_GetDoubleParts_double_int__int__ulong__bool_:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/NumericsHelpers.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Numerics/NumericsHelpers.cs"
 .loc 7 26 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -11873,7 +11873,7 @@ System_Numerics_NumericsHelpers_DangerousMakeTwosComplement_uint__:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -12058,7 +12058,7 @@ Lme_77:
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int
 System_Globalization_FormatProvider_FormatBigInteger_System_Text_ValueStringBuilder__int_int_bool_System_ReadOnlySpan_1_char_System_Globalization_NumberFormatInfo_char___int:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.BigInteger.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.BigInteger.cs"
 .loc 8 16 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
@@ -12145,7 +12145,7 @@ bl _p_116
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -12222,7 +12222,7 @@ Lme_79:
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_Number_IsWhite_char
 System_Globalization_FormatProvider_Number_IsWhite_char:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/System/Globalization/FormatProvider.Number.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/System/Globalization/FormatProvider.Number.cs"
 .loc 9 297 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -13086,7 +13086,7 @@ ldr x0, [x16, #392]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -13249,7 +13249,7 @@ bl _p_123
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xaa1103e1
 bl _p_4
 .word 0xd2801140
@@ -13554,7 +13554,7 @@ ldr x0, [x16, #392]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -13990,7 +13990,7 @@ bl _p_8
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -14241,7 +14241,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -14735,7 +14735,7 @@ bl _p_93
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -14920,7 +14920,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -15111,7 +15111,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -15355,7 +15355,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -15640,7 +15640,7 @@ bl _p_136
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -15891,7 +15891,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -18025,7 +18025,7 @@ ldr x0, [x16, #392]
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -18616,7 +18616,7 @@ b System_Globalization_FormatProvider_Number_NumberBuffer_get_digits
 	.align 4
 	.no_dead_strip System_Globalization_FormatProvider_Number_NumberBuffer_get_digits
 System_Globalization_FormatProvider_Number_NumberBuffer_get_digits:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.NumberBuffer.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Runtime.Numerics/src/System/Globalization/FormatProvider.NumberBuffer.cs"
 .loc 10 25 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -18636,7 +18636,7 @@ b System_Text_ValueStringBuilder__ctor_System_Span_1_char
 	.align 4
 	.no_dead_strip System_Text_ValueStringBuilder__ctor_System_Span_1_char
 System_Text_ValueStringBuilder__ctor_System_Span_1_char:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Text/ValueStringBuilder.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Text/ValueStringBuilder.cs"
 .loc 11 20 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -19037,7 +19037,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -19108,7 +19108,7 @@ bl _p_126
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -19272,7 +19272,7 @@ ldr x0, [x16, #416]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -19364,7 +19364,7 @@ ldr x0, [x16, #416]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -19483,7 +19483,7 @@ bl _p_93
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -19687,7 +19687,7 @@ b System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
 	.align 4
 	.no_dead_strip System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__
 System_ReadOnlySpan_1_T_BYTE__ctor_T_BYTE__:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ReadOnlySpan.Fast.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ReadOnlySpan.Fast.cs"
 .loc 12 47 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -20370,7 +20370,7 @@ b System_ReadOnlySpan_1_T_BYTE_get_Length
 	.align 4
 	.no_dead_strip System_ReadOnlySpan_1_T_BYTE_get_Length
 System_ReadOnlySpan_1_T_BYTE_get_Length:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ReadOnlySpan.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/ReadOnlySpan.cs"
 .loc 13 36 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -20419,10 +20419,10 @@ System_ReadOnlySpan_1_T_BYTE_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2888880
+.word 0xd288aca0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -20444,10 +20444,10 @@ System_ReadOnlySpan_1_T_BYTE_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2889ba0
+.word 0xd288bfc0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -20501,14 +20501,14 @@ b System_ByReference_1_T_BYTE__ctor_T_BYTE_
 	.align 4
 	.no_dead_strip System_ByReference_1_T_BYTE__ctor_T_BYTE_
 System_ByReference_1_T_BYTE__ctor_T_BYTE_:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/ByReference.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/ByReference.cs"
 .loc 14 26 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -20530,7 +20530,7 @@ System_ByReference_1_T_BYTE_get_Value:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -20547,7 +20547,7 @@ b System_Span_1_T_BYTE__ctor_T_BYTE__
 	.align 4
 	.no_dead_strip System_Span_1_T_BYTE__ctor_T_BYTE__
 System_Span_1_T_BYTE__ctor_T_BYTE__:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Span.Fast.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Span.Fast.cs"
 .loc 15 48 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -21368,7 +21368,7 @@ b System_Span_1_T_BYTE_get_Length
 	.align 4
 	.no_dead_strip System_Span_1_T_BYTE_get_Length
 System_Span_1_T_BYTE_get_Length:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Span.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Span.cs"
 .loc 16 36 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -21395,10 +21395,10 @@ System_Span_1_T_BYTE_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2888880
+.word 0xd288aca0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -21420,10 +21420,10 @@ System_Span_1_T_BYTE_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2889ba0
+.word 0xd288bfc0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -22211,10 +22211,10 @@ System_ReadOnlySpan_1_T_CHAR_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2888880
+.word 0xd288aca0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -22236,10 +22236,10 @@ System_ReadOnlySpan_1_T_CHAR_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2889ba0
+.word 0xd288bfc0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -22299,7 +22299,7 @@ System_ByReference_1_T_CHAR__ctor_T_CHAR_:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -22321,7 +22321,7 @@ System_ByReference_1_T_CHAR_get_Value:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -22334,7 +22334,7 @@ Lme_d5:
 	.align 4
 	.no_dead_strip System_Buffers_ArrayPool_1_T_BYTE_get_Shared
 System_Buffers_ArrayPool_1_T_BYTE_get_Shared:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Buffers/ArrayPool.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Buffers/ArrayPool.cs"
 .loc 17 36 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -23460,10 +23460,10 @@ System_Span_1_T_CHAR_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2888880
+.word 0xd288aca0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -23485,10 +23485,10 @@ System_Span_1_T_CHAR_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2889ba0
+.word 0xd288bfc0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -24597,10 +24597,10 @@ System_Span_1_T_INT_Equals_object:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2888880
+.word 0xd288aca0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -24622,10 +24622,10 @@ System_Span_1_T_INT_GetHashCode:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2889ba0
+.word 0xd288bfc0
 bl _p_194
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_9
@@ -24685,7 +24685,7 @@ System_ByReference_1_T_INT__ctor_T_INT_:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -24707,7 +24707,7 @@ System_ByReference_1_T_INT_get_Value:
 .word 0x910003fd
 .word 0xf9000faf
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_9
@@ -24804,7 +24804,7 @@ wrapper_unknown_uint___Get_int:
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -24931,7 +24931,7 @@ wrapper_unknown_uint___Set_int_uint:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -25147,7 +25147,7 @@ Lme_10b:
 	.align 4
 	.no_dead_strip System_EmptyArray_1_T_BYTE__cctor
 System_EmptyArray_1_T_BYTE__cctor:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/EmptyArray.cs"
 .loc 18 33 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -25170,7 +25170,7 @@ Lme_10c:
 	.align 4
 	.no_dead_strip System_Array_Empty_T_BYTE
 System_Array_Empty_T_BYTE:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 19 663 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -25192,7 +25192,7 @@ Lme_10d:
 	.align 4
 	.no_dead_strip System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR
 System_Runtime_InteropServices_MemoryMarshal_GetReference_T_CHAR_System_ReadOnlySpan_1_T_CHAR:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Runtime/InteropServices/MemoryMarshal.Fast.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Runtime/InteropServices/MemoryMarshal.Fast.cs"
 .loc 20 86 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -25215,7 +25215,7 @@ Lme_10e:
 	.align 4
 	.no_dead_strip System_Buffer_Memmove_T_BYTE_T_BYTE__T_BYTE__ulong
 System_Buffer_Memmove_T_BYTE_T_BYTE__T_BYTE__ulong:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/ReferenceSources/Buffer.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/ReferenceSources/Buffer.cs"
 .loc 21 236 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -25290,7 +25290,7 @@ Lme_110:
 	.align 4
 	.no_dead_strip System_Buffers_TlsOverPerCoreLockedStacksArrayPool_1_T_BYTE__ctor
 System_Buffers_TlsOverPerCoreLockedStacksArrayPool_1_T_BYTE__ctor:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Buffers/TlsOverPerCoreLockedStacksArrayPool.cs"
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Buffers/TlsOverPerCoreLockedStacksArrayPool.cs"
 .loc 22 46 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -25385,7 +25385,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -25560,7 +25560,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_4
 
@@ -29509,7 +29509,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "631408D7-F99E-4D20-A18D-C93F5422B878"
+	.asciz "12A77D18-E750-44C6-9E82-5B9B8041C8BF"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -29599,7 +29599,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 29,110,164,221,103,46,51,67,156,36,245,26,14,95,50,97
+	.byte 65,20,175,100,113,236,156,93,244,174,209,153,180,126,106,76
 	.globl _mono_aot_module_System_Numerics_info
 	.align 3
 _mono_aot_module_System_Numerics_info:

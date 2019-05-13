@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "FFImageLoading.Forms.dll"
 	.asciz ""
 
@@ -470,7 +470,7 @@ add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
 ldr x1, [x16, #272]
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf9406850
+.word 0xf9406c50
 .word 0xd63f0200
 .word 0xf90037a0
 .word 0xf94013b1
@@ -648,7 +648,7 @@ bl _p_12
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -1030,7 +1030,7 @@ ldr x2, [x16, #400]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -1164,7 +1164,7 @@ ldr x2, [x16, #288]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -1232,7 +1232,7 @@ ldr x2, [x16, #288]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -1364,7 +1364,7 @@ ldr x1, [x16, #480]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -1422,9 +1422,9 @@ ldr x0, [x16, #0]
 .word 0xd2800b61
 bl _p_21
 .word 0xaa0003e1
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
-.word 0xd28023c0
+.word 0xd2802400
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -1892,7 +1892,7 @@ ldr x1, [x16, #552]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -2010,7 +2010,7 @@ ldr x2, [x16, #400]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -2143,7 +2143,7 @@ ldr x2, [x16, #400]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -2408,7 +2408,7 @@ ldr x2, [x16, #688]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -2541,7 +2541,7 @@ ldr x2, [x16, #688]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -2674,7 +2674,7 @@ ldr x2, [x16, #288]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -2807,7 +2807,7 @@ ldr x2, [x16, #288]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -3076,7 +3076,7 @@ ldr x2, [x16, #400]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -3737,7 +3737,7 @@ ldr x1, [x16, #552]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -3854,7 +3854,7 @@ ldr x1, [x16, #552]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -4103,7 +4103,7 @@ ldr x1, [x16, #1032]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -6436,10 +6436,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -6548,10 +6548,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -6632,7 +6632,7 @@ ldr x1, [x16, #1272]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -6932,10 +6932,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -7044,10 +7044,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -7128,7 +7128,7 @@ ldr x1, [x16, #1272]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -7428,10 +7428,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -7540,10 +7540,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -7624,7 +7624,7 @@ ldr x1, [x16, #1272]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -7924,10 +7924,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -8036,10 +8036,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -8120,7 +8120,7 @@ ldr x1, [x16, #1272]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -8416,10 +8416,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -8528,10 +8528,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -8612,7 +8612,7 @@ ldr x1, [x16, #1272]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -8908,10 +8908,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -9020,10 +9020,10 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -9104,7 +9104,7 @@ ldr x1, [x16, #1272]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -13167,7 +13167,7 @@ bl _p_128
 .word 0x8b100231
 .word 0x9100023f
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
 .word 0xd2800e80
@@ -16226,7 +16226,7 @@ ldr x1, [x16, #2624]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -16963,7 +16963,7 @@ bl _p_158
 .word 0xf9401ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf9409030
+.word 0xf9409430
 .word 0xd63f0200
 .word 0xf90043a0
 .word 0xf9401fb1
@@ -17087,7 +17087,7 @@ ldr x1, [x16, #2768]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -17837,7 +17837,7 @@ bl _p_158
 .word 0x910003bf
 .word 0xa8d77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -18018,9 +18018,9 @@ ldr x16, [x16, #2880]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -18350,9 +18350,9 @@ bl _p_160
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -18864,7 +18864,7 @@ b System_Nullable_1_bool__ctor_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
 .loc 9 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -19324,7 +19324,7 @@ b System_Nullable_1_bool_Box_System_Nullable_1_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool_Box_System_Nullable_1_bool
 System_Nullable_1_bool_Box_System_Nullable_1_bool:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 10 52 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -19502,7 +19502,7 @@ bl _p_9
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -19599,9 +19599,9 @@ bl _p_181
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -19662,7 +19662,7 @@ bl _p_9
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -19671,7 +19671,7 @@ Lme_ab:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 11 85 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -19891,13 +19891,13 @@ ldr x16, [x16, #3128]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d76a0
-.word 0xd28d76a0
+.word 0xd28d9ac0
+.word 0xd28d9ac0
 bl _p_187
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -19939,13 +19939,13 @@ ldr x16, [x16, #3136]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_187
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -19987,13 +19987,13 @@ ldr x16, [x16, #3144]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_187
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -20058,8 +20058,8 @@ ldr x16, [x16, #3152]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_187
 bl _p_188
 .word 0xf90033a0
@@ -20068,9 +20068,9 @@ bl _p_188
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -20416,7 +20416,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -20546,7 +20546,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -20692,7 +20692,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -21341,7 +21341,7 @@ bl _p_195
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -21438,9 +21438,9 @@ bl _p_181
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -21501,7 +21501,7 @@ bl _p_195
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -22197,7 +22197,7 @@ bl _p_199
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -22294,9 +22294,9 @@ bl _p_181
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -22362,7 +22362,7 @@ bl _p_199
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -22499,7 +22499,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -22636,7 +22636,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -22773,7 +22773,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -22910,7 +22910,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -23047,7 +23047,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -23184,7 +23184,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -23321,7 +23321,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -23458,7 +23458,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -24138,7 +24138,7 @@ bl _p_200
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -24235,9 +24235,9 @@ bl _p_181
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -24298,7 +24298,7 @@ bl _p_200
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -24428,7 +24428,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -24577,7 +24577,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -24707,7 +24707,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -24837,7 +24837,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -24967,7 +24967,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -25104,7 +25104,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -25767,7 +25767,7 @@ bl _p_204
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -25864,9 +25864,9 @@ bl _p_181
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_22
@@ -25929,7 +25929,7 @@ bl _p_204
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
 
@@ -26201,13 +26201,13 @@ ldr x16, [x16, #3760]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e3e60
-.word 0xd28e3e60
+.word 0xd28e6280
+.word 0xd28e6280
 bl _p_187
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -26229,13 +26229,13 @@ bl _p_22
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28e4920
-.word 0xd28e4920
+.word 0xd28e6d40
+.word 0xd28e6d40
 bl _p_187
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -26698,7 +26698,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -26835,7 +26835,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -26965,7 +26965,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -27102,7 +27102,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -27232,7 +27232,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -27375,7 +27375,7 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -28203,7 +28203,7 @@ ldr x16, [x16, #3880]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -28387,7 +28387,7 @@ ldr x16, [x16, #3896]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
@@ -28524,7 +28524,7 @@ b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_FFImageLoading_Fo
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_FFImageLoading_Forms_CachedImage__InvalidateCached__127_FFImageLoading_Forms_CachedImage__InvalidateCached__127_
 System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_FFImageLoading_Forms_CachedImage__InvalidateCached__127_FFImageLoading_Forms_CachedImage__InvalidateCached__127_:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 12 304 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
@@ -28584,9 +28584,9 @@ ldr x16, [x16, #3912]
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -29184,7 +29184,7 @@ Lme_114:
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/Future.cs"
 .loc 13 83 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -29778,9 +29778,9 @@ ldr x16, [x16, #4040]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -29802,9 +29802,9 @@ bl _p_22
 .word 0xf940e231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -29925,9 +29925,9 @@ ldr x16, [x16, #4056]
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
-.word 0xd2880020
+.word 0xd2882640
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -29949,9 +29949,9 @@ bl _p_22
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -30210,7 +30210,7 @@ bl _p_241
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
 
@@ -31050,6 +31050,72 @@ bl _p_254
 Lme_128:
 .text
 	.align 4
+	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken:
+.loc 13 625 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
+add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
+ldr x16, [x16, #112]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf9401bb1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9002fa0
+.word 0xf9400fa0
+.word 0xf90033a0
+bl _p_253
+.word 0xf90037a0
+.word 0xf9401bb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0x910083a3
+.word 0x910123a3
+.word 0xf94013a3
+.word 0xf90027a3
+.word 0xd2800003
+.word 0x910123a3
+.word 0xf94027a3
+.word 0xd2800004
+bl _p_254
+.word 0xf9002ba0
+.word 0xf9401bb1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf9401bb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
+Lme_129:
+.text
+	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler:
 .loc 13 653 0 prologue_end
@@ -31061,7 +31127,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #120]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31107,7 +31173,7 @@ bl _p_254
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_129:
+Lme_12a:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -31123,7 +31189,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #128]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -31164,7 +31230,7 @@ bl _p_254
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_12a:
+Lme_12b:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -31183,7 +31249,7 @@ System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #136]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -31209,9 +31275,9 @@ ldr x16, [x16, #128]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28804e0
+.word 0xd2882b00
 .word 0xf2a00020
-.word 0xd28804e0
+.word 0xd2882b00
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -31233,9 +31299,9 @@ bl _p_22
 .word 0xf940ea31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
-.word 0xd2880260
+.word 0xd2882880
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -31270,7 +31336,7 @@ bl _p_255
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #136]
+ldr x0, [x16, #144]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_15
@@ -31324,12 +31390,12 @@ bl _p_257
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_12b:
+Lme_12c:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/FutureFactory.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/FutureFactory.cs"
 .loc 14 93 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -31337,7 +31403,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #152]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31384,7 +31450,7 @@ bl _p_258
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_12c:
+Lme_12d:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
@@ -31402,7 +31468,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #160]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -31512,7 +31578,7 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_12d:
+Lme_12e:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
@@ -31530,7 +31596,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_Start
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #168]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -31588,7 +31654,7 @@ bl _p_261
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_12e:
+Lme_12f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
@@ -31605,7 +31671,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #176]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -31981,7 +32047,7 @@ bl _p_268
 .word 0xa8d07bfd
 .word 0xd65f03c0
 
-Lme_12f:
+Lme_130:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
@@ -31996,7 +32062,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #184]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -32038,7 +32104,7 @@ bl _p_269
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_130:
+Lme_131:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
@@ -32056,7 +32122,7 @@ System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromA
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #192]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -32071,7 +32137,7 @@ ldr x16, [x16, #184]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #192]
+ldr x0, [x16, #200]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_15
@@ -32129,9 +32195,9 @@ ldr x2, [x16, #16]
 .word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2880ee0
+.word 0xd2883500
 .word 0xf2a00020
-.word 0xd2880ee0
+.word 0xd2883500
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -32165,9 +32231,9 @@ bl _p_22
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28811e0
+.word 0xd2883800
 .word 0xf2a00020
-.word 0xd28811e0
+.word 0xd2883800
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -32260,7 +32326,7 @@ bl _p_265
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #200]
+ldr x0, [x16, #208]
 .word 0xaa1603e1
 .word 0xaa1603e1
 bl _p_273
@@ -32305,7 +32371,7 @@ bl _p_275
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #208]
+ldr x0, [x16, #216]
 .word 0xd2801001
 .word 0xd2801001
 bl _p_15
@@ -32330,17 +32396,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #224]
 .word 0xf9001420
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #224]
+ldr x0, [x16, #232]
 .word 0xf9002020
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #232]
+ldr x0, [x16, #240]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -32372,7 +32438,7 @@ ldr x0, [x16, #232]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x15, [x16, #240]
+ldr x15, [x16, #248]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -32518,16 +32584,16 @@ bl _p_277
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_13
 .word 0xd2800e80
 .word 0xaa1103e1
 bl _p_13
 
-Lme_131:
+Lme_132:
 .text
-ut_306:
+ut_307:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 .text
@@ -32541,7 +32607,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32628,9 +32694,9 @@ ldr x2, [x16, #16]
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_132:
+Lme_133:
 .text
-ut_307:
+ut_308:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 .text
@@ -32645,7 +32711,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #264]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32677,9 +32743,9 @@ bl _p_278
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_133:
+Lme_134:
 .text
-ut_308:
+ut_309:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 .text
@@ -32695,7 +32761,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #272]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32779,9 +32845,9 @@ ldr x2, [x16, #16]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_134:
+Lme_135:
 .text
-ut_309:
+ut_310:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -32797,7 +32863,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #280]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -32913,7 +32979,7 @@ bl _p_282
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #280]
+ldr x0, [x16, #288]
 .word 0x39400000
 .word 0x34000220
 .loc 12 605 0
@@ -32965,9 +33031,9 @@ bl _p_242
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
 bl _p_187
 bl _p_284
@@ -32977,9 +33043,9 @@ bl _p_284
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -32997,9 +33063,9 @@ bl _p_22
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_135:
+Lme_136:
 .text
-ut_310:
+ut_311:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
@@ -33015,7 +33081,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33103,9 +33169,9 @@ bl _p_285
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_136:
+Lme_137:
 .text
-ut_311:
+ut_312:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 .text
@@ -33124,7 +33190,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #304]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -33148,9 +33214,9 @@ ldr x16, [x16, #296]
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd288a6a0
+.word 0xd288ccc0
 .word 0xf2a00020
-.word 0xd288a6a0
+.word 0xd288ccc0
 .word 0xf2a00020
 bl _p_187
 .word 0xaa0003e1
@@ -33214,7 +33280,7 @@ bl _p_224
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #304]
+ldr x1, [x16, #312]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800015
@@ -33276,9 +33342,9 @@ bl _p_263
 .word 0xf9426231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
-.word 0xd2922340
+.word 0xd2925e20
 .word 0xf2a00020
 bl _p_187
 bl _p_284
@@ -33288,9 +33354,9 @@ bl _p_284
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_22
@@ -33311,9 +33377,9 @@ bl _p_22
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_137:
+Lme_138:
 .text
-ut_312:
+ut_313:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
 .text
@@ -33328,7 +33394,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #320]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -33373,9 +33439,9 @@ bl _p_286
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_138:
+Lme_139:
 .text
-ut_313:
+ut_314:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
 .text
@@ -33389,7 +33455,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33425,9 +33491,9 @@ bl _p_224
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_139:
+Lme_13a:
 .text
-ut_314:
+ut_315:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 .text
@@ -33442,7 +33508,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #336]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -33476,11 +33542,11 @@ ldr x16, [x16, #328]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #344]
+ldr x1, [x16, #352]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33502,7 +33568,7 @@ ldr x1, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33537,14 +33603,14 @@ ldr x2, [x16, #288]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #360]
+ldr x0, [x16, #368]
 .word 0xf9400000
 .word 0xaa0003f9
 .word 0x14000006
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #368]
+ldr x0, [x16, #376]
 .word 0xf9400000
 .word 0xaa0003f9
 .loc 12 759 0
@@ -33556,7 +33622,7 @@ ldr x0, [x16, #368]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x15, [x16, #376]
+ldr x15, [x16, #384]
 .word 0xaa1903e0
 bl _p_287
 .word 0xf9006ba0
@@ -33574,11 +33640,11 @@ bl _p_287
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #384]
+ldr x1, [x16, #392]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33600,7 +33666,7 @@ ldr x1, [x16, #384]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33650,7 +33716,7 @@ ldr x2, [x16, #400]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #392]
+ldr x0, [x16, #400]
 .word 0xf9400000
 .word 0xaa1a03e1
 .word 0x9280001e
@@ -33675,7 +33741,7 @@ ldr x0, [x16, #392]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x15, [x16, #376]
+ldr x15, [x16, #384]
 bl _p_287
 .word 0xf9006ba0
 .word 0xf9401bb1
@@ -33692,11 +33758,11 @@ bl _p_287
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #400]
+ldr x1, [x16, #408]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33713,7 +33779,7 @@ ldr x1, [x16, #400]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33731,7 +33797,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #408]
+ldr x2, [x16, #416]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003e61
@@ -33741,11 +33807,11 @@ ldr x2, [x16, #408]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #416]
+ldr x1, [x16, #424]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33762,7 +33828,7 @@ ldr x1, [x16, #416]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33780,7 +33846,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #424]
+ldr x2, [x16, #432]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540038c1
@@ -33790,11 +33856,11 @@ ldr x2, [x16, #424]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #432]
+ldr x1, [x16, #440]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33811,7 +33877,7 @@ ldr x1, [x16, #432]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33829,7 +33895,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #440]
+ldr x2, [x16, #448]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54003321
@@ -33839,11 +33905,11 @@ ldr x2, [x16, #440]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #448]
+ldr x1, [x16, #456]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33860,7 +33926,7 @@ ldr x1, [x16, #448]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33878,7 +33944,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #456]
+ldr x2, [x16, #464]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002d81
@@ -33888,11 +33954,11 @@ ldr x2, [x16, #456]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #464]
+ldr x1, [x16, #472]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33909,7 +33975,7 @@ ldr x1, [x16, #464]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33927,7 +33993,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #472]
+ldr x2, [x16, #480]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540027e1
@@ -33937,11 +34003,11 @@ ldr x2, [x16, #472]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #480]
+ldr x1, [x16, #488]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -33958,7 +34024,7 @@ ldr x1, [x16, #480]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -33976,7 +34042,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #488]
+ldr x2, [x16, #496]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002241
@@ -33986,11 +34052,11 @@ ldr x2, [x16, #488]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #496]
+ldr x1, [x16, #504]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -34007,7 +34073,7 @@ ldr x1, [x16, #496]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -34025,7 +34091,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #504]
+ldr x2, [x16, #512]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001ca1
@@ -34035,11 +34101,11 @@ ldr x2, [x16, #504]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #512]
+ldr x1, [x16, #520]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -34056,7 +34122,7 @@ ldr x1, [x16, #512]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -34074,7 +34140,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #520]
+ldr x2, [x16, #528]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001701
@@ -34084,11 +34150,11 @@ ldr x2, [x16, #520]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #528]
+ldr x1, [x16, #536]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -34107,7 +34173,7 @@ ldr x1, [x16, #528]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -34125,7 +34191,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #536]
+ldr x2, [x16, #544]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001121
@@ -34144,11 +34210,11 @@ bl _p_288
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #336]
+ldr x0, [x16, #344]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #544]
+ldr x1, [x16, #552]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9006ba0
@@ -34168,7 +34234,7 @@ ldr x1, [x16, #544]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #352]
+ldr x0, [x16, #360]
 .word 0xd2800221
 .word 0xd2800221
 bl _p_15
@@ -34188,7 +34254,7 @@ bl _p_15
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x3, [x16, #552]
+ldr x3, [x16, #560]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x540009c1
@@ -34215,7 +34281,7 @@ bl _p_289
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #560]
+ldr x0, [x16, #568]
 .word 0xf9400000
 .word 0x1400002e
 .loc 12 794 0
@@ -34236,7 +34302,7 @@ ldr x0, [x16, #560]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #560]
+ldr x0, [x16, #568]
 .word 0xf9400000
 .word 0x1400001c
 .loc 12 800 0
@@ -34276,16 +34342,16 @@ bl _p_290
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_13
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
-Lme_13a:
+Lme_13b:
 .text
-ut_315:
+ut_316:
 add x0, x0, 16
 b System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 .text
@@ -34298,7 +34364,7 @@ System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #576]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -34325,7 +34391,7 @@ ldr x16, [x16, #568]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x15, [x16, #576]
+ldr x15, [x16, #584]
 .word 0x9100a3a0
 .word 0xf94017a0
 bl _p_291
@@ -34338,7 +34404,7 @@ bl _p_291
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #560]
+ldr x0, [x16, #568]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940be31
@@ -34348,7 +34414,7 @@ ldr x0, [x16, #560]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_13b:
+Lme_13c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
@@ -34363,7 +34429,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invo
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #592]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -34503,20 +34569,20 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
-Lme_140:
+Lme_141:
 .text
-ut_321:
+ut_322:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Runtime/CompilerServices/TaskAwaiter.cs"
 .loc 15 270 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -34525,7 +34591,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #600]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34569,9 +34635,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_141:
+Lme_142:
 .text
-ut_322:
+ut_323:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -34585,7 +34651,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #608]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34621,9 +34687,9 @@ bl _p_238
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_142:
+Lme_143:
 .text
-ut_323:
+ut_324:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
@@ -34638,7 +34704,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #616]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34675,9 +34741,9 @@ bl _p_292
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_143:
+Lme_144:
 .text
-ut_324:
+ut_325:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -34692,7 +34758,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #624]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34729,9 +34795,9 @@ bl _p_292
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_144:
+Lme_145:
 .text
-ut_325:
+ut_326:
 add x0, x0, 16
 b System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -34746,7 +34812,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskRes
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #632]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -34797,9 +34863,9 @@ bl _p_294
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_145:
+Lme_146:
 .text
-ut_326:
+ut_327:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -34815,7 +34881,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #640]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -34843,7 +34909,7 @@ ldr x16, [x16, #632]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x15, [x16, #640]
+ldr x15, [x16, #648]
 bl _p_295
 .word 0x910143a0
 .word 0x910103a0
@@ -34887,9 +34953,9 @@ ldr x3, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_146:
+Lme_147:
 .text
-ut_327:
+ut_328:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 .text
@@ -34903,7 +34969,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #656]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -34941,9 +35007,9 @@ ldr x16, [x16, #648]
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_147:
+Lme_148:
 .text
-ut_328:
+ut_329:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 .text
@@ -34960,7 +35026,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #664]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -35013,9 +35079,9 @@ ldr x2, [x16, #16]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_148:
+Lme_149:
 .text
-ut_329:
+ut_330:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 .text
@@ -35029,7 +35095,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #672]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35065,9 +35131,9 @@ bl _p_238
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_149:
+Lme_14a:
 .text
-ut_330:
+ut_331:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 .text
@@ -35083,7 +35149,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #680]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35121,9 +35187,9 @@ bl _p_292
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_14a:
+Lme_14b:
 .text
-ut_331:
+ut_332:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 .text
@@ -35139,7 +35205,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #688]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35177,9 +35243,9 @@ bl _p_292
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_14b:
+Lme_14c:
 .text
-ut_332:
+ut_333:
 add x0, x0, 16
 b System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 .text
@@ -35194,7 +35260,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #696]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -35245,7 +35311,7 @@ bl _p_294
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_14c:
+Lme_14d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
@@ -35261,7 +35327,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #704]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -35371,16 +35437,16 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
-Lme_14d:
+Lme_14e:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/TaskContinuation.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Threading/Tasks/TaskContinuation.cs"
 .loc 16 130 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
@@ -35395,7 +35461,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_V
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #712]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -35487,7 +35553,7 @@ bl _p_233
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_14e:
+Lme_14f:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
@@ -35501,7 +35567,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_V
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #720]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -35556,11 +35622,11 @@ bl _p_246
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #720]
+ldr x1, [x16, #728]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #728]
+ldr x2, [x16, #736]
 bl _p_250
 .word 0xaa0003f8
 .loc 16 156 0
@@ -35598,11 +35664,11 @@ bl _p_250
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x1, [x16, #736]
+ldr x1, [x16, #744]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x2, [x16, #744]
+ldr x2, [x16, #752]
 bl _p_250
 .word 0xaa0003f7
 .loc 16 162 0
@@ -35646,176 +35712,11 @@ bl _p_250
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_14f:
+Lme_150:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object:
-.word 0xa9b47bfd
-.word 0x910003fd
-.word 0xa90153b3
-.word 0xa9025bb5
-.word 0xa90363b7
-.word 0xa9046bb9
-.word 0xaa0003f9
-.word 0xaa0103fa
-
-adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
-add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #752]
-.word 0xf90033b0
-.word 0xf9400a11
-.word 0xf90037b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xd2800015
-.word 0xd2800014
-.word 0x910263a0
-.word 0x390263bf
-.word 0xf94033b1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+0
-add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x0, [x16, #3176]
-.word 0xb9400000
-.word 0x34000140
-bl _p_191
-.word 0xaa0003f3
-.word 0xaa1303e0
-.word 0xaa1303e1
-.word 0xf90057a0
-.word 0xb4000073
-.word 0xf94057a0
-bl _p_22
-.word 0xf94057a0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9101e320
-.word 0xf9403f20
-.word 0xaa0003f6
-.word 0xaa1603e0
-.word 0xb50005c0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x91008320
-.word 0xf9401320
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xb40002a0
-.word 0xaa1403e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b22
-.word 0x910243a0
-.word 0xf90053a0
-.word 0xaa1403e0
-.word 0xaa1a03e1
-.word 0xd63f0040
-.word 0xf94053be
-.word 0xf90003c0
-.word 0x910243a0
-.word 0x910143a0
-.word 0x398243a0
-.word 0x390143a0
-.word 0x14000046
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1903e0
-.word 0x9100e320
-.word 0xf9401f20
-.word 0xaa1903e0
-.word 0xf9400b21
-.word 0x910223a0
-.word 0xf90053a0
-.word 0xaa1a03e0
-.word 0xd63f0020
-.word 0xf94053be
-.word 0xf90003c0
-.word 0x910223a0
-.word 0x910143a0
-.word 0x398223a0
-.word 0x390143a0
-.word 0x14000034
-.word 0xaa1603e0
-.word 0xb9801ac0
-.word 0xaa0003f7
-.word 0xd2800018
-.word 0xaa1603e0
-.word 0xaa1803e0
-.word 0x93407f00
-.word 0xb9801ac1
-.word 0xeb00003f
-.word 0x10000011
-.word 0x540006a9
-.word 0xd37df000
-.word 0x8b0002c0
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f5
-.word 0xaa1503e2
-.word 0xaa1a03e0
-.word 0x910203a0
-.word 0xf90053a0
-.word 0xaa0203e0
-.word 0xaa1a03e1
-.word 0xf9005ba2
-.word 0xf9400c50
-.word 0xd63f0200
-.word 0xf94053be
-.word 0xf90003c0
-.word 0xf9405ba0
-.word 0xf94033b1
-.word 0xf941ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910203a0
-.word 0x910263a0
-.word 0x398203a0
-.word 0x390263a0
-.word 0xaa1803e0
-.word 0x11000700
-.word 0xaa0003f8
-.word 0xaa1803e0
-.word 0xaa1703e1
-.word 0x6b17001f
-.word 0x54fffb4b
-.word 0x910263a0
-.word 0x9101e3a0
-.word 0x398263a0
-.word 0x3901e3a0
-.word 0x9101e3a0
-.word 0x910143a0
-.word 0x3981e3a0
-.word 0x390143a0
-.word 0xf94033b1
-.word 0xf9424631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94153b3
-.word 0xa9425bb5
-.word 0xa94363b7
-.word 0xa9446bb9
-.word 0xf9402ba0
-.word 0x910003bf
-.word 0xa8cc7bfd
-.word 0xd65f03c0
-.word 0xd2801500
-.word 0xaa1103e1
-bl _p_13
-
-Lme_154:
-.text
-	.align 4
-	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult:
 .word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -35972,11 +35873,176 @@ bl _p_22
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_13
 
-Lme_159:
+Lme_155:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult:
+.word 0xa9b47bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
+add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
+ldr x16, [x16, #768]
+.word 0xf90033b0
+.word 0xf9400a11
+.word 0xf90037b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0x910263a0
+.word 0x390263bf
+.word 0xf94033b1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+0
+add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
+ldr x0, [x16, #3176]
+.word 0xb9400000
+.word 0x34000140
+bl _p_191
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90057a0
+.word 0xb4000073
+.word 0xf94057a0
+bl _p_22
+.word 0xf94057a0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101e320
+.word 0xf9403f20
+.word 0xaa0003f6
+.word 0xaa1603e0
+.word 0xb50005c0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xb40002a0
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b22
+.word 0x910243a0
+.word 0xf90053a0
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0xf94053be
+.word 0xf90003c0
+.word 0x910243a0
+.word 0x910143a0
+.word 0x398243a0
+.word 0x390143a0
+.word 0x14000046
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xf9400b21
+.word 0x910223a0
+.word 0xf90053a0
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0xf94053be
+.word 0xf90003c0
+.word 0x910223a0
+.word 0x910143a0
+.word 0x398223a0
+.word 0x390143a0
+.word 0x14000034
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xd2800018
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540006a9
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xaa1503e2
+.word 0xaa1a03e0
+.word 0x910203a0
+.word 0xf90053a0
+.word 0xaa0203e0
+.word 0xaa1a03e1
+.word 0xf9005ba2
+.word 0xf9400c50
+.word 0xd63f0200
+.word 0xf94053be
+.word 0xf90003c0
+.word 0xf9405ba0
+.word 0xf94033b1
+.word 0xf941ea31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910203a0
+.word 0x910263a0
+.word 0x398203a0
+.word 0x390263a0
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0x6b17001f
+.word 0x54fffb4b
+.word 0x910263a0
+.word 0x9101e3a0
+.word 0x398263a0
+.word 0x3901e3a0
+.word 0x9101e3a0
+.word 0x910143a0
+.word 0x3981e3a0
+.word 0x390143a0
+.word 0xf94033b1
+.word 0xf9424631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0xf9402ba0
+.word 0x910003bf
+.word 0xa8cc7bfd
+.word 0xd65f03c0
+.word 0xd2801540
+.word 0xaa1103e1
+bl _p_13
+
+Lme_15a:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
@@ -35987,7 +36053,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -36008,7 +36074,7 @@ ldr x16, [x16, #768]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_15a:
+Lme_15b:
 .text
 	.align 4
 	.no_dead_strip System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
@@ -36022,7 +36088,7 @@ System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36044,7 +36110,7 @@ ldr x16, [x16, #776]
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x15, [x16, #240]
+ldr x15, [x16, #248]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -36095,7 +36161,7 @@ bl _p_276
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_15b:
+Lme_15c:
 .text
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
@@ -36107,7 +36173,7 @@ System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Thread
 
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36165,7 +36231,7 @@ bl _p_296
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_15c:
+Lme_15d:
 .text
 	.align 3
 jit_code_end:
@@ -36472,6 +36538,7 @@ bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_InnerInvo
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ConfigureAwait_bool
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 bl System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
@@ -36538,10 +36605,10 @@ unbox_trampolines:
 	.long 218,219,220,221,222,223,238,239
 	.long 240,241,242,243,244,245,246,247
 	.long 248,250,251,252,253,254,255,272
-	.long 273,274,276,306,307,308,309,310
-	.long 311,312,313,314,315,321,322,323
-	.long 324,325,326,327,328,329,330,331
-	.long 332
+	.long 273,274,276,307,308,309,310,311
+	.long 312,313,314,315,316,322,323,324
+	.long 325,326,327,328,329,330,331,332
+	.long 333
 unbox_trampolines_end:
 
 	.long 0
@@ -36615,7 +36682,6 @@ bl ut_272
 bl ut_273
 bl ut_274
 bl ut_276
-bl ut_306
 bl ut_307
 bl ut_308
 bl ut_309
@@ -36625,7 +36691,7 @@ bl ut_312
 bl ut_313
 bl ut_314
 bl ut_315
-bl ut_321
+bl ut_316
 bl ut_322
 bl ut_323
 bl ut_324
@@ -36637,6 +36703,7 @@ bl ut_329
 bl ut_330
 bl ut_331
 bl ut_332
+bl ut_333
 
 	.long 0
 .section __TEXT, __const
@@ -36701,2373 +36768,2373 @@ plt_FFImageLoading_Args_ErrorEventArgs__ctor_System_Exception:
 _p_1:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #808]
 br x16
-.word 8223
+.word 8247
 	.no_dead_strip plt_FFImageLoading_Args_SuccessEventArgs__ctor_FFImageLoading_Work_ImageInformation_FFImageLoading_Work_LoadingResult
 plt_FFImageLoading_Args_SuccessEventArgs__ctor_FFImageLoading_Work_ImageInformation_FFImageLoading_Work_LoadingResult:
 _p_2:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #816]
 br x16
-.word 8228
+.word 8252
 	.no_dead_strip plt_FFImageLoading_Args_FinishEventArgs__ctor_FFImageLoading_Work_IScheduledWork
 plt_FFImageLoading_Args_FinishEventArgs__ctor_FFImageLoading_Work_IScheduledWork:
 _p_3:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #824]
 br x16
-.word 8233
+.word 8257
 	.no_dead_strip plt_FFImageLoading_Args_DownloadStartedEventArgs__ctor_FFImageLoading_DownloadInformation
 plt_FFImageLoading_Args_DownloadStartedEventArgs__ctor_FFImageLoading_DownloadInformation:
 _p_4:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #832]
 br x16
-.word 8238
+.word 8262
 	.no_dead_strip plt_FFImageLoading_Args_DownloadProgressEventArgs__ctor_FFImageLoading_DownloadProgress
 plt_FFImageLoading_Args_DownloadProgressEventArgs__ctor_FFImageLoading_DownloadProgress:
 _p_5:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #840]
 br x16
-.word 8243
+.word 8267
 	.no_dead_strip plt_FFImageLoading_Args_FileWriteFinishedEventArgs__ctor_FFImageLoading_FileWriteInfo
 plt_FFImageLoading_Args_FileWriteFinishedEventArgs__ctor_FFImageLoading_FileWriteInfo:
 _p_6:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #848]
 br x16
-.word 8248
+.word 8272
 	.no_dead_strip plt_System_Nullable_1_bool_get_HasValue
 plt_System_Nullable_1_bool_get_HasValue:
 _p_7:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #856]
 br x16
-.word 8253
+.word 8277
 	.no_dead_strip plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type
 plt_System_Reflection_IntrospectionExtensions_GetTypeInfo_System_Type:
 _p_8:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #864]
 br x16
-.word 8264
+.word 8288
 	.no_dead_strip plt_System_Nullable_1_bool__ctor_bool
 plt_System_Nullable_1_bool__ctor_bool:
 _p_9:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #872]
 br x16
-.word 8269
+.word 8293
 	.no_dead_strip plt_System_Reflection_RuntimeReflectionExtensions_GetRuntimeProperty_System_Type_string
 plt_System_Reflection_RuntimeReflectionExtensions_GetRuntimeProperty_System_Type_string:
 _p_10:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #880]
 br x16
-.word 8280
+.word 8304
 	.no_dead_strip plt_System_Reflection_PropertyInfo_GetValue_object
 plt_System_Reflection_PropertyInfo_GetValue_object:
 _p_11:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #888]
 br x16
-.word 8285
+.word 8309
 	.no_dead_strip plt_System_Nullable_1_bool_get_Value
 plt_System_Nullable_1_bool_get_Value:
 _p_12:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #896]
 br x16
-.word 8290
+.word 8314
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_13:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #904]
 br x16
-.word 8301
+.word 8325
 	.no_dead_strip plt_Xamarin_Forms_View__ctor
 plt_Xamarin_Forms_View__ctor:
 _p_14:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #912]
 br x16
-.word 8336
+.word 8360
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_15:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #920]
 br x16
-.word 8341
+.word 8365
 	.no_dead_strip plt_System_Collections_Generic_List_1_FFImageLoading_Work_ITransformation__ctor
 plt_System_Collections_Generic_List_1_FFImageLoading_Work_ITransformation__ctor:
 _p_16:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #928]
 br x16
-.word 8349
+.word 8373
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_set_Transformations_System_Collections_Generic_List_1_FFImageLoading_Work_ITransformation
 plt_FFImageLoading_Forms_CachedImage_set_Transformations_System_Collections_Generic_List_1_FFImageLoading_Work_ITransformation:
 _p_17:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #936]
 br x16
-.word 8360
+.word 8384
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty
 plt_Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty:
 _p_18:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #944]
 br x16
-.word 8362
+.word 8386
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
 _p_19:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #952]
 br x16
-.word 8367
+.word 8391
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_IsRendererInitialized
 plt_FFImageLoading_Forms_CachedImage_get_IsRendererInitialized:
 _p_20:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #960]
 br x16
-.word 8372
+.word 8396
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_21:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #968]
 br x16
-.word 8374
+.word 8398
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_22:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #976]
 br x16
-.word 8394
+.word 8418
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_get_BindingContext
 plt_Xamarin_Forms_BindableObject_get_BindingContext:
 _p_23:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #984]
 br x16
-.word 8422
+.word 8446
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetInheritedBindingContext_Xamarin_Forms_BindableObject_object
 plt_Xamarin_Forms_BindableObject_SetInheritedBindingContext_Xamarin_Forms_BindableObject_object:
 _p_24:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #992]
 br x16
-.word 8427
+.word 8451
 	.no_dead_strip plt_Xamarin_Forms_UriImageSource_get_Uri
 plt_Xamarin_Forms_UriImageSource_get_Uri:
 _p_25:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1000]
 br x16
-.word 8432
+.word 8456
 	.no_dead_strip plt_System_Uri_get_OriginalString
 plt_System_Uri_get_OriginalString:
 _p_26:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1008]
 br x16
-.word 8437
+.word 8461
 	.no_dead_strip plt_System_Uri_get_Scheme
 plt_System_Uri_get_Scheme:
 _p_27:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1016]
 br x16
-.word 8442
+.word 8466
 	.no_dead_strip plt_string_Equals_string_System_StringComparison
 plt_string_Equals_string_System_StringComparison:
 _p_28:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1024]
 br x16
-.word 8447
+.word 8471
 	.no_dead_strip plt_System_Uri_get_LocalPath
 plt_System_Uri_get_LocalPath:
 _p_29:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1032]
 br x16
-.word 8452
+.word 8476
 	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromFile_string
 plt_Xamarin_Forms_ImageSource_FromFile_string:
 _p_30:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1040]
 br x16
-.word 8457
+.word 8481
 	.no_dead_strip plt_FFImageLoading_Forms_EmbeddedResourceImageSource__ctor_System_Uri
 plt_FFImageLoading_Forms_EmbeddedResourceImageSource__ctor_System_Uri:
 _p_31:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1048]
 br x16
-.word 8462
+.word 8486
 	.no_dead_strip plt_FFImageLoading_StringExtensions_IsDataUrl_string
 plt_FFImageLoading_StringExtensions_IsDataUrl_string:
 _p_32:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1056]
 br x16
-.word 8464
+.word 8488
 	.no_dead_strip plt_FFImageLoading_Forms_DataUrlImageSource__ctor_string
 plt_FFImageLoading_Forms_DataUrlImageSource__ctor_string:
 _p_33:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1064]
 br x16
-.word 8469
+.word 8493
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_34:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1072]
 br x16
-.word 8471
+.word 8495
 	.no_dead_strip plt_System_Nullable_1_int_Box_System_Nullable_1_int
 plt_System_Nullable_1_int_Box_System_Nullable_1_int:
 _p_35:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1080]
 br x16
-.word 8493
+.word 8517
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Unbox_object
 plt_System_Nullable_1_System_TimeSpan_Unbox_object:
 _p_36:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1088]
 br x16
-.word 8515
+.word 8539
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan_Box_System_Nullable_1_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan_Box_System_Nullable_1_System_TimeSpan:
 _p_37:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1096]
 br x16
-.word 8537
+.word 8561
 	.no_dead_strip plt_System_Nullable_1_bool_Unbox_object
 plt_System_Nullable_1_bool_Unbox_object:
 _p_38:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1104]
 br x16
-.word 8559
+.word 8583
 	.no_dead_strip plt_System_Nullable_1_bool_Box_System_Nullable_1_bool
 plt_System_Nullable_1_bool_Box_System_Nullable_1_bool:
 _p_39:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1112]
 br x16
-.word 8581
+.word 8605
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_Source
 plt_FFImageLoading_Forms_CachedImage_get_Source:
 _p_40:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1120]
 br x16
-.word 8603
+.word 8627
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_ReloadImage
 plt_FFImageLoading_Forms_CachedImage_ReloadImage:
 _p_41:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1128]
 br x16
-.word 8605
+.word 8629
 	.no_dead_strip plt_Xamarin_Forms_View_OnBindingContextChanged
 plt_Xamarin_Forms_View_OnBindingContextChanged:
 _p_42:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1136]
 br x16
-.word 8607
+.word 8631
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_OnMeasure_double_double
 plt_Xamarin_Forms_VisualElement_OnMeasure_double_double:
 _p_43:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1144]
 br x16
-.word 8612
+.word 8636
 	.no_dead_strip plt_Xamarin_Forms_SizeRequest_get_Request
 plt_Xamarin_Forms_SizeRequest_get_Request:
 _p_44:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1152]
 br x16
-.word 8617
+.word 8641
 	.no_dead_strip plt_Xamarin_Forms_Size_get_Width
 plt_Xamarin_Forms_Size_get_Width:
 _p_45:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1160]
 br x16
-.word 8622
+.word 8646
 	.no_dead_strip plt_Xamarin_Forms_Size_get_Height
 plt_Xamarin_Forms_Size_get_Height:
 _p_46:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1168]
 br x16
-.word 8627
+.word 8651
 	.no_dead_strip plt_Xamarin_Forms_Size__ctor_double_double
 plt_Xamarin_Forms_Size__ctor_double_double:
 _p_47:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1176]
 br x16
-.word 8632
+.word 8656
 	.no_dead_strip plt_Xamarin_Forms_SizeRequest__ctor_Xamarin_Forms_Size
 plt_Xamarin_Forms_SizeRequest__ctor_Xamarin_Forms_Size:
 _p_48:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1184]
 br x16
-.word 8637
+.word 8661
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_FixedOnMeasureBehavior
 plt_FFImageLoading_Forms_CachedImage_get_FixedOnMeasureBehavior:
 _p_49:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1192]
 br x16
-.word 8642
+.word 8666
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_Aspect
 plt_FFImageLoading_Forms_CachedImage_get_Aspect:
 _p_50:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1200]
 br x16
-.word 8644
+.word 8668
 	.no_dead_strip plt_System_Math_Min_double_double
 plt_System_Math_Min_double_double:
 _p_51:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1208]
 br x16
-.word 8646
+.word 8670
 	.no_dead_strip plt_double_IsPositiveInfinity_double
 plt_double_IsPositiveInfinity_double:
 _p_52:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1216]
 br x16
-.word 8651
+.word 8675
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindablePropertyKey_object
 plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindablePropertyKey_object:
 _p_53:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1224]
 br x16
-.word 8656
+.word 8680
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs__ctor
 plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs__ctor:
 _p_54:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1232]
 br x16
-.word 8661
+.word 8685
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs_set_Quality_int
 plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs_set_Quality_int:
 _p_55:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1240]
 br x16
-.word 8664
+.word 8688
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs_set_DesiredWidth_int
 plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs_set_DesiredWidth_int:
 _p_56:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1248]
 br x16
-.word 8667
+.word 8691
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs_set_DesiredHeight_int
 plt_FFImageLoading_Forms_Args_GetImageAsJpgArgs_set_DesiredHeight_int:
 _p_57:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1256]
 br x16
-.word 8670
+.word 8694
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsPngArgs__ctor
 plt_FFImageLoading_Forms_Args_GetImageAsPngArgs__ctor:
 _p_58:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1264]
 br x16
-.word 8673
+.word 8697
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsPngArgs_set_DesiredWidth_int
 plt_FFImageLoading_Forms_Args_GetImageAsPngArgs_set_DesiredWidth_int:
 _p_59:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1272]
 br x16
-.word 8676
+.word 8700
 	.no_dead_strip plt_FFImageLoading_Forms_Args_GetImageAsPngArgs_set_DesiredHeight_int
 plt_FFImageLoading_Forms_Args_GetImageAsPngArgs_set_DesiredHeight_int:
 _p_60:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1280]
 br x16
-.word 8679
+.word 8703
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Create:
 _p_61:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1288]
 br x16
-.word 8682
+.word 8706
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_FFImageLoading_Forms_CachedImage__InvalidateCached__127_FFImageLoading_Forms_CachedImage__InvalidateCached__127_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_FFImageLoading_Forms_CachedImage__InvalidateCached__127_FFImageLoading_Forms_CachedImage__InvalidateCached__127_:
 _p_62:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1296]
 br x16
-.word 8687
+.word 8711
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_get_Task:
 _p_63:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1304]
 br x16
-.word 8699
+.word 8723
 	.no_dead_strip plt_FFImageLoading_ImageService_get_Instance
 plt_FFImageLoading_ImageService_get_Instance:
 _p_64:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1312]
 br x16
-.word 8704
+.word 8728
 	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
 plt_System_Delegate_Combine_System_Delegate_System_Delegate:
 _p_65:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1320]
 br x16
-.word 8709
+.word 8733
 	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
 plt_System_Delegate_Remove_System_Delegate_System_Delegate:
 _p_66:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1328]
 br x16
-.word 8714
+.word 8738
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_SuccessCommand
 plt_FFImageLoading_Forms_CachedImage_get_SuccessCommand:
 _p_67:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1336]
 br x16
-.word 8719
+.word 8743
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_ErrorCommand
 plt_FFImageLoading_Forms_CachedImage_get_ErrorCommand:
 _p_68:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1344]
 br x16
-.word 8721
+.word 8745
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_FinishCommand
 plt_FFImageLoading_Forms_CachedImage_get_FinishCommand:
 _p_69:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1352]
 br x16
-.word 8723
+.word 8747
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_DownloadStartedCommand
 plt_FFImageLoading_Forms_CachedImage_get_DownloadStartedCommand:
 _p_70:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1360]
 br x16
-.word 8725
+.word 8749
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_DownloadProgressCommand
 plt_FFImageLoading_Forms_CachedImage_get_DownloadProgressCommand:
 _p_71:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1368]
 br x16
-.word 8727
+.word 8751
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_FileWriteFinishedCommand
 plt_FFImageLoading_Forms_CachedImage_get_FileWriteFinishedCommand:
 _p_72:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1376]
 br x16
-.word 8729
+.word 8753
 	.no_dead_strip plt_System_Nullable_1_FFImageLoading_Cache_CacheType_UnboxExact_object
 plt_System_Nullable_1_FFImageLoading_Cache_CacheType_UnboxExact_object:
 _p_73:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1384]
 br x16
-.word 8731
+.word 8755
 	.no_dead_strip plt_System_Nullable_1_FFImageLoading_Cache_CacheType_Box_System_Nullable_1_FFImageLoading_Cache_CacheType
 plt_System_Nullable_1_FFImageLoading_Cache_CacheType_Box_System_Nullable_1_FFImageLoading_Cache_CacheType:
 _p_74:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1392]
 br x16
-.word 8753
+.word 8777
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_CacheDuration
 plt_FFImageLoading_Forms_CachedImage_get_CacheDuration:
 _p_75:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1400]
 br x16
-.word 8775
+.word 8799
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_CacheKeyFactory
 plt_FFImageLoading_Forms_CachedImage_get_CacheKeyFactory:
 _p_76:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1408]
 br x16
-.word 8777
+.word 8801
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_CacheKey_string
 plt_FFImageLoading_Work_TaskParameter_CacheKey_string:
 _p_77:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1416]
 br x16
-.word 8779
+.word 8803
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_LoadingPlaceholder
 plt_FFImageLoading_Forms_CachedImage_get_LoadingPlaceholder:
 _p_78:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1424]
 br x16
-.word 8784
+.word 8808
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_LoadingPlaceholder_string_FFImageLoading_Work_ImageSource
 plt_FFImageLoading_Work_TaskParameter_LoadingPlaceholder_string_FFImageLoading_Work_ImageSource:
 _p_79:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1432]
 br x16
-.word 8786
+.word 8810
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_ErrorPlaceholder
 plt_FFImageLoading_Forms_CachedImage_get_ErrorPlaceholder:
 _p_80:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1440]
 br x16
-.word 8791
+.word 8815
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_ErrorPlaceholder_string_FFImageLoading_Work_ImageSource
 plt_FFImageLoading_Work_TaskParameter_ErrorPlaceholder_string_FFImageLoading_Work_ImageSource:
 _p_81:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1448]
 br x16
-.word 8793
+.word 8817
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Width
 plt_Xamarin_Forms_VisualElement_get_Width:
 _p_82:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1456]
 br x16
-.word 8798
+.word 8822
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_WidthRequest
 plt_Xamarin_Forms_VisualElement_get_WidthRequest:
 _p_83:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1464]
 br x16
-.word 8803
+.word 8827
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Height
 plt_Xamarin_Forms_VisualElement_get_Height:
 _p_84:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1472]
 br x16
-.word 8808
+.word 8832
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_HeightRequest
 plt_Xamarin_Forms_VisualElement_get_HeightRequest:
 _p_85:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1480]
 br x16
-.word 8813
+.word 8837
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_WithCustomDataResolver_FFImageLoading_Work_IDataResolver
 plt_FFImageLoading_Work_TaskParameter_WithCustomDataResolver_FFImageLoading_Work_IDataResolver:
 _p_86:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1488]
 br x16
-.word 8818
+.word 8842
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_WithCustomLoadingPlaceholderDataResolver_FFImageLoading_Work_IDataResolver
 plt_FFImageLoading_Work_TaskParameter_WithCustomLoadingPlaceholderDataResolver_FFImageLoading_Work_IDataResolver:
 _p_87:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1496]
 br x16
-.word 8823
+.word 8847
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_WithCustomErrorPlaceholderDataResolver_FFImageLoading_Work_IDataResolver
 plt_FFImageLoading_Work_TaskParameter_WithCustomErrorPlaceholderDataResolver_FFImageLoading_Work_IDataResolver:
 _p_88:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1504]
 br x16
-.word 8828
+.word 8852
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_CustomDataResolver
 plt_FFImageLoading_Forms_CachedImage_get_CustomDataResolver:
 _p_89:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1512]
 br x16
-.word 8833
+.word 8857
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_DownsampleToViewSize
 plt_FFImageLoading_Forms_CachedImage_get_DownsampleToViewSize:
 _p_90:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1520]
 br x16
-.word 8835
+.word 8859
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_DownSampleInDip_int_int_System_Nullable_1_bool
 plt_FFImageLoading_Work_TaskParameter_DownSampleInDip_int_int_System_Nullable_1_bool:
 _p_91:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1528]
 br x16
-.word 8837
+.word 8861
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_DownsampleHeight
 plt_FFImageLoading_Forms_CachedImage_get_DownsampleHeight:
 _p_92:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1536]
 br x16
-.word 8842
+.word 8866
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_DownsampleWidth
 plt_FFImageLoading_Forms_CachedImage_get_DownsampleWidth:
 _p_93:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1544]
 br x16
-.word 8844
+.word 8868
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_DownsampleUseDipUnits
 plt_FFImageLoading_Forms_CachedImage_get_DownsampleUseDipUnits:
 _p_94:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1552]
 br x16
-.word 8846
+.word 8870
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_DownSample_int_int_System_Nullable_1_bool
 plt_FFImageLoading_Work_TaskParameter_DownSample_int_int_System_Nullable_1_bool:
 _p_95:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1560]
 br x16
-.word 8848
+.word 8872
 	.no_dead_strip plt_FFImageLoading_Config_Configuration_get_Logger
 plt_FFImageLoading_Config_Configuration_get_Logger:
 _p_96:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1568]
 br x16
-.word 8853
+.word 8877
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_RetryCount
 plt_FFImageLoading_Forms_CachedImage_get_RetryCount:
 _p_97:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1576]
 br x16
-.word 8858
+.word 8882
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_RetryDelay
 plt_FFImageLoading_Forms_CachedImage_get_RetryDelay:
 _p_98:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1584]
 br x16
-.word 8860
+.word 8884
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_Retry_int_int
 plt_FFImageLoading_Work_TaskParameter_Retry_int_int:
 _p_99:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1592]
 br x16
-.word 8862
+.word 8886
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_BitmapOptimizations
 plt_FFImageLoading_Forms_CachedImage_get_BitmapOptimizations:
 _p_100:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1600]
 br x16
-.word 8867
+.word 8891
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_BitmapOptimizations_bool
 plt_FFImageLoading_Work_TaskParameter_BitmapOptimizations_bool:
 _p_101:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1608]
 br x16
-.word 8869
+.word 8893
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_FadeAnimationEnabled
 plt_FFImageLoading_Forms_CachedImage_get_FadeAnimationEnabled:
 _p_102:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1616]
 br x16
-.word 8874
+.word 8898
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_FadeAnimationDuration
 plt_FFImageLoading_Forms_CachedImage_get_FadeAnimationDuration:
 _p_103:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1624]
 br x16
-.word 8876
+.word 8900
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_FadeAnimation_bool_System_Nullable_1_bool_System_Nullable_1_int
 plt_FFImageLoading_Work_TaskParameter_FadeAnimation_bool_System_Nullable_1_bool_System_Nullable_1_int:
 _p_104:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1632]
 br x16
-.word 8878
+.word 8902
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_FadeAnimationForCachedImages
 plt_FFImageLoading_Forms_CachedImage_get_FadeAnimationForCachedImages:
 _p_105:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1640]
 br x16
-.word 8883
+.word 8907
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_TransformPlaceholders
 plt_FFImageLoading_Forms_CachedImage_get_TransformPlaceholders:
 _p_106:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1648]
 br x16
-.word 8885
+.word 8909
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_TransformPlaceholders_bool
 plt_FFImageLoading_Work_TaskParameter_TransformPlaceholders_bool:
 _p_107:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1656]
 br x16
-.word 8887
+.word 8911
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_Transformations
 plt_FFImageLoading_Forms_CachedImage_get_Transformations:
 _p_108:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1664]
 br x16
-.word 8892
+.word 8916
 	.no_dead_strip plt_System_Collections_Generic_List_1_FFImageLoading_Work_ITransformation_get_Count
 plt_System_Collections_Generic_List_1_FFImageLoading_Work_ITransformation_get_Count:
 _p_109:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1672]
 br x16
-.word 8894
+.word 8918
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_Transform_System_Collections_Generic_IEnumerable_1_FFImageLoading_Work_ITransformation
 plt_FFImageLoading_Work_TaskParameter_Transform_System_Collections_Generic_IEnumerable_1_FFImageLoading_Work_ITransformation:
 _p_110:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1680]
 br x16
-.word 8905
+.word 8929
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_InvalidateLayoutAfterLoaded
 plt_FFImageLoading_Forms_CachedImage_get_InvalidateLayoutAfterLoaded:
 _p_111:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1688]
 br x16
-.word 8910
+.word 8934
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_InvalidateLayout_bool
 plt_FFImageLoading_Work_TaskParameter_InvalidateLayout_bool:
 _p_112:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1696]
 br x16
-.word 8912
+.word 8936
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_LoadingPriority
 plt_FFImageLoading_Forms_CachedImage_get_LoadingPriority:
 _p_113:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1704]
 br x16
-.word 8917
+.word 8941
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_WithPriority_FFImageLoading_Work_LoadingPriority
 plt_FFImageLoading_Work_TaskParameter_WithPriority_FFImageLoading_Work_LoadingPriority:
 _p_114:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1712]
 br x16
-.word 8919
+.word 8943
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_CacheType
 plt_FFImageLoading_Forms_CachedImage_get_CacheType:
 _p_115:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1720]
 br x16
-.word 8924
+.word 8948
 	.no_dead_strip plt_System_Nullable_1_FFImageLoading_Cache_CacheType_get_HasValue
 plt_System_Nullable_1_FFImageLoading_Cache_CacheType_get_HasValue:
 _p_116:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1728]
 br x16
-.word 8926
+.word 8950
 	.no_dead_strip plt_System_Nullable_1_FFImageLoading_Cache_CacheType_get_Value
 plt_System_Nullable_1_FFImageLoading_Cache_CacheType_get_Value:
 _p_117:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1736]
 br x16
-.word 8937
+.word 8961
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_WithCache_FFImageLoading_Cache_CacheType
 plt_FFImageLoading_Work_TaskParameter_WithCache_FFImageLoading_Cache_CacheType:
 _p_118:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1744]
 br x16
-.word 8948
+.word 8972
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_LoadingDelay
 plt_FFImageLoading_Forms_CachedImage_get_LoadingDelay:
 _p_119:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1752]
 br x16
-.word 8953
+.word 8977
 	.no_dead_strip plt_System_Nullable_1_int_get_HasValue
 plt_System_Nullable_1_int_get_HasValue:
 _p_120:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1760]
 br x16
-.word 8955
+.word 8979
 	.no_dead_strip plt_System_Nullable_1_int_get_Value
 plt_System_Nullable_1_int_get_Value:
 _p_121:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1768]
 br x16
-.word 8966
+.word 8990
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_Delay_int
 plt_FFImageLoading_Work_TaskParameter_Delay_int:
 _p_122:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1776]
 br x16
-.word 8977
+.word 9001
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_DownloadStarted_System_Action_1_FFImageLoading_DownloadInformation
 plt_FFImageLoading_Work_TaskParameter_DownloadStarted_System_Action_1_FFImageLoading_DownloadInformation:
 _p_123:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1784]
 br x16
-.word 8982
+.word 9006
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_DownloadProgress_System_Action_1_FFImageLoading_DownloadProgress
 plt_FFImageLoading_Work_TaskParameter_DownloadProgress_System_Action_1_FFImageLoading_DownloadProgress:
 _p_124:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1792]
 br x16
-.word 8987
+.word 9011
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_FileWriteFinished_System_Action_1_FFImageLoading_FileWriteInfo
 plt_FFImageLoading_Work_TaskParameter_FileWriteFinished_System_Action_1_FFImageLoading_FileWriteInfo:
 _p_125:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1800]
 br x16
-.word 8992
+.word 9016
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_Error_System_Action_1_System_Exception
 plt_FFImageLoading_Work_TaskParameter_Error_System_Action_1_System_Exception:
 _p_126:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1808]
 br x16
-.word 8997
+.word 9021
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_Finish_System_Action_1_FFImageLoading_Work_IScheduledWork
 plt_FFImageLoading_Work_TaskParameter_Finish_System_Action_1_FFImageLoading_Work_IScheduledWork:
 _p_127:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1816]
 br x16
-.word 9002
+.word 9026
 	.no_dead_strip plt_FFImageLoading_Work_TaskParameter_Success_System_Action_2_FFImageLoading_Work_ImageInformation_FFImageLoading_Work_LoadingResult
 plt_FFImageLoading_Work_TaskParameter_Success_System_Action_2_FFImageLoading_Work_ImageInformation_FFImageLoading_Work_LoadingResult:
 _p_128:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1824]
 br x16
-.word 9007
+.word 9031
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_get_IsDesignModeEnabled
 plt_FFImageLoading_Forms_CachedImage_get_IsDesignModeEnabled:
 _p_129:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1832]
 br x16
-.word 9012
+.word 9036
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate
 plt_Xamarin_Forms_BindableProperty_Create_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate:
 _p_130:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1840]
 br x16
-.word 9014
+.word 9038
 	.no_dead_strip plt_Xamarin_Forms_BindableProperty_CreateReadOnly_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate
 plt_Xamarin_Forms_BindableProperty_CreateReadOnly_string_System_Type_System_Type_object_Xamarin_Forms_BindingMode_Xamarin_Forms_BindableProperty_ValidateValueDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangedDelegate_Xamarin_Forms_BindableProperty_BindingPropertyChangingDelegate_Xamarin_Forms_BindableProperty_CoerceValueDelegate_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate:
 _p_131:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1848]
 br x16
-.word 9019
+.word 9043
 	.no_dead_strip plt_Xamarin_Forms_BindablePropertyKey_get_BindableProperty
 plt_Xamarin_Forms_BindablePropertyKey_get_BindableProperty:
 _p_132:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1856]
 br x16
-.word 9024
+.word 9048
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImageEvents_DownloadStartedEventArgs__ctor_FFImageLoading_DownloadInformation
 plt_FFImageLoading_Forms_CachedImageEvents_DownloadStartedEventArgs__ctor_FFImageLoading_DownloadInformation:
 _p_133:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1864]
 br x16
-.word 9029
+.word 9053
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_OnDownloadStarted_FFImageLoading_Forms_CachedImageEvents_DownloadStartedEventArgs
 plt_FFImageLoading_Forms_CachedImage_OnDownloadStarted_FFImageLoading_Forms_CachedImageEvents_DownloadStartedEventArgs:
 _p_134:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1872]
 br x16
-.word 9031
+.word 9055
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImageEvents_DownloadProgressEventArgs__ctor_FFImageLoading_DownloadProgress
 plt_FFImageLoading_Forms_CachedImageEvents_DownloadProgressEventArgs__ctor_FFImageLoading_DownloadProgress:
 _p_135:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1880]
 br x16
-.word 9033
+.word 9057
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_OnDownloadProgress_FFImageLoading_Forms_CachedImageEvents_DownloadProgressEventArgs
 plt_FFImageLoading_Forms_CachedImage_OnDownloadProgress_FFImageLoading_Forms_CachedImageEvents_DownloadProgressEventArgs:
 _p_136:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1888]
 br x16
-.word 9035
+.word 9059
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImageEvents_FileWriteFinishedEventArgs__ctor_FFImageLoading_FileWriteInfo
 plt_FFImageLoading_Forms_CachedImageEvents_FileWriteFinishedEventArgs__ctor_FFImageLoading_FileWriteInfo:
 _p_137:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1896]
 br x16
-.word 9037
+.word 9061
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_OnFileWriteFinished_FFImageLoading_Forms_CachedImageEvents_FileWriteFinishedEventArgs
 plt_FFImageLoading_Forms_CachedImage_OnFileWriteFinished_FFImageLoading_Forms_CachedImageEvents_FileWriteFinishedEventArgs:
 _p_138:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1904]
 br x16
-.word 9039
+.word 9063
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImageEvents_ErrorEventArgs__ctor_System_Exception
 plt_FFImageLoading_Forms_CachedImageEvents_ErrorEventArgs__ctor_System_Exception:
 _p_139:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1912]
 br x16
-.word 9041
+.word 9065
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_OnError_FFImageLoading_Forms_CachedImageEvents_ErrorEventArgs
 plt_FFImageLoading_Forms_CachedImage_OnError_FFImageLoading_Forms_CachedImageEvents_ErrorEventArgs:
 _p_140:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1920]
 br x16
-.word 9043
+.word 9067
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImageEvents_FinishEventArgs__ctor_FFImageLoading_Work_IScheduledWork
 plt_FFImageLoading_Forms_CachedImageEvents_FinishEventArgs__ctor_FFImageLoading_Work_IScheduledWork:
 _p_141:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1928]
 br x16
-.word 9045
+.word 9069
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_OnFinish_FFImageLoading_Forms_CachedImageEvents_FinishEventArgs
 plt_FFImageLoading_Forms_CachedImage_OnFinish_FFImageLoading_Forms_CachedImageEvents_FinishEventArgs:
 _p_142:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1936]
 br x16
-.word 9047
+.word 9071
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImageEvents_SuccessEventArgs__ctor_FFImageLoading_Work_ImageInformation_FFImageLoading_Work_LoadingResult
 plt_FFImageLoading_Forms_CachedImageEvents_SuccessEventArgs__ctor_FFImageLoading_Work_ImageInformation_FFImageLoading_Work_LoadingResult:
 _p_143:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1944]
 br x16
-.word 9049
+.word 9073
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage_OnSuccess_FFImageLoading_Forms_CachedImageEvents_SuccessEventArgs
 plt_FFImageLoading_Forms_CachedImage_OnSuccess_FFImageLoading_Forms_CachedImageEvents_SuccessEventArgs:
 _p_144:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1952]
 br x16
-.word 9051
+.word 9075
 	.no_dead_strip plt_Xamarin_Forms_FileImageSource_get_File
 plt_Xamarin_Forms_FileImageSource_get_File:
 _p_145:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1960]
 br x16
-.word 9053
+.word 9077
 	.no_dead_strip plt_System_Threading_Tasks_Task_ConfigureAwait_bool
 plt_System_Threading_Tasks_Task_ConfigureAwait_bool:
 _p_146:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1968]
 br x16
-.word 9058
+.word 9082
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_GetAwaiter
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_GetAwaiter:
 _p_147:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1976]
 br x16
-.word 9063
+.word 9087
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_get_IsCompleted
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_get_IsCompleted:
 _p_148:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1984]
 br x16
-.word 9068
+.word 9092
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_FFImageLoading_Forms_CachedImage__InvalidateCached__127_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__FFImageLoading_Forms_CachedImage__InvalidateCached__127_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_FFImageLoading_Forms_CachedImage__InvalidateCached__127_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__FFImageLoading_Forms_CachedImage__InvalidateCached__127_:
 _p_149:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1992]
 br x16
-.word 9073
+.word 9097
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_GetResult:
 _p_150:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2000]
 br x16
-.word 9085
+.word 9109
 	.no_dead_strip plt_FFImageLoading_Forms_EmbeddedResourceImageSource_get_Uri
 plt_FFImageLoading_Forms_EmbeddedResourceImageSource_get_Uri:
 _p_151:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2008]
 br x16
-.word 9090
+.word 9114
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetException_System_Exception:
 _p_152:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2016]
 br x16
-.word 9092
+.word 9116
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_153:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2024]
 br x16
-.word 9097
+.word 9121
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetResult:
 _p_154:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2032]
 br x16
-.word 9136
+.word 9160
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_155:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2040]
 br x16
-.word 9141
+.word 9165
 	.no_dead_strip plt_Xamarin_Forms_ImageSource__ctor
 plt_Xamarin_Forms_ImageSource__ctor:
 _p_156:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2048]
 br x16
-.word 9146
+.word 9170
 	.no_dead_strip plt_FFImageLoading_Forms_DataUrlImageSource_set_DataUrl_string
 plt_FFImageLoading_Forms_DataUrlImageSource_set_DataUrl_string:
 _p_157:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2056]
 br x16
-.word 9151
+.word 9175
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_158:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2064]
 br x16
-.word 9153
+.word 9177
 	.no_dead_strip plt_FFImageLoading_Forms_DataUrlImageSource_get_DataUrl
 plt_FFImageLoading_Forms_DataUrlImageSource_get_DataUrl:
 _p_159:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2072]
 br x16
-.word 9161
+.word 9185
 	.no_dead_strip plt_string_Format_string_object__
 plt_string_Format_string_object__:
 _p_160:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2080]
 br x16
-.word 9163
+.word 9187
 	.no_dead_strip plt_System_Uri_get_Query
 plt_System_Uri_get_Query:
 _p_161:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2088]
 br x16
-.word 9168
+.word 9192
 	.no_dead_strip plt_string_IsNullOrWhiteSpace_string
 plt_string_IsNullOrWhiteSpace_string:
 _p_162:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2096]
 br x16
-.word 9173
+.word 9197
 	.no_dead_strip plt_Xamarin_Forms_Application_get_Current
 plt_Xamarin_Forms_Application_get_Current:
 _p_163:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2104]
 br x16
-.word 9178
+.word 9202
 	.no_dead_strip plt_FFImageLoading_AssemblyExtensions_GetTypeAssemblyFullName_System_Type
 plt_FFImageLoading_AssemblyExtensions_GetTypeAssemblyFullName_System_Type:
 _p_164:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2112]
 br x16
-.word 9183
+.word 9207
 	.no_dead_strip plt_System_Uri_EscapeUriString_string
 plt_System_Uri_EscapeUriString_string:
 _p_165:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2120]
 br x16
-.word 9188
+.word 9212
 	.no_dead_strip plt_System_Uri__ctor_string
 plt_System_Uri__ctor_string:
 _p_166:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2128]
 br x16
-.word 9193
+.word 9217
 	.no_dead_strip plt_FFImageLoading_Forms_EmbeddedResourceImageSource_set_Uri_System_Uri
 plt_FFImageLoading_Forms_EmbeddedResourceImageSource_set_Uri_System_Uri:
 _p_167:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2136]
 br x16
-.word 9198
+.word 9222
 	.no_dead_strip plt_FFImageLoading_StringExtensions_Contains_string_string_System_StringComparison
 plt_FFImageLoading_StringExtensions_Contains_string_string_System_StringComparison:
 _p_168:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2144]
 br x16
-.word 9200
+.word 9224
 	.no_dead_strip plt_Xamarin_Forms_Color_get_R
 plt_Xamarin_Forms_Color_get_R:
 _p_169:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2152]
 br x16
-.word 9205
+.word 9229
 	.no_dead_strip plt_Xamarin_Forms_Color_get_G
 plt_Xamarin_Forms_Color_get_G:
 _p_170:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2160]
 br x16
-.word 9210
+.word 9234
 	.no_dead_strip plt_Xamarin_Forms_Color_get_B
 plt_Xamarin_Forms_Color_get_B:
 _p_171:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2168]
 br x16
-.word 9215
+.word 9239
 	.no_dead_strip plt_System_Nullable_1_single_get_HasValue
 plt_System_Nullable_1_single_get_HasValue:
 _p_172:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2176]
 br x16
-.word 9220
+.word 9244
 	.no_dead_strip plt_System_Nullable_1_single_get_Value
 plt_System_Nullable_1_single_get_Value:
 _p_173:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2184]
 br x16
-.word 9231
+.word 9255
 	.no_dead_strip plt_System_Uri_TryCreate_string_System_UriKind_System_Uri_
 plt_System_Uri_TryCreate_string_System_UriKind_System_Uri_:
 _p_174:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2192]
 br x16
-.word 9242
+.word 9266
 	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromUri_System_Uri
 plt_Xamarin_Forms_ImageSource_FromUri_System_Uri:
 _p_175:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2200]
 br x16
-.word 9247
+.word 9271
 	.no_dead_strip plt_Xamarin_Forms_TypeConverter__ctor
 plt_Xamarin_Forms_TypeConverter__ctor:
 _p_176:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2208]
 br x16
-.word 9252
+.word 9276
 	.no_dead_strip plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue
 plt_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue:
 _p_177:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2216]
 br x16
-.word 9257
+.word 9281
 	.no_dead_strip plt_bool_Equals_object
 plt_bool_Equals_object:
 _p_178:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2224]
 br x16
-.word 9262
+.word 9286
 	.no_dead_strip plt_bool_GetHashCode
 plt_bool_GetHashCode:
 _p_179:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2232]
 br x16
-.word 9267
+.word 9291
 	.no_dead_strip plt_bool_ToString
 plt_bool_ToString:
 _p_180:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2240]
 br x16
-.word 9272
+.word 9296
 	.no_dead_strip plt_System_Type_op_Inequality_System_Type_System_Type
 plt_System_Type_op_Inequality_System_Type_System_Type:
 _p_181:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2248]
 br x16
-.word 9277
+.word 9301
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_182:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2256]
 br x16
-.word 9310
+.word 9334
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_183:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2264]
 br x16
-.word 9318
+.word 9342
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_184:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2272]
 br x16
-.word 9344
+.word 9368
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_185:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2280]
 br x16
-.word 9361
+.word 9385
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_186:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2288]
 br x16
-.word 9369
+.word 9393
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_187:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2296]
 br x16
-.word 9388
+.word 9412
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_188:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2304]
 br x16
-.word 9417
+.word 9441
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_189:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2312]
 br x16
-.word 9441
+.word 9465
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_190:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2320]
 br x16
-.word 9465
+.word 9489
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_191:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2328]
 br x16
-.word 9470
+.word 9494
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_192:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2336]
 br x16
-.word 9508
+.word 9532
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_193:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2344]
 br x16
-.word 9513
+.word 9537
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_194:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2352]
 br x16
-.word 9518
+.word 9542
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_195:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2360]
 br x16
-.word 9523
+.word 9547
 	.no_dead_strip plt_System_TimeSpan_Equals_object
 plt_System_TimeSpan_Equals_object:
 _p_196:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2368]
 br x16
-.word 9545
+.word 9569
 	.no_dead_strip plt_System_TimeSpan_GetHashCode
 plt_System_TimeSpan_GetHashCode:
 _p_197:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2376]
 br x16
-.word 9550
+.word 9574
 	.no_dead_strip plt_System_TimeSpan_ToString
 plt_System_TimeSpan_ToString:
 _p_198:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2384]
 br x16
-.word 9555
+.word 9579
 	.no_dead_strip plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan
 plt_System_Nullable_1_System_TimeSpan__ctor_System_TimeSpan:
 _p_199:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2392]
 br x16
-.word 9560
+.word 9584
 	.no_dead_strip plt_System_Nullable_1_FFImageLoading_Cache_CacheType__ctor_FFImageLoading_Cache_CacheType
 plt_System_Nullable_1_FFImageLoading_Cache_CacheType__ctor_FFImageLoading_Cache_CacheType:
 _p_200:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2400]
 br x16
-.word 9582
+.word 9606
 	.no_dead_strip plt_single_Equals_object
 plt_single_Equals_object:
 _p_201:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2408]
 br x16
-.word 9604
+.word 9628
 	.no_dead_strip plt_single_GetHashCode
 plt_single_GetHashCode:
 _p_202:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2416]
 br x16
-.word 9609
+.word 9633
 	.no_dead_strip plt_single_ToString
 plt_single_ToString:
 _p_203:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2424]
 br x16
-.word 9614
+.word 9638
 	.no_dead_strip plt_System_Nullable_1_single__ctor_single
 plt_System_Nullable_1_single__ctor_single:
 _p_204:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2432]
 br x16
-.word 9619
+.word 9643
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_205:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2440]
 br x16
-.word 9659
+.word 9683
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_206:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2448]
 br x16
-.word 9683
+.word 9707
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_207:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2456]
 br x16
-.word 9725
+.word 9749
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_208:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2464]
 br x16
-.word 9733
+.word 9757
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_209:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2472]
 br x16
-.word 9756
+.word 9780
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_210:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2480]
 br x16
-.word 9792
+.word 9816
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_211:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2488]
 br x16
-.word 9800
+.word 9824
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_212:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2496]
 br x16
-.word 9817
+.word 9841
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_213:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2504]
 br x16
-.word 9825
+.word 9849
 	.no_dead_strip plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise
 plt__jit_icall_mono_thread_force_interruption_checkpoint_noraise:
 _p_214:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2512]
 br x16
-.word 9848
+.word 9872
 	.no_dead_strip plt_System_Nullable_1_single_Unbox_object
 plt_System_Nullable_1_single_Unbox_object:
 _p_215:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2520]
 br x16
-.word 9900
+.word 9924
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_216:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2528]
 br x16
-.word 9922
+.word 9946
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_217:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2536]
 br x16
-.word 9927
+.word 9951
 	.no_dead_strip plt_FFImageLoading_Forms_CachedImage__InvalidateCached__127_MoveNext
 plt_FFImageLoading_Forms_CachedImage__InvalidateCached__127_MoveNext:
 _p_218:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2544]
 br x16
-.word 9932
+.word 9956
 	.no_dead_strip plt__jit_icall_ves_icall_thread_finish_async_abort
 plt__jit_icall_ves_icall_thread_finish_async_abort:
 _p_219:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2552]
 br x16
-.word 9934
+.word 9958
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_220:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2560]
 br x16
-.word 9972
+.word 9996
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_FFImageLoading_Forms_CachedImage__InvalidateCached__127_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__FFImageLoading_Forms_CachedImage__InvalidateCached__127_
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_FFImageLoading_Forms_CachedImage__InvalidateCached__127_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__FFImageLoading_Forms_CachedImage__InvalidateCached__127_:
 _p_221:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2568]
 br x16
-.word 9977
+.word 10001
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_222:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2576]
 br x16
-.word 10022
+.word 10046
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_223:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2584]
 br x16
-.word 10046
+.word 10070
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task:
 _p_224:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2592]
 br x16
-.word 10051
+.word 10075
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_225:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2600]
 br x16
-.word 10071
+.word 10095
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_226:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2608]
 br x16
-.word 10076
+.word 10100
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_UnsafeOnCompleted_System_Action
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_ConfiguredTaskAwaiter_UnsafeOnCompleted_System_Action:
 _p_227:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2616]
 br x16
-.word 10081
+.word 10105
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_228:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2624]
 br x16
-.word 10086
+.word 10110
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_229:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2632]
 br x16
-.word 10091
+.word 10115
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_230:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2640]
 br x16
-.word 10096
+.word 10120
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_231:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2648]
 br x16
-.word 10101
+.word 10125
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Func_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_232:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2656]
 br x16
-.word 10106
+.word 10130
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext:
 _p_233:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2664]
 br x16
-.word 10126
+.word 10150
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_234:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2672]
 br x16
-.word 10131
+.word 10155
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_235:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2680]
 br x16
-.word 10136
+.word 10160
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_236:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2688]
 br x16
-.word 10156
+.word 10180
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_237:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2696]
 br x16
-.word 10161
+.word 10185
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_238:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2704]
 br x16
-.word 10166
+.word 10190
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_239:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2712]
 br x16
-.word 10171
+.word 10195
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_240:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2720]
 br x16
-.word 10176
+.word 10200
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_241:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2728]
 br x16
-.word 10181
+.word 10205
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_TrySetResult_System_Threading_Tasks_VoidTaskResult:
 _p_242:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2736]
 br x16
-.word 10186
+.word 10210
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_243:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2744]
 br x16
-.word 10206
+.word 10230
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_GetResultCore_bool:
 _p_244:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2752]
 br x16
-.word 10211
+.word 10235
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_245:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2760]
 br x16
-.word 10231
+.word 10255
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_246:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2768]
 br x16
-.word 10236
+.word 10260
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully
 plt_System_Threading_Tasks_Task_get_IsCompletedSuccessfully:
 _p_247:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2776]
 br x16
-.word 10241
+.word 10265
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_248:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2784]
 br x16
-.word 10246
+.word 10270
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_249:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2792]
 br x16
-.word 10251
+.word 10275
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_250:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2800]
 br x16
-.word 10271
+.word 10295
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult:
 _p_251:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2808]
 br x16
-.word 10279
+.word 10303
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_252:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2816]
 br x16
-.word 10299
+.word 10323
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_253:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2824]
 br x16
-.word 10319
+.word 10343
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_254:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2832]
 br x16
-.word 10324
+.word 10348
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_255:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2840]
 br x16
-.word 10344
+.word 10368
 	.no_dead_strip plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 plt_System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions:
 _p_256:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2848]
 br x16
-.word 10349
+.word 10373
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_257:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2856]
 br x16
-.word 10369
+.word 10393
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler:
 _p_258:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2864]
 br x16
-.word 10374
+.word 10398
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_259:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2872]
 br x16
-.word 10394
+.word 10418
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_260:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2880]
 br x16
-.word 10399
+.word 10423
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Threading_Tasks_Task_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_261:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2888]
 br x16
-.word 10404
+.word 10428
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_262:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2896]
 br x16
-.word 10424
+.word 10448
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_TrySetCanceled_System_Threading_CancellationToken_object:
 _p_263:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2904]
 br x16
-.word 10429
+.word 10453
 	.no_dead_strip plt_System_Threading_Tasks_Task_TrySetException_object
 plt_System_Threading_Tasks_Task_TrySetException_object:
 _p_264:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2912]
 br x16
-.word 10434
+.word 10458
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_get_LoggingOn
 plt_System_Threading_Tasks_DebuggerSupport_get_LoggingOn:
 _p_265:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2920]
 br x16
-.word 10439
+.word 10463
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_Internal_Runtime_Augments_AsyncStatus
 plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_Internal_Runtime_Augments_AsyncStatus:
 _p_266:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2928]
 br x16
-.word 10444
+.word 10468
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_RemoveFromActiveTasks_System_Threading_Tasks_Task:
 _p_267:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2936]
 br x16
-.word 10449
+.word 10473
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_DangerousSetResult_System_Threading_Tasks_VoidTaskResult:
 _p_268:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2944]
 br x16
-.word 10454
+.word 10478
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions:
 _p_269:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2952]
 br x16
-.word 10474
+.word 10498
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_270:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2960]
 br x16
-.word 10494
+.word 10518
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_271:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2968]
 br x16
-.word 10514
+.word 10538
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_object_System_Threading_Tasks_TaskCreationOptions:
 _p_272:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2976]
 br x16
-.word 10519
+.word 10543
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_273:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2984]
 br x16
-.word 10539
+.word 10563
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_string_ulong
 plt_System_Threading_Tasks_DebuggerSupport_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_System_Threading_Tasks_Task_string_ulong:
 _p_274:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #2992]
 br x16
-.word 10544
+.word 10568
 	.no_dead_strip plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_DebuggerSupport_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_275:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3000]
 br x16
-.word 10549
+.word 10573
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_276:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3008]
 br x16
-.word 10554
+.word 10578
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_277:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3016]
 br x16
-.word 10574
+.word 10598
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
 _p_278:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3024]
 br x16
-.word 10604
+.word 10628
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor:
 _p_279:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3032]
 br x16
-.word 10609
+.word 10633
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult:
 _p_280:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3040]
 br x16
-.word 10629
+.word 10653
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_281:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3048]
 br x16
-.word 10649
+.word 10673
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_282:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3056]
 br x16
-.word 10654
+.word 10678
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_283:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3064]
 br x16
-.word 10659
+.word 10683
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_284:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3072]
 br x16
-.word 10664
+.word 10688
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult:
 _p_285:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3080]
 br x16
-.word 10669
+.word 10693
 	.no_dead_strip plt_System_Threading_Tasks_Task_SetNotificationForWaitCompletion_bool
 plt_System_Threading_Tasks_Task_SetNotificationForWaitCompletion_bool:
 _p_286:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3088]
 br x16
-.word 10689
+.word 10713
 	.no_dead_strip plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object
 plt_System_Runtime_CompilerServices_JitHelpers_UnsafeCast_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_object:
 _p_287:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3096]
 br x16
-.word 10694
+.word 10718
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_288:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3104]
 br x16
-.word 10714
+.word 10738
 	.no_dead_strip plt_uintptr_op_Equality_uintptr_uintptr
 plt_uintptr_op_Equality_uintptr_uintptr:
 _p_289:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3112]
 br x16
-.word 10719
+.word 10743
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_VoidTaskResult:
 _p_290:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3120]
 br x16
-.word 10724
+.word 10748
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 plt_System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult:
 _p_291:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3128]
 br x16
-.word 10744
+.word 10768
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_292:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3136]
 br x16
-.word 10765
+.word 10789
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_293:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3144]
 br x16
-.word 10770
+.word 10794
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_get_ResultOnSuccess:
 _p_294:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3152]
 br x16
-.word 10775
+.word 10799
 	.no_dead_strip plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 plt_System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool:
 _p_295:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3160]
 br x16
-.word 10795
+.word 10819
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult__ctor_bool_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_296:
 adrp x16, mono_aot_FFImageLoading_Forms_got@PAGE+4096
 add x16, x16, mono_aot_FFImageLoading_Forms_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #3168]
 br x16
-.word 10815
+.word 10839
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_FFImageLoading_Forms_got, 7264
+.lcomm mono_aot_FFImageLoading_Forms_got, 7272
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -39181,14 +39248,14 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 611,7264,297,349,36,70,387000831,0
-	.long 54877,128,8,8,8,9,8388607,0
-	.long 24,62640,7752,7232,5560,0,6536,7176
-	.long 5720,0,4048,512,7744,0,0,0
+	.long 612,7272,297,350,36,70,387000831,0
+	.long 54977,128,8,8,8,9,8388607,0
+	.long 24,64088,9104,8584,6904,0,7880,8528
+	.long 7064,0,5384,512,9096,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 246,113,245,121,240,5,130,59,87,213,236,50,149,91,176,151
+	.byte 178,123,229,159,77,47,222,2,29,6,78,169,107,151,39,167
 	.globl _mono_aot_module_FFImageLoading_Forms_info
 	.align 3
 _mono_aot_module_FFImageLoading_Forms_info:
@@ -60188,10 +60255,10 @@ Lfde272_end:
 
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
-	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken"
 
-	.byte 13,141,5
-	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.byte 13,241,4
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
 	.quad Lme_129
 
 	.byte 2,118,16,3
@@ -60205,33 +60272,77 @@ LDIFF_SYM2911=LTDIE_238_REFERENCE - Ldebug_info_start
 LDIFF_SYM2912=LTDIE_244_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2912
 	.byte 2,141,24,3
+	.asciz "cancellationToken"
+
+LDIFF_SYM2913=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2913
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM2914=Lfde273_end - Lfde273_start
+	.long LDIFF_SYM2914
+Lfde273_start:
+
+	.long 0
+	.align 3
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+
+LDIFF_SYM2915=Lme_129 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken
+	.long LDIFF_SYM2915
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
+	.align 3
+Lfde273_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
+	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler"
+
+	.byte 13,141,5
+	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.quad Lme_12a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM2916=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2916
+	.byte 2,141,16,3
+	.asciz "continuationAction"
+
+LDIFF_SYM2917=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2917
+	.byte 2,141,24,3
 	.asciz "scheduler"
 
-LDIFF_SYM2913=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2913
+LDIFF_SYM2918=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2918
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM2914=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2914
+LDIFF_SYM2919=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2919
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2915=Lfde273_end - Lfde273_start
-	.long LDIFF_SYM2915
-Lfde273_start:
+LDIFF_SYM2920=Lfde274_end - Lfde274_start
+	.long LDIFF_SYM2920
+Lfde274_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2916=Lme_129 - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2916
+LDIFF_SYM2921=Lme_12a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2921
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde273_end:
+Lfde274_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_245:
@@ -60240,8 +60351,8 @@ LTDIE_245:
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
 	.byte 4
-LDIFF_SYM2917=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2917
+LDIFF_SYM2922=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2922
 	.byte 9
 	.asciz "None"
 
@@ -60290,69 +60401,69 @@ LDIFF_SYM2917=LDIE_I4 - Ldebug_info_start
 	.byte 128,128,32,0,7
 	.asciz "System_Threading_Tasks_TaskContinuationOptions"
 
-LDIFF_SYM2918=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2918
+LDIFF_SYM2923=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2923
 LTDIE_245_POINTER:
 
 	.byte 13
-LDIFF_SYM2919=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2919
+LDIFF_SYM2924=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2924
 LTDIE_245_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2920=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2920
+LDIFF_SYM2925=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2925
 	.byte 2
 	.asciz "System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult>:ContinueWith"
 	.asciz "System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler"
 
 	.byte 13,218,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_12a
+	.quad Lme_12b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2921=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2921
+LDIFF_SYM2926=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2926
 	.byte 2,141,16,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2922=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2922
+LDIFF_SYM2927=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2927
 	.byte 2,141,24,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2923=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2923
+LDIFF_SYM2928=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2928
 	.byte 2,141,32,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2924=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2924
+LDIFF_SYM2929=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2929
 	.byte 2,141,48,3
 	.asciz "scheduler"
 
-LDIFF_SYM2925=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2925
+LDIFF_SYM2930=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2930
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2926=Lfde274_end - Lfde274_start
-	.long LDIFF_SYM2926
-Lfde274_start:
+LDIFF_SYM2931=Lfde275_end - Lfde275_start
+	.long LDIFF_SYM2931
+Lfde275_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2927=Lme_12a - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2927
+LDIFF_SYM2932=Lme_12b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2932
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde274_end:
+Lfde275_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60362,66 +60473,66 @@ Lfde274_end:
 
 	.byte 13,225,5
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.quad Lme_12b
+	.quad Lme_12c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2928=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2928
+LDIFF_SYM2933=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2933
 	.byte 1,103,3
 	.asciz "continuationAction"
 
-LDIFF_SYM2929=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2929
+LDIFF_SYM2934=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2934
 	.byte 1,104,3
 	.asciz "scheduler"
 
-LDIFF_SYM2930=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2930
+LDIFF_SYM2935=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2935
 	.byte 1,105,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2931=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2931
+LDIFF_SYM2936=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2936
 	.byte 2,141,56,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2932=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2932
+LDIFF_SYM2937=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2937
 	.byte 1,106,11
 	.asciz "creationOptions"
 
-LDIFF_SYM2933=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2933
+LDIFF_SYM2938=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2938
 	.byte 3,141,232,0,11
 	.asciz "internalOptions"
 
-LDIFF_SYM2934=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM2934
+LDIFF_SYM2939=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM2939
 	.byte 3,141,240,0,11
 	.asciz "continuationTask"
 
-LDIFF_SYM2935=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2935
+LDIFF_SYM2940=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2940
 	.byte 1,102,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2936=Lfde275_end - Lfde275_start
-	.long LDIFF_SYM2936
-Lfde275_start:
+LDIFF_SYM2941=Lfde276_end - Lfde276_start
+	.long LDIFF_SYM2941
+Lfde276_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 
-LDIFF_SYM2937=Lme_12b - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
-	.long LDIFF_SYM2937
+LDIFF_SYM2942=Lme_12c - System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_ContinueWith_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
+	.long LDIFF_SYM2942
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
 	.align 3
-Lfde275_end:
+Lfde276_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_246:
@@ -60430,79 +60541,79 @@ LTDIE_246:
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
 	.byte 40,16
-LDIFF_SYM2938=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2938
+LDIFF_SYM2943=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2943
 	.byte 2,35,0,6
 	.asciz "m_defaultCancellationToken"
 
-LDIFF_SYM2939=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2939
+LDIFF_SYM2944=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2944
 	.byte 2,35,16,6
 	.asciz "m_defaultScheduler"
 
-LDIFF_SYM2940=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2940
+LDIFF_SYM2945=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2945
 	.byte 2,35,24,6
 	.asciz "m_defaultCreationOptions"
 
-LDIFF_SYM2941=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2941
+LDIFF_SYM2946=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2946
 	.byte 2,35,32,6
 	.asciz "m_defaultContinuationOptions"
 
-LDIFF_SYM2942=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2942
+LDIFF_SYM2947=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2947
 	.byte 2,35,36,0,7
 	.asciz "System_Threading_Tasks_TaskFactory`1"
 
-LDIFF_SYM2943=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2943
+LDIFF_SYM2948=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2948
 LTDIE_246_POINTER:
 
 	.byte 13
-LDIFF_SYM2944=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2944
+LDIFF_SYM2949=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2949
 LTDIE_246_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2945=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM2945
+LDIFF_SYM2950=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM2950
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor"
 
 	.byte 14,93
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.quad Lme_12c
+	.quad Lme_12d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2946=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2946
+LDIFF_SYM2951=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2951
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM2947=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2947
+LDIFF_SYM2952=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2952
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2948=Lfde276_end - Lfde276_start
-	.long LDIFF_SYM2948
-Lfde276_start:
+LDIFF_SYM2953=Lfde277_end - Lfde277_start
+	.long LDIFF_SYM2953
+Lfde277_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM2949=Lme_12c - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM2949
+LDIFF_SYM2954=Lme_12d - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM2954
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde276_end:
+Lfde277_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60512,51 +60623,51 @@ Lfde276_end:
 
 	.byte 14,208,1
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_12d
+	.quad Lme_12e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2950=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2950
+LDIFF_SYM2955=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2955
 	.byte 1,103,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2951=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2951
+LDIFF_SYM2956=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2956
 	.byte 2,141,40,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2952=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2952
+LDIFF_SYM2957=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2957
 	.byte 1,104,3
 	.asciz "continuationOptions"
 
-LDIFF_SYM2953=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM2953
+LDIFF_SYM2958=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM2958
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2954=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2954
+LDIFF_SYM2959=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2959
 	.byte 2,141,56,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2955=Lfde277_end - Lfde277_start
-	.long LDIFF_SYM2955
-Lfde277_start:
+LDIFF_SYM2960=Lfde278_end - Lfde278_start
+	.long LDIFF_SYM2960
+Lfde278_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2956=Lme_12d - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2956
+LDIFF_SYM2961=Lme_12e - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2961
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8
 	.align 3
-Lfde277_end:
+Lfde278_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60566,56 +60677,56 @@ Lfde277_end:
 
 	.byte 14,252,3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.quad Lme_12e
+	.quad Lme_12f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2957=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2957
+LDIFF_SYM2962=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2962
 	.byte 2,141,24,3
 	.asciz "function"
 
-LDIFF_SYM2958=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2958
+LDIFF_SYM2963=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2963
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2959=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2959
+LDIFF_SYM2964=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2964
 	.byte 2,141,40,3
 	.asciz "cancellationToken"
 
-LDIFF_SYM2960=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2960
+LDIFF_SYM2965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2965
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM2961=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM2961
+LDIFF_SYM2966=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM2966
 	.byte 1,105,3
 	.asciz "scheduler"
 
-LDIFF_SYM2962=LTDIE_155_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2962
+LDIFF_SYM2967=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2967
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2963=Lfde278_end - Lfde278_start
-	.long LDIFF_SYM2963
-Lfde278_start:
+LDIFF_SYM2968=Lfde279_end - Lfde279_start
+	.long LDIFF_SYM2968
+Lfde279_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
 
-LDIFF_SYM2964=Lme_12e - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
-	.long LDIFF_SYM2964
+LDIFF_SYM2969=Lme_12f - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_StartNew_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_object_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_TaskScheduler
+	.long LDIFF_SYM2969
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
 	.align 3
-Lfde278_end:
+Lfde279_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_247:
@@ -60624,140 +60735,140 @@ LTDIE_247:
 	.asciz "System_Func`2"
 
 	.byte 128,1,16
-LDIFF_SYM2965=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM2965
+LDIFF_SYM2970=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM2970
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM2966=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2966
+LDIFF_SYM2971=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2971
 LTDIE_247_POINTER:
 
 	.byte 13
-LDIFF_SYM2967=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2967
+LDIFF_SYM2972=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2972
 LTDIE_247_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2968=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM2968
+LDIFF_SYM2973=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM2973
 LTDIE_249:
 
 	.byte 5
 	.asciz "System_SystemException"
 
 	.byte 136,1,16
-LDIFF_SYM2969=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM2969
+LDIFF_SYM2974=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM2974
 	.byte 2,35,0,0,7
 	.asciz "System_SystemException"
 
-LDIFF_SYM2970=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2970
+LDIFF_SYM2975=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2975
 LTDIE_249_POINTER:
 
 	.byte 13
-LDIFF_SYM2971=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2971
+LDIFF_SYM2976=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2976
 LTDIE_249_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2972=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2972
+LDIFF_SYM2977=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2977
 LTDIE_248:
 
 	.byte 5
 	.asciz "System_OperationCanceledException"
 
 	.byte 144,1,16
-LDIFF_SYM2973=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM2973
+LDIFF_SYM2978=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM2978
 	.byte 2,35,0,6
 	.asciz "_cancellationToken"
 
-LDIFF_SYM2974=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2974
+LDIFF_SYM2979=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2979
 	.byte 3,35,136,1,0,7
 	.asciz "System_OperationCanceledException"
 
-LDIFF_SYM2975=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2975
+LDIFF_SYM2980=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2980
 LTDIE_248_POINTER:
 
 	.byte 13
-LDIFF_SYM2976=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2976
+LDIFF_SYM2981=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2981
 LTDIE_248_REFERENCE:
 
 	.byte 14
-LDIFF_SYM2977=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM2977
+LDIFF_SYM2982=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM2982
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncCoreLogic"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 14,142,4
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_12f
+	.quad Lme_130
 
 	.byte 2,118,16,3
 	.asciz "iar"
 
-LDIFF_SYM2978=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2978
+LDIFF_SYM2983=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2983
 	.byte 1,104,3
 	.asciz "endFunction"
 
-LDIFF_SYM2979=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2979
+LDIFF_SYM2984=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2984
 	.byte 1,105,3
 	.asciz "endAction"
 
-LDIFF_SYM2980=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2980
+LDIFF_SYM2985=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2985
 	.byte 2,141,32,3
 	.asciz "promise"
 
-LDIFF_SYM2981=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2981
+LDIFF_SYM2986=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2986
 	.byte 2,141,40,3
 	.asciz "requiresSynchronization"
 
-LDIFF_SYM2982=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM2982
+LDIFF_SYM2987=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM2987
 	.byte 2,141,48,11
 	.asciz "ex"
 
-LDIFF_SYM2983=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2983
+LDIFF_SYM2988=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2988
 	.byte 3,141,248,0,11
 	.asciz "oce"
 
-LDIFF_SYM2984=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2984
+LDIFF_SYM2989=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2989
 	.byte 3,141,128,1,11
 	.asciz "result"
 
-LDIFF_SYM2985=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM2985
+LDIFF_SYM2990=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM2990
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2986=Lfde279_end - Lfde279_start
-	.long LDIFF_SYM2986
-Lfde279_start:
+LDIFF_SYM2991=Lfde280_end - Lfde280_start
+	.long LDIFF_SYM2991
+Lfde280_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM2987=Lme_12f - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM2987
+LDIFF_SYM2992=Lme_130 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncCoreLogic_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM2992
 	.long 0
 	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,152,30,153,29
 	.align 3
-Lfde279_end:
+Lfde280_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60767,46 +60878,46 @@ Lfde279_end:
 
 	.byte 14,220,5
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.quad Lme_130
+	.quad Lme_131
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2988=LTDIE_246_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2988
+LDIFF_SYM2993=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2993
 	.byte 2,141,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM2989=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2989
+LDIFF_SYM2994=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2994
 	.byte 2,141,24,3
 	.asciz "endMethod"
 
-LDIFF_SYM2990=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2990
+LDIFF_SYM2995=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM2995
 	.byte 2,141,32,3
 	.asciz "state"
 
-LDIFF_SYM2991=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM2991
+LDIFF_SYM2996=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM2996
 	.byte 2,141,40,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM2992=Lfde280_end - Lfde280_start
-	.long LDIFF_SYM2992
-Lfde280_start:
+LDIFF_SYM2997=Lfde281_end - Lfde281_start
+	.long LDIFF_SYM2997
+Lfde281_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
 
-LDIFF_SYM2993=Lme_130 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
-	.long LDIFF_SYM2993
+LDIFF_SYM2998=Lme_131 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsync_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_object
+	.long LDIFF_SYM2998
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde280_end:
+Lfde281_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_250:
@@ -60815,104 +60926,104 @@ LTDIE_250:
 	.asciz "_<>c__DisplayClass35_0"
 
 	.byte 40,16
-LDIFF_SYM2994=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM2994
+LDIFF_SYM2999=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM2999
 	.byte 2,35,0,6
 	.asciz "endFunction"
 
-LDIFF_SYM2995=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2995
+LDIFF_SYM3000=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3000
 	.byte 2,35,16,6
 	.asciz "endAction"
 
-LDIFF_SYM2996=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2996
+LDIFF_SYM3001=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3001
 	.byte 2,35,24,6
 	.asciz "promise"
 
-LDIFF_SYM2997=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM2997
+LDIFF_SYM3002=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3002
 	.byte 2,35,32,0,7
 	.asciz "_<>c__DisplayClass35_0"
 
-LDIFF_SYM2998=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2998
+LDIFF_SYM3003=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM3003
 LTDIE_250_POINTER:
 
 	.byte 13
-LDIFF_SYM2999=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM2999
+LDIFF_SYM3004=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM3004
 LTDIE_250_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3000=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM3000
+LDIFF_SYM3005=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM3005
 	.byte 2
 	.asciz "System.Threading.Tasks.TaskFactory`1<System.Threading.Tasks.VoidTaskResult>:FromAsyncImpl"
 	.asciz "System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 14,0
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.quad Lme_131
+	.quad Lme_132
 
 	.byte 2,118,16,3
 	.asciz "beginMethod"
 
-LDIFF_SYM3001=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3001
+LDIFF_SYM3006=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3006
 	.byte 1,102,3
 	.asciz "endFunction"
 
-LDIFF_SYM3002=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3002
+LDIFF_SYM3007=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3007
 	.byte 2,141,48,3
 	.asciz "endAction"
 
-LDIFF_SYM3003=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3003
+LDIFF_SYM3008=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3008
 	.byte 2,141,56,3
 	.asciz "state"
 
-LDIFF_SYM3004=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3004
+LDIFF_SYM3009=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3009
 	.byte 1,105,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3005=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM3005
+LDIFF_SYM3010=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM3010
 	.byte 1,106,11
 	.asciz "CS$<>8__locals0"
 
-LDIFF_SYM3006=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3006
+LDIFF_SYM3011=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3011
 	.byte 3,141,224,0,11
 	.asciz "asyncResult"
 
-LDIFF_SYM3007=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3007
+LDIFF_SYM3012=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3012
 	.byte 1,101,11
 	.asciz "V_2"
 
-LDIFF_SYM3008=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3008
+LDIFF_SYM3013=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3013
 	.byte 3,141,216,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3009=Lfde281_end - Lfde281_start
-	.long LDIFF_SYM3009
-Lfde281_start:
+LDIFF_SYM3014=Lfde282_end - Lfde282_start
+	.long LDIFF_SYM3014
+Lfde282_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
 
-LDIFF_SYM3010=Lme_131 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
-	.long LDIFF_SYM3010
+LDIFF_SYM3015=Lme_132 - System_Threading_Tasks_TaskFactory_1_System_Threading_Tasks_VoidTaskResult_FromAsyncImpl_System_Func_3_System_AsyncCallback_object_System_IAsyncResult_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_System_Action_1_System_IAsyncResult_object_System_Threading_Tasks_TaskCreationOptions
+	.long LDIFF_SYM3015
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,149,20,150,19,68,153,18,154,17
 	.align 3
-Lfde281_end:
+Lfde282_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60922,31 +61033,31 @@ Lfde281_end:
 
 	.byte 12,188,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.quad Lme_132
+	.quad Lme_133
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3011=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3011
+LDIFF_SYM3016=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3016
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3012=Lfde282_end - Lfde282_start
-	.long LDIFF_SYM3012
-Lfde282_start:
+LDIFF_SYM3017=Lfde283_end - Lfde283_start
+	.long LDIFF_SYM3017
+Lfde283_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
 
-LDIFF_SYM3013=Lme_132 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
-	.long LDIFF_SYM3013
+LDIFF_SYM3018=Lme_133 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_Create
+	.long LDIFF_SYM3018
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde282_end:
+Lfde283_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60956,36 +61067,36 @@ Lfde282_end:
 
 	.byte 12,229,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.quad Lme_133
+	.quad Lme_134
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3014=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3014
+LDIFF_SYM3019=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3019
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM3015=LTDIE_196_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3015
+LDIFF_SYM3020=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3020
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3016=Lfde283_end - Lfde283_start
-	.long LDIFF_SYM3016
-Lfde283_start:
+LDIFF_SYM3021=Lfde284_end - Lfde284_start
+	.long LDIFF_SYM3021
+Lfde284_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM3017=Lme_133 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM3017
+LDIFF_SYM3022=Lme_134 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM3022
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde283_end:
+Lfde284_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -60995,58 +61106,14 @@ Lfde283_end:
 
 	.byte 12,190,4
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.quad Lme_134
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM3018=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3018
-	.byte 1,106,11
-	.asciz "task"
-
-LDIFF_SYM3019=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3019
-	.byte 1,105,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3020=Lfde284_end - Lfde284_start
-	.long LDIFF_SYM3020
-Lfde284_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-
-LDIFF_SYM3021=Lme_134 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
-	.long LDIFF_SYM3021
-	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
-	.align 3
-Lfde284_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 12,206,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_135
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3022=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3022
-	.byte 1,106,3
-	.asciz "result"
-
-LDIFF_SYM3023=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM3023=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3023
-	.byte 2,141,32,11
+	.byte 1,106,11
 	.asciz "task"
 
 LDIFF_SYM3024=LTDIE_238_REFERENCE - Ldebug_info_start
@@ -61061,12 +61128,12 @@ Lfde285_start:
 
 	.long 0
 	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 
-LDIFF_SYM3026=Lme_135 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+LDIFF_SYM3026=Lme_135 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_Task
 	.long LDIFF_SYM3026
 	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 	.align 3
 Lfde285_end:
 
@@ -61074,10 +61141,10 @@ Lfde285_end:
 
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult"
 
-	.byte 12,244,4
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.byte 12,206,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
 	.quad Lme_136
 
 	.byte 2,118,16,3
@@ -61085,17 +61152,17 @@ Lfde285_end:
 
 LDIFF_SYM3027=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3027
-	.byte 1,105,3
-	.asciz "completedTask"
+	.byte 1,106,3
+	.asciz "result"
 
-LDIFF_SYM3028=LTDIE_238_REFERENCE - Ldebug_info_start
+LDIFF_SYM3028=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM3028
-	.byte 2,141,24,11
-	.asciz "V_0"
+	.byte 2,141,32,11
+	.asciz "task"
 
-LDIFF_SYM3029=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM3029=LTDIE_238_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3029
-	.byte 3,141,192,0,0
+	.byte 1,105,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -61105,14 +61172,58 @@ Lfde286_start:
 
 	.long 0
 	.align 3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+
+LDIFF_SYM3031=Lme_136 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3031
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11
+	.align 3
+Lfde286_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:SetResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 12,244,4
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_137
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3032=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3032
+	.byte 1,105,3
+	.asciz "completedTask"
+
+LDIFF_SYM3033=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3033
+	.byte 2,141,24,11
+	.asciz "V_0"
+
+LDIFF_SYM3034=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3034
+	.byte 3,141,192,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3035=Lfde287_end - Lfde287_start
+	.long LDIFF_SYM3035
+Lfde287_start:
+
+	.long 0
+	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3031=Lme_136 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3031
+LDIFF_SYM3036=Lme_137 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetResult_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3036
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10
 	.align 3
-Lfde286_end:
+Lfde287_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61122,46 +61233,46 @@ Lfde286_end:
 
 	.byte 12,137,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.quad Lme_137
+	.quad Lme_138
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3032=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3032
+LDIFF_SYM3037=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3037
 	.byte 1,105,3
 	.asciz "exception"
 
-LDIFF_SYM3033=LTDIE_4_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3033
+LDIFF_SYM3038=LTDIE_4_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3038
 	.byte 1,106,11
 	.asciz "task"
 
-LDIFF_SYM3034=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3034
+LDIFF_SYM3039=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3039
 	.byte 1,104,11
 	.asciz "oce"
 
-LDIFF_SYM3035=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3035
+LDIFF_SYM3040=LTDIE_248_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3040
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3036=Lfde287_end - Lfde287_start
-	.long LDIFF_SYM3036
-Lfde287_start:
+LDIFF_SYM3041=Lfde288_end - Lfde288_start
+	.long LDIFF_SYM3041
+Lfde288_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
 
-LDIFF_SYM3037=Lme_137 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
-	.long LDIFF_SYM3037
+LDIFF_SYM3042=Lme_138 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetException_System_Exception
+	.long LDIFF_SYM3042
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde287_end:
+Lfde288_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61171,36 +61282,36 @@ Lfde287_end:
 
 	.byte 12,181,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
-	.quad Lme_138
+	.quad Lme_139
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3038=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3038
+LDIFF_SYM3043=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3043
 	.byte 2,141,16,3
 	.asciz "enabled"
 
-LDIFF_SYM3039=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3039
+LDIFF_SYM3044=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3044
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3040=Lfde288_end - Lfde288_start
-	.long LDIFF_SYM3040
-Lfde288_start:
+LDIFF_SYM3045=Lfde289_end - Lfde289_start
+	.long LDIFF_SYM3045
+Lfde289_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
 
-LDIFF_SYM3041=Lme_138 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
-	.long LDIFF_SYM3041
+LDIFF_SYM3046=Lme_139 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_SetNotificationForWaitCompletion_bool
+	.long LDIFF_SYM3046
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde288_end:
+Lfde289_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61210,58 +61321,14 @@ Lfde288_end:
 
 	.byte 12,192,5
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
-	.quad Lme_139
+	.quad Lme_13a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3042=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3042
-	.byte 2,141,16,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3043=Lfde289_end - Lfde289_start
-	.long LDIFF_SYM3043
-Lfde289_start:
-
-	.long 0
-	.align 3
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
-
-LDIFF_SYM3044=Lme_139 - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
-	.long LDIFF_SYM3044
-	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
-	.align 3
-Lfde289_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:GetTaskForResult"
-	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult"
-
-	.byte 12,228,5
-	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_13a
-
-	.byte 2,118,16,3
-	.asciz "result"
-
-LDIFF_SYM3045=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3045
-	.byte 2,141,32,11
-	.asciz "V_0"
-
-LDIFF_SYM3046=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3046
-	.byte 3,141,192,1,11
-	.asciz "value"
-
-LDIFF_SYM3047=LDIE_I4 - Ldebug_info_start
+LDIFF_SYM3047=LDIE_I - Ldebug_info_start
 	.long LDIFF_SYM3047
-	.byte 1,106,0
+	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -61271,14 +61338,58 @@ Lfde290_start:
 
 	.long 0
 	.align 3
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
+
+LDIFF_SYM3049=Lme_13a - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_get_ObjectIdForDebugger
+	.long LDIFF_SYM3049
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde290_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult>:GetTaskForResult"
+	.asciz "System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult"
+
+	.byte 12,228,5
+	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.quad Lme_13b
+
+	.byte 2,118,16,3
+	.asciz "result"
+
+LDIFF_SYM3050=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3050
+	.byte 2,141,32,11
+	.asciz "V_0"
+
+LDIFF_SYM3051=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3051
+	.byte 3,141,192,1,11
+	.asciz "value"
+
+LDIFF_SYM3052=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3052
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3053=Lfde291_end - Lfde291_start
+	.long LDIFF_SYM3053
+Lfde291_start:
+
+	.long 0
+	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3049=Lme_13a - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3049
+LDIFF_SYM3054=Lme_13b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_GetTaskForResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3054
 	.long 0
 	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,153,26,154,25
 	.align 3
-Lfde290_end:
+Lfde291_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61288,31 +61399,31 @@ Lfde290_end:
 
 	.byte 12,171,3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.quad Lme_13b
+	.quad Lme_13c
 
 	.byte 2,118,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3050=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3050
+LDIFF_SYM3055=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3055
 	.byte 2,141,48,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3051=Lfde291_end - Lfde291_start
-	.long LDIFF_SYM3051
-Lfde291_start:
+LDIFF_SYM3056=Lfde292_end - Lfde292_start
+	.long LDIFF_SYM3056
+Lfde292_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
 
-LDIFF_SYM3052=Lme_13b - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
-	.long LDIFF_SYM3052
+LDIFF_SYM3057=Lme_13c - System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__cctor
+	.long LDIFF_SYM3057
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde291_end:
+Lfde292_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61322,62 +61433,62 @@ Lfde291_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.quad Lme_140
+	.quad Lme_141
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3053=LTDIE_241_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3053
+LDIFF_SYM3058=LTDIE_241_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3058
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3054=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3054
+LDIFF_SYM3059=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3059
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM3055=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3055
+LDIFF_SYM3060=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3060
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM3056=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3056
+LDIFF_SYM3061=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3061
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM3057=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3057
+LDIFF_SYM3062=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3062
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM3058=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3058
+LDIFF_SYM3063=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3063
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM3059=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3059
+LDIFF_SYM3064=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3064
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3060=Lfde292_end - Lfde292_start
-	.long LDIFF_SYM3060
-Lfde292_start:
+LDIFF_SYM3065=Lfde293_end - Lfde293_start
+	.long LDIFF_SYM3065
+Lfde293_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
 
-LDIFF_SYM3061=Lme_140 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
-	.long LDIFF_SYM3061
+LDIFF_SYM3066=Lme_141 - wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_VoidTaskResult_invoke_TResult
+	.long LDIFF_SYM3066
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
 	.align 3
-Lfde292_end:
+Lfde293_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_251:
@@ -61386,64 +61497,64 @@ LTDIE_251:
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
 	.byte 24,16
-LDIFF_SYM3062=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM3062
+LDIFF_SYM3067=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM3067
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM3063=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3063
+LDIFF_SYM3068=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3068
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter`1"
 
-LDIFF_SYM3064=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM3064
+LDIFF_SYM3069=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM3069
 LTDIE_251_POINTER:
 
 	.byte 13
-LDIFF_SYM3065=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM3065
+LDIFF_SYM3070=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM3070
 LTDIE_251_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3066=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM3066
+LDIFF_SYM3071=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM3071
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.TaskAwaiter`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult"
 
 	.byte 15,142,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_141
+	.quad Lme_142
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3067=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3067
+LDIFF_SYM3072=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3072
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM3068=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3068
+LDIFF_SYM3073=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3073
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3069=Lfde293_end - Lfde293_start
-	.long LDIFF_SYM3069
-Lfde293_start:
+LDIFF_SYM3074=Lfde294_end - Lfde294_start
+	.long LDIFF_SYM3074
+Lfde294_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3070=Lme_141 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3070
+LDIFF_SYM3075=Lme_142 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3075
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde293_end:
+Lfde294_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61453,31 +61564,31 @@ Lfde293_end:
 
 	.byte 15,150,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_142
+	.quad Lme_143
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3071=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3071
+LDIFF_SYM3076=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3076
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3072=Lfde294_end - Lfde294_start
-	.long LDIFF_SYM3072
-Lfde294_start:
+LDIFF_SYM3077=Lfde295_end - Lfde295_start
+	.long LDIFF_SYM3077
+Lfde295_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM3073=Lme_142 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM3073
+LDIFF_SYM3078=Lme_143 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM3078
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde294_end:
+Lfde295_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61487,36 +61598,36 @@ Lfde294_end:
 
 	.byte 15,160,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.quad Lme_143
+	.quad Lme_144
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3074=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3074
+LDIFF_SYM3079=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3079
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM3075=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3075
+LDIFF_SYM3080=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3080
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3076=Lfde295_end - Lfde295_start
-	.long LDIFF_SYM3076
-Lfde295_start:
+LDIFF_SYM3081=Lfde296_end - Lfde296_start
+	.long LDIFF_SYM3081
+Lfde296_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM3077=Lme_143 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM3077
+LDIFF_SYM3082=Lme_144 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM3082
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde295_end:
+Lfde296_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61526,36 +61637,36 @@ Lfde295_end:
 
 	.byte 15,170,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_144
+	.quad Lme_145
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3078=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3078
+LDIFF_SYM3083=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3083
 	.byte 2,141,16,3
 	.asciz "continuation"
 
-LDIFF_SYM3079=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3079
+LDIFF_SYM3084=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3084
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3080=Lfde296_end - Lfde296_start
-	.long LDIFF_SYM3080
-Lfde296_start:
+LDIFF_SYM3085=Lfde297_end - Lfde297_start
+	.long LDIFF_SYM3085
+Lfde297_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM3081=Lme_144 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM3081
+LDIFF_SYM3086=Lme_145 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM3086
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde296_end:
+Lfde297_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61565,31 +61676,31 @@ Lfde296_end:
 
 	.byte 15,181,2
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_145
+	.quad Lme_146
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3082=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3082
+LDIFF_SYM3087=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3087
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3083=Lfde297_end - Lfde297_start
-	.long LDIFF_SYM3083
-Lfde297_start:
+LDIFF_SYM3088=Lfde298_end - Lfde298_start
+	.long LDIFF_SYM3088
+Lfde298_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM3084=Lme_145 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM3084
+LDIFF_SYM3089=Lme_146 - System_Runtime_CompilerServices_TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM3089
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde297_end:
+Lfde298_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_252:
@@ -61598,69 +61709,69 @@ LTDIE_252:
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
 	.byte 32,16
-LDIFF_SYM3085=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM3085
+LDIFF_SYM3090=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM3090
 	.byte 2,35,0,6
 	.asciz "m_configuredTaskAwaiter"
 
-LDIFF_SYM3086=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3086
+LDIFF_SYM3091=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3091
 	.byte 2,35,16,0,7
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable`1"
 
-LDIFF_SYM3087=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM3087
+LDIFF_SYM3092=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM3092
 LTDIE_252_POINTER:
 
 	.byte 13
-LDIFF_SYM3088=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM3088
+LDIFF_SYM3093=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM3093
 LTDIE_252_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3089=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM3089
+LDIFF_SYM3094=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM3094
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 15,160,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_146
+	.quad Lme_147
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3090=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3090
+LDIFF_SYM3095=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3095
 	.byte 2,141,16,3
 	.asciz "task"
 
-LDIFF_SYM3091=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3091
+LDIFF_SYM3096=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3096
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM3092=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3092
+LDIFF_SYM3097=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3097
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3093=Lfde298_end - Lfde298_start
-	.long LDIFF_SYM3093
-Lfde298_start:
+LDIFF_SYM3098=Lfde299_end - Lfde299_start
+	.long LDIFF_SYM3098
+Lfde299_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM3094=Lme_146 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM3094
+LDIFF_SYM3099=Lme_147 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM3099
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29
 	.align 3
-Lfde298_end:
+Lfde299_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61670,31 +61781,31 @@ Lfde298_end:
 
 	.byte 15,167,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.quad Lme_147
+	.quad Lme_148
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3095=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3095
+LDIFF_SYM3100=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3100
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3096=Lfde299_end - Lfde299_start
-	.long LDIFF_SYM3096
-Lfde299_start:
+LDIFF_SYM3101=Lfde300_end - Lfde300_start
+	.long LDIFF_SYM3101
+Lfde300_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
 
-LDIFF_SYM3097=Lme_147 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
-	.long LDIFF_SYM3097
+LDIFF_SYM3102=Lme_148 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_GetAwaiter
+	.long LDIFF_SYM3102
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde299_end:
+Lfde300_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_253:
@@ -61703,74 +61814,74 @@ LTDIE_253:
 	.asciz "_ConfiguredTaskAwaiter"
 
 	.byte 32,16
-LDIFF_SYM3098=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM3098
+LDIFF_SYM3103=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM3103
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM3099=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3099
+LDIFF_SYM3104=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3104
 	.byte 2,35,16,6
 	.asciz "m_continueOnCapturedContext"
 
-LDIFF_SYM3100=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3100
+LDIFF_SYM3105=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3105
 	.byte 2,35,24,0,7
 	.asciz "_ConfiguredTaskAwaiter"
 
-LDIFF_SYM3101=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM3101
+LDIFF_SYM3106=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM3106
 LTDIE_253_POINTER:
 
 	.byte 13
-LDIFF_SYM3102=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM3102
+LDIFF_SYM3107=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM3107
 LTDIE_253_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3103=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM3103
+LDIFF_SYM3108=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM3108
 	.byte 2
 	.asciz "System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool"
 
 	.byte 15,187,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.quad Lme_148
+	.quad Lme_149
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3104=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3104
+LDIFF_SYM3109=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3109
 	.byte 1,104,3
 	.asciz "task"
 
-LDIFF_SYM3105=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3105
+LDIFF_SYM3110=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3110
 	.byte 2,141,24,3
 	.asciz "continueOnCapturedContext"
 
-LDIFF_SYM3106=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM3106
+LDIFF_SYM3111=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM3111
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3107=Lfde300_end - Lfde300_start
-	.long LDIFF_SYM3107
-Lfde300_start:
+LDIFF_SYM3112=Lfde301_end - Lfde301_start
+	.long LDIFF_SYM3112
+Lfde301_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
 
-LDIFF_SYM3108=Lme_148 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
-	.long LDIFF_SYM3108
+LDIFF_SYM3113=Lme_149 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_bool
+	.long LDIFF_SYM3113
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,152,6
 	.align 3
-Lfde300_end:
+Lfde301_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61780,31 +61891,31 @@ Lfde300_end:
 
 	.byte 15,196,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.quad Lme_149
+	.quad Lme_14a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3109=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3109
+LDIFF_SYM3114=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3114
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3110=Lfde301_end - Lfde301_start
-	.long LDIFF_SYM3110
-Lfde301_start:
+LDIFF_SYM3115=Lfde302_end - Lfde302_start
+	.long LDIFF_SYM3115
+Lfde302_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
 
-LDIFF_SYM3111=Lme_149 - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
-	.long LDIFF_SYM3111
+LDIFF_SYM3116=Lme_14a - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_get_IsCompleted
+	.long LDIFF_SYM3116
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde301_end:
+Lfde302_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61814,36 +61925,36 @@ Lfde301_end:
 
 	.byte 15,206,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.quad Lme_14a
+	.quad Lme_14b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3112=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3112
+LDIFF_SYM3117=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3117
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM3113=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3113
+LDIFF_SYM3118=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3118
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3114=Lfde302_end - Lfde302_start
-	.long LDIFF_SYM3114
-Lfde302_start:
+LDIFF_SYM3119=Lfde303_end - Lfde303_start
+	.long LDIFF_SYM3119
+Lfde303_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
 
-LDIFF_SYM3115=Lme_14a - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
-	.long LDIFF_SYM3115
+LDIFF_SYM3120=Lme_14b - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_OnCompleted_System_Action
+	.long LDIFF_SYM3120
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde302_end:
+Lfde303_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61853,36 +61964,36 @@ Lfde302_end:
 
 	.byte 15,216,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.quad Lme_14b
+	.quad Lme_14c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3116=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3116
+LDIFF_SYM3121=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3121
 	.byte 1,105,3
 	.asciz "continuation"
 
-LDIFF_SYM3117=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3117
+LDIFF_SYM3122=LTDIE_109_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3122
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3118=Lfde303_end - Lfde303_start
-	.long LDIFF_SYM3118
-Lfde303_start:
+LDIFF_SYM3123=Lfde304_end - Lfde304_start
+	.long LDIFF_SYM3123
+Lfde304_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
 
-LDIFF_SYM3119=Lme_14b - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
-	.long LDIFF_SYM3119
+LDIFF_SYM3124=Lme_14c - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_UnsafeOnCompleted_System_Action
+	.long LDIFF_SYM3124
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6
 	.align 3
-Lfde303_end:
+Lfde304_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61892,31 +62003,31 @@ Lfde303_end:
 
 	.byte 15,227,3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.quad Lme_14c
+	.quad Lme_14d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3120=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3120
+LDIFF_SYM3125=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3125
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3121=Lfde304_end - Lfde304_start
-	.long LDIFF_SYM3121
-Lfde304_start:
+LDIFF_SYM3126=Lfde305_end - Lfde305_start
+	.long LDIFF_SYM3126
+Lfde305_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
 
-LDIFF_SYM3122=Lme_14c - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
-	.long LDIFF_SYM3122
+LDIFF_SYM3127=Lme_14d - System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_GetResult
+	.long LDIFF_SYM3127
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
-Lfde304_end:
+Lfde305_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -61926,62 +62037,62 @@ Lfde304_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_14d
+	.quad Lme_14e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3123=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3123
+LDIFF_SYM3128=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3128
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3124=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3124
+LDIFF_SYM3129=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3129
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3125=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3125
+LDIFF_SYM3130=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3130
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3126=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3126
+LDIFF_SYM3131=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3131
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM3127=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3127
+LDIFF_SYM3132=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3132
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3128=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3128
+LDIFF_SYM3133=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3133
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3129=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3129
+LDIFF_SYM3134=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3134
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3130=Lfde305_end - Lfde305_start
-	.long LDIFF_SYM3130
-Lfde305_start:
+LDIFF_SYM3135=Lfde306_end - Lfde306_start
+	.long LDIFF_SYM3135
+Lfde306_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3131=Lme_14d - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3131
+LDIFF_SYM3136=Lme_14e - wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_invoke_void_T_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3136
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde305_end:
+Lfde306_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_254:
@@ -61990,89 +62101,89 @@ LTDIE_254:
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
 	.byte 80,16
-LDIFF_SYM3132=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM3132
+LDIFF_SYM3137=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM3137
 	.byte 2,35,0,6
 	.asciz "m_antecedent"
 
-LDIFF_SYM3133=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3133
+LDIFF_SYM3138=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3138
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask`1"
 
-LDIFF_SYM3134=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM3134
+LDIFF_SYM3139=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM3139
 LTDIE_254_POINTER:
 
 	.byte 13
-LDIFF_SYM3135=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM3135
+LDIFF_SYM3140=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM3140
 LTDIE_254_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3136=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM3136
+LDIFF_SYM3141=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM3141
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:.ctor"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions"
 
 	.byte 16,130,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.quad Lme_14e
+	.quad Lme_14f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3137=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3137
+LDIFF_SYM3142=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3142
 	.byte 1,101,3
 	.asciz "antecedent"
 
-LDIFF_SYM3138=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3138
+LDIFF_SYM3143=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3143
 	.byte 2,141,32,3
 	.asciz "action"
 
-LDIFF_SYM3139=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3139
+LDIFF_SYM3144=LTDIE_28_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3144
 	.byte 2,141,40,3
 	.asciz "state"
 
-LDIFF_SYM3140=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3140
+LDIFF_SYM3145=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3145
 	.byte 2,141,48,3
 	.asciz "creationOptions"
 
-LDIFF_SYM3141=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM3141
+LDIFF_SYM3146=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM3146
 	.byte 1,105,3
 	.asciz "internalOptions"
 
-LDIFF_SYM3142=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM3142
+LDIFF_SYM3147=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM3147
 	.byte 2,141,56,11
 	.asciz "V_0"
 
-LDIFF_SYM3143=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3143
+LDIFF_SYM3148=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3148
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3144=Lfde306_end - Lfde306_start
-	.long LDIFF_SYM3144
-Lfde306_start:
+LDIFF_SYM3149=Lfde307_end - Lfde307_start
+	.long LDIFF_SYM3149
+Lfde307_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
 
-LDIFF_SYM3145=Lme_14e - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
-	.long LDIFF_SYM3145
+LDIFF_SYM3150=Lme_14f - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult__ctor_System_Threading_Tasks_Task_1_System_Threading_Tasks_VoidTaskResult_System_Delegate_object_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions
+	.long LDIFF_SYM3150
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,68,153,15
 	.align 3
-Lfde306_end:
+Lfde307_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_255:
@@ -62081,69 +62192,69 @@ LTDIE_255:
 	.asciz "System_Action`2"
 
 	.byte 128,1,16
-LDIFF_SYM3146=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM3146
+LDIFF_SYM3151=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM3151
 	.byte 2,35,0,0,7
 	.asciz "System_Action`2"
 
-LDIFF_SYM3147=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM3147
+LDIFF_SYM3152=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM3152
 LTDIE_255_POINTER:
 
 	.byte 13
-LDIFF_SYM3148=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM3148
+LDIFF_SYM3153=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM3153
 LTDIE_255_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3149=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM3149
+LDIFF_SYM3154=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM3154
 	.byte 2
 	.asciz "System.Threading.Tasks.ContinuationTaskFromResultTask`1<System.Threading.Tasks.VoidTaskResult>:InnerInvoke"
 	.asciz "System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke"
 
 	.byte 16,145,1
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.quad Lme_14f
+	.quad Lme_150
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3150=LTDIE_254_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3150
+LDIFF_SYM3155=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3155
 	.byte 1,106,11
 	.asciz "antecedent"
 
-LDIFF_SYM3151=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3151
+LDIFF_SYM3156=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3156
 	.byte 1,105,11
 	.asciz "action"
 
-LDIFF_SYM3152=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3152
+LDIFF_SYM3157=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3157
 	.byte 1,104,11
 	.asciz "actionWithState"
 
-LDIFF_SYM3153=LTDIE_255_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3153
+LDIFF_SYM3158=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3158
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3154=Lfde307_end - Lfde307_start
-	.long LDIFF_SYM3154
-Lfde307_start:
+LDIFF_SYM3159=Lfde308_end - Lfde308_start
+	.long LDIFF_SYM3159
+Lfde308_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
 
-LDIFF_SYM3155=Lme_14f - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
-	.long LDIFF_SYM3155
+LDIFF_SYM3160=Lme_150 - System_Threading_Tasks_ContinuationTaskFromResultTask_1_System_Threading_Tasks_VoidTaskResult_InnerInvoke
+	.long LDIFF_SYM3160
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,151,10,152,9,68,153,8,154,7
 	.align 3
-Lfde307_end:
+Lfde308_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62153,132 +62264,62 @@ Lfde307_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.quad Lme_154
+	.quad Lme_155
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3156=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3156
+LDIFF_SYM3161=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3161
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3157=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3157
+LDIFF_SYM3162=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3162
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3158=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3158
+LDIFF_SYM3163=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3163
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM3159=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3159
+LDIFF_SYM3164=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3164
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM3160=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3160
+LDIFF_SYM3165=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3165
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM3161=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3161
+LDIFF_SYM3166=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3166
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM3162=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3162
+LDIFF_SYM3167=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3167
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM3163=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3163
+LDIFF_SYM3168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3168
 	.byte 3,141,152,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3164=Lfde308_end - Lfde308_start
-	.long LDIFF_SYM3164
-Lfde308_start:
+LDIFF_SYM3169=Lfde309_end - Lfde309_start
+	.long LDIFF_SYM3169
+Lfde309_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 
-LDIFF_SYM3165=Lme_154 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
-	.long LDIFF_SYM3165
-	.long 0
-	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
-	.byte 154,15
-	.align 3
-Lfde308_end:
-
-.section __DWARF, __debug_info,regular,debug
-
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.VoidTaskResult>:invoke_TResult_T"
-	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.quad Lme_159
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM3166=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3166
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM3167=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3167
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM3168=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3168
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM3169=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3169
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM3170=LTDIE_216_REFERENCE - Ldebug_info_start
+LDIFF_SYM3170=Lme_155 - wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_object
 	.long LDIFF_SYM3170
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM3171=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3171
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM3172=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM3172
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM3173=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3173
-	.byte 3,141,152,1,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3174=Lfde309_end - Lfde309_start
-	.long LDIFF_SYM3174
-Lfde309_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-
-LDIFF_SYM3175=Lme_159 - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
-	.long LDIFF_SYM3175
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
 	.byte 154,15
@@ -62288,36 +62329,106 @@ Lfde309_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Threading.Tasks.VoidTaskResult>:.ctor"
-	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor"
+	.asciz "(wrapper_delegate-invoke)_System.Func`2<System.IAsyncResult,_System.Threading.Tasks.VoidTaskResult>:invoke_TResult_T"
+	.asciz "wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult"
 
 	.byte 0,0
-	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
 	.quad Lme_15a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3176=LTDIE_250_REFERENCE - Ldebug_info_start
+LDIFF_SYM3171=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3171
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM3172=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3172
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM3173=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3173
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM3174=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3174
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM3175=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3175
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM3176=LTDIE_27_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3176
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM3177=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM3177
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM3178=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3178
+	.byte 3,141,152,1,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3179=Lfde310_end - Lfde310_start
+	.long LDIFF_SYM3179
+Lfde310_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+
+LDIFF_SYM3180=Lme_15a - wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks_VoidTaskResult_invoke_TResult_T_System_IAsyncResult
+	.long LDIFF_SYM3180
+	.long 0
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
+	.byte 154,15
+	.align 3
+Lfde310_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<System.Threading.Tasks.VoidTaskResult>:.ctor"
+	.asciz "System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor"
+
+	.byte 0,0
+	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.quad Lme_15b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM3181=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3181
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3177=Lfde310_end - Lfde310_start
-	.long LDIFF_SYM3177
-Lfde310_start:
+LDIFF_SYM3182=Lfde311_end - Lfde311_start
+	.long LDIFF_SYM3182
+Lfde311_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
 
-LDIFF_SYM3178=Lme_15a - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
-	.long LDIFF_SYM3178
+LDIFF_SYM3183=Lme_15b - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__ctor
+	.long LDIFF_SYM3183
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde310_end:
+Lfde311_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62327,36 +62438,36 @@ Lfde310_end:
 
 	.byte 14,150,6
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.quad Lme_15b
+	.quad Lme_15c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3179=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3179
+LDIFF_SYM3184=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3184
 	.byte 1,105,3
 	.asciz "iar"
 
-LDIFF_SYM3180=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3180
+LDIFF_SYM3185=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3185
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3181=Lfde311_end - Lfde311_start
-	.long LDIFF_SYM3181
-Lfde311_start:
+LDIFF_SYM3186=Lfde312_end - Lfde312_start
+	.long LDIFF_SYM3186
+Lfde312_start:
 
 	.long 0
 	.align 3
 	.quad System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
 
-LDIFF_SYM3182=Lme_15b - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
-	.long LDIFF_SYM3182
+LDIFF_SYM3187=Lme_15c - System_Threading_Tasks_TaskFactory_1__c__DisplayClass35_0_System_Threading_Tasks_VoidTaskResult__FromAsyncImplb__0_System_IAsyncResult
+	.long LDIFF_SYM3187
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
-Lfde311_end:
+Lfde312_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -62366,36 +62477,36 @@ Lfde311_end:
 
 	.byte 12,198,6
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.quad Lme_15c
+	.quad Lme_15d
 
 	.byte 2,118,16,3
 	.asciz "result"
 
-LDIFF_SYM3183=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3183
+LDIFF_SYM3188=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3188
 	.byte 2,141,16,11
 	.asciz "V_0"
 
-LDIFF_SYM3184=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3184
+LDIFF_SYM3189=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3189
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3185=Lfde312_end - Lfde312_start
-	.long LDIFF_SYM3185
-Lfde312_start:
+LDIFF_SYM3190=Lfde313_end - Lfde313_start
+	.long LDIFF_SYM3190
+Lfde313_start:
 
 	.long 0
 	.align 3
 	.quad System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
 
-LDIFF_SYM3186=Lme_15c - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
-	.long LDIFF_SYM3186
+LDIFF_SYM3191=Lme_15d - System_Runtime_CompilerServices_AsyncTaskCache_CreateCacheableTask_System_Threading_Tasks_VoidTaskResult_System_Threading_Tasks_VoidTaskResult
+	.long LDIFF_SYM3191
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
 	.align 3
-Lfde312_end:
+Lfde313_end:
 
 .section __DWARF, __debug_info,regular,debug
 

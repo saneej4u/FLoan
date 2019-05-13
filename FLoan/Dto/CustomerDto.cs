@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace FLoan.Dto
 {
     public class CustomerDto
@@ -13,8 +15,8 @@ namespace FLoan.Dto
         public string Mobile { get; set; }
         public string Telephone { get; set; }
         //public List<AddressDto> Addresses { get; set; }
-        //public List<BankDto> Banks { get; set; }
+        public List<BankDto> Banks { get; set; }
         //public List<IncomeDto> Incomes { get; set; }
-        //public List<AgreementForCreationDto> Agreements { get; set; }
+        public List<AgreementDto> Agreements { get; set; }
     }
 }

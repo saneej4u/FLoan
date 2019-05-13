@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="FLoan.Views.PaymentConfirmationPage"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+                        Title="" 
+             BackgroundColor="{StaticResource MonzaColor}" 
+             NavigationPage.HasBackButton="False">
+    
+    
+    
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS, Android" Value="0,40,0,0" />
+        </OnPlatform>
+    </ContentPage.Padding>
+    <ContentPage.Content>
+        <ScrollView>
+               
+           
+                <StackLayout>
+                
+                <Label FontSize="50" HorizontalTextAlignment="Center" TextColor="White">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans >
+                                    <Span Text="Payment" FontSize="40" FontAttributes="Bold" />
+                                    <Span Text=" " />
+                                    <Span Text="Succesful!" FontSize="40" ForegroundColor="#ea3362" FontAttributes="Bold" />
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                
+              
+                <Label Margin="10,20,10,12" FontSize="Medium" HorizontalTextAlignment="Center" Text="Your payment was succesful" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                
+                <Label Margin="10,20,10,12" FontSize="Medium" HorizontalTextAlignment="Center" Text="Thank you for your payment" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+                
+                <Label Margin="10,20,10,12" FontSize="Medium" HorizontalTextAlignment="Center" Text="If you have any question, please do not hesitate to contact us on 0123456789" HorizontalOptions="CenterAndExpand" TextColor="White"></Label>
+               
+                <forms:AnimationView x:Name="AnimationView"
+                         Animation="animation-w720-h720.json"
+                         Loop="false"
+                         AutoPlay="True"
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand" />
+                
+                <Button BorderRadius="25" HeightRequest="55" Margin="10,10,10,30" Text="MY ACCOUNT" TextColor="White" BackgroundColor="{StaticResource PinkColor}" VerticalOptions="End"
+                    HorizontalOptions="FillAndExpand" Clicked="GotToMyAccount" FontSize="Medium" FontAttributes="Bold" />
+            </StackLayout>
+           
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

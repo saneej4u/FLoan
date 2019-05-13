@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "System.Xml.Linq.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SR_Format_string_object
 SR_Format_string_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/build/common/SR.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/build/common/SR.cs"
 .loc 1 36 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -188,7 +188,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip System_Xml_Linq_BaseUriAnnotation__ctor_string
 System_Xml_Linq_BaseUriAnnotation__ctor_string:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/BaseUriAnnotation.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/BaseUriAnnotation.cs"
 .loc 2 13 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -219,7 +219,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip System_Xml_Linq_LineInfoAnnotation__ctor_int_int
 System_Xml_Linq_LineInfoAnnotation__ctor_int_int:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoAnnotation.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoAnnotation.cs"
 .loc 3 22 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -242,7 +242,7 @@ Lme_3:
 	.align 4
 	.no_dead_strip System_Xml_Linq_LineInfoEndElementAnnotation__ctor_int_int
 System_Xml_Linq_LineInfoEndElementAnnotation__ctor_int_int:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoEndElementAnnotation.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/LineInfoEndElementAnnotation.cs"
 .loc 4 15 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -263,7 +263,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XAttribute__ctor_System_Xml_Linq_XName_object
 System_Xml_Linq_XAttribute__ctor_System_Xml_Linq_XName_object:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XAttribute.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XAttribute.cs"
 .loc 5 55 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -794,7 +794,7 @@ ldr x0, [x16, #208]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -1006,7 +1006,7 @@ Lme_e:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XCData__ctor_string
 System_Xml_Linq_XCData__ctor_string:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XCData.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XCData.cs"
 .loc 6 19 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1115,7 +1115,7 @@ Lme_13:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XComment__ctor_string
 System_Xml_Linq_XComment__ctor_string:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XComment.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XComment.cs"
 .loc 7 32 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1362,7 +1362,7 @@ Lme_1a:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XContainer__ctor
 System_Xml_Linq_XContainer__ctor:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XContainer.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XContainer.cs"
 .loc 8 27 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1467,7 +1467,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -1619,10 +1619,10 @@ ldr x1, [x16, #312]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_22
 
@@ -1953,7 +1953,7 @@ bl _p_33
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -2177,7 +2177,7 @@ ldr x0, [x16, #0]
 .word 0xd28091a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -2189,7 +2189,7 @@ ldr x0, [x16, #0]
 .word 0xd28091a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -2538,7 +2538,7 @@ bl _p_40
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -2845,7 +2845,7 @@ ldr x0, [x16, #0]
 .word 0xd28091a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -3055,7 +3055,7 @@ ldr x0, [x16, #0]
 .word 0xd28091a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -3184,7 +3184,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -3261,7 +3261,7 @@ ldr x1, [x16, #312]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -3733,7 +3733,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -3806,7 +3806,7 @@ ldr x0, [x16, #0]
 .word 0xd280b261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -3885,7 +3885,7 @@ ldr x0, [x16, #0]
 .word 0xd280b261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -4005,11 +4005,11 @@ ldr x0, [x16, #0]
 .word 0xd28091a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -4191,7 +4191,7 @@ ldr x1, [x16, #312]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -4742,7 +4742,7 @@ bl _p_12
 .word 0xb9001022
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -4762,7 +4762,7 @@ ldr x0, [x16, #0]
 .word 0xd280c0a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -5427,7 +5427,7 @@ bl _p_12
 .word 0xb9001022
 bl _p_24
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -5516,7 +5516,7 @@ ldr x0, [x16, #0]
 .word 0xd280c0a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -5672,7 +5672,7 @@ System_Xml_Linq_XContainer__Nodesd__18_System_Collections_IEnumerator_Reset:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -5770,7 +5770,7 @@ Lme_3f:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XDeclaration__ctor_string_string_string
 System_Xml_Linq_XDeclaration__ctor_string_string_string:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDeclaration.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDeclaration.cs"
 .loc 9 45 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6113,7 +6113,7 @@ Lme_47:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XDocument__ctor
 System_Xml_Linq_XDocument__ctor:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocument.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocument.cs"
 .loc 10 44 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -6527,7 +6527,7 @@ System_Xml_Linq_XDocument_IsWhitespace_string:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -6663,7 +6663,7 @@ bl _p_8
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -6749,7 +6749,7 @@ ldr x0, [x16, #0]
 .word 0xd280fca1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6790,7 +6790,7 @@ Lme_56:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XDocumentType__ctor_string_string_string_string
 System_Xml_Linq_XDocumentType__ctor_string_string_string_string:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocumentType.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XDocumentType.cs"
 .loc 11 25 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -7099,7 +7099,7 @@ Lme_5f:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XElement__ctor_System_Xml_Linq_XName
 System_Xml_Linq_XElement__ctor_System_Xml_Linq_XName:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XElement.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XElement.cs"
 .loc 12 67 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -7748,7 +7748,7 @@ bl _p_12
 .word 0xb9001043
 bl _p_94
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -7760,7 +7760,7 @@ ldr x0, [x16, #0]
 .word 0xd2812f81
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8067,7 +8067,7 @@ ldr x0, [x16, #0]
 .word 0xd2813f01
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8107,7 +8107,7 @@ bl _p_12
 .word 0xb9001043
 bl _p_94
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8180,7 +8180,7 @@ ldr x0, [x16, #0]
 .word 0xd2814881
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8232,7 +8232,7 @@ ldr x0, [x16, #0]
 .word 0xd2814881
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8291,7 +8291,7 @@ ldr x0, [x16, #0]
 .word 0xd28091a1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -8865,7 +8865,7 @@ ldr x0, [x16, #0]
 .word 0xd280b261
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -9158,7 +9158,7 @@ System_Xml_Linq_XElement__GetAttributesd__116_System_Collections_IEnumerator_Res
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -9270,7 +9270,7 @@ Lme_87:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XHashtable_1_TValue_REF__ctor_System_Xml_Linq_XHashtable_1_ExtractKeyDelegate_TValue_REF_int
 System_Xml_Linq_XHashtable_1_TValue_REF__ctor_System_Xml_Linq_XHashtable_1_ExtractKeyDelegate_TValue_REF_int:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XHashtable.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XHashtable.cs"
 .loc 13 79 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -9742,11 +9742,11 @@ bl _p_125
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 13 214 0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -9822,7 +9822,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -10049,10 +10049,10 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_22
 
@@ -10255,7 +10255,7 @@ bl _p_130
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -10320,7 +10320,7 @@ System_Xml_Linq_XHashtable_1_XHashtableState_TValue_REF_ComputeHashCode_string_i
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -10340,7 +10340,7 @@ LDIFF_SYM3=ut_end - ut_149
 	.align 4
 	.no_dead_strip System_Xml_Linq_NamespaceCache_Get_string
 System_Xml_Linq_NamespaceCache_Get_string:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XLinq.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XLinq.cs"
 .loc 14 189 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -10561,7 +10561,7 @@ bl _p_134
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -12187,7 +12187,7 @@ bl _p_147
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -12249,7 +12249,7 @@ ldr x0, [x16, #0]
 .word 0xd2814dc1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -12371,7 +12371,7 @@ Lme_ac:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string
 System_Xml_Linq_XName__ctor_System_Xml_Linq_XNamespace_string:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XName.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XName.cs"
 .loc 15 26 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -12624,7 +12624,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -12749,7 +12749,7 @@ System_Xml_Linq_XName_System_Runtime_Serialization_ISerializable_GetObjectData_S
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2801960
+.word 0xd28019a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -12762,7 +12762,7 @@ Lme_b9:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XNamespace__ctor_string
 System_Xml_Linq_XNamespace__ctor_string:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNamespace.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNamespace.cs"
 .loc 16 36 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -13377,7 +13377,7 @@ ldr x1, [x16, #992]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -13439,7 +13439,7 @@ ldr x1, [x16, #992]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -13537,7 +13537,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -13546,7 +13546,7 @@ Lme_cb:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XNode__ctor
 System_Xml_Linq_XNode__ctor:
-.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNode.cs"
+.file 17 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XNode.cs"
 .loc 17 37 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -13585,7 +13585,7 @@ ldr x0, [x16, #0]
 .word 0xd2816c41
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -13875,7 +13875,7 @@ Lme_d3:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XObject__ctor
 System_Xml_Linq_XObject__ctor:
-.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XObject.cs"
+.file 18 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XObject.cs"
 .loc 18 20 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -14193,7 +14193,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -14289,7 +14289,7 @@ ldr x0, [x16, #368]
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -14402,7 +14402,7 @@ bl _p_82
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -14809,7 +14809,7 @@ ldr x1, [x16, #1080]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_22
 
@@ -14818,7 +14818,7 @@ Lme_e4:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XObjectChangeEventArgs__ctor_System_Xml_Linq_XObjectChange
 System_Xml_Linq_XObjectChangeEventArgs__ctor_System_Xml_Linq_XObjectChange:
-.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XObjectChangeEventArgs.cs"
+.file 19 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XObjectChangeEventArgs.cs"
 .loc 19 45 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -14907,7 +14907,7 @@ Lme_e6:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XProcessingInstruction__ctor_string_string
 System_Xml_Linq_XProcessingInstruction__ctor_string_string:
-.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XProcessingInstruction.cs"
+.file 20 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XProcessingInstruction.cs"
 .loc 20 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -15246,7 +15246,7 @@ Lme_ef:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XStreamingElement_get_Name
 System_Xml_Linq_XStreamingElement_get_Name:
-.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XStreamingElement.cs"
+.file 21 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XStreamingElement.cs"
 .loc 21 60 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -15486,7 +15486,7 @@ Lme_f3:
 	.align 4
 	.no_dead_strip System_Xml_Linq_XText__ctor_string
 System_Xml_Linq_XText__ctor_string:
-.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XText.cs"
+.file 22 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Private.Xml.Linq/src/System/Xml/Linq/XText.cs"
 .loc 22 24 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -15783,7 +15783,7 @@ Lme_fb:
 	.align 4
 	.no_dead_strip System_Text_StringBuilderCache_Acquire_int
 System_Text_StringBuilderCache_Acquire_int:
-.file 23 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Text/StringBuilderCache.cs"
+.file 23 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Text/StringBuilderCache.cs"
 .loc 23 27 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -16858,11 +16858,11 @@ bl _p_220
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 13 214 0
-.word 0xd28018e0
+.word 0xd2801920
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -16985,7 +16985,7 @@ bl _mono_gsharedvt_value_copy
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -17296,10 +17296,10 @@ bl _mono_gsharedvt_value_copy
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_22
 
@@ -17610,7 +17610,7 @@ bl _p_130
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -17680,7 +17680,7 @@ bl _p_234
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -17959,7 +17959,7 @@ bl _mono_gsharedvt_value_copy
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -17968,7 +17968,7 @@ Lme_10e:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 24 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 24 85 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -18065,10 +18065,10 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd28d76a0
+.word 0xd28d9ac0
 bl _p_243
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -18087,10 +18087,10 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_243
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -18109,10 +18109,10 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_243
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -18183,10 +18183,10 @@ bl _p_244
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 24 109 0
-.word 0xd28d8420
+.word 0xd28da840
 bl _p_243
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -18301,7 +18301,7 @@ bl _p_246
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -18375,7 +18375,7 @@ bl _p_246
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -18458,7 +18458,7 @@ bl _p_246
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -18534,7 +18534,7 @@ bl _p_246
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -18610,7 +18610,7 @@ bl _p_246
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffcc
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -18688,7 +18688,7 @@ bl _p_246
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffcb
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -18792,7 +18792,7 @@ bl _p_246
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffb6
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_22
 
@@ -21393,7 +21393,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "0DB1004C-92B4-412C-83B8-6880C6D74765"
+	.asciz "180E109E-1839-429B-87ED-683756E7F942"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -21483,7 +21483,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 84,17,112,210,72,31,69,222,159,39,96,199,208,70,86,102
+	.byte 87,149,210,92,25,39,98,37,180,55,198,139,197,242,22,229
 	.globl _mono_aot_module_System_Xml_Linq_info
 	.align 3
 _mono_aot_module_System_Xml_Linq_info:

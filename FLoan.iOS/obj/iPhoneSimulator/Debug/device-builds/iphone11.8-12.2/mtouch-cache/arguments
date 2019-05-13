@@ -1,4 +1,4 @@
-# Version: 12.8.0.0 (d16-0): 0aa84521)
+# Version: 12.8.0.2 (d16-0): f2248ae6)
 # [first argument, ignore] # @/Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/response-file.rsp
-/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/lib/mtouch/mtouch.exe \
 	'--gcc_flags=-Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/saneej/Projects/FLoan/FLoan.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/Entitlements.xcent' \

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "System.Json.dll"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip SR_Format_string_object
 SR_Format_string_object:
-.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/build/common/SR.cs"
+.file 1 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/build/common/SR.cs"
 .loc 1 36 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -224,7 +224,7 @@ Lme_2:
 	.align 4
 	.no_dead_strip System_Json_JsonArray__ctor_System_Collections_Generic_IEnumerable_1_System_Json_JsonValue
 System_Json_JsonArray__ctor_System_Collections_Generic_IEnumerable_1_System_Json_JsonValue:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonArray.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonArray.cs"
 .loc 2 22 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -685,7 +685,7 @@ Lme_12:
 	.align 4
 	.no_dead_strip System_Json_JsonObject__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Json_JsonValue
 System_Json_JsonObject__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_string_System_Json_JsonValue:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonObject.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonObject.cs"
 .loc 3 31 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1014,7 +1014,7 @@ System_Json_JsonObject_AddRange_System_Collections_Generic_IEnumerable_1_System_
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #272]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -1029,7 +1029,7 @@ ldr x15, [x16, #272]
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #280]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -1144,7 +1144,7 @@ System_Json_JsonObject_System_Collections_Generic_ICollection_System_Collections
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #304]
-.word 0x928008f0
+.word 0x928012f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -1174,7 +1174,7 @@ System_Json_JsonObject_System_Collections_Generic_ICollection_System_Collections
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #312]
-.word 0x928011f0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
@@ -1326,7 +1326,7 @@ Lme_26:
 	.align 4
 	.no_dead_strip System_Json_JsonPrimitive__ctor_bool
 System_Json_JsonPrimitive__ctor_bool:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonPrimitive.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonPrimitive.cs"
 .loc 4 18 0 prologue_end
 .word 0xa9be7bfd
 .word 0x910003fd
@@ -1761,7 +1761,7 @@ bl _p_7
 .word 0xf9400c21
 bl _p_35
 .word 0xaa0003e1
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -1935,11 +1935,11 @@ bl _p_38
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_39
 
@@ -1993,7 +1993,7 @@ Lme_31:
 	.align 4
 	.no_dead_strip System_Json_JsonValue_Load_System_IO_TextReader
 System_Json_JsonValue_Load_System_IO_TextReader:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonValue.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JsonValue.cs"
 .loc 5 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -2656,7 +2656,7 @@ ldr x3, [x16, #16]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_39
 
@@ -2708,7 +2708,7 @@ System_Json_JsonValue_get_Count:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -2726,7 +2726,7 @@ System_Json_JsonValue_get_Item_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -2745,7 +2745,7 @@ System_Json_JsonValue_set_Item_int_System_Json_JsonValue:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -2763,7 +2763,7 @@ System_Json_JsonValue_get_Item_string:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -2782,7 +2782,7 @@ System_Json_JsonValue_set_Item_string_System_Json_JsonValue:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -2800,7 +2800,7 @@ System_Json_JsonValue_ContainsKey_string:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -2911,7 +2911,7 @@ bl _p_54
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #280]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -3059,7 +3059,7 @@ ldr x1, [x16, #720]
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #728]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -3072,7 +3072,7 @@ ldr x15, [x16, #728]
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #736]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -3236,7 +3236,7 @@ bl _p_57
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_39
 
@@ -3284,7 +3284,7 @@ System_Json_JsonValue_System_Collections_IEnumerable_GetEnumerator:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -3421,7 +3421,7 @@ System_Json_JsonValue_NeedEscape_string_int:
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -3682,7 +3682,7 @@ bl _p_61
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -3734,7 +3734,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_39
 
@@ -3782,7 +3782,7 @@ ldr x1, [x16, #416]
 .word 0x910003bf
 .word 0xa8c27bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_39
 
@@ -3920,7 +3920,7 @@ System_Json_JsonValue__ToJsonPairEnumerabled__3_MoveNext:
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #872]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -3953,7 +3953,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #880]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -4122,7 +4122,7 @@ System_Json_JsonValue__ToJsonPairEnumerabled__3_System_Collections_IEnumerator_R
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -4344,7 +4344,7 @@ System_Json_JsonValue__ToJsonValueEnumerabled__4_MoveNext:
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #896]
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -4375,7 +4375,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x15, [x16, #904]
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -4495,7 +4495,7 @@ System_Json_JsonValue__ToJsonValueEnumerabled__4_System_Collections_IEnumerator_
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -4592,7 +4592,7 @@ Lme_5a:
 	.align 4
 	.no_dead_strip System_Runtime_Serialization_Json_JavaScriptReader__ctor_System_IO_TextReader
 System_Runtime_Serialization_Json_JavaScriptReader__ctor_System_IO_TextReader:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JavaScriptReader.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Json/src/System/Json/JavaScriptReader.cs"
 .loc 6 16 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6053,7 +6053,7 @@ ldr x0, [x16, #0]
 .word 0xd280b021
 bl _p_7
 .word 0xf9002ba0
-.word 0xd2801560
+.word 0xd28015a0
 bl _p_89
 .word 0xaa0003e2
 .word 0xf9402ba0
@@ -6064,7 +6064,7 @@ bl _p_98
 .word 0xaa1903e0
 bl _p_78
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -6131,7 +6131,7 @@ Lme_65:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
 System_Array_InternalArray__Insert_T_REF_int_T_REF:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 7 153 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -6139,10 +6139,10 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6160,10 +6160,10 @@ System_Array_InternalArray__RemoveAt_int:
 .word 0x910003fd
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6254,10 +6254,10 @@ bl _p_102
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 7 164 0
-.word 0xd28d8420
+.word 0xd28da840
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6433,10 +6433,10 @@ System_Array_InternalArray__ICollection_Clear:
 .word 0xa9be7bfd
 .word 0x910003fd
 .word 0xf9000ba0
-.word 0xd28d76a0
+.word 0xd28d9ac0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6455,10 +6455,10 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6477,10 +6477,10 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6551,10 +6551,10 @@ bl _p_105
 .word 0xa8c47bfd
 .word 0xd65f03c0
 .loc 7 109 0
-.word 0xd28d8420
+.word 0xd28da840
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6732,7 +6732,7 @@ bl _p_111
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -6806,7 +6806,7 @@ bl _p_111
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -6889,7 +6889,7 @@ bl _p_111
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -6905,10 +6905,10 @@ System_Array_InternalArray__ICollection_Add_T_INST_T_INST:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -6928,10 +6928,10 @@ System_Array_InternalArray__ICollection_Remove_T_INST_T_INST:
 .word 0xf9000ba0
 .word 0xf9000fa1
 .word 0xf90013a2
-.word 0xd28d7ca0
+.word 0xd28da0c0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -7127,10 +7127,10 @@ ldr x3, [x16, #16]
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 .loc 7 109 0
-.word 0xd28d8420
+.word 0xd28da840
 bl _p_101
 .word 0xaa0003e1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -7342,18 +7342,18 @@ bl _p_117
 .word 0xa8c67bfd
 .word 0xd65f03c0
 .loc 7 251 0
-.word 0xd28e3e60
+.word 0xd28e6280
 bl _p_101
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 7 253 0
-.word 0xd28e4920
+.word 0xd28e6d40
 bl _p_101
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -7520,7 +7520,7 @@ Lme_89:
 	.align 4
 	.no_dead_strip System_Collections_Generic_SortedSet_1_Node_T_INST__ctor_T_INST_System_Collections_Generic_NodeColor
 System_Collections_Generic_SortedSet_1_Node_T_INST__ctor_T_INST_System_Collections_Generic_NodeColor:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Collections/src/System/Collections/Generic/SortedSet.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Collections/src/System/Collections/Generic/SortedSet.cs"
 .loc 8 1683 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -8900,7 +8900,7 @@ Lme_a7:
 	.align 4
 	.no_dead_strip System_Collections_Generic_TreeSet_1_T_INST__ctor
 System_Collections_Generic_TreeSet_1_T_INST__ctor:
-.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs"
+.file 9 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Collections/src/System/Collections/Generic/SortedDictionary.cs"
 .loc 9 970 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -9011,7 +9011,7 @@ bl _p_143
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2862ee1
+.word 0xd28632e1
 .word 0xf2a00021
 bl _p_7
 .word 0xf9002ba0
@@ -9331,7 +9331,7 @@ bl _p_160
 .word 0xf94027a3
 .word 0xf9402ba4
 .word 0xf9400345
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -9450,7 +9450,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -9506,7 +9506,7 @@ bl _p_163
 .word 0xf9400fa0
 .word 0xf9400fa1
 .word 0xf9400021
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9523,7 +9523,7 @@ bl _p_164
 .word 0xf9001fa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9644,7 +9644,7 @@ bl _p_168
 .word 0xf9400fa0
 .word 0xf9400fa1
 .word 0xf9400021
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9661,7 +9661,7 @@ bl _p_169
 .word 0xf9002fa0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -9683,7 +9683,7 @@ bl _p_170
 .word 0xf94023a3
 .word 0xf94027a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -9704,7 +9704,7 @@ bl _p_170
 .word 0xf9401ba3
 .word 0xf9401fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -10083,7 +10083,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_39
 
@@ -10269,7 +10269,7 @@ bl _p_185
 .word 0xf9402ba3
 .word 0xf9402fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -10719,7 +10719,7 @@ bl _p_197
 .word 0xf94033a3
 .word 0xf94037a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -11017,7 +11017,7 @@ bl _p_7
 .word 0xf90027a0
 .word 0xb9801ae0
 .word 0xf90033a0
-.word 0xd2801560
+.word 0xd28015a0
 bl _p_89
 .word 0xf94033a1
 .word 0xb9001001
@@ -11026,7 +11026,7 @@ bl _p_89
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2863da1
+.word 0xd28641a1
 .word 0xf2a00021
 bl _p_7
 .word 0xf9002fa0
@@ -11044,14 +11044,14 @@ bl _p_8
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd28de5c1
+.word 0xd287b721
 bl _p_7
 .word 0xf90023a0
 
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2863da1
+.word 0xd28641a1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e2
@@ -11084,7 +11084,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_39
 .word 0xd2800e80
@@ -11318,7 +11318,7 @@ bl _p_216
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2882f01
+.word 0xd2883301
 .word 0xf2a00021
 bl _p_7
 .word 0xf9002ba0
@@ -11345,7 +11345,7 @@ bl _p_8
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd28df541
+.word 0xd28df7c1
 bl _p_7
 .word 0xf9002ba0
 
@@ -11365,7 +11365,7 @@ bl _p_8
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2882381
+.word 0xd2882781
 .word 0xf2a00021
 bl _p_7
 .word 0xf9002ba0
@@ -11391,7 +11391,7 @@ bl _p_7
 .word 0xf9002fa0
 .word 0xb9801300
 .word 0xf9003ba0
-.word 0xd2801560
+.word 0xd28015a0
 bl _p_89
 .word 0xf9403ba1
 .word 0xb9001001
@@ -11400,7 +11400,7 @@ bl _p_89
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2863da1
+.word 0xd28641a1
 .word 0xf2a00021
 bl _p_7
 .word 0xf90037a0
@@ -11442,7 +11442,7 @@ bl _p_8
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2882f01
+.word 0xd2883301
 .word 0xf2a00021
 bl _p_7
 .word 0xf9002ba0
@@ -11458,7 +11458,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_8
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_39
 .word 0xd2800e80
@@ -12080,7 +12080,7 @@ bl _p_230
 .word 0xf9401fa3
 .word 0xf94023a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -12152,7 +12152,7 @@ bl _p_231
 .word 0xf94033a3
 .word 0xf94037a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -12186,7 +12186,7 @@ bl _p_231
 .word 0xf9402ba3
 .word 0xf9402fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -12634,7 +12634,7 @@ bl _p_244
 .word 0xf94043a3
 .word 0xf94047a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -13115,7 +13115,7 @@ bl _p_246
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd288a1c1
+.word 0xd288a5c1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
@@ -13123,7 +13123,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -13609,7 +13609,7 @@ ldr x1, [x16, #16]
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -13935,7 +13935,7 @@ bl _p_262
 .word 0xf94033a3
 .word 0xf94037a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -14140,7 +14140,7 @@ bl _p_262
 .word 0xf94073a3
 .word 0xf94077a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -14213,7 +14213,7 @@ ldr x2, [x16, #16]
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd288a1c1
+.word 0xd288a5c1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
@@ -14221,7 +14221,7 @@ bl _p_7
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -14289,7 +14289,7 @@ bl _p_268
 .word 0xf94013a0
 .word 0xf94013a1
 .word 0xf9400021
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -14306,7 +14306,7 @@ bl _p_269
 .word 0xf9003ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -14562,7 +14562,7 @@ bl _p_279
 .word 0xf9402ba3
 .word 0xf9402fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -14609,7 +14609,7 @@ bl _p_279
 .word 0xf9401ba3
 .word 0xf9401fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -14653,7 +14653,7 @@ bl _p_280
 .word 0xaa0003ef
 .word 0xaa1a03e0
 .word 0xf9400341
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -14670,7 +14670,7 @@ bl _p_281
 .word 0xf90057a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -14692,7 +14692,7 @@ bl _p_279
 .word 0xf9404ba3
 .word 0xf9404fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -14714,7 +14714,7 @@ bl _p_279
 .word 0xf94043a3
 .word 0xf94047a4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -14798,7 +14798,7 @@ bl _p_283
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd288a1c1
+.word 0xd288a5c1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
@@ -14962,7 +14962,7 @@ bl _p_293
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd288a1c1
+.word 0xd288a5c1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
@@ -15198,7 +15198,7 @@ bl _p_301
 .word 0xf9402ba3
 .word 0xf9402fa4
 .word 0xf94000a5
-.word 0x928005f0
+.word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068b0
 .word 0xd63f0200
@@ -15268,7 +15268,7 @@ bl _p_303
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -15557,7 +15557,7 @@ bl _p_306
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd28430e1
+.word 0xd28434e1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
@@ -15759,11 +15759,11 @@ bl _p_315
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd2867041
+.word 0xd2867441
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28059e0
+.word 0xd2805a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -15772,11 +15772,11 @@ bl _p_8
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd287fb41
+.word 0xd287ff41
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28059e0
+.word 0xd2805a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -15785,15 +15785,15 @@ bl _p_8
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd288a4c1
+.word 0xd288a8c1
 .word 0xf2a00021
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28059e0
+.word 0xd2805a20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -15985,7 +15985,7 @@ System_Collections_Generic_SortedSet_1_Enumerator_T_INST_System_Runtime_Serializ
 .word 0xf9000fa1
 .word 0xf90013a2
 .word 0xf90017a3
-.word 0xd2801960
+.word 0xd28019a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -16008,7 +16008,7 @@ System_Collections_Generic_SortedSet_1_Enumerator_T_INST_System_Runtime_Serializ
 .word 0xf90013af
 .word 0xf9000ba0
 .word 0xf9000fa1
-.word 0xd2801960
+.word 0xd28019a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_8
@@ -16270,10 +16270,10 @@ bl _p_327
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd294cd61
+.word 0xd294cfe1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -16412,7 +16412,7 @@ ldr x0, [x16, #1008]
 .word 0xd2878d21
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -16485,10 +16485,10 @@ bl _p_332
 adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x0, [x16, #1008]
-.word 0xd294cd61
+.word 0xd294cfe1
 bl _p_7
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -16635,7 +16635,7 @@ bl _p_111
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffc9
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -16709,7 +16709,7 @@ bl _p_111
 .word 0xaa0003f8
 .word 0xb5ffff80
 .word 0x17ffffce
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -16792,7 +16792,7 @@ bl _p_111
 .word 0xaa0003f7
 .word 0xb5ffff80
 .word 0x17ffffc6
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -16801,7 +16801,7 @@ Lme_f0:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_ToArray_TSource_INST_System_Collections_Generic_IEnumerable_1_TSource_INST
 System_Linq_Enumerable_ToArray_TSource_INST_System_Collections_Generic_IEnumerable_1_TSource_INST:
-.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/ToCollection.cs"
+.file 10 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/System.Linq/src/System/Linq/ToCollection.cs"
 .loc 10 13 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -16979,7 +16979,7 @@ Lme_f6:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Comparer_1_T_INST_get_Default
 System_Collections_Generic_Comparer_1_T_INST_get_Default:
-.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/comparer.cs"
+.file 11 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/collections/generic/comparer.cs"
 .loc 11 28 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -17025,7 +17025,7 @@ Lme_f7:
 	.align 4
 	.no_dead_strip System_Array_Sort_T_INST_T_INST___int_int_System_Collections_Generic_IComparer_1_T_INST
 System_Array_Sort_T_INST_T_INST___int_int_System_Collections_Generic_IComparer_1_T_INST:
-.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
+.file 12 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Array.cs"
 .loc 12 1089 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -17056,7 +17056,7 @@ adrp x16, mono_aot_System_Json_got@PAGE+0
 add x16, x16, mono_aot_System_Json_got@PAGEOFF
 ldr x26, [x16, #1080]
 .word 0x14000001
-.word 0xd2891c80
+.word 0xd28940a0
 bl _p_101
 .word 0xaa0003e2
 .word 0xd2800ec0
@@ -17094,7 +17094,7 @@ bl _p_348
 .word 0xa8c57bfd
 .word 0xd65f03c0
 .loc 12 1090 0
-.word 0xd28aaaa0
+.word 0xd28acec0
 bl _p_101
 .word 0xaa0003e1
 .word 0xd2800ea0
@@ -17102,7 +17102,7 @@ bl _p_101
 bl _mono_create_corlib_exception_1
 bl _p_8
 .loc 12 1094 0
-.word 0xd28b4d40
+.word 0xd28b7160
 bl _p_101
 .word 0xaa0003e1
 .word 0xd2800e80
@@ -17115,7 +17115,7 @@ Lme_f8:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumerableHelpers_ToArray_T_INST_System_Collections_Generic_IEnumerable_1_T_INST_int_
 System_Collections_Generic_EnumerableHelpers_ToArray_T_INST_System_Collections_Generic_IEnumerable_1_T_INST_int_:
-.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/System/Collections/Generic/EnumerableHelpers.cs"
+.file 13 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/System/Collections/Generic/EnumerableHelpers.cs"
 .loc 13 97 0 prologue_end
 .word 0xa9b57bfd
 .word 0x910003fd
@@ -17180,7 +17180,7 @@ bl _p_353
 .word 0xaa0003ef
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -17218,7 +17218,7 @@ bl _p_354
 .word 0xf9003ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -17311,7 +17311,7 @@ bl _p_354
 .word 0xf9003ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -17423,7 +17423,7 @@ bl _p_359
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -17472,7 +17472,7 @@ b System_Collections_Generic_List_1_Enumerator_T_INST_MoveNext
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_Enumerator_T_INST_MoveNext
 System_Collections_Generic_List_1_Enumerator_T_INST_MoveNext:
-.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/List.cs"
+.file 14 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Collections/Generic/List.cs"
 .loc 14 1148 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -17556,7 +17556,7 @@ bl _p_361
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -17711,7 +17711,7 @@ bl _p_364
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -18076,10 +18076,10 @@ bl _p_385
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_39
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -18088,7 +18088,7 @@ Lme_102:
 	.align 4
 	.no_dead_strip System_Collections_Generic_ArraySortHelper_1_T_INST_Sort_T_INST___int_int_System_Collections_Generic_IComparer_1_T_INST
 System_Collections_Generic_ArraySortHelper_1_T_INST_Sort_T_INST___int_int_System_Collections_Generic_IComparer_1_T_INST:
-.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Collections/Generic/ArraySortHelper.cs"
+.file 15 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corert/src/System.Private.CoreLib/src/System/Collections/Generic/ArraySortHelper.cs"
 .loc 15 50 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
@@ -18163,12 +18163,12 @@ bl _p_8
 .loc 15 61 0
 .word 0xf9001fa0
 .loc 15 63 0
-.word 0xd28d5c60
+.word 0xd28d8080
 bl _p_101
 .word 0xf90057a0
 .word 0xf9401fa0
 .word 0xf9005ba0
-.word 0xd28015c0
+.word 0xd2801600
 bl _p_89
 .word 0xf94057a1
 .word 0xf9405ba2
@@ -18267,10 +18267,10 @@ ldr x1, [x16, #16]
 .word 0xa8c77bfd
 .word 0xd65f03c0
 .loc 12 58 0
-.word 0xd28d2e40
+.word 0xd28d5260
 bl _p_101
 .word 0xf90033a0
-.word 0xd2891c80
+.word 0xd28940a0
 bl _p_101
 .word 0xaa0003e2
 .word 0xf94033a1
@@ -18316,10 +18316,10 @@ System_Collections_Generic_List_1_Enumerator_T_INST_MoveNextRare:
 .word 0xa8c27bfd
 .word 0xd65f03c0
 .loc 14 1163 0
-.word 0xd28a0ac0
+.word 0xd28a2ee0
 bl _p_101
 .word 0xaa0003e1
-.word 0xd28015c0
+.word 0xd2801600
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_8
@@ -18444,7 +18444,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -18457,7 +18457,7 @@ b System_Collections_Generic_LargeArrayBuilder_1_T_INST_ToArray
 	.align 4
 	.no_dead_strip System_Collections_Generic_LargeArrayBuilder_1_T_INST_ToArray
 System_Collections_Generic_LargeArrayBuilder_1_T_INST_ToArray:
-.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/System/Collections/Generic/LargeArrayBuilder.cs"
+.file 16 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/System/Collections/Generic/LargeArrayBuilder.cs"
 .loc 16 342 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -18542,7 +18542,7 @@ bl _p_403
 .word 0xf9400fa0
 .word 0xf9400fa1
 .word 0xf9400021
-.word 0x92800af0
+.word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -18565,7 +18565,7 @@ bl _p_404
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800df0
+.word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -18689,7 +18689,7 @@ ldr x15, [x16, #296]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -19065,7 +19065,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -19471,7 +19471,7 @@ bl _p_428
 .word 0x910003bf
 .word 0xa8c47bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -19799,7 +19799,7 @@ bl _p_434
 .word 0x910003bf
 .word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -20055,7 +20055,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -20219,7 +20219,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -20347,7 +20347,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -20558,7 +20558,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_39
 
@@ -24494,7 +24494,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "60CE86D5-E898-445C-9321-0DA249E2DD96"
+	.asciz "03EBBFAD-6B1B-4C1A-A9C4-CE4EBEFEB332"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -24584,7 +24584,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 237,83,45,212,130,208,78,79,18,186,132,41,121,194,204,12
+	.byte 205,23,130,210,77,20,45,218,111,31,206,37,108,54,219,13
 	.globl _mono_aot_module_System_Json_info
 	.align 3
 _mono_aot_module_System_Json_info:

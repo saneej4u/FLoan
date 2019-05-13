@@ -57,6 +57,34 @@
           "lib/netstandard1.3/FlexibleConfiguration.dll": {}
         }
       },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -364,6 +392,32 @@
             "assetType": "native",
             "rid": "win7-x86"
           }
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -940,6 +994,8 @@
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.1",
           "Okta.Sdk": "1.2.1",
           "PCLCrypto": "2.0.147",
@@ -1016,6 +1072,34 @@
         },
         "runtime": {
           "lib/netstandard1.3/FlexibleConfiguration.dll": {}
+        }
+      },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
@@ -1311,6 +1395,32 @@
         },
         "runtime": {
           "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -1843,6 +1953,8 @@
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.1",
           "Okta.Sdk": "1.2.1",
           "PCLCrypto": "2.0.147",
@@ -1921,6 +2033,34 @@
           "lib/netstandard1.3/FlexibleConfiguration.dll": {}
         }
       },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -2214,6 +2354,32 @@
         },
         "runtime": {
           "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -2746,6 +2912,8 @@
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.1",
           "Okta.Sdk": "1.2.1",
           "PCLCrypto": "2.0.147",
@@ -2824,6 +2992,34 @@
           "lib/netstandard1.3/FlexibleConfiguration.dll": {}
         }
       },
+      "Microcharts/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views": "1.59.1.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microcharts.dll": {},
+          "lib/Xamarin.iOS10/Microcharts.iOS.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.7.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1.1",
+          "System.ValueTuple": "4.4.0",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microcharts.Forms.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
         "type": "package",
         "dependencies": {
@@ -3117,6 +3313,32 @@
         },
         "runtime": {
           "lib/XamariniOS/SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp.Views/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.iOS.dll": {}
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "SkiaSharp.Views": "1.59.1.1",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/XamariniOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -3649,6 +3871,8 @@
         "dependencies": {
           "CarouselView.FormsPlugin": "5.2.0",
           "Com.Airbnb.Xamarin.Forms.Lottie": "2.6.3",
+          "Microcharts": "0.7.1",
+          "Microcharts.Forms": "0.7.1",
           "Newtonsoft.Json": "12.0.1",
           "Okta.Sdk": "1.2.1",
           "PCLCrypto": "2.0.147",
@@ -3747,6 +3971,36 @@
         "flexibleconfiguration.nuspec",
         "lib/net45/FlexibleConfiguration.dll",
         "lib/netstandard1.3/FlexibleConfiguration.dll"
+      ]
+    },
+    "Microcharts/0.7.1": {
+      "sha512": "4MX06Bk3Y34fNFk/LZ5YQGYisl+QtsgGS2imXFL6kZna4PP28aChPGG895b3t3PDhUWXw0mGpeJqvuV2y+vE9A==",
+      "type": "package",
+      "path": "microcharts/0.7.1",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Microcharts.Droid.dll",
+        "lib/MonoAndroid10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.dll",
+        "lib/Xamarin.iOS10/Microcharts.iOS.dll",
+        "lib/netstandard1.4/Microcharts.dll",
+        "lib/uap/Microcharts.Uwp.dll",
+        "lib/uap/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.dll",
+        "lib/xamarinmac/Microcharts.macOS.dll",
+        "microcharts.0.7.1.nupkg.sha512",
+        "microcharts.nuspec"
+      ]
+    },
+    "Microcharts.Forms/0.7.1": {
+      "sha512": "gNvdyHM2TlGN/B/vdIwTVLMQc0xsAe2rUoSYxYLFFGpMyhxbSmtYm//459jI2BG70sHKOG/QLfcjSfnsVFfzIw==",
+      "type": "package",
+      "path": "microcharts.forms/0.7.1",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard1.4/Microcharts.Forms.dll",
+        "microcharts.forms.0.7.1.nupkg.sha512",
+        "microcharts.forms.nuspec"
       ]
     },
     "Microsoft.Extensions.DependencyInjection.Abstractions/1.1.1": {
@@ -4162,6 +4416,39 @@
         "skiasharp.1.60.0.nupkg.sha512",
         "skiasharp.nuspec",
         "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.Views/1.59.1.1": {
+      "sha512": "DHXi8tefhCjip/zQqhVqx475poNmSWORqza84xR0CDpcJHz/DOr2Iy42aQQSi0TW0kB6CJkqc8r476SzHGrqiw==",
+      "type": "package",
+      "path": "skiasharp.views/1.59.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Mac.dll",
+        "lib/XamariniOS/SkiaSharp.Views.iOS.dll",
+        "lib/XamarintvOS/SkiaSharp.Views.tvOS.dll",
+        "lib/net45/SkiaSharp.Views.Desktop.dll",
+        "lib/net45/SkiaSharp.Views.WPF.dll",
+        "lib/uap10.0/SkiaSharp.Views.UWP.dll",
+        "skiasharp.views.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.nuspec"
+      ]
+    },
+    "SkiaSharp.Views.Forms/1.59.1.1": {
+      "sha512": "KeIn+4JYFQDdxRj/e6vC+ftuPe4ez+KOGV7PFJn/7rivv+YoAb9QzJ1RDofM1pDmZRYOzyw3ve22DtW3isbbRQ==",
+      "type": "package",
+      "path": "skiasharp.views.forms/1.59.1.1",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
+        "lib/XamarinMac/SkiaSharp.Views.Forms.dll",
+        "lib/XamariniOS/SkiaSharp.Views.Forms.dll",
+        "lib/netstandard1.3/SkiaSharp.Views.Forms.dll",
+        "lib/portable-net45+win8+wpa81+wp8/SkiaSharp.Views.Forms.dll",
+        "lib/uap10.0/SkiaSharp.Views.Forms.dll",
+        "skiasharp.views.forms.1.59.1.1.nupkg.sha512",
+        "skiasharp.views.forms.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -6189,6 +6476,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "CarouselView.FormsPlugin >= 5.2.0",
       "FLoan >= 1.0.0",
+      "Microcharts.Forms >= 0.7.1",
       "Nito.AsyncEx >= 5.0.0",
       "Xamarin.FFImageLoading.Forms >= 2.4.3.840",
       "Xamarin.FFImageLoading.Svg.Forms >= 2.4.3.840",
@@ -6235,6 +6523,10 @@
           "CarouselView.FormsPlugin": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "Microcharts.Forms": {
+            "target": "Package",
+            "version": "[0.7.1, )"
           },
           "Nito.AsyncEx": {
             "target": "Package",

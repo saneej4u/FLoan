@@ -2216,6 +2216,7 @@ namespace FLoan.Droid
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::FLoan.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::FLoan.Droid.Resource.Styleable.ViewPagerIndicator;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::FLoan.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::Microcharts.Droid.Resource.String.library_name = global::FLoan.Droid.Resource.String.library_name;
 			global::PCLCrypto.Resource.String.ApplicationName = global::FLoan.Droid.Resource.String.ApplicationName;
 			global::PCLCrypto.Resource.String.Hello = global::FLoan.Droid.Resource.String.Hello;
 			global::Xamarin.Auth.Resource.Animation.slide_in_right = global::FLoan.Droid.Resource.Animation.slide_in_right;

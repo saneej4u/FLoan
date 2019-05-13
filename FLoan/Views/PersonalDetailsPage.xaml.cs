@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using FLoan.Dto;
+using FLoan.ViewModels;
 using Newtonsoft.Json;
 using Okta.Sdk;
 using Okta.Sdk.Configuration;
@@ -12,10 +13,12 @@ namespace FLoan.Views
 {
     public partial class PersonalDetailsPage : ContentPage
     {
+        LoanApplicationViewModel _loan = new LoanApplicationViewModel();
 
-        public PersonalDetailsPage()
+        public PersonalDetailsPage(LoanApplicationViewModel loan)
         {
             InitializeComponent();
+            _loan = loan;
         }
 
         async void GoToAddressDetailsButton_Clicked(object sender, System.EventArgs e)
@@ -81,9 +84,9 @@ namespace FLoan.Views
 
             var customerDto = JsonConvert.DeserializeObject<CustomerDto>(content);
 
+            _loan.CustomerId = customerDto.Id;
 
-
-            await Navigation.PushAsync(new AddressDetailsPage(customerDto.Id));
+            await Navigation.PushAsync(new AddressDetailsPage(_loan));
         }
     }
 }

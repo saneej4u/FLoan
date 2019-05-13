@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using FLoan.Dto;
+using FLoan.ViewModels;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 
@@ -10,12 +11,12 @@ namespace FLoan.Views
 {
     public partial class IncomeDetailsPage : ContentPage
     {
-        private int _customerId;
+        LoanApplicationViewModel _loan = new LoanApplicationViewModel();
 
-        public IncomeDetailsPage(int customerId)
+        public IncomeDetailsPage(LoanApplicationViewModel loan)
         {
             InitializeComponent();
-            _customerId = customerId;
+            _loan = loan;
         }
 
         async void GotToReviewLoanOffer(object sender, System.EventArgs e)
@@ -32,7 +33,7 @@ namespace FLoan.Views
                 CreditBills = Convert.ToDecimal(CreditBillsEntry.Text),
                 MonthlyMortgageOrRent = Convert.ToDecimal(MortgageEntry.Text),
                 HouseholdExpense = Convert.ToDecimal(HouseholdExpenseEntry.Text),
-                CustomerId = _customerId,
+                CustomerId = _loan.CustomerId,
                 GiveMeLoan = true
             };
 
@@ -54,16 +55,10 @@ namespace FLoan.Views
 
             AgreementForCreationDto agreementForCreationDto = new AgreementForCreationDto
             {
-                CustomerId = _customerId,
-                LoanAdvance = 500,
-                LoanAmount = 550,
-                LoanBalance = 450,
-                LoanStartDate = DateTime.Today,
-                LoanTerm = 12,
-                NextPaymentDate = DateTime.Today.AddDays(28),
-                PinNumber = 1234,
-                Status = 2,
-                IsLoanActivated = false
+                CustomerId = _loan.CustomerId,
+                LoanAmount = _loan.LoanAmount,
+                LoanTerm = Convert.ToInt16(_loan.LoanTerm)
+
             };
 
             var serializeAgreementToCreate = JsonConvert.SerializeObject(agreementForCreationDto);
@@ -79,8 +74,18 @@ namespace FLoan.Views
 
             ragreementResponse.EnsureSuccessStatusCode();
 
+            var content = await ragreementResponse.Content.ReadAsStringAsync();
 
-            await Navigation.PushAsync(new ReviewLoanOfferPage());
+            var offer = JsonConvert.DeserializeObject<AgreementDto>(content);
+
+            _loan.AgreementId = offer.AgreementId;
+            _loan.Interest = offer.InterestPayable;
+            _loan.TotalRepayment = offer.TotalRepayable;
+            _loan.MonthlyRepayment = offer.MonthlyRepayment;
+            _loan.AdminFee = offer.AdminFeePayable;
+
+
+            await Navigation.PushAsync(new ReviewLoanOfferPage(_loan));
         }
     }
 }

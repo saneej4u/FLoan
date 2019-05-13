@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.18.0 (explicit/163f45d81ce Tue Apr  2 15:54:01 EDT 2019)"
+	.asciz "Mono AOT Compiler 5.18.0 (explicit/74451376043 Tue Apr 23 11:51:58 EDT 2019)"
 	.asciz "FFImageLoading.Forms.Platform.dll"
 	.asciz ""
 
@@ -887,7 +887,7 @@ bl _p_16
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_17
 .word 0xd2800e80
@@ -2258,7 +2258,7 @@ bl _p_42
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_17
 .word 0xd2800e80
@@ -4716,9 +4716,9 @@ ldr x0, [x16, #0]
 .word 0xd28000a1
 bl _p_79
 .word 0xaa0003e1
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
-.word 0xd28017a0
+.word 0xd28017e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_47
@@ -5933,7 +5933,7 @@ bl _p_95
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_17
 .word 0xd2800e80
@@ -6756,7 +6756,7 @@ bl _p_111
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd28017c0
+.word 0xd2801800
 .word 0xaa1103e1
 bl _p_17
 .word 0xd2800e80
@@ -6816,7 +6816,7 @@ b System_Nullable_1_bool__ctor_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/external/corefx/src/Common/src/CoreLib/System/Nullable.cs"
 .loc 3 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -7276,7 +7276,7 @@ b System_Nullable_1_bool_Box_System_Nullable_1_bool
 	.align 4
 	.no_dead_strip System_Nullable_1_bool_Box_System_Nullable_1_bool
 System_Nullable_1_bool_Box_System_Nullable_1_bool:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Nullable.cs"
 .loc 4 52 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -7454,7 +7454,7 @@ bl _p_117
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_17
 
@@ -7551,9 +7551,9 @@ bl _p_118
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_47
@@ -7614,7 +7614,7 @@ bl _p_117
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28015a0
+.word 0xd28015e0
 .word 0xaa1103e1
 bl _p_17
 
@@ -7751,7 +7751,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -7888,7 +7888,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -7897,7 +7897,7 @@ Lme_36:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/corlib/System/Array.cs"
 .loc 5 85 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -8117,13 +8117,13 @@ ldr x16, [x16, #1248]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d76a0
-.word 0xd28d76a0
+.word 0xd28d9ac0
+.word 0xd28d9ac0
 bl _p_125
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_47
@@ -8165,13 +8165,13 @@ ldr x16, [x16, #1256]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_125
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_47
@@ -8213,13 +8213,13 @@ ldr x16, [x16, #1264]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d7ca0
-.word 0xd28d7ca0
+.word 0xd28da0c0
+.word 0xd28da0c0
 bl _p_125
 .word 0xaa0003e1
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
-.word 0xd2802680
+.word 0xd28026c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_47
@@ -8284,8 +8284,8 @@ ldr x16, [x16, #1272]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28d8420
-.word 0xd28d8420
+.word 0xd28da840
+.word 0xd28da840
 bl _p_125
 bl _p_126
 .word 0xf90033a0
@@ -8294,9 +8294,9 @@ bl _p_126
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
-.word 0xd2801980
+.word 0xd28019c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_47
@@ -8642,7 +8642,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -8772,7 +8772,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -8918,7 +8918,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9055,7 +9055,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9192,7 +9192,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9322,7 +9322,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9459,7 +9459,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9589,7 +9589,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9726,7 +9726,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9856,7 +9856,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -9993,7 +9993,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10123,7 +10123,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10266,7 +10266,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10415,7 +10415,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10545,7 +10545,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10682,7 +10682,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10812,7 +10812,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10949,7 +10949,7 @@ bl _p_47
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801500
+.word 0xd2801540
 .word 0xaa1103e1
 bl _p_17
 
@@ -10962,7 +10962,7 @@ b System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSH
 	.align 4
 	.no_dead_strip System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_
 System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAREDVT_TStateMachine_GSHAREDVT_:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.0/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/12.8.0.2/src/Xamarin.iOS/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/AsyncMethodBuilder.cs"
 .loc 6 72 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
@@ -11072,9 +11072,9 @@ bl _mono_gsharedvt_value_copy
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
 bl _p_125
 .word 0xaa0003e1
@@ -11255,9 +11255,9 @@ ldr x16, [x16, #1448]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
-.word 0xd2921e00
+.word 0xd29258e0
 .word 0xf2a00020
 bl _p_125
 .word 0xaa0003e1
@@ -13518,7 +13518,7 @@ _mono_aot_file_info:
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,0
-	.byte 238,34,111,211,55,208,70,74,91,73,98,26,165,96,129,26
+	.byte 227,206,9,250,108,37,13,21,94,7,51,30,79,70,121,179
 	.globl _mono_aot_module_FFImageLoading_Forms_Platform_info
 	.align 3
 _mono_aot_module_FFImageLoading_Forms_Platform_info:
